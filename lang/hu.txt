@@ -1,7 +1,7 @@
-##language en
-##name English
+##language hu
+##name Magyar
 #
-# OpenSGolf's English text (docs/TRANSLATING.md). One string per line: `STR_KEY  :text`. The text is everything after the
+# OpenSGolf's Hungarian text (docs/TRANSLATING.md). One string per line: `STR_KEY  :text`. The text is everything after the
 # colon, spaces included: some texts start or end with a space because the game joins them with other pieces, and the
 # options of a pop-up box are the lines that start with a space. Escapes: \n a line break, \t a tab, \\ a backslash, \{
 # and \} literal braces. Names in braces such as {GOLFER} or {MONEY} are filled in by the game.
@@ -17,85 +17,85 @@
 STR_WINDOW_TITLE                        :OpenSGolf
 
 # The title menu's labels (0x420e.. and the menu's opening 0x40f5c0)
-STR_TITLE_CONTINUE                      :Continue Saved Game
-STR_TITLE_NEW_GAME                      :Start New Game
-STR_TITLE_SANDBOX                       :Sandbox Mode
-STR_TITLE_SELECT_THEME                  :Select A Theme
-STR_TITLE_CHAMPIONSHIP                  :Play a Championship
-STR_TITLE_SELECT_DIFFICULTY             :Select Difficulty
+STR_TITLE_CONTINUE                      :Mentett játék folytatása
+STR_TITLE_NEW_GAME                      :Új játék indítása
+STR_TITLE_SANDBOX                       :Homokozó mód
+STR_TITLE_SELECT_THEME                  :Téma választása
+STR_TITLE_CHAMPIONSHIP                  :Bajnokság indítása
+STR_TITLE_SELECT_DIFFICULTY             :Nehézség választása
 
 # The four difficulties, easiest first (Select Difficulty, 0x43a400)
-STR_DIFFICULTY_EASY                     :Easy
-STR_DIFFICULTY_MODERATE                 :Moderate
-STR_DIFFICULTY_DIFFICULT                :Difficult
-STR_DIFFICULTY_IMPOSSIBLE               :Impossible
+STR_DIFFICULTY_EASY                     :Könnyű
+STR_DIFFICULTY_MODERATE                 :Közepes
+STR_DIFFICULTY_DIFFICULT                :Nehéz
+STR_DIFFICULTY_IMPOSSIBLE               :Lehetetlen
 
 # The course size choice on Select Difficulty (the port's own: docs/PLAYING.md, "Course size"). {SIZE} is a size name below,
 # {TILES} the map's edge in tiles, {YARDS} the edge in yards (25 a tile)
-STR_COURSE_SIZE                         :Course size: {SIZE}
-STR_COURSE_SIZE_DETAIL                  :{TILES} x {TILES} tiles, {YARDS} yards a side. Click to change.
-STR_COURSE_SIZE_ORIGINAL                :Original
-STR_COURSE_SIZE_LARGE                   :Large
-STR_COURSE_SIZE_HUGE                    :Huge
-STR_COURSE_SIZE_GIANT                   :Giant
-STR_STYLE_GAME                          :Game: {PRESET}
-STR_STYLE_ORIGINAL_DETAIL               :Exactly as it was. Click to change.
-STR_STYLE_HELPERS_DETAIL                :Same play, with helpers and looks.
-STR_STYLE_OPENSGOLF_DETAIL              :Helpers plus light gameplay extras.
-STR_STYLE_CUSTOM_DETAIL                 :Your own mix from Preferences.
+STR_COURSE_SIZE                         :Pályaméret: {SIZE}
+STR_COURSE_SIZE_DETAIL                  :{TILES} x {TILES} mező, oldalanként {YARDS} yard. Kattints a módosításhoz.
+STR_COURSE_SIZE_ORIGINAL                :Eredeti
+STR_COURSE_SIZE_LARGE                   :Nagy
+STR_COURSE_SIZE_HUGE                    :Óriási
+STR_COURSE_SIZE_GIANT                   :Gigantikus
+STR_STYLE_GAME                          :Játékmód: {PRESET}
+STR_STYLE_ORIGINAL_DETAIL               :Pontosan úgy, ahogy eredetileg volt. Kattints a módosításhoz.
+STR_STYLE_HELPERS_DETAIL                :Változatlan játékmenet, kényelmi segítségekkel és látványelemekkel.
+STR_STYLE_OPENSGOLF_DETAIL              :Kényelmi segítségek és kisebb játékmeneti extrák.
+STR_STYLE_CUSTOM_DETAIL                 :Saját összeállítás a Beállításokban.
 
 ########################################################################################################################
 # Title screens: Load Previous Game, Select Championship Course, Pick A Pro, Select a Theme Pack
 ########################################################################################################################
 # The title screens' file lists: Load Previous Game, Select Championship Course, Pick A Pro (docs/DECODE_PICKAPRO.md)
-STR_FILES_AUTOSAVE                      :autosave ({NAME})
+STR_FILES_AUTOSAVE                      :automatikus mentés ({NAME})
 # The port's own autosaves' names in the Load list (autosave.rs, comfort.rs): the two older autosaves and the quick save
-STR_FILES_AUTOSAVE_2                    :autosave (Latest, one before)
-STR_FILES_AUTOSAVE_3                    :autosave (Latest, two before)
-STR_FILES_QUICK                         :quick save
-STR_FILES_LOAD                          :Load
-STR_FILES_CANCEL                        :Cancel
-STR_FILES_DELETE                        :Delete
+STR_FILES_AUTOSAVE_2                    :automatikus mentés (az előző mentés)
+STR_FILES_AUTOSAVE_3                    :automatikus mentés (a két mentéssel korábbi)
+STR_FILES_QUICK                         :gyorsmentés
+STR_FILES_LOAD                          :Betöltés
+STR_FILES_CANCEL                        :Mégse
+STR_FILES_DELETE                        :Törlés
 # The delete box
-STR_FILES_DELETE_QUESTION               :Are you sure you want to delete {NAME}?
-STR_FILES_DELETE_YES                    : Yes, delete this file.
-STR_FILES_DELETE_NO                     : No, never mind.
-STR_FILES_LOAD_TITLE                    :Load Previous Game
-STR_FILES_CHAMP_TITLE                   :Select Championship Course
-STR_FILES_PRO_TITLE                     :Pick A Pro
-STR_FILES_MORE                          :(more...)
-STR_FILES_NO_CHAMP_COURSE               :No course saved for championship play yet (System Functions in a game).
-STR_FILES_LOADING                       :Loading...
+STR_FILES_DELETE_QUESTION               :Biztosan törölni szeretnéd ezt a fájlt: {NAME}?
+STR_FILES_DELETE_YES                    : Igen, töröld ezt a fájlt.
+STR_FILES_DELETE_NO                     : Nem, mégsem.
+STR_FILES_LOAD_TITLE                    :Korábbi játék betöltése
+STR_FILES_CHAMP_TITLE                   :Bajnoki pálya kiválasztása
+STR_FILES_PRO_TITLE                     :Klubprofi kiválasztása
+STR_FILES_MORE                          :(továbbiak...)
+STR_FILES_NO_CHAMP_COURSE               :Még nincs bajnoki pályád. Játék közben a Rendszerfunkciókban menthetsz egyet.
+STR_FILES_LOADING                       :Betöltés...
 # Load Previous Game's left panel (docs/DECODE_PICKAPRO.md 3)
-STR_FILES_HOLES                         :Holes
+STR_FILES_HOLES                         :Szakaszok
 STR_FILES_PAR                           :Par
-STR_FILES_YARDS                         :Yards
-STR_FILES_CASH                          :Cash
-STR_FILES_FUN_RATING                    :Fun Rating
-STR_FILES_LENGTH_SKILL                  :Length Skill
-STR_FILES_ACCURACY_SKILL                :Accuracy Skill
-STR_FILES_IMAGINATION                   :Imagination
-STR_FILES_HOLE                          :Hole
-STR_FILES_THEME                         : (Theme: {THEME})
-STR_FILES_DESIGNED_BY                   :Designed by {DESIGNER}
-STR_FILES_COURSE_RECORD                 :Course Record: {SCORE}
+STR_FILES_YARDS                         :Yard
+STR_FILES_CASH                          :Pénz
+STR_FILES_FUN_RATING                    :Szórakozás
+STR_FILES_LENGTH_SKILL                  :Ütéshossz
+STR_FILES_ACCURACY_SKILL                :Pontosság
+STR_FILES_IMAGINATION                   :Képzelet
+STR_FILES_HOLE                          :Szakasz
+STR_FILES_THEME                         : (Téma: {THEME})
+STR_FILES_DESIGNED_BY                   :Tervezte: {DESIGNER}
+STR_FILES_COURSE_RECORD                 :Pályarekord: {SCORE}
 # Pick A Pro's left panel (docs/DECODE_PICKAPRO.md 1)
-STR_FILES_PRO_SKILLS                    :{PRO}'s skills
-STR_FILES_SIGNATURE_SAYING              :Signature saying:
+STR_FILES_PRO_SKILLS                    :{PRO} jártasságai
+STR_FILES_SIGNATURE_SAYING              :Jellegzetes mondása:
 
 # Select a Theme Pack's column heads (docs/DECODE_TITLE2.md 4)
-STR_THEMES_STORIES                      :Stories
-STR_THEMES_CHARACTERS                   :Characters
-STR_THEMES_CELEBRITIES                  :Celebrities
-STR_THEMES_PRO_GOLFERS                  :Pro Golfers
-STR_THEMES_COURSES                      :Courses
-STR_THEMES_TITLE                        :Select a Theme Pack
+STR_THEMES_STORIES                      :Történetek
+STR_THEMES_CHARACTERS                   :Karakterek
+STR_THEMES_CELEBRITIES                  :Hírességek
+STR_THEMES_PRO_GOLFERS                  :Profi golfozók
+STR_THEMES_COURSES                      :Pályák
+STR_THEMES_TITLE                        :Témacsomag kiválasztása
 
-STR_SAVE_PROMPT                         :SAVE GAME, edit name then press Enter
+STR_SAVE_PROMPT                         :JÁTÉK MENTÉSE, módosítsd a nevet, majd nyomd meg az Entert
 # The Save dialog's button for the port's Export as scenario (docs/MODDING.md 5)
-STR_SAVE_OK                             :Save
-STR_SAVE_CANCEL                         :Cancel
-STR_SAVE_EXPORT_SCENARIO                :Export as scenario pack (Tab)
+STR_SAVE_OK                             :Mentés
+STR_SAVE_CANCEL                         :Mégse
+STR_SAVE_EXPORT_SCENARIO                :Exportálás forgatókönyvcsomagként (Tab)
 
 STR_OK                                  :OK
 
@@ -104,409 +104,409 @@ STR_OK                                  :OK
 ########################################################################################################################
 # The welcome for the course's theme (0x45fd80 at tick 0x20), in the exe's words (its slips included): Desert, Tropical,
 # Links, Parkland; {COURSE} the course's name, {THOUSANDS} the starting cash in thousands
-STR_WELCOME_DESERT                      :Welcome to the {COURSE} Country Club. What was once a vast expanse of featureless desert is now a vast expanse of featureless desert interrupted by a lonely golf clubhouse. This area is blessed with sunshine 365 days of the year. A rapidly growing population of avid golfers is demanding a larger improved course. As the new manager, can you use your §{THOUSANDS},000 budget to turn {COURSE} into a world-class golf resort?
-STR_WELCOME_TROPICAL                    :Welcome to {COURSE} Golf Course. This delightful slice of tropical paradise needs only your help to become a world-class golfing destination. After all, who doesn't enjoy a little humidity - and the alligators have been really well behaved lately. With the successful conclusion of the recent mosquito eradication program and the dedication of the new 'El Presidente' international airport, {COURSE} is bursting with potential. 
-STR_WELCOME_LINKS                       :Welcome to {COURSE} Golf Links.  This ancient and venerable institution has fallen upon hard times. The sheep have returned to graze the pastoral fields whereupon kings and princes did ply the game of Golfe in days of yore. But all is not lost, with a tidy sum of money acquired by liquidating your late uncle's butterfly collection and a royal deed of grant from the local magistrate, you are ready to return {COURSE} to it's former preeminence in the world of Golfe.
-STR_WELCOME_PARKLAND                    :Welcome to {COURSE} Golf Club.  The unexpected passing of your great-uncle Harry has left you in possession of {COURSE}. The property includes rolling hills, crisp woodlands, and a sparkling waters. However, uncle Harry was somewhat of a lazy slacker and never built any golf holes! With the §{THOUSANDS},000 he left you can you turn {COURSE} into a world-class golf course?  Good Luck.
+STR_WELCOME_DESERT                      :Üdvözlünk a {COURSE} Country Clubban! A sivatag közepén csak egy magányos klubház áll. Nálunk az év mind a 365 napján süt a nap. A golfozók egyre nagyobb és jobb pályát szeretnének. Új igazgatóként a §{THOUSANDS},000 kezdőtőkéből világszínvonalú golfüdülővé alakíthatod {COURSE}-t.
+STR_WELCOME_TROPICAL                    :Üdvözlünk a {COURSE} golfpályán! Ez a trópusi paradicsom csak rád vár, hogy világszínvonalú golfközponttá váljon. A párás levegő és a jól nevelt aligátorok már adottak. A sikeres szúnyogirtás és az új El Presidente repülőtér után {COURSE} előtt nagy jövő áll. 
+STR_WELCOME_LINKS                       :Üdvözlünk a {COURSE} Golf Links pályán!  A patinás klub nehéz időket él: a juhok visszatértek a legelőkre, ahol egykor királyok és hercegek golfoztak. Nagybátyád pillangógyűjteményének eladásából származó pénzzel és a helyi elöljáró királyi adománylevelével újra a golfvilág élvonalába emelheted {COURSE}-t.
+STR_WELCOME_PARKLAND                    :Üdvözlünk a {COURSE} Golf Clubban!  Dédnagybátyád, Harry váratlan halála után rád szállt {COURSE} birtoka. Lankás dombok, üde erdők és csillogó tavak várnak, de Harry sosem épített golfpályát. A rád hagyott §{THOUSANDS},000 kezdőtőkéből világszínvonalú pályát alakíthatsz ki {COURSE}-ből.  Sok szerencsét!
 
 # {HIS} in messages about a golfer
-STR_MSG_HIS                             :his
-STR_MSG_HER                             :her
+STR_MSG_HIS                             :saját
+STR_MSG_HER                             :saját
 # The first-fee lesson (0x4c7444, 0x4c7408, 0x4c73cc, 0x4c7374, 0x4c7334); {FEE} in simoleans without a sign
-STR_MSG_FIRST_GREENS_FEE                :{GOLFER} has just paid you your first greens fee of {FEE} simoleans!  Golfers pay a fee at the end of each hole - happy golfers pay higher fees, unhappy golfers pay less. Greens fees are your main source of revenue, so it pays to keep your golfers happy. Refer to your financial report for more detailed information.
+STR_MSG_FIRST_GREENS_FEE                :{GOLFER} befizette az első, {FEE} simoleon összegű green fee-t!  A golfozók minden szakasz után fizetnek: a boldog golfozók többet, a boldogtalanok kevesebbet. A green fee a fő bevételed, ezért tartsd boldogan a golfozókat! Részletek a pénzügyi jelentésben.
 # A visitor on the last hole (0x4c71c0 and the closing quote 0x4c4e54)
-STR_MSG_VIP_LAST_HOLE                   :{WHO} {VISITOR} is playing the last hole on your course. He was last heard to mutter, '{REMARK}'
-STR_MSG_COURSE_RECORD                   :{GOLFER} has just set a new course record of {SCORE}!
+STR_MSG_VIP_LAST_HOLE                   :{WHO} {VISITOR} éppen az utolsó szakaszt játssza a pályádon. Állítólag ezt mormolta: „{REMARK}”
+STR_MSG_COURSE_RECORD                   :{GOLFER} új pályarekordot állított fel: {SCORE}!
 # Membership (0x4c48e8 or 0x4c4924 and its adjective, the level's name from 0x4c2a88, 0x4c48cc, then what the level brings:
 # 0x4c4884, or 0x4c483c with 2 or 5 and 0x4c481c)
-STR_MSG_MEMBER_APPLIES                  :{GOLFER} applies for membership at your club! 
-STR_MSG_MEMBER_SILVER                   :{GOLFER} has decided to upgrade to a prestigious Silver membership at your club! Silver members will pay big bucks for an attractive home site on your course.
-STR_MSG_MEMBER_GOLD                     :{GOLFER} has decided to upgrade to a coveted Gold membership at your club! Gold members like to drive around in shiny customized golf carts and pay §200 extra greens fees per hole.
-STR_MSG_MEMBER_PLATINUM                 :{GOLFER} has decided to upgrade to an exclusive Platinum membership at your club! Platinum members like to drive around in shiny customized golf carts and pay §500 extra greens fees per hole.
+STR_MSG_MEMBER_APPLIES                  :{GOLFER} klubtagságot igényel nálad! 
+STR_MSG_MEMBER_SILVER                   :{GOLFER} elnyerte klubod rangos ezüsttagságát! Az ezüsttagok komoly összeget fizetnek a pályádon lévő, kedvező fekvésű telkekért.
+STR_MSG_MEMBER_GOLD                     :{GOLFER} elnyerte klubod áhított aranytagságát! Az aranytagok szeretnek csillogó, egyedi golfkocsikkal járni, és szakaszonként további §200 green fee-t fizetnek.
+STR_MSG_MEMBER_PLATINUM                 :{GOLFER} elnyerte klubod exkluzív platinatagságát! A platinatagok szeretnek csillogó, egyedi golfkocsikkal járni, és szakaszonként további §500 green fee-t fizetnek.
 # A golfer quits: {GOLFER} {REASON} {WHEN}. The reasons end in "after", "on" (the club thrown or wrapped) or "at" (the golfer
 # hit or insulted), and {WHEN} is the matching phrase below
-STR_MSG_QUIT_TOUGHER_COURSE             :will be looking for a tougher course
-STR_MSG_QUIT_NEEDS_IMPROVEMENT          :thinks your course needs improvement
-STR_MSG_QUIT_PUNCHED                    :has punched out another golfer
-STR_MSG_QUIT_WRAPPED_CLUB               :has wrapped {HIS} club around a tree
-STR_MSG_QUIT_THROWN_CLUBS               :has thrown {HIS} clubs into the lake
-STR_MSG_QUIT_THIRSTY                    :is too thirsty to play any more
-STR_MSG_QUIT_HUNGRY                     :is too hungry to keep playing
-STR_MSG_QUIT_INSULTED                   :has insulted another golfer
-STR_MSG_QUIT_TIRED                      :is too tired to continue
-STR_MSG_QUIT_DISGUST                    :is leaving the course in disgust
+STR_MSG_QUIT_TOUGHER_COURSE             :nehezebb pályát keres
+STR_MSG_QUIT_NEEDS_IMPROVEMENT          :szerint a pályád fejlesztésre szorul
+STR_MSG_QUIT_PUNCHED                    :megütött egy másik golfozót
+STR_MSG_QUIT_WRAPPED_CLUB               :{HIS} ütőjét egy fa köré tekerte
+STR_MSG_QUIT_THROWN_CLUBS               :{HIS} ütőit a tóba hajította
+STR_MSG_QUIT_THIRSTY                    :túl szomjas ahhoz, hogy tovább játsszon
+STR_MSG_QUIT_HUNGRY                     :túl éhes ahhoz, hogy tovább játsszon
+STR_MSG_QUIT_INSULTED                   :megsértett egy másik golfozót
+STR_MSG_QUIT_TIRED                      :túl fáradt a folytatáshoz
+STR_MSG_QUIT_DISGUST                    :undorodva hagyja el a pályát
 STR_MSG_QUIT                            :{GOLFER} {REASON} {WHEN}.
-STR_MSG_QUIT_RESIGNS                    : {GOLFER} resigns {HIS} membership.
-STR_MSG_LEAVING_WAITING                 :{GOLFER} and {PARTNER} are leaving the course at hole {HOLE}, 'Arghh, I am so tired of waiting for these idiots!'
-STR_MSG_CHALLENGE                       :{PRO} challenges {GOLFER} to a match!
+STR_MSG_QUIT_RESIGNS                    : {GOLFER} lemond {HIS} klubtagságáról.
+STR_MSG_LEAVING_WAITING                 :{GOLFER} és {PARTNER} a {HOLE}. szakasznál hagyja el a pályát: „Ááá, elegem van abból, hogy ezekre az idiótákra kell várnom!”
+STR_MSG_CHALLENGE                       :{PRO} mérkőzésre hívja ki {GOLFER}-t!
 # {WHEN} in the quit message: the reason's word and the hole, or the round when the golfer has played the last hole
-STR_MSG_QUIT_AFTER_HOLE                 :after hole {HOLE}
-STR_MSG_QUIT_AFTER_ROUND                :after today's round
-STR_MSG_QUIT_AT_HOLE                    :at hole {HOLE}
-STR_MSG_QUIT_AT_ROUND                   :at today's round
-STR_MSG_QUIT_ON_HOLE                    :on hole {HOLE}
-STR_MSG_QUIT_ON_ROUND                   :on today's round
+STR_MSG_QUIT_AFTER_HOLE                 :a {HOLE}. szakasz után
+STR_MSG_QUIT_AFTER_ROUND                :a mai kör után
+STR_MSG_QUIT_AT_HOLE                    :a {HOLE}. szakasznál
+STR_MSG_QUIT_AT_ROUND                   :a mai körben
+STR_MSG_QUIT_ON_HOLE                    :a {HOLE}. szakaszon
+STR_MSG_QUIT_ON_ROUND                   :a mai körben
 # A hole earns a type, a Top 100 and a Top 18 rating (the hole ratings, posted with the site picture)
-STR_MSG_FIRST_HOLE_TYPE                 :Hole #{HOLE} has been recognized as your first "{TYPE}" type hole.
-STR_MSG_TOP_100_HOLE                    :Hole #{HOLE} (henceforth known as '{NAME}'), has been rated as one of the best 100 holes in the country by Golf Enquirer magazine! Increase greens fees by §100.
-STR_MSG_TOP_18_HOLE                     :{NAME} has been rated as one of the Top 18 holes in the country by Great Golf Holes magazine! Increase greens fees by §100.
-STR_MSG_HOLE_HAS_TEE                    :Hole {HOLE} already has its tee; open it before starting the next hole.
-STR_MSG_MATCH_CANCELED                  :Match canceled.
+STR_MSG_FIRST_HOLE_TYPE                 :A {HOLE}. szakasz elsőként kapta meg a „{TYPE}” besorolást.
+STR_MSG_TOP_100_HOLE                    :A {HOLE}. szakasz (amely ezentúl a „{NAME}” nevet viseli) bekerült az ország 100 legjobb golfpályaszakasza közé a Golf Enquirer magazin értékelése szerint! Emeld meg a green fee-t §100-zal.
+STR_MSG_TOP_18_HOLE                     :{NAME} bekerült az ország 18 legjobb golfpályaszakasza közé a Great Golf Holes magazin értékelése szerint! Emeld meg a green fee-t §100-zal.
+STR_MSG_HOLE_HAS_TEE                    :A {HOLE}. szakasznak már van elütőhelye. Nyisd meg, mielőtt újba kezdesz.
+STR_MSG_MATCH_CANCELED                  :A mérkőzés megszakítva.
 # The SGA's offer (0x4c62cc, the course name, 0x4c627c, the purse, 0x4c6250, the pro's name, 0x4c6230); {PURSE} in thousands
-STR_MSG_SGA_OFFER                       :The SGA is interested in holding a tournament at your course. 'We'd like to schedule the {COURSE} Open Golf Tournament here as soon as possible.' We can offer a top prize of §{PURSE},000!  To begin it, open the People panel and click Begin Tournament in {PRO}'s rows at the top (or press Shift+J).
+STR_MSG_SGA_OFFER                       :Az SGA versenyt rendezne a pályádon: „A {COURSE} Opent mielőbb itt tartanánk.” A fődíj §{PURSE},000!  Indításhoz nyisd meg az Emberek panelt, majd kattints a Verseny indítása gombra {PRO} sorában (Shift+J).
 # A story's ending gives a landmark ({A_LANDMARK} is the landmark's long name as written after "a")
-STR_MSG_LANDMARK_AVAILABLE              :A{A_LANDMARK} is now available in your landmarks menu.
+STR_MSG_LANDMARK_AVAILABLE              :Új nevezetesség érhető el a Nevezetességek menüben: egy{A_LANDMARK}.
 # The design tip five months in (0x45fd80 at tick 0x1400)
-STR_MSG_DESIGN_TIP                      :Building a great golf course requires imagination, intuition, persistence, and a bulldozer. The basic idea is to present the player with a variety of shots which appear challenging and require strategic thinking, but are within the player's ability. This philosophy is known as 'look hard and play easy.' Players who enjoy your course will tell their friends, return more often, and pay higher greens fees!
+STR_MSG_DESIGN_TIP                      :Nagyszerű golfpályához képzelőerő, megérzés, kitartás és egy buldózer kell. Kínálj változatos, gondolkodást igénylő, de teljesíthető ütéseket! Ez a „ránézésre nehéz, játék közben könnyű” elve. Az elégedett golfozók visszatérnek, barátaikat is elhozzák, és többet fizetnek.
 # The Save dialog
-STR_MSG_GAME_SAVED                      :Game Saved.
+STR_MSG_GAME_SAVED                      :Játék elmentve.
 
 # First-time narration (the switch at the end of the reaction routine 0x467a00): {GOLFER} the golfer, {HE} he or she,
 # {TERRAIN} the theme's terrain name, {WHAT} the scenery name (0x407700), {CELEBRITY} the celebrity's name
-STR_NARR_01_TOUGH_SHOT                  :{GOLFER} has successfully made a tough-looking shot and is enjoying your course.
-STR_NARR_02_EASY_SHOT_IN                :{GOLFER} is disappointed that an easy looking shot ended up in the {TERRAIN}. If it happens again {HE} will become discouraged.
-STR_NARR_03_WORSE_LOCATION              :{GOLFER} is disappointed that the shot has ended up in a worse location, the {TERRAIN}.
-STR_NARR_04_NO_DANGERS                  :{GOLFER}'s next shot does not involve many dangers or hazards. Too many shots like this may tend to bore your players.
-STR_NARR_05_CHALLENGING                 :{GOLFER}'s next shot looks challenging - {HE} will be happy if lands on the green or fairway.
-STR_NARR_06_SLOPE                       :{GOLFER} plans to use the slope of the hill to run the ball towards the hole.
-STR_NARR_08_NO_SAFE_PLACE               :{GOLFER} cannot find a safe place to aim the next shot.  This can be frustrating. Perhaps you should add more fairway to this hole.
-STR_NARR_09_ALMOST_HIT                  :{GOLFER} was almost hit by a shot from another hole. This is very scary.  Try to keep your holes seperated, sometimes trees can be useful.
-STR_NARR_0A_NO_PATH                     :{GOLFER} is unhappy because no path has been provided to walk through the {TERRAIN}. Press 'p' to select the path tool.
-STR_NARR_0B_SCENIC                      :{GOLFER} is pleased to have a scenic {WHAT} in view for the next shot.
-STR_NARR_0C_BOUNCED_OFF_TREE            :{GOLFER}'s ball just bounced off a tree. {GOLFER} will be more careful next time.
-STR_NARR_0D_ENDED_UP_IN                 :{GOLFER}'s ball somehow ended up in the {TERRAIN}. {GOLFER} will be more careful next time.
-STR_NARR_0E_SODA                        :{GOLFER} needs to find a soda vendor soon or {HE} will be unhappy.
-STR_NARR_0F_SNACK                       :{GOLFER} needs to find a snack bar soon or {HE} will be unhappy.
-STR_NARR_10_CURVED_LEFT                 :{GOLFER} is amazed that the last shot curved off to the left.
-STR_NARR_11_FADED_RIGHT                 :{GOLFER} is amazed that the last shot faded off to the right.
-STR_NARR_12_TASTY_SNACK                 :{GOLFER} is enjoying a tasty snack at your conveniently located snack bar.
-STR_NARR_14_EYESORE                     :{GOLFER} is disappointed to see a {WHAT} in the middle of your otherwise lovely golf course.
-STR_NARR_15_WAITING                     :{GOLFER} is frustrated that a lot of golfers are waiting at this hole. Placing a Ranger/Marshall near the tee will speed up play on this hole. Click the employees button on the People menu to hire course employees.
-STR_NARR_16_VACATION_HOME               :{GOLFER} is excited to see {CELEBRITY}'s vacation home on your golf course.
-STR_NARR_18_DANDELIONS                  :{GOLFER} is disappointed to see dandelions growing in the middle of your otherwise lovely golf course. Hire a groundskeeper to eradicate these weeds. Click the employees button on the People menu to hire course employees.
-STR_NARR_19_BEVERAGE                    :{GOLFER} is enjoying a cool refreshing beverage from your friendly soda vendor.
-STR_NARR_1A_BENCH_NEEDED                :{GOLFER} needs to find a bench to rest on soon or {HE} will start to slow down.
-STR_NARR_1B_BENCH                       :{GOLFER} is relaxing on your comfy bench and will soon resume play with renewed energy.
-STR_NARR_1C_LOVELY                      :{GOLFER} is enjoying the lovely {WHAT} you have included in your course.
-STR_NARR_1D_DIFFERENT                   :{GOLFER} likes the fact that this hole is very different from the last hole.
-STR_NARR_1E_SIMILAR                     :{GOLFER} dislikes the fact that this hole is very similar to the last hole. Try to vary the par and direction of your holes.
-STR_NARR_1F_DIFFICULT                   :{GOLFER}'s next shot looks extremely difficult. {GOLFER} will be thrilled if it finds the green or fairway.
-STR_NARR_20_DECISION                    :{GOLFER} has an interesting decision to make on this next shot. This is a characteristic of a well designed hole.
-STR_NARR_23_QUIT                        :{GOLFER} has quit playing in frustration. Security may be required.
-STR_NARR_24_ANGRY_GOLFER                :{GOLFER} does not enjoy seeing an angry golfer on your course.
-STR_NARR_27_WILDLIFE                    :{GOLFER} is intrigued by the wildlife on your course.
-STR_NARR_33_DRIVING_RANGE               :{GOLFER} appreciates the new driving range you added to your course.
-STR_NARR_34_PRO_SHOP                    :{GOLFER} appreciates the new pro shop you added to your course.
-STR_NARR_35_PUTTING_GREEN               :{GOLFER} appreciates the new putting green you added to your course.
-STR_NARR_36_NEW_CLUB                    :{GOLFER} is using this club for the first time today. A good course will use every club in the bag.
-STR_NARR_37_DRAW                        :{GOLFER} is setting up to hit a draw shot which curves from right to left.
-STR_NARR_38_FADE                        :{GOLFER} is setting up to hit a fade shot which curves from left to right.
-STR_NARR_39_HIGH                        :{GOLFER} is setting up to hit a high shot which will spin back once it hits the green.
-STR_NARR_3C_LOW                         :{GOLFER} is setting up to hit a low shot which will run under the trees.
-STR_NARR_41_CANNOT_SEE                  :{GOLFER} hit a good shot but cannot see exactly where it landed because of trees or elevation. 
+STR_NARR_01_TOUGH_SHOT                  :{GOLFER} sikeresen végrehajtott egy nehéznek látszó ütést, és élvezi a pályádat.
+STR_NARR_02_EASY_SHOT_IN                :{GOLFER} csalódott, mert egy könnyűnek tűnő ütés után a labda a {TERRAIN} területére került. Ha ez újra megtörténik, {HE} el fogja veszíteni a kedvét.
+STR_NARR_03_WORSE_LOCATION              :{GOLFER} csalódott, mert a labda kedvezőtlenebb helyre, a {TERRAIN} területére került.
+STR_NARR_04_NO_DANGERS                  :{GOLFER} következő ütése nem jár különösebb veszéllyel vagy akadállyal. A túl sok ilyen ütés unalmassá teheti a játékot.
+STR_NARR_05_CHALLENGING                 :{GOLFER} következő ütése kihívásnak ígérkezik. {HE} örülni fog, ha a labda a greenre vagy a fairwayre kerül.
+STR_NARR_06_SLOPE                       :{GOLFER} a domb lejtését tervezi kihasználni, hogy a labda a lyuk felé guruljon.
+STR_NARR_08_NO_SAFE_PLACE               :{GOLFER} nem talál biztonságos célpontot a következő ütéshez.  Ez frusztráló lehet. Érdemes lenne több fairwayt kialakítanod ezen a szakaszon.
+STR_NARR_09_ALMOST_HIT                  :Egy másik szakaszról érkező labda majdnem eltalálta {GOLFER}-t. Ez ijesztő!  A szakaszok között hagyj nagyobb távolságot; a fák is segíthetnek.
+STR_NARR_0A_NO_PATH                     :{GOLFER} boldogtalan, mert nem építettél utat a {TERRAIN} területén keresztül. Az útépítő eszköz kiválasztásához nyomd meg a P billentyűt.
+STR_NARR_0B_SCENIC                      :{GOLFER} örül, hogy a következő ütésnél egy szép {WHAT} tárul elé.
+STR_NARR_0C_BOUNCED_OFF_TREE            :{GOLFER} labdája éppen visszapattant egy fáról. {GOLFER} legközelebb óvatosabb lesz.
+STR_NARR_0D_ENDED_UP_IN                 :{GOLFER} labdája valahogy a {TERRAIN} területére került. {GOLFER} legközelebb óvatosabb lesz.
+STR_NARR_0E_SODA                        :{GOLFER}-nek hamarosan üdítőárust kell találnia, különben {HE} boldogtalan lesz.
+STR_NARR_0F_SNACK                       :{GOLFER}-nek hamarosan büfét kell találnia, különben {HE} boldogtalan lesz.
+STR_NARR_10_CURVED_LEFT                 :{GOLFER} meglepődött, hogy az előző ütés után a labda balra kanyarodott.
+STR_NARR_11_FADED_RIGHT                 :{GOLFER} meglepődött, hogy az előző ütés után a labda jobbra ívelt.
+STR_NARR_12_TASTY_SNACK                 :{GOLFER} jóízűen falatozik a kényelmes helyen kialakított büfédben.
+STR_NARR_14_EYESORE                     :{GOLFER} csalódottan veszi észre, hogy egy {WHAT} éktelenkedik az egyébként gyönyörű golfpályád közepén.
+STR_NARR_15_WAITING                     :{GOLFER} bosszús, mert sokan várakoznak ennél a szakasznál. Egy pályafelügyelő az elütőhely közelében felgyorsítja a játékot. Alkalmazottat az Emberek menüben vehetsz fel.
+STR_NARR_16_VACATION_HOME               :{GOLFER} izgatottan veszi észre {CELEBRITY} nyaralóját a golfpályádon.
+STR_NARR_18_DANDELIONS                  :{GOLFER} csalódott, mert pitypangok nőnek a gyönyörű golfpályádon. Vegyél fel kertészt a gyomok eltávolítására. Alkalmazottat az Emberek menüben vehetsz fel.
+STR_NARR_19_BEVERAGE                    :{GOLFER} éppen egy kellemesen hűsítő italt fogyaszt a barátságos üdítőárusnál.
+STR_NARR_1A_BENCH_NEEDED                :{GOLFER} hamarosan keresnie kell egy padot, ahol megpihenhet, különben {HE} lelassul.
+STR_NARR_1B_BENCH                       :{GOLFER} kényelmesen pihen a padodon, és hamarosan megújult energiával folytatja a játékot.
+STR_NARR_1C_LOVELY                      :{GOLFER} élvezi a gyönyörű {WHAT} látványát, amelyet elhelyeztél a pályádon.
+STR_NARR_1D_DIFFERENT                   :{GOLFER} örül, hogy ez a szakasz jelentősen különbözik az előzőtől.
+STR_NARR_1E_SIMILAR                     :{GOLFER} nem örül annak, hogy ez a szakasz nagyon hasonlít az előzőre. Próbáld változatosabbá tenni a szakaszok par értékét és irányát.
+STR_NARR_1F_DIFFICULT                   :{GOLFER} következő ütése rendkívül nehéznek tűnik. {GOLFER} nagyon boldog lesz, ha a labda a greenre vagy a fairwayre kerül.
+STR_NARR_20_DECISION                    :{GOLFER} érdekes döntés előtt áll a következő ütésnél. Ez egy jól megtervezett szakasz egyik jellemzője.
+STR_NARR_23_QUIT                        :{GOLFER} frusztrációjában abbahagyta a játékot. Biztonsági őrre lehet szükség.
+STR_NARR_24_ANGRY_GOLFER                :{GOLFER} nem szívesen lát dühös golfozókat a pályádon.
+STR_NARR_27_WILDLIFE                    :{GOLFER} érdeklődéssel figyeli a pályádon élő állatokat.
+STR_NARR_33_DRIVING_RANGE               :{GOLFER} nagyra értékeli az új gyakorlópályát, amelyet hozzáadtál a golfpályádhoz.
+STR_NARR_34_PRO_SHOP                    :{GOLFER} nagyra értékeli az új golfboltot, amelyet hozzáadtál a golfpályádhoz.
+STR_NARR_35_PUTTING_GREEN               :{GOLFER} nagyra értékeli az új gyakorló greent, amelyet hozzáadtál a golfpályádhoz.
+STR_NARR_36_NEW_CLUB                    :{GOLFER} ma először használja ezt az ütőt. Egy jó pályán a golfozó a táskájában lévő összes ütőt használja.
+STR_NARR_37_DRAW                        :{GOLFER} draw ütésre készül, amelynek során a labda jobbról balra ível.
+STR_NARR_38_FADE                        :{GOLFER} fade ütésre készül, amelynek során a labda balról jobbra ível.
+STR_NARR_39_HIGH                        :{GOLFER} magas ütésre készül, amely után a labda a greenre érkezve visszafelé pörög.
+STR_NARR_3C_LOW                         :{GOLFER} alacsony ütésre készül, amellyel a fák alatt küldi el a labdát.
+STR_NARR_41_CANNOT_SEE                  :{GOLFER} jó ütést hajtott végre, de a fák vagy a szintkülönbség miatt nem látja pontosan, hová érkezett a labda. 
 # {HE} in the narration
-STR_NARR_HE                             :he
-STR_NARR_SHE                            :she
+STR_NARR_HE                             :ő
+STR_NARR_SHE                            :ő
 # The whole message: the golfer's thought in quotes, then the narration
-STR_NARR_MESSAGE                        :'{THOUGHT}' {NARRATION}
+STR_NARR_MESSAGE                        :„{THOUGHT}” {NARRATION}
 
 # What a visitor thinks of the course at mood m (0x469a20)
-STR_VIP_MOOD_0                          :I hate this stupid course!
-STR_VIP_MOOD_1                          :I don't like this course much.
-STR_VIP_MOOD_2                          :I'm not having much fun today.
-STR_VIP_MOOD_3                          :This course is almost adequate.
-STR_VIP_MOOD_4                          :Well, I guess this course is OK.
-STR_VIP_MOOD_5                          :This course is quite nice.
-STR_VIP_MOOD_6                          :This is a really good course.
-STR_VIP_MOOD_7                          :This course is excellent.
-STR_VIP_MOOD_8                          :This is the best course I've ever played!
-STR_VIP_MOOD_LEAVING                    :I hate this course! I'm leaving!
+STR_VIP_MOOD_0                          :Utálom ezt az átkozott pályát!
+STR_VIP_MOOD_1                          :Nem igazán tetszik ez a pálya.
+STR_VIP_MOOD_2                          :Ma nem szórakozom túl jól.
+STR_VIP_MOOD_3                          :Ez a pálya éppen csak elfogadható.
+STR_VIP_MOOD_4                          :Hát, azt hiszem, ez a pálya megteszi.
+STR_VIP_MOOD_5                          :Egészen kellemes ez a pálya.
+STR_VIP_MOOD_6                          :Ez egy igazán jó pálya.
+STR_VIP_MOOD_7                          :Kiváló ez a pálya.
+STR_VIP_MOOD_8                          :Ez a legjobb pálya, amin valaha játszottam!
+STR_VIP_MOOD_LEAVING                    :Utálom ezt a pályát! Elmegyek!
 # Special visitors (0x4676e0 names; {SUFFIX} is " II", " III", ... for the second, third, ... of a kind)
 STR_VIP_NAME_COMMISSIONER               :I.M. Picky{SUFFIX}
 STR_VIP_NAME_CEO                        :J.P. Bigdome{SUFFIX}
 STR_VIP_NAME_HEIRESS_IVANA              :Ivana Richman
 STR_VIP_NAME_HEIRESS_AGNES              :Agnes Heffledorp
-STR_VIP_CEO                             :Corporate CEO
-STR_VIP_COMMISSIONER                    :County commissioner
-STR_VIP_HEIRESS                         :Wealthy Heiress
+STR_VIP_CEO                             :Vállalati vezérigazgató
+STR_VIP_COMMISSIONER                    :Megyei elöljáró
+STR_VIP_HEIRESS                         :Gazdag örökösnő
 # The visitor arrives (0x4d3af0, 0x4d3a88, 0x4d3a14 after 0x4d3b78); {LEAD} is the rating sentence below
-STR_VIP_CEO_PLAYING                     :{WHO} {VISITOR} is playing your course today. If he likes your course he may invest in a seat on your board of directors!
-STR_VIP_COMMISSIONER_PLAYING            :{LEAD} and your fame is spreading. {WHO} {VISITOR} is playing your course today. If he likes your course he may approve a request to purchase more land!
-STR_VIP_HEIRESS_PLAYING                 :{LEAD} and your fame is spreading. {WHO} {VISITOR} is playing your course today. If she enjoys her round she may donate a valuable scenic landmark to your course.
+STR_VIP_CEO_PLAYING                     :{WHO} {VISITOR} ma a pályádon golfozik. Ha tetszik neki a pályád, befektethet a klubod igazgatótanácsába való bekerülésért!
+STR_VIP_COMMISSIONER_PLAYING            :{LEAD}, és a hírneved egyre terjed. {WHO} {VISITOR} ma a pályádon golfozik. Ha tetszik neki a pályád, jóváhagyhatja a területvásárlási kérelmedet!
+STR_VIP_HEIRESS_PLAYING                 :{LEAD}, és a hírneved egyre terjed. {WHO} {VISITOR} ma a pályádon golfozik. Ha élvezi a kört, értékes nevezetességgel gazdagíthatja a pályádat.
 # The verdict at the end of the round (0x4266b0); {QUIT} is the partner sentence (0x4c70c4, 0x4c70ac) or nothing, {REMARK} the
 # visitor's mood remark
-STR_VIP_PARTNER_QUIT                    :My partner {PARTNER} has quit, even though 
-STR_VIP_CEO_NEEDS_MORE_HOLES            :Corporate CEO {VISITOR} has decided not to invest in your course. 'Good course, needs more holes' he says.
-STR_VIP_CEO_NO                          :Corporate CEO {VISITOR} has decided not to invest in your course. '{QUIT}{REMARK}' he fumes.
-STR_VIP_COMMISSIONER_YES                :County commissioner {VISITOR} has decided to approve an expansion request! 'I'll be back again if your {GOAL}', he says.
-STR_VIP_COMMISSIONER_NO                 :County commissioner {VISITOR} has decided not to approve your expansion request. '{QUIT}{REMARK}' he comments.
-STR_VIP_HEIRESS_NO                      :Wealthy Heiress {VISITOR} has decided not to donate a landmark to your course. '{QUIT}{REMARK}' she comments. 'I'll be back in a few months.'
-STR_VIP_EFFECT_HAPPY_THOUGHTS           :golfers will have happy thoughts.
-STR_VIP_EFFECT_NO_DANDELIONS            :no dandelions will appear.
-STR_VIP_EFFECT_STORIES                  :golfer stories will proceed happily.
-STR_VIP_GOAL_FUN_UP_TO                  :fun rating is up to {RATING}
-STR_VIP_CELEBRITY_HOME                  :International {KIND} {CELEBRITY} has purchased a vacation home at your golf course!
+STR_VIP_PARTNER_QUIT                    :A társam, {PARTNER} feladta, pedig 
+STR_VIP_CEO_NEEDS_MORE_HOLES            :{VISITOR} vezérigazgató nem fektet be. „Jó pálya, de több szakasz kell” – mondta.
+STR_VIP_CEO_NO                          :{VISITOR}, a vállalati vezérigazgató úgy döntött, hogy nem fektet be a pályádba. „{QUIT}{REMARK}” – mérgelődik.
+STR_VIP_COMMISSIONER_YES                :{VISITOR}, a megyei elöljáró jóváhagyta a bővítési kérelmedet! „Visszatérek, ha a pályád {GOAL}” – mondta.
+STR_VIP_COMMISSIONER_NO                 :{VISITOR}, a megyei elöljáró nem hagyta jóvá a bővítési kérelmedet. „{QUIT}{REMARK}” – jegyezte meg.
+STR_VIP_HEIRESS_NO                      :{VISITOR}, a gazdag örökösnő úgy döntött, hogy nem ajándékoz nevezetességet a pályádnak. „{QUIT}{REMARK}” – jegyezte meg. „Néhány hónap múlva visszatérek.”
+STR_VIP_EFFECT_HAPPY_THOUGHTS           :a golfozóknak boldog gondolataik támadnak.
+STR_VIP_EFFECT_NO_DANDELIONS            :nem jelennek meg pitypangok.
+STR_VIP_EFFECT_STORIES                  :a golfozók történetei pozitív fordulatot vesznek.
+STR_VIP_GOAL_FUN_UP_TO                  :a szórakozási érték eléri a(z) {RATING} értéket
+STR_VIP_CELEBRITY_HOME                  :{KIND} {CELEBRITY} nemzetközi híresség nyaralót vásárolt a golfpályádon!
 # The rating sentence that leads the commissioner's and the heiress's arrival ({LEAD}); a skill rating reads 123.45
-STR_VIP_FUN_RATING_UP_TO                :Your Fun Rating is up to {RATING}
-STR_VIP_SKILL_RATING_UP_TO              :Your Skill Rating is up to {RATING}
+STR_VIP_FUN_RATING_UP_TO                :A pályád szórakozási értéke elérte a(z) {RATING} értéket
+STR_VIP_SKILL_RATING_UP_TO              :A pálya jártasságértékelése: {RATING}
 # The visitor's goal for the next visit ({GOAL}): the commissioner's reads "is over", the heiress's "is up to"
-STR_VIP_GOAL_FUN_OVER                   :fun rating is over {RATING}
-STR_VIP_GOAL_SKILL_OVER                 :skill rating is over {RATING}
-STR_VIP_GOAL_SKILL_UP_TO                :skill rating is up to {RATING}
+STR_VIP_GOAL_FUN_OVER                   :a szórakozási érték meghaladja a(z) {RATING} értéket
+STR_VIP_GOAL_SKILL_OVER                 :a jártasságértékelés meghaladja a(z) {RATING} értéket
+STR_VIP_GOAL_SKILL_UP_TO                :a jártasságértékelés eléri a(z) {RATING} értéket
 # The CEO invests (0x4c71b0, 0x4c7124, 0x4c7100)
-STR_VIP_CEO_YES                         :Corporate CEO {VISITOR} has decided to invest in your course. 'I'll give you §{MONEY} for a seat on the board' he says.
+STR_VIP_CEO_YES                         :{VISITOR} vezérigazgató befektet a pályádba. „§{MONEY}-t adok az igazgatótanácsi helyért” – mondta.
 # The heiress's landmark's effect ({EFFECT}); {PRO} is the player's pro
-STR_VIP_EFFECT_SKILLS                   :{PRO}'s skills will improve rapidly.
+STR_VIP_EFFECT_SKILLS                   :{PRO} jártasságai gyorsan fejlődnek.
 # The heiress donates (0x4c6fa4, 0x4c6f88, the landmark's name with its article, 0x4c6f54, the effect, 0x4c6e78, the short name,
 # 0x4c6e54, the price, 0x4c6e38, the goal, 0x4c6df8); {A_LANDMARK} is the landmark's long name as written after "a"
-STR_VIP_HEIRESS_YES                     :Wealthy Heiress {VISITOR} has decided to donate a{A_LANDMARK} to your course! In the area near this landmark {EFFECT} Go to 'Landmarks' under the Improvements menu to place your landmark. Additional {LANDMARK}s can be added to your course for §{MONEY}. 'I'll be back if your {GOAL}', she says.
+STR_VIP_HEIRESS_YES                     :A gazdag örökösnő, {VISITOR}, nevezetességet adományozott a pályádnak: egy{A_LANDMARK}! A nevezetesség közelében {EFFECT} A Fejlesztések > Nevezetességek menüben helyezheted el. További példányokat is elhelyezhetsz ({LANDMARK}) §{MONEY}/db áron. „Visszatérek, ha a pályád {GOAL}” – mondta.
 
 # A famous golfer's challenge (0x4c6ba4, 0x4c6b68, 0x4c6b58, 0x4c6b44, 0x4c6b2c / 0x4c6b18, 0x4c6afc, 0x4c6af4, 0x4c6ad0,
 # 0x4c6aa0): the challenge, the pro's best skills ({SKILLS} joined with STR_CHALLENGE_AND), the pro panel hint
-STR_CHALLENGE_WAGER                     :Famous golfer {PRO} challenges you to a match at your course with a wager of §{HOLE_MONEY} per hole and §{MATCH_MONEY} for the match! 
-STR_CHALLENGE_PROUD                     :{HE} is proud of {HIS} {PERCENT}0 percent skill rating in {SKILLS}
-STR_CHALLENGE_SHE                       :She
-STR_CHALLENGE_HE                        :He
-STR_CHALLENGE_HER                       :her
-STR_CHALLENGE_HIS                       :his
-STR_CHALLENGE_AND                       : and 
-STR_CHALLENGE_CLICK                     :. Click on the match icon on the {PRO} panel when you are ready to start the match.
+STR_CHALLENGE_WAGER                     :A híres golfozó, {PRO}, mérkőzésre hív ki a pályádon. A tét szakaszonként §{HOLE_MONEY}, a teljes mérkőzés tétje pedig §{MATCH_MONEY}! 
+STR_CHALLENGE_PROUD                     :{HE} büszke {HIS} {PERCENT}0%-os jártasságára: {SKILLS}
+STR_CHALLENGE_SHE                       :Ő
+STR_CHALLENGE_HE                        :Ő
+STR_CHALLENGE_HER                       :őt
+STR_CHALLENGE_HIS                       :saját
+STR_CHALLENGE_AND                       : és 
+STR_CHALLENGE_CLICK                     :. Ha készen állsz a mérkőzésre, kattints a {PRO} paneljén található mérkőzés ikonra.
 
 # Match money at the end of a hole (0x4c7324, 0x4c7314, 0x4c730c, 0x4c7300 or 0x4c72f8, 0x4c4944) and of the match (0x4c72dc
 # with 0x4c72d0, 0x4c72b4 or 0x4c72a8)
-STR_MATCH_WIN_HOLE                      :{GOLFER} wins hole #{HOLE} by a score of {SCORE} to {OTHER_SCORE}! Collect §{MONEY}.
-STR_MATCH_LOSE_HOLE                     :{GOLFER} wins hole #{HOLE} by a score of {SCORE} to {OTHER_SCORE}. Pay §{MONEY}.
-STR_MATCH_END_LOSE                      :At the end of the match, you lose §{MONEY}.
-STR_MATCH_END_TIED                      :At the end of the match, the score is tied.
-STR_MATCH_END_WIN                       :At the end of the match, you win §{MONEY}.
-STR_MATCH_EVEN_PAR                      :even par
-STR_MATCH_UNDER_PAR                     :{STROKES} under par
-STR_MATCH_OVER_PAR                      :{STROKES} over par
-STR_MATCH_TIED_AT                       :{GOLFER} and {OTHER} are tied at {SCORE}.
+STR_MATCH_WIN_HOLE                      :{GOLFER} megnyerte a {HOLE}. szakaszt {SCORE}–{OTHER_SCORE} arányban! Vedd át a §{MONEY} nyereményt.
+STR_MATCH_LOSE_HOLE                     :{GOLFER} megnyerte a {HOLE}. szakaszt {SCORE}–{OTHER_SCORE} arányban. Fizess §{MONEY} összeget.
+STR_MATCH_END_LOSE                      :A mérkőzés végén §{MONEY} összeget veszítettél.
+STR_MATCH_END_TIED                      :A mérkőzés döntetlennel zárult.
+STR_MATCH_END_WIN                       :A mérkőzés végén §{MONEY} összeget nyertél.
+STR_MATCH_EVEN_PAR                      :par eredmény
+STR_MATCH_UNDER_PAR                     :{STROKES} ütéssel par alatt
+STR_MATCH_OVER_PAR                      :{STROKES} ütéssel par felett
+STR_MATCH_TIED_AT                       :{GOLFER} és {OTHER} eredménye egyaránt {SCORE}.
 # The match standing after the last hole (one shot, or more)
-STR_MATCH_LEADS_BY_ONE                  :{GOLFER} leads {OTHER} by {SHOTS} shot.
-STR_MATCH_LEADS_BY                      :{GOLFER} leads {OTHER} by {SHOTS} shots.
-STR_MATCH_TRAILS_BY_ONE                 :{GOLFER} trails {OTHER} by {SHOTS} shot.
-STR_MATCH_TRAILS_BY                     :{GOLFER} trails {OTHER} by {SHOTS} shots.
+STR_MATCH_LEADS_BY_ONE                  :{GOLFER} {SHOTS} ütéssel vezet {OTHER} előtt.
+STR_MATCH_LEADS_BY                      :{GOLFER} {SHOTS} ütéssel vezet {OTHER} előtt.
+STR_MATCH_TRAILS_BY_ONE                 :{GOLFER} {SHOTS} ütéssel van lemaradva {OTHER} mögött.
+STR_MATCH_TRAILS_BY                     :{GOLFER} {SHOTS} ütéssel van lemaradva {OTHER} mögött.
 
 # A remarkable shot (0x407e00), in pieces: the golfer's name, then a good shot's verb (0x4c508c / 0x4c5080 / 0x4c5074 /
 # 0x4c5068), "tricky " or "tough " (0x4c5060 / 0x4c5058), the club (0x4c5040 / 0x4c5050 / the club and 0x4c5048), the yards
 # (0x4c5038), where it went (0x4c4ff8 / 0x4c502c, 0x4c5024 or 0x4c501c and 0x4c5010 / 0x4c4fe8 / 0x4c4fd0); a bad shot's verb
 # (0x4c50a8 / 0x4c50b4 / 0x4c50c0 / 0x4c50cc), the club, 0x4c509c and the ground's name; then the hole (0x4c4fc8, the hole's
 # name, 0x4c4fc4)
-STR_SHOT_LAUNCHES                       : launches a 
-STR_SHOT_SNAKES                         : snakes a 
-STR_SHOT_KNOCKS                         : knocks a 
-STR_SHOT_LOFTS                          : lofts a 
-STR_SHOT_TRICKY                         :tricky 
-STR_SHOT_TOUGH                          :tough 
-STR_SHOT_DRIVE                          :drive 
-STR_SHOT_PUTT                           :putt 
-STR_SHOT_CLUB                           :{CLUB} shot 
-STR_SHOT_YARDS                          :{YARDS} yards 
-STR_SHOT_INTO_THE_HOLE                  :into the hole
-STR_SHOT_INCHES                         :inches from the hole
-STR_SHOT_WITHIN_FEET                    :to within {FEET} feet of the pin
-STR_SHOT_WITHIN_YARDS                   :to within {YARDS} yards of the pin
-STR_SHOT_FAIRWAY                        :safely onto the fairway
-STR_SHOT_YANKS                          : yanks a 
-STR_SHOT_FLUBS                          : flubs a 
-STR_SHOT_SCUFFS                         : scuffs a 
-STR_SHOT_FLUFFS                         : fluffs a 
-STR_SHOT_INTO_THE                       : into the 
-STR_SHOT_AT_HOLE                        : at {HOLE}!  
+STR_SHOT_LAUNCHES                       : elüt egy 
+STR_SHOT_SNAKES                         : ívesen elüt egy 
+STR_SHOT_KNOCKS                         : odacsap egy 
+STR_SHOT_LOFTS                          : magas ívben elüt egy 
+STR_SHOT_TRICKY                         :trükkös 
+STR_SHOT_TOUGH                          :nehéz 
+STR_SHOT_DRIVE                          :kezdőütést 
+STR_SHOT_PUTT                           :gurítóütést 
+STR_SHOT_CLUB                           :{CLUB} ütővel végrehajtott ütést 
+STR_SHOT_YARDS                          :{YARDS} yard távolságra 
+STR_SHOT_INTO_THE_HOLE                  :egyenesen a lyukba
+STR_SHOT_INCHES                         :hüvelykre a lyuktól
+STR_SHOT_WITHIN_FEET                    :a zászlótól számítva {FEET} lábnyira
+STR_SHOT_WITHIN_YARDS                   :a zászlótól számítva {YARDS} yardnyira
+STR_SHOT_FAIRWAY                        :biztonságosan a fairwayre
+STR_SHOT_YANKS                          : félrerántja az ütést, 
+STR_SHOT_FLUBS                          : elrontja az ütést, 
+STR_SHOT_SCUFFS                         : rosszul találja el a labdát, 
+STR_SHOT_FLUFFS                         : ügyetlenül üti meg a labdát, 
+STR_SHOT_INTO_THE                       : a következő területre: 
+STR_SHOT_AT_HOLE                        : a(z) {HOLE}. szakasznál!  
 # The partner's reaction (0x4c4fac, 0x4c4f54, 0x4c4f48 with 0x4c4f38 and 0x4c4f30 / 0x4c4f28, 0x4c4f78 with 0x4c4f94 /
 # 0x4c4f90 and 0x4c4f6c, 0x4c4f98 with his / her and 0x4c4f88)
-STR_SHOT_HIS                            :his
-STR_SHOT_HER                            :her
-STR_SHOT_PARTNER_AMAZED                 :{PARTNER} looks on in amazement.
-STR_SHOT_PARTNER_DELIGHTED              :{PARTNER} is equally delighted.
-STR_SHOT_PARTNER_RATS                   :'Rats', {PARTNER} mutters to {HIMSELF}.
-STR_SHOT_HIMSELF                        :himself
-STR_SHOT_HERSELF                        :herself
-STR_SHOT_PARTNER_CONGRATULATES          :{PARTNER} congratulates {HIS} partner.
-STR_SHOT_PARTNER_EYES                   :{PARTNER} can not believe {HIS} eyes.
+STR_SHOT_HIS                            :saját
+STR_SHOT_HER                            :saját
+STR_SHOT_PARTNER_AMAZED                 :{PARTNER} döbbenten figyeli az eseményeket.
+STR_SHOT_PARTNER_DELIGHTED              :{PARTNER} ugyanilyen örömmel fogadja a történteket.
+STR_SHOT_PARTNER_RATS                   :„A fenébe!” – mormolja {PARTNER} {HIMSELF}.
+STR_SHOT_HIMSELF                        :önmagának
+STR_SHOT_HERSELF                        :önmagának
+STR_SHOT_PARTNER_CONGRATULATES          :{PARTNER} gratulál {HIS} partnerének.
+STR_SHOT_PARTNER_EYES                   :{PARTNER} nem hisz {HIS} szemének.
 # The pro's skill after a remarkable shot (0x4c3f70, the name, 0x4c4e64, the skill and 0x4c4e60; 0x4c4ef0, the skill,
 # 0x4c4ed8, the level, 0x4c4ed0; at the cap 0x4c4e88, the next class and 0x4c4e7c; a bad shot 0x4c4f14 / 0x4c4f00, the skill,
 # 0x4c4ef8)
-STR_SHOT_NEW_SKILL                      : {GOLFER} acquires a new skill: {SKILL}!
-STR_SHOT_SKILL_IMPROVES                 : {GOLFER}'s '{SKILL}' skill improves to {LEVEL}0%! 
-STR_SHOT_SKILL_CAP                      :To further improve this skill you will need expand your course to a {RANK} course. 
-STR_SHOT_SKILL_LOSS                     : {GOLFER} loses 10% of {HIS} {SKILL} skill.
+STR_SHOT_NEW_SKILL                      : {GOLFER} új jártasságot szerzett: {SKILL}!
+STR_SHOT_SKILL_IMPROVES                 : {GOLFER} „{SKILL}” jártassága {LEVEL}0%-ra fejlődött! 
+STR_SHOT_SKILL_CAP                      :A jártasság további fejlesztéséhez {RANK} kategóriájú pálya szükséges. 
+STR_SHOT_SKILL_LOSS                     : {GOLFER} {HIS} {SKILL} jártasságából 10%-ot veszít.
 
 # What each building does, as the unlock message tells it (kinds 6..14)
-STR_UNLOCK_PUTTING_GREEN                : allows your golfers with imagination ability to improve their putting.
-STR_UNLOCK_SNACK_BAR                    : will feed golfers who get hungry and provide some extra revenue.
-STR_UNLOCK_PRO_SHOP                     : allows your accurate golfers to improve their equipment.
-STR_UNLOCK_SWIM_CLUB                    : helps your players to begin play with a better attitude.
-STR_UNLOCK_DRIVING_RANGE                : allows your long hitters to improve the length of their shots.
-STR_UNLOCK_CART_GARAGE                  : increases your players speed of play.
-STR_UNLOCK_MARINA                       : increases the value of all homes and lots at your course.
-STR_UNLOCK_RESORT_HOTEL                 : keeps your players from getting tired towards the end of their round.
-STR_UNLOCK_AIRSTRIP                     : allows you to charge higher greens fees at your course.
+STR_UNLOCK_PUTTING_GREEN                : fejleszti a Képzelet-jártasságú golfozók gurítását.
+STR_UNLOCK_SNACK_BAR                    : ételt kínál az éhes golfozóknak, és némi extra bevételt is termel.
+STR_UNLOCK_PRO_SHOP                     : segít a pontos golfozóknak felszerelésük fejlesztésében.
+STR_UNLOCK_SWIM_CLUB                    : segít, hogy a golfozók jobb hangulatban kezdjék a kört.
+STR_UNLOCK_DRIVING_RANGE                : segít a nagyot ütő golfozóknak növelni ütéseik távolságát.
+STR_UNLOCK_CART_GARAGE                  : felgyorsítja a játék menetét.
+STR_UNLOCK_MARINA                       : növeli a pályádon található házak és telkek értékét.
+STR_UNLOCK_RESORT_HOTEL                 : segít, hogy a golfozók a kör végére se fáradjanak el.
+STR_UNLOCK_AIRSTRIP                     : lehetővé teszi, hogy magasabb green fee-t számíts fel a pályádon.
 # The course rank upgrade (0x40e5f0) on reaching 6, 10 and 18 holes
-STR_UNLOCK_RANK                         : Your course is now upgraded from a {FROM} to a {TO} course. This will DOUBLE your tournament prize monies if your course passes the more stringent SGA evaluation. 
-STR_UNLOCK_RANK_EMPLOYEES               :In addition you may now hire more experienced employees, for a slightly higher salary of course.
-STR_UNLOCK_RANK_BUILDINGS               :In addition you may build upgraded buildings which are more effective.
-STR_UNLOCK_NEW_FACILITIES               : As your course grows you can add new facilities. 
-STR_UNLOCK_NEW_PLAYERS                  : New players are flocking to your golf course. 
-STR_UNLOCK_BUILDING                     :You may now build a {BUILDING}. A {BUILDING}{WHAT}
+STR_UNLOCK_RANK                         : Pályád kategóriája {FROM} szintről {TO} szintre emelkedett. Ha a pályád megfelel az SGA szigorúbb értékelésén, a versenyek díjazása KÉTSZERESÉRE nő. 
+STR_UNLOCK_RANK_EMPLOYEES               :Emellett mostantól tapasztaltabb alkalmazottakat is felvehetsz, természetesen valamivel magasabb fizetésért.
+STR_UNLOCK_RANK_BUILDINGS               :Emellett fejlettebb, hatékonyabban működő épületeket is építhetsz.
+STR_UNLOCK_NEW_FACILITIES               : Ahogy a pályád fejlődik, új létesítményekkel bővítheted. 
+STR_UNLOCK_NEW_PLAYERS                  : Egyre több golfozó özönlik a golfpályádra. 
+STR_UNLOCK_BUILDING                     :Mostantól építhetsz: {BUILDING}. {BUILDING}{WHAT}
 
 ########################################################################################################################
 # The event log: the End of Year report's highlights and the Histograph
 ########################################################################################################################
 # The monthly event log as the year-end screen (0x44cff0) and the Histograph write it
-STR_LOG_HOLE_OPENED                     :Hole {HOLE} opened.
-STR_LOG_BUILT                           :{BUILDING} built.
-STR_LOG_BUILDING                        :Building
-STR_LOG_WON_MATCH                       :Won match vs. {PRO}
-STR_LOG_A_PRO                           :a pro
-STR_LOG_TOP_100                         :Hole {HOLE} rated top 100.
-STR_LOG_TOP_18                          :Hole {HOLE} rated top 18.
-STR_LOG_CELEBRITY_HOME                  :{CELEBRITY} buys a home.
-STR_LOG_A_CELEBRITY                     :A celebrity
+STR_LOG_HOLE_OPENED                     :A {HOLE}. szakasz megnyílt.
+STR_LOG_BUILT                           :Megépült: {BUILDING}.
+STR_LOG_BUILDING                        :Épület
+STR_LOG_WON_MATCH                       :Mérkőzés megnyerve {PRO} ellen.
+STR_LOG_A_PRO                           :egy profi
+STR_LOG_TOP_100                         :A {HOLE}. szakasz bekerült a legjobb 100 közé.
+STR_LOG_TOP_18                          :A {HOLE}. szakasz bekerült a legjobb 18 közé.
+STR_LOG_CELEBRITY_HOME                  :{CELEBRITY} házat vásárolt.
+STR_LOG_A_CELEBRITY                     :Egy híresség
 STR_LOG_GARY_GOLF                       :Gary Golf
-STR_LOG_TOURNAMENT_PLACE                :{PRO} places {PLACE} in tournament.
-STR_LOG_CEO                             :J.P. Bigdome joins the board.
-STR_LOG_HAPPY_ENDING                    :Happy Ending: {STORY}
-STR_LOG_LAND                            :Additional land purchased.
-STR_LOG_HEIRESS                         :Ivana donates a {LANDMARK}
+STR_LOG_TOURNAMENT_PLACE                :{PRO} a(z) {PLACE}. helyen végzett a versenyen.
+STR_LOG_CEO                             :J.P. Bigdome csatlakozott az igazgatótanácshoz.
+STR_LOG_HAPPY_ENDING                    :Boldog befejezés: {STORY}
+STR_LOG_LAND                            :Újabb terület vásárolva.
+STR_LOG_HEIRESS                         :Ivana egy új nevezetességet adományozott: {LANDMARK}.
 
 ########################################################################################################################
 # Golfers' thoughts (text routine 0x469b00) and what they put in them
 ########################################################################################################################
 # Terrain nouns put into thoughts: the single name, then the group name (trees use the group name in most remarks)
-STR_THOUGHT_TERRAIN_TEE                 :tee
-STR_THOUGHT_TERRAIN_TEE_GROUP           :tee box
+STR_THOUGHT_TERRAIN_TEE                 :elütőhely
+STR_THOUGHT_TERRAIN_TEE_GROUP           :elütőterület
 STR_THOUGHT_TERRAIN_GREEN               :green
 STR_THOUGHT_TERRAIN_GREEN_GROUP         :green
 STR_THOUGHT_TERRAIN_FAIRWAY             :fairway
 STR_THOUGHT_TERRAIN_FAIRWAY_GROUP       :fairway
 STR_THOUGHT_TERRAIN_ROUGH               :rough
 STR_THOUGHT_TERRAIN_ROUGH_GROUP         :rough
-STR_THOUGHT_TERRAIN_DEEP_ROUGH          :deep rough
-STR_THOUGHT_TERRAIN_DEEP_ROUGH_GROUP    :deep rough
-STR_THOUGHT_TERRAIN_MOUNDS              :mounds
-STR_THOUGHT_TERRAIN_MOUNDS_GROUP        :mounds
-STR_THOUGHT_TERRAIN_SAND_TRAP           :sand trap
-STR_THOUGHT_TERRAIN_SAND_TRAP_GROUP     :sand
-STR_THOUGHT_TERRAIN_WASTE_BUNKER        :waste bunker
-STR_THOUGHT_TERRAIN_WASTE_BUNKER_GROUP  :waste area
+STR_THOUGHT_TERRAIN_DEEP_ROUGH          :sűrű rough
+STR_THOUGHT_TERRAIN_DEEP_ROUGH_GROUP    :sűrű rough
+STR_THOUGHT_TERRAIN_MOUNDS              :dombok
+STR_THOUGHT_TERRAIN_MOUNDS_GROUP        :dombok
+STR_THOUGHT_TERRAIN_SAND_TRAP           :homokbunker
+STR_THOUGHT_TERRAIN_SAND_TRAP_GROUP     :homokbunker
+STR_THOUGHT_TERRAIN_WASTE_BUNKER        :kopár bunker
+STR_THOUGHT_TERRAIN_WASTE_BUNKER_GROUP  :kopár bunker
 STR_THOUGHT_TERRAIN_POT_BUNKER          :pot bunker
 STR_THOUGHT_TERRAIN_POT_BUNKER_GROUP    :pot bunker
-STR_THOUGHT_TERRAIN_RAVINE              :ravine
-STR_THOUGHT_TERRAIN_RAVINE_GROUP        :ravine
-STR_THOUGHT_TERRAIN_BRUSH               :brush
-STR_THOUGHT_TERRAIN_BRUSH_GROUP         :brush
-STR_THOUGHT_TERRAIN_ROCKS               :rocks
-STR_THOUGHT_TERRAIN_ROCKS_GROUP         :rocks
-STR_THOUGHT_TERRAIN_TREE                :tree
-STR_THOUGHT_TERRAIN_TREE_GROUP          :trees
-STR_THOUGHT_TERRAIN_PINE                :pine
-STR_THOUGHT_TERRAIN_PINE_GROUP          :pines
-STR_THOUGHT_TERRAIN_PALM                :palm
-STR_THOUGHT_TERRAIN_PALM_GROUP          :palms
-STR_THOUGHT_TERRAIN_ELM                 :elm
-STR_THOUGHT_TERRAIN_ELM_GROUP           :elms
-STR_THOUGHT_TERRAIN_WATER               :water
-STR_THOUGHT_TERRAIN_WATER_GROUP         :water
-STR_THOUGHT_TERRAIN_WETLANDS            :wetlands
-STR_THOUGHT_TERRAIN_WETLANDS_GROUP      :wetlands
-STR_THOUGHT_TERRAIN_MARSH               :marsh
-STR_THOUGHT_TERRAIN_MARSH_GROUP         :marsh
-STR_THOUGHT_TERRAIN_OUT_OF_BOUNDS       :out of bounds
-STR_THOUGHT_TERRAIN_OUT_OF_BOUNDS_GROUP :out of bounds
-STR_THOUGHT_TERRAIN_BUILDING            :building
-STR_THOUGHT_TERRAIN_BUILDING_GROUP      :buildings
+STR_THOUGHT_TERRAIN_RAVINE              :szakadék
+STR_THOUGHT_TERRAIN_RAVINE_GROUP        :szakadék
+STR_THOUGHT_TERRAIN_BRUSH               :bozót
+STR_THOUGHT_TERRAIN_BRUSH_GROUP         :bozótos
+STR_THOUGHT_TERRAIN_ROCKS               :sziklák
+STR_THOUGHT_TERRAIN_ROCKS_GROUP         :sziklák
+STR_THOUGHT_TERRAIN_TREE                :fa
+STR_THOUGHT_TERRAIN_TREE_GROUP          :fák
+STR_THOUGHT_TERRAIN_PINE                :fenyő
+STR_THOUGHT_TERRAIN_PINE_GROUP          :fenyők
+STR_THOUGHT_TERRAIN_PALM                :pálma
+STR_THOUGHT_TERRAIN_PALM_GROUP          :pálmák
+STR_THOUGHT_TERRAIN_ELM                 :szilfa
+STR_THOUGHT_TERRAIN_ELM_GROUP           :szilfák
+STR_THOUGHT_TERRAIN_WATER               :víz
+STR_THOUGHT_TERRAIN_WATER_GROUP         :víz
+STR_THOUGHT_TERRAIN_WETLANDS            :mocsaras terület
+STR_THOUGHT_TERRAIN_WETLANDS_GROUP      :mocsaras területek
+STR_THOUGHT_TERRAIN_MARSH               :mocsár
+STR_THOUGHT_TERRAIN_MARSH_GROUP         :mocsarak
+STR_THOUGHT_TERRAIN_OUT_OF_BOUNDS       :pályahatáron kívüli terület
+STR_THOUGHT_TERRAIN_OUT_OF_BOUNDS_GROUP :pályahatáron kívüli területek
+STR_THOUGHT_TERRAIN_BUILDING            :épület
+STR_THOUGHT_TERRAIN_BUILDING_GROUP      :épületek
 # Pet names a partner adds to a remark ({PET} in the lines below)
-STR_THOUGHT_PET_HONEY                   :, honey
-STR_THOUGHT_PET_SUGAR                   :, sugar
-STR_THOUGHT_PET_DEAR                    :, dear
-STR_THOUGHT_PET_SWEETIE                 :, sweetie
+STR_THOUGHT_PET_HONEY                   :, drágám
+STR_THOUGHT_PET_SUGAR                   :, édesem
+STR_THOUGHT_PET_DEAR                    :, kedvesem
+STR_THOUGHT_PET_SWEETIE                 :, szívem
 # Scenery names (0x407700) put into thoughts as {WHAT}
-STR_THOUGHT_FEATURE_VIEW                :view
-STR_THOUGHT_FEATURE_HOME_SITE           :home site
-STR_THOUGHT_FEATURE_FLOWERBED           :flowerbed
-STR_THOUGHT_FEATURE_LANDMARK            :landmark
-STR_THOUGHT_FEATURE_RED_POPPY_BED       :red poppy bed
-STR_THOUGHT_FEATURE_ORANGE_FLOWERBED    :orange flowerbed
-STR_THOUGHT_FEATURE_PURPLE_IRIS_PATCH   :purple iris patch
-STR_THOUGHT_FEATURE_BLUE_FOXGLOVE       :blue foxglove
-STR_THOUGHT_FEATURE_PINK_SAGE_BUSH      :pink sage bush
-STR_THOUGHT_FEATURE_AQUA_HIBISCUS       :aqua hibiscus
-STR_THOUGHT_FEATURE_ORANGE_BOUGAINVILLEA:orange bougainvillea
-STR_THOUGHT_FEATURE_PURPLE_ORCHID       :purple orchid
-STR_THOUGHT_FEATURE_BLUE_HYDRANGEA      :blue hydrangea
-STR_THOUGHT_FEATURE_RED_ROSE_BUSH       :red rose bush
-STR_THOUGHT_FEATURE_GREEN_FLOWERBED     :green flowerbed
-STR_THOUGHT_FEATURE_YELLOW_DAISY_BED    :yellow daisy bed
-STR_THOUGHT_FEATURE_WHITE_CARNATION     :white carnation
-STR_THOUGHT_FEATURE_MYSTERIOUS_BONES    :mysterious bones
-STR_THOUGHT_FEATURE_ORNAMENTAL_GRASS    :ornamental grass
-STR_THOUGHT_FEATURE_ROCK_FORMATION      :rock formation
-STR_THOUGHT_FEATURE_SCENIC_TREE         :scenic tree
-STR_THOUGHT_FEATURE_NATURAL_BRIDGE      :natural bridge
-STR_THOUGHT_FEATURE_ROSE_BUSH           :rose bush
-STR_THOUGHT_FEATURE_RHODODENDRON        :rhododendron
-STR_THOUGHT_FEATURE_SCENIC_CACTUS       :scenic cactus
-STR_THOUGHT_FEATURE_SCENIC_BRIDGE       :scenic bridge
-STR_THOUGHT_FEATURE_FOUNTAIN            :fountain
-STR_THOUGHT_FEATURE_WILDFLOWER          :wildflower
+STR_THOUGHT_FEATURE_VIEW                :kilátás
+STR_THOUGHT_FEATURE_HOME_SITE           :lakótelek
+STR_THOUGHT_FEATURE_FLOWERBED           :virágágyás
+STR_THOUGHT_FEATURE_LANDMARK            :nevezetesség
+STR_THOUGHT_FEATURE_RED_POPPY_BED       :vörös pipacságyás
+STR_THOUGHT_FEATURE_ORANGE_FLOWERBED    :narancssárga virágágyás
+STR_THOUGHT_FEATURE_PURPLE_IRIS_PATCH   :lila nősziromágyás
+STR_THOUGHT_FEATURE_BLUE_FOXGLOVE       :kék gyűszűvirág
+STR_THOUGHT_FEATURE_PINK_SAGE_BUSH      :rózsaszín zsályabokor
+STR_THOUGHT_FEATURE_AQUA_HIBISCUS       :türkiz hibiszkusz
+STR_THOUGHT_FEATURE_ORANGE_BOUGAINVILLEA:narancssárga murvafürt
+STR_THOUGHT_FEATURE_PURPLE_ORCHID       :lila orchidea
+STR_THOUGHT_FEATURE_BLUE_HYDRANGEA      :kék hortenzia
+STR_THOUGHT_FEATURE_RED_ROSE_BUSH       :vörös rózsabokor
+STR_THOUGHT_FEATURE_GREEN_FLOWERBED     :zöld virágágyás
+STR_THOUGHT_FEATURE_YELLOW_DAISY_BED    :sárga margarétaágyás
+STR_THOUGHT_FEATURE_WHITE_CARNATION     :fehér szegfű
+STR_THOUGHT_FEATURE_MYSTERIOUS_BONES    :rejtélyes csontok
+STR_THOUGHT_FEATURE_ORNAMENTAL_GRASS    :díszfű
+STR_THOUGHT_FEATURE_ROCK_FORMATION      :sziklaalakzat
+STR_THOUGHT_FEATURE_SCENIC_TREE         :látványfa
+STR_THOUGHT_FEATURE_NATURAL_BRIDGE      :természetes híd
+STR_THOUGHT_FEATURE_ROSE_BUSH           :rózsabokor
+STR_THOUGHT_FEATURE_RHODODENDRON        :rododendron
+STR_THOUGHT_FEATURE_SCENIC_CACTUS       :látványkaktusz
+STR_THOUGHT_FEATURE_SCENIC_BRIDGE       :festői híd
+STR_THOUGHT_FEATURE_FOUNTAIN            :szökőkút
+STR_THOUGHT_FEATURE_WILDFLOWER          :vadvirág
 # Golfer thoughts by mood event (text routine 0x469b00). {PLACE} is one of the two place phrases, {TERRAIN} a terrain noun
-STR_THOUGHT_PLACE_UNDER                 :under the {TERRAIN}
-STR_THOUGHT_PLACE_IN                    :in the {TERRAIN}
-STR_THOUGHT_01_HOWD_YOU_LIKE            :How'd you like that shot, {PARTNER}?
-STR_THOUGHT_01_NOTHIN_BUT               :Oh yeah, nothin' but {TERRAIN}!
-STR_THOUGHT_01_SO_GOOD                  :Whoa, I am so GOOD!
-STR_THOUGHT_01_I_ROCK                   :Oh yeah, I rock!
-STR_THOUGHT_01_PARTNER_COULDNT          :{GOLFER}, I couldn't do it any better!
-STR_THOUGHT_01_PARTNER_SOOOO_GOOD       :{GOLFER}, you are soooo GOOD!
-STR_THOUGHT_01_PARTNER_GREAT_SHOT       :{GOLFER}, what a great shot!
-STR_THOUGHT_01_PARTNER_TRULY_ROCK       :{GOLFER}, you truly rock!
-STR_THOUGHT_02_HA_YOURE                 :Ha, {GOLFER}, you're {PLACE}!
-STR_THOUGHT_02_OH_DARN_YOURE            :Oh darn, you're {PLACE}{PET}!
-STR_THOUGHT_02_DARN_IM                  :Darn, I'm {PLACE}!
-STR_THOUGHT_03_EVEN_BETTER              :You look even better {PLACE}, {GOLFER}.
-STR_THOUGHT_03_NOW_YOURE                :Oh, {GOLFER}, now you're {PLACE}!
-STR_THOUGHT_03_PREFER_BEING             :You prefer being {PLACE}, do you?
-STR_THOUGHT_03_NOW_IM                   :{EXCLAMATION}, now I'm {PLACE}!
-STR_THOUGHT_03_EXCL_GREAT               :Great
-STR_THOUGHT_03_EXCL_OH_NO               :Oh no
-STR_THOUGHT_03_EXCL_SWELL               :Swell
-STR_THOUGHT_03_EXCL_LOVELY              :Lovely
-STR_THOUGHT_04_ONLY_YOU                 :Only you could miss this shot, {GOLFER}.
-STR_THOUGHT_04_PRETTY_EASY              :This shot looks pretty easy. Yawn.
-STR_THOUGHT_05_CAREFUL_OF               :Careful of the {TERRAIN}{PET}.
-STR_THOUGHT_05_SAY_HELLO                :Say hello to Mr. {TERRAIN} for me, {GOLFER}.
-STR_THOUGHT_05_GOING_INTO               :You're going into the {TERRAIN}, {GOLFER}.
-STR_THOUGHT_05_WATCH_OUT                :Watch out for the {TERRAIN}, {GOLFER}.
-STR_THOUGHT_05_STAY_AWAY                :Eeek, I gotta stay away from the {TERRAIN}.
-STR_THOUGHT_25_HIT_IT_PAST              :Eeek, I gotta hit it past the {TERRAIN}.
-STR_THOUGHT_26_WATCH_OUT_FOR            :Eeek, I gotta watch out for the {TERRAIN}.
-STR_THOUGHT_06_USE_THE_SLOPE            :I'll use the slope on this shot.
-STR_THOUGHT_07_RIDING_OVER_BRIDGE       :I love riding over this scenic bridge.
-STR_THOUGHT_07_WALKING_OVER_BRIDGE      :I love walking over this scenic bridge.
-STR_THOUGHT_08_WHO_DESIGNED             :Who designed this #@%&! course?
-STR_THOUGHT_09_ALMOST_HIT_ME            :Hey, that ball almost hit me!
+STR_THOUGHT_PLACE_UNDER                 :a {TERRAIN} alatt
+STR_THOUGHT_PLACE_IN                    :a {TERRAIN} területén
+STR_THOUGHT_01_HOWD_YOU_LIKE            :Hogy tetszett ez az ütés, {PARTNER}?
+STR_THOUGHT_01_NOTHIN_BUT               :Na, ez aztán telitalálat: egyenesen a {TERRAIN}!
+STR_THOUGHT_01_SO_GOOD                  :Hűha, egyszerűen FANTASZTIKUS vagyok!
+STR_THOUGHT_01_I_ROCK                   :Igen, ez az! Nagyon jó vagyok!
+STR_THOUGHT_01_PARTNER_COULDNT          :{GOLFER}, ennél jobban én sem tudtam volna megcsinálni!
+STR_THOUGHT_01_PARTNER_SOOOO_GOOD       :{GOLFER}, egyszerűen fantasztikus vagy!
+STR_THOUGHT_01_PARTNER_GREAT_SHOT       :{GOLFER}, micsoda nagyszerű ütés!
+STR_THOUGHT_01_PARTNER_TRULY_ROCK       :{GOLFER}, igazán remekül játszol!
+STR_THOUGHT_02_HA_YOURE                 :Haha, {GOLFER}, most aztán {PLACE} vagy!
+STR_THOUGHT_02_OH_DARN_YOURE            :A fenébe, {PLACE} vagy, {PET}!
+STR_THOUGHT_02_DARN_IM                  :A fenébe, {PLACE} vagyok!
+STR_THOUGHT_03_EVEN_BETTER              :Még jobban mutatsz {PLACE}, {GOLFER}.
+STR_THOUGHT_03_NOW_YOURE                :Nahát, {GOLFER}, most már {PLACE} vagy!
+STR_THOUGHT_03_PREFER_BEING             :Jobban szeretsz {PLACE} lenni, mi?
+STR_THOUGHT_03_NOW_IM                   :{EXCLAMATION}, most már {PLACE} vagyok!
+STR_THOUGHT_03_EXCL_GREAT               :Remek
+STR_THOUGHT_03_EXCL_OH_NO               :Jaj, ne
+STR_THOUGHT_03_EXCL_SWELL               :Nagyszerű
+STR_THOUGHT_03_EXCL_LOVELY              :Csodás
+STR_THOUGHT_04_ONLY_YOU                 :Ezt az ütést csak te tudtad volna elrontani, {GOLFER}.
+STR_THOUGHT_04_PRETTY_EASY              :Ez az ütés elég könnyűnek tűnik. Unalmas.
+STR_THOUGHT_05_CAREFUL_OF               :Vigyázz a {TERRAIN}{PET}!
+STR_THOUGHT_05_SAY_HELLO                :Üdvözöld a nevemben a {TERRAIN} urat, {GOLFER}!
+STR_THOUGHT_05_GOING_INTO               :Egyenesen a {TERRAIN} felé tartasz, {GOLFER}.
+STR_THOUGHT_05_WATCH_OUT                :Vigyázz a {TERRAIN} miatt, {GOLFER}!
+STR_THOUGHT_05_STAY_AWAY                :Jaj, távol kell maradnom a {TERRAIN} területétől.
+STR_THOUGHT_25_HIT_IT_PAST              :Jaj, túl kell ütnöm a {TERRAIN} területén.
+STR_THOUGHT_26_WATCH_OUT_FOR            :Jaj, nagyon kell vigyáznom a {TERRAIN} területére.
+STR_THOUGHT_06_USE_THE_SLOPE            :Ennél az ütésnél kihasználom a lejtőt.
+STR_THOUGHT_07_RIDING_OVER_BRIDGE       :Imádok átgurulni ezen a festői hídon.
+STR_THOUGHT_07_WALKING_OVER_BRIDGE      :Imádok átsétálni ezen a festői hídon.
+STR_THOUGHT_08_WHO_DESIGNED             :Ki tervezte ezt a #@%&! pályát?
+STR_THOUGHT_09_ALMOST_HIT_ME            :Hé, ez a labda majdnem eltalált!
 # {THIS} is "these" for a plural terrain name, else "this"
-STR_THOUGHT_0A_THESE                    :these
-STR_THOUGHT_0A_THIS                     :this
-STR_THOUGHT_0A_MUST_I_WALK              :Must I walk through {THIS} {TERRAIN}?
+STR_THOUGHT_0A_THESE                    :ezeken a
+STR_THOUGHT_0A_THIS                     :ezen a
+STR_THOUGHT_0A_MUST_I_WALK              :Muszáj átsétálnom {THIS} {TERRAIN} területen?
 # {ADJ} is "nice" or "beautiful"
-STR_THOUGHT_0B_NICE                     :nice
-STR_THOUGHT_0B_BEAUTIFUL                :beautiful
-STR_THOUGHT_0B_LOOK_AT_THIS             :Look at this {ADJ} {WHAT}{PET}.
-STR_THOUGHT_0B_CHECK_OUT                :Check out this {ADJ} {WHAT}!
-STR_THOUGHT_0C_DARN_THAT                :Darn that stupid {TERRAIN}!
-STR_THOUGHT_0D_HEAR_A_SPLASH            :Did I hear a splash, {GOLFER}?
-STR_THOUGHT_0D_DROWNED_IT               :Argh, I drowned it!
-STR_THOUGHT_0D_SWIM                     :Did my ball go for a swim?
-STR_THOUGHT_0D_IN_THE_DRINK             :Nooooo, I'm in the drink!
-STR_THOUGHT_0E_THIRSTY                  :I'm getting a little thirsty.
-STR_THOUGHT_0F_HUNGRY                   :I'm starting to get hungry.
-STR_THOUGHT_10_HOOKED                   :Gosh, I kinda hooked that shot.
-STR_THOUGHT_11_SLICED                   :Oops, I really sliced that shot.
-STR_THOUGHT_12_GOOD_SNACK               :There's nothing like a good snack on the course.
+STR_THOUGHT_0B_NICE                     :szép
+STR_THOUGHT_0B_BEAUTIFUL                :gyönyörű
+STR_THOUGHT_0B_LOOK_AT_THIS             :Nézd csak ezt a {ADJ} {WHAT}-t{PET}!
+STR_THOUGHT_0B_CHECK_OUT                :Nézd ezt a {ADJ} {WHAT}-t!
+STR_THOUGHT_0C_DARN_THAT                :A fenébe ezzel az átkozott {TERRAIN}nel!
+STR_THOUGHT_0D_HEAR_A_SPLASH            :Hallottam egy csobbanást, {GOLFER}?
+STR_THOUGHT_0D_DROWNED_IT               :Ááá, vízbe fullasztottam a labdát!
+STR_THOUGHT_0D_SWIM                     :Csak nem úszni ment a labdám?
+STR_THOUGHT_0D_IN_THE_DRINK             :Neeee, a vízbe került!
+STR_THOUGHT_0E_THIRSTY                  :Kezdek egy kicsit megszomjazni.
+STR_THOUGHT_0F_HUNGRY                   :Kezdek megéhezni.
+STR_THOUGHT_10_HOOKED                   :Az ég szerelmére, eléggé behúztam ezt az ütést.
+STR_THOUGHT_11_SLICED                   :Hoppá, nagyon elhúztam ezt az ütést jobbra.
+STR_THOUGHT_12_GOOD_SNACK               :Nincs is jobb egy finom harapnivalónál a golfpályán.
 # The end of a hole: the score word, then a remark ({SCORE} {REMARK})
 STR_THOUGHT_SCORE_TRIPLE_EAGLE          :Triple Eagle!
 STR_THOUGHT_SCORE_DOUBLE_EAGLE          :Double Eagle!
@@ -516,178 +516,178 @@ STR_THOUGHT_SCORE_PAR                   :Par.
 STR_THOUGHT_SCORE_BOGEY                 :Bogey.
 STR_THOUGHT_SCORE_DOUBLE_BOGEY          :Double Bogey.
 STR_THOUGHT_SCORE_TRIPLE_BOGEY          :Triple Bogey.
-STR_THOUGHT_SCORE_ARGGG                 :Arggg!
-STR_THOUGHT_13_TOO_HARD                 :This hole is too hard.
-STR_THOUGHT_13_TOO_EASY                 :This hole is too easy.
-STR_THOUGHT_17_TOO_HARD_EASY            :This hole is too hard/easy.
-STR_THOUGHT_13_LENGTH_HELPS             :My length skill helps on this hole.
-STR_THOUGHT_13_REWARDS_ACCURACY         :This hole rewards my accuracy.
-STR_THOUGHT_13_IMAGINATIVE              :I had to use some imaginative shots here.
-STR_THOUGHT_13_TAKE_THAT                :take that, loser!
-STR_THOUGHT_13_YOU_WERE_LUCKY           :you were lucky on this hole.
+STR_THOUGHT_SCORE_ARGGG                 :Áááá!
+STR_THOUGHT_13_TOO_HARD                 :Ez a szakasz túl nehéz.
+STR_THOUGHT_13_TOO_EASY                 :Ez a szakasz túl könnyű.
+STR_THOUGHT_17_TOO_HARD_EASY            :Ez a szakasz túl nehéz/könnyű.
+STR_THOUGHT_13_LENGTH_HELPS             :Ezen a szakaszon jól jön az ütőtávolságom.
+STR_THOUGHT_13_REWARDS_ACCURACY         :Ez a szakasz a pontosságomat jutalmazza.
+STR_THOUGHT_13_IMAGINATIVE              :Itt igazán kreatív ütéseket kellett végrehajtanom.
+STR_THOUGHT_13_TAKE_THAT                :Na, ezt kapd ki, vesztes!
+STR_THOUGHT_13_YOU_WERE_LUCKY           :Nagy szerencséd volt ezen a szakaszon.
 STR_THOUGHT_13_HOLE_DONE                :{SCORE} {REMARK}
-STR_THOUGHT_14_UGLY                     :Gee, what an ugly {WHAT}.
-STR_THOUGHT_15_SLOWPOKES                :I'm tired of waiting for these slowpokes.
-STR_THOUGHT_16_A_MOVIE_STAR             :a movie star
-STR_THOUGHT_16_THATS_HOUSE              :Hey, that's {CELEBRITY}'s house!
-STR_THOUGHT_18_SOMETHING_GROWING        :Yuck, there's something growing here that shouldn't be.
-STR_THOUGHT_19_FOAMY_BEVERAGE           :Ahhh, a cool foamy beverage.
-STR_THOUGHT_1A_YOU_LOOK_TIRED_PET       :You look a bit tired{PET}.
-STR_THOUGHT_1A_YOU_LOOK_TIRED           :You look a bit tired, {GOLFER}.
-STR_THOUGHT_1A_GETTING_TIRED            :I'm starting to get tired.
-STR_THOUGHT_1B_COMFORTABLE_BENCH        :This bench is so comfortable.
-STR_THOUGHT_1C_LOVELY_PET               :Look at that lovely {WHAT}{PET}.
-STR_THOUGHT_1C_LOVELY_PARTNER           :Look at that lovely {WHAT}, {PARTNER}.
-STR_THOUGHT_1C_MY_LOVELY                :My, that's a lovely {WHAT}.
-STR_THOUGHT_1C_WHAT_A_NICE              :Oh, what a nice {WHAT}!
-STR_THOUGHT_1C_LIKING                   :I am liking that {WHAT}.
-STR_THOUGHT_1C_COOL                     :Gee, that's a cool {WHAT}!
-STR_THOUGHT_1D_VARIETY                  :I like the variety on this course.
-STR_THOUGHT_1E_DOGLEG_LEFT              :Great, another dogleg left.
-STR_THOUGHT_1E_DOGLEG_RIGHT             :Yawn, another dogleg right.
-STR_THOUGHT_1E_ANOTHER_PAR              :Wow, yet another par {PAR}.
-STR_THOUGHT_1E_LIKE_THE_LAST            :This hole is like the last hole.
-STR_THOUGHT_1F_NEVER_SEEN               :I've never seen such {TERRAIN}!
-STR_THOUGHT_1F_TON_OF                   :I see a ton of {TERRAIN}.
-STR_THOUGHT_1F_LOOK_AT_ALL              :Look at all the {TERRAIN}!
-STR_THOUGHT_1F_ANY_MORE                 :Could there be any more {TERRAIN}?
-STR_THOUGHT_20_LONG_OR_SAFE             :Should I go long or play it safe?
-STR_THOUGHT_21_LEFT_OR_RIGHT            :Hmmm, should I go left or right?
-STR_THOUGHT_22_THANKS_FOR_ASKING        :Great, thanks for asking!
-STR_THOUGHT_22_THANKS_FOR_NOTICING      :Good, thanks for noticing.
-STR_THOUGHT_22_ENCOURAGEMENT            :Thanks for the encouragement.
-STR_THOUGHT_3A_TRYING_TO_PLAY           :Hey, I'm trying to play golf here!
-STR_THOUGHT_3A_FINE_THANKS              :Ummm, fine thanks.
-STR_THOUGHT_3A_LOUSY                    :Lousy, now that you mention it.
-STR_THOUGHT_23_NEVER_AGAIN              :I will never play this game again!
-STR_THOUGHT_23_HATE_MY_CLUBS            :I hate my clubs, I hate my hat, I hate this course!
-STR_THOUGHT_23_SCREAM                   :I am so mad I could just scream!
-STR_THOUGHT_23_PIECE_OF_ME              :Come on, you want a piece of me?
-STR_THOUGHT_24_GUY_CRAZY                :That guy's gone crazy.
-STR_THOUGHT_24_SHE_FLIPPED              :Whoa, she's flipped out.
-STR_THOUGHT_27_CRITTER                  :critter
-STR_THOUGHT_27_SCARED                   :I guess I scared that little {ANIMAL}.
-STR_THOUGHT_27_FRIGHTENED               :I think I frightened that poor {ANIMAL}.
-STR_THOUGHT_28_OH_MAMA                  :Oh mama!
-STR_THOUGHT_28_OHH_BABY                 :Ohh baby!
-STR_THOUGHT_28_YES                      :Yes!
-STR_THOUGHT_28_GADZOOKS                 :Gadzooks!
-STR_THOUGHT_28_OH_YEAH                  :Oh yeah!
-STR_THOUGHT_28_SMOKER                   :A smoker!
-STR_THOUGHT_28_SCREAMER                 :A screamer!
-STR_THOUGHT_28_NAILED_IT                :Nailed it!
-STR_THOUGHT_29_CLEAN_AND_SHINY          :Clean and shiny.
-STR_THOUGHT_29_HIT_IT_STRAIGHT          :Now I'll hit it straight.
-STR_THOUGHT_2A_LUCKY_BOUNCE             :Lucky bounce, {GOLFER}!
-STR_THOUGHT_2B_STEEP_SLOPE              :Must I walk up this steep slope?
-STR_THOUGHT_2C_NICE_LANDMARK            :Never mind... nice landmark, though.
-STR_THOUGHT_2D_UPHILL                   :Hmmm, a tricky uphill shot.
-STR_THOUGHT_2E_DOWNHILL                 :OK, a nice downhill shot.
-STR_THOUGHT_2F_ATTITUDE                 :{PARTNER}, your attitude stinks.
-STR_THOUGHT_2F_STOP_WHINING             :Stop whining and play, {PARTNER}.
-STR_THOUGHT_2F_TALK_TO_THE_HAND         :Talk to the hand, {PARTNER}.
-STR_THOUGHT_2F_CONCENTRATING            :Quiet, {PARTNER}, I'm concentrating.
-STR_THOUGHT_30_WHAT_DO_YOU_DO           :So what do you do, {PARTNER}?
-STR_THOUGHT_31_THIS_AND_THAT            :Oh, this and that.
-STR_THOUGHT_31_IM_A                     :I'm a {JOB}.
+STR_THOUGHT_14_UGLY                     :Hű, milyen csúnya {WHAT}!
+STR_THOUGHT_15_SLOWPOKES                :Elegem van abból, hogy ezekre a lassú golfozókra kell várnom.
+STR_THOUGHT_16_A_MOVIE_STAR             :egy filmsztár
+STR_THOUGHT_16_THATS_HOUSE              :Hé, ez {CELEBRITY} háza!
+STR_THOUGHT_18_SOMETHING_GROWING        :Fúj, valami olyasmi nő itt, aminek nem kellene.
+STR_THOUGHT_19_FOAMY_BEVERAGE           :Ááá, egy kellemesen hűsítő, habos ital.
+STR_THOUGHT_1A_YOU_LOOK_TIRED_PET       :Kicsit fáradtnak tűnsz{PET}.
+STR_THOUGHT_1A_YOU_LOOK_TIRED           :Kicsit fáradtnak tűnsz, {GOLFER}.
+STR_THOUGHT_1A_GETTING_TIRED            :Kezdek elfáradni.
+STR_THOUGHT_1B_COMFORTABLE_BENCH        :Milyen kényelmes ez a pad!
+STR_THOUGHT_1C_LOVELY_PET               :Nézd azt a csodás {WHAT}-t{PET}!
+STR_THOUGHT_1C_LOVELY_PARTNER           :Nézd azt a csodás {WHAT}-t, {PARTNER}!
+STR_THOUGHT_1C_MY_LOVELY                :Nahát, milyen csodás {WHAT}!
+STR_THOUGHT_1C_WHAT_A_NICE              :Hű, milyen szép {WHAT}!
+STR_THOUGHT_1C_LIKING                   :Kifejezetten tetszik ez a {WHAT}.
+STR_THOUGHT_1C_COOL                     :Hű, ez aztán klassz {WHAT}!
+STR_THOUGHT_1D_VARIETY                  :Tetszik, hogy ilyen változatos ez a pálya.
+STR_THOUGHT_1E_DOGLEG_LEFT              :Remek, még egy balra kanyarodó szakasz.
+STR_THOUGHT_1E_DOGLEG_RIGHT             :Pompás, még egy jobbra kanyarodó szakasz.
+STR_THOUGHT_1E_ANOTHER_PAR              :Nahát, már megint egy par {PAR} szakasz.
+STR_THOUGHT_1E_LIKE_THE_LAST            :Ez a szakasz ugyanolyan, mint az előző.
+STR_THOUGHT_1F_NEVER_SEEN               :Még soha nem láttam ennyi {TERRAIN}t!
+STR_THOUGHT_1F_TON_OF                   :Rengeteg {TERRAIN} van itt.
+STR_THOUGHT_1F_LOOK_AT_ALL              :Nézd, mennyi {TERRAIN}!
+STR_THOUGHT_1F_ANY_MORE                 :Vajon lehet még ennél is több {TERRAIN}?
+STR_THOUGHT_20_LONG_OR_SAFE             :Üssek messzire, vagy inkább játsszak biztonságosan?
+STR_THOUGHT_21_LEFT_OR_RIGHT            :Hmm, balra vagy jobbra üssek?
+STR_THOUGHT_22_THANKS_FOR_ASKING        :Remek, kösz, hogy megkérdezted!
+STR_THOUGHT_22_THANKS_FOR_NOTICING      :Jó, hogy észrevetted.
+STR_THOUGHT_22_ENCOURAGEMENT            :Köszönöm a biztatást.
+STR_THOUGHT_3A_TRYING_TO_PLAY           :Hé, éppen golfozni próbálok!
+STR_THOUGHT_3A_FINE_THANKS              :Ööö, jól vagyok, köszönöm.
+STR_THOUGHT_3A_LOUSY                    :Pocsékul, ha már kérdezed.
+STR_THOUGHT_23_NEVER_AGAIN              :Soha többé nem játszom ezt a játékot!
+STR_THOUGHT_23_HATE_MY_CLUBS            :Utálom az ütőimet, utálom a sapkámat, és utálom ezt a pályát!
+STR_THOUGHT_23_SCREAM                   :Annyira dühös vagyok, hogy legszívesebben sikítanék!
+STR_THOUGHT_23_PIECE_OF_ME              :Na, gyere csak, ki akarsz kezdeni velem?
+STR_THOUGHT_24_GUY_CRAZY                :Ez az alak teljesen megőrült.
+STR_THOUGHT_24_SHE_FLIPPED              :Hűha, teljesen kiborult.
+STR_THOUGHT_27_CRITTER                  :kis állat
+STR_THOUGHT_27_SCARED                   :Azt hiszem, megijesztettem azt a kis {ANIMAL}t.
+STR_THOUGHT_27_FRIGHTENED               :Szerintem halálra rémítettem azt a szegény {ANIMAL}t.
+STR_THOUGHT_28_OH_MAMA                  :Anyám!
+STR_THOUGHT_28_OHH_BABY                 :Hűha, ez az!
+STR_THOUGHT_28_YES                      :Igen!
+STR_THOUGHT_28_GADZOOKS                 :A mindenit!
+STR_THOUGHT_28_OH_YEAH                  :Ó, igen!
+STR_THOUGHT_28_SMOKER                   :Ez aztán nagy ütés!
+STR_THOUGHT_28_SCREAMER                 :Micsoda bombaütés!
+STR_THOUGHT_28_NAILED_IT                :Tökéletes!
+STR_THOUGHT_29_CLEAN_AND_SHINY          :Tiszta és ragyogó.
+STR_THOUGHT_29_HIT_IT_STRAIGHT          :Most egyenesen fogom megütni.
+STR_THOUGHT_2A_LUCKY_BOUNCE             :Szerencsés pattanás volt, {GOLFER}!
+STR_THOUGHT_2B_STEEP_SLOPE              :Muszáj felmennem ezen a meredek emelkedőn?
+STR_THOUGHT_2C_NICE_LANDMARK            :Mindegy... azért szép ez a nevezetesség.
+STR_THOUGHT_2D_UPHILL                   :Hmm, ez egy trükkös emelkedő ütés lesz.
+STR_THOUGHT_2E_DOWNHILL                 :Rendben, ez egy kellemes lejtős ütés lesz.
+STR_THOUGHT_2F_ATTITUDE                 :{PARTNER}, pocsék a hozzáállásod.
+STR_THOUGHT_2F_STOP_WHINING             :Hagyd abba a panaszkodást, és játssz, {PARTNER}.
+STR_THOUGHT_2F_TALK_TO_THE_HAND         :Beszélj inkább a kezemmel, {PARTNER}.
+STR_THOUGHT_2F_CONCENTRATING            :Csendet, {PARTNER}, koncentrálok.
+STR_THOUGHT_30_WHAT_DO_YOU_DO           :És te mivel foglalkozol, {PARTNER}?
+STR_THOUGHT_31_THIS_AND_THAT            :Á, ezzel-azzal.
+STR_THOUGHT_31_IM_A                     :{JOB} vagyok.
 # Building remarks: "{FIRST}..." then "...{SECOND}"
-STR_THOUGHT_33_HELPED_DISTANCE          :really helped my distance.
-STR_THOUGHT_34_IMPROVED_ACCURACY        :really improved my accuracy.
-STR_THOUGHT_35_IMPROVED_PUTTING         :really improved my putting.
-STR_THOUGHT_33_DRIVING_RANGE            :driving range
-STR_THOUGHT_34_PRO_SHOP                 :pro shop
-STR_THOUGHT_35_PUTTING_GREEN            :putting green
-STR_THOUGHT_33_NEW_HAS                  :This new {BUILDING} has
-STR_THOUGHT_33_UPGRADED_HAS             :This upgraded {BUILDING} has
-STR_THOUGHT_33_DELUXE_HAS               :Our deluxe {BUILDING} has
+STR_THOUGHT_33_HELPED_DISTANCE          :sokat javított az ütéseim távolságán.
+STR_THOUGHT_34_IMPROVED_ACCURACY        :sokat javított a pontosságomon.
+STR_THOUGHT_35_IMPROVED_PUTTING         :sokat javított a gurításaimon.
+STR_THOUGHT_33_DRIVING_RANGE            :gyakorlópálya
+STR_THOUGHT_34_PRO_SHOP                 :golfbolt
+STR_THOUGHT_35_PUTTING_GREEN            :gyakorló green
+STR_THOUGHT_33_NEW_HAS                  :Ez az új {BUILDING}
+STR_THOUGHT_33_UPGRADED_HAS             :Ez a továbbfejlesztett {BUILDING}
+STR_THOUGHT_33_DELUXE_HAS               :A luxuskivitelű {BUILDING}
 STR_THOUGHT_33_SECOND                   :...{SECOND}
 STR_THOUGHT_33_FIRST                    :{FIRST}...
-STR_THOUGHT_36_USE_MY_CLUB              :I'll use my {CLUB} for this shot.
-STR_THOUGHT_37_DRAW                     :I'll draw this shot from right to left.
-STR_THOUGHT_38_FADE                     :I'll fade this shot from left to right.
-STR_THOUGHT_39_HIGH_AND_SOFT            :I'll bring this ball in high and soft.
-STR_THOUGHT_3C_LOW_UNDER                :I'll run this ball low under the {TERRAIN}.
-STR_THOUGHT_3C_LOW                      :I'll run this ball low.
-STR_THOUGHT_3B_LAST_TIME                :I had a {SCORE} on this hole last time.
-STR_THOUGHT_3B_TOP_18                   :This hole is rated in the top 18 in the country.
-STR_THOUGHT_3B_TOP_100                  :You know, {PARTNER}, hole {HOLE} is a top 100 hole.
-STR_THOUGHT_3B_ALWAYS_LIKED             :I've always liked this hole.
-STR_THOUGHT_3D_HOW_ARE_YOU              :How are you today, {PARTNER}?
-STR_THOUGHT_3D_FINE                     :Fine.
-STR_THOUGHT_3D_NEW_CLUBS                :Are those new clubs?
-STR_THOUGHT_3D_BROTHER_IN_LAW           :They belong to my brother-in-law.
-STR_THOUGHT_3D_GREAT_DAY                :Looks like a great day for golf.
-STR_THOUGHT_3D_SURE_DOES                :Sure does.
-STR_THOUGHT_3D_BIRDS_SINGING            :Listen to those birds singing.
-STR_THOUGHT_3D_ANY_BETTER               :It doesn't get any better than this.
-STR_THOUGHT_3D_PREPARE_AMAZED           :Prepare to be amazed.
-STR_THOUGHT_3D_MAGIC_TIME               :It's magic time.
-STR_THOUGHT_3D_TEE_OFF_FIRST            :Shall I tee off first?
-STR_THOUGHT_3D_DONT_CARE                :I don't care.
-STR_THOUGHT_3F_A_GAME                   :I brought my A game today.
-STR_THOUGHT_3F_TROPHY_NOW               :Might as well just give me the trophy now.
-STR_THOUGHT_3F_CADDIE                   :I hope my caddie counted my clubs.
-STR_THOUGHT_3F_LOSERS_GO_HOME           :You losers might as well go home now.
-STR_THOUGHT_3F_GOOD_TO_BE_BACK          :It's good to be back on the course.
-STR_THOUGHT_3F_GREAT_TOURNAMENT         :Wasn't that a great tournament, {PARTNER}?
-STR_THOUGHT_3F_TICKETS                  :I've already got tickets for the next one.
-STR_THOUGHT_3F_COULD_HAVE_WON           :I think I could have won that tournament.
-STR_THOUGHT_41_DIDNT_SEE                :I didn't see where that shot landed.
+STR_THOUGHT_36_USE_MY_CLUB              :Ehhez az ütéshez a {CLUB} ütőmet fogom használni.
+STR_THOUGHT_37_DRAW                     :Ezt az ütést jobbról balra ívelem.
+STR_THOUGHT_38_FADE                     :Ezt az ütést balról jobbra ívelem.
+STR_THOUGHT_39_HIGH_AND_SOFT            :Magas ívben, lágyan fogom a greenre ütni a labdát.
+STR_THOUGHT_3C_LOW_UNDER                :Alacsonyan, a {TERRAIN} alatt fogom elütni a labdát.
+STR_THOUGHT_3C_LOW                      :Alacsonyan fogom elütni a labdát.
+STR_THOUGHT_3B_LAST_TIME                :Legutóbb {SCORE} eredményt értem el ezen a szakaszon.
+STR_THOUGHT_3B_TOP_18                   :Ez a szakasz az ország 18 legjobbja közé tartozik.
+STR_THOUGHT_3B_TOP_100                  :Tudod, {PARTNER}, a {HOLE}. szakasz a 100 legjobb között van.
+STR_THOUGHT_3B_ALWAYS_LIKED             :Mindig is szerettem ezt a szakaszt.
+STR_THOUGHT_3D_HOW_ARE_YOU              :Hogy vagy ma, {PARTNER}?
+STR_THOUGHT_3D_FINE                     :Jól.
+STR_THOUGHT_3D_NEW_CLUBS                :Újak ezek az ütők?
+STR_THOUGHT_3D_BROTHER_IN_LAW           :A sógoromé.
+STR_THOUGHT_3D_GREAT_DAY                :Nagyszerű nap a golfozáshoz.
+STR_THOUGHT_3D_SURE_DOES                :Az bizony.
+STR_THOUGHT_3D_BIRDS_SINGING            :Hallgasd, milyen szépen énekelnek a madarak.
+STR_THOUGHT_3D_ANY_BETTER               :Ennél már nem is lehetne jobb.
+STR_THOUGHT_3D_PREPARE_AMAZED           :Készülj a nagy meglepetésre!
+STR_THOUGHT_3D_MAGIC_TIME               :Most jön a varázslat!
+STR_THOUGHT_3D_TEE_OFF_FIRST            :Én üssek el először?
+STR_THOUGHT_3D_DONT_CARE                :Nekem mindegy.
+STR_THOUGHT_3F_A_GAME                   :Ma a legjobb formámat hoztam.
+STR_THOUGHT_3F_TROPHY_NOW               :Akár most ideadhatnátok a trófeát.
+STR_THOUGHT_3F_CADDIE                   :Remélem, a caddie-m megszámolta az ütőimet.
+STR_THOUGHT_3F_LOSERS_GO_HOME           :Ti vesztesek akár haza is mehettek.
+STR_THOUGHT_3F_GOOD_TO_BE_BACK          :Jó újra a pályán lenni.
+STR_THOUGHT_3F_GREAT_TOURNAMENT         :Micsoda nagyszerű verseny volt, {PARTNER}!
+STR_THOUGHT_3F_TICKETS                  :A következőre már megvannak a jegyeim.
+STR_THOUGHT_3F_COULD_HAVE_WON           :Szerintem megnyerhettem volna azt a versenyt.
+STR_THOUGHT_41_DIDNT_SEE                :Nem láttam, hová érkezett az ütés.
 # The course opinion at the end of a hole (0x469a20), by mood
-STR_THOUGHT_OPINION_0                   :I hate this stupid course.
-STR_THOUGHT_OPINION_1                   :I don't like this course much.
-STR_THOUGHT_OPINION_2                   :I'm not having much fun today.
-STR_THOUGHT_OPINION_3                   :This course is almost adequate.
-STR_THOUGHT_OPINION_4                   :Well, I guess this course is OK.
-STR_THOUGHT_OPINION_5                   :This course is quite nice.
-STR_THOUGHT_OPINION_6                   :This is a really good course.
-STR_THOUGHT_OPINION_6_SURPRISING        :This is a really surprising course.
-STR_THOUGHT_OPINION_7                   :This course is excellent!
-STR_THOUGHT_OPINION_7_FASCINATING       :This course is fascinating.
-STR_THOUGHT_OPINION_8                   :This is the best course I've ever played!
-STR_THOUGHT_OPINION_8_INTERESTING       :yet this is a most interesting course.
-STR_THOUGHT_OPINION_LEAVING             :I hate this course. I'm leaving.
+STR_THOUGHT_OPINION_0                   :Utálom ezt az átkozott pályát.
+STR_THOUGHT_OPINION_1                   :Nem igazán tetszik ez a pálya.
+STR_THOUGHT_OPINION_2                   :Ma nem szórakozom túl jól.
+STR_THOUGHT_OPINION_3                   :Ez a pálya éppen csak elfogadható.
+STR_THOUGHT_OPINION_4                   :Hát, azt hiszem, ez a pálya megteszi.
+STR_THOUGHT_OPINION_5                   :Egészen kellemes ez a pálya.
+STR_THOUGHT_OPINION_6                   :Ez egy igazán jó pálya.
+STR_THOUGHT_OPINION_6_SURPRISING        :Ez a pálya igazán meglepő.
+STR_THOUGHT_OPINION_7                   :Ez a pálya kiváló!
+STR_THOUGHT_OPINION_7_FASCINATING       :Ez a pálya lenyűgöző.
+STR_THOUGHT_OPINION_8                   :Ez a legjobb pálya, amin valaha játszottam!
+STR_THOUGHT_OPINION_8_INTERESTING       :mégis rendkívül érdekes ez a pálya.
+STR_THOUGHT_OPINION_LEAVING             :Utálom ezt a pályát. Elmegyek!
 
 # Stock heads' signature sayings (table 0x4d55e8 +4, event 0x3e): men's heads 0..18, then women's; PARTNER is replaced by
 # the partner's name
-STR_SIGNATURE_MAN_0                     :Praise the Lord for this fabulous day.
-STR_SIGNATURE_MAN_1                     :Dig my groovy head covers, PARTNER.
-STR_SIGNATURE_MAN_2                     :PARTNER, wouldn't you love a new set of encyclopedias?
-STR_SIGNATURE_MAN_3                     :PARTNER, do you hear an ambulance?
-STR_SIGNATURE_MAN_4                     :Surf's up, dude.
-STR_SIGNATURE_MAN_5                     :Someday this will all be mine.
-STR_SIGNATURE_MAN_6                     :I should be studying for finals.
-STR_SIGNATURE_MAN_7                     :A couple of aspirin will take care of that.
-STR_SIGNATURE_MAN_8                     :PARTNER, keep your head down - swing easy.
-STR_SIGNATURE_MAN_9                     :I'm in the mood for a hostile takeover.
-STR_SIGNATURE_MAN_10                    :Did you know those mushrooms are edible?
-STR_SIGNATURE_MAN_11                    :PARTNER, guess how much I'm worth.
-STR_SIGNATURE_MAN_12                    :I'm in the groove. C'mon let's move.
-STR_SIGNATURE_MAN_13                    :Golf is cool, you know.
-STR_SIGNATURE_MAN_14                    :PARTNER, you appear to have some envy issues.
-STR_SIGNATURE_MAN_15                    :This course may require further study.
-STR_SIGNATURE_MAN_16                    :Get in touch with your inner swing plane.
-STR_SIGNATURE_MAN_17                    :PARTNER, just grip it and rip it man.
-STR_SIGNATURE_MAN_18                    :Look at all shades of green.
-STR_SIGNATURE_WOMAN_0                   :One, two, three, SWING!
-STR_SIGNATURE_WOMAN_1                   :This is my good side.
-STR_SIGNATURE_WOMAN_2                   :Could I be more perky?
-STR_SIGNATURE_WOMAN_3                   :Where does it hurt, PARTNER?
-STR_SIGNATURE_WOMAN_4                   :You say hello, I say bub bye
-STR_SIGNATURE_WOMAN_5                   :...and I'm working on my tan.
-STR_SIGNATURE_WOMAN_6                   :Memo to self: stay in control.
-STR_SIGNATURE_WOMAN_7                   :This just in: Yippee! Film at 11.
-STR_SIGNATURE_WOMAN_8                   :YOU CALL THAT A SWING, MAGGOT!
-STR_SIGNATURE_WOMAN_9                   :Now Bobby Jones, HE was a golfer.
-STR_SIGNATURE_WOMAN_10                  :I give myself two thumbs up!
-STR_SIGNATURE_WOMAN_11                  :PARTNER, do you like brownies?
-STR_SIGNATURE_WOMAN_12                  :Ouch, I hurt my typing finger.
-STR_SIGNATURE_WOMAN_13                  :So far, I give myself a B+.
-STR_SIGNATURE_WOMAN_14                  :PARTNER, I'm gonna request a mistrial.
-STR_SIGNATURE_WOMAN_15                  :And my hair still looks fabulous.
-STR_SIGNATURE_WOMAN_16                  :I just about got this game figured out.
-STR_SIGNATURE_WOMAN_17                  :I give that shot a perfect 10.
-STR_SIGNATURE_WOMAN_18                  :This course is a masterpiece.
+STR_SIGNATURE_MAN_0                     :Hála az égnek ezért a csodás napért.
+STR_SIGNATURE_MAN_1                     :Nézd csak a menő ütőfejvédőimet, PARTNER!
+STR_SIGNATURE_MAN_2                     :PARTNER, nem örülnél egy új enciklopédia-sorozatnak?
+STR_SIGNATURE_MAN_3                     :PARTNER, hallod a mentőautót?
+STR_SIGNATURE_MAN_4                     :Kezdődik a szörfözés, haver!
+STR_SIGNATURE_MAN_5                     :Egyszer még minden az enyém lesz.
+STR_SIGNATURE_MAN_6                     :Inkább a vizsgáimra kellene tanulnom.
+STR_SIGNATURE_MAN_7                     :Pár aszpirin majd megoldja.
+STR_SIGNATURE_MAN_8                     :PARTNER, tartsd lent a fejed, és lazán lendíts!
+STR_SIGNATURE_MAN_9                     :Most éppen egy ellenséges felvásárláshoz lenne kedvem.
+STR_SIGNATURE_MAN_10                    :Tudtad, hogy ezek a gombák ehetők?
+STR_SIGNATURE_MAN_11                    :PARTNER, találd ki, mennyit érek!
+STR_SIGNATURE_MAN_12                    :Benne vagyok a ritmusban. Gyerünk, induljunk!
+STR_SIGNATURE_MAN_13                    :A golf klassz dolog, tudod.
+STR_SIGNATURE_MAN_14                    :PARTNER, úgy tűnik, van egy kis irigységi problémád.
+STR_SIGNATURE_MAN_15                    :Ezt a pályát még alaposabban tanulmányoznunk kell.
+STR_SIGNATURE_MAN_16                    :Találd meg magadban a természetes lendítési síkot!
+STR_SIGNATURE_MAN_17                    :PARTNER, csak fogd meg és üsd el, haver!
+STR_SIGNATURE_MAN_18                    :Nézd csak ezt a sokféle zöld árnyalatot!
+STR_SIGNATURE_WOMAN_0                   :Egy, kettő, három, LENDÍTS!
+STR_SIGNATURE_WOMAN_1                   :Ez az előnyösebb oldalam.
+STR_SIGNATURE_WOMAN_2                   :Lehetnék ennél is energikusabb?
+STR_SIGNATURE_WOMAN_3                   :Hol fáj, PARTNER?
+STR_SIGNATURE_WOMAN_4                   :Te azt mondod, helló, én azt, hogy csá!
+STR_SIGNATURE_WOMAN_5                   :...és közben a barnulásomon dolgozom.
+STR_SIGNATURE_WOMAN_6                   :Emlékeztető magamnak: maradj ura a helyzetnek.
+STR_SIGNATURE_WOMAN_7                   :Friss hír: hurrá! A részletek 11-kor.
+STR_SIGNATURE_WOMAN_8                   :EZT NEVEZED LENDÍTÉSNEK, TE FÉREG?!
+STR_SIGNATURE_WOMAN_9                   :Na, Bobby Jones, ő aztán igazi golfozó volt.
+STR_SIGNATURE_WOMAN_10                  :Két hüvelykujjal értékelem magam!
+STR_SIGNATURE_WOMAN_11                  :PARTNER, szereted a brownie-t?
+STR_SIGNATURE_WOMAN_12                  :Jaj, megsértettem a gépelő ujjam.
+STR_SIGNATURE_WOMAN_13                  :Eddig B+-ra értékelem magam.
+STR_SIGNATURE_WOMAN_14                  :PARTNER, azt hiszem, új tárgyalást fogok kérni.
+STR_SIGNATURE_WOMAN_15                  :És a hajam még mindig fantasztikusan néz ki.
+STR_SIGNATURE_WOMAN_16                  :Már majdnem rájöttem, hogyan működik ez a játék.
+STR_SIGNATURE_WOMAN_17                  :Erre az ütésre tíz pontot adok!
+STR_SIGNATURE_WOMAN_18                  :Ez a pálya maga a mestermű.
 
 # The Customise screen's dialogue row labels (pointer table 0x4c2cc0)
 STR_SAYING_LABEL_SIGNATURE              :Signature saying
