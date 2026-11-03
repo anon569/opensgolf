@@ -690,139 +690,139 @@ STR_SIGNATURE_WOMAN_17                  :Erre az ütésre tíz pontot adok!
 STR_SIGNATURE_WOMAN_18                  :Ez a pálya maga a mestermű.
 
 # The Customise screen's dialogue row labels (pointer table 0x4c2cc0)
-STR_SAYING_LABEL_SIGNATURE              :Signature saying
-STR_SAYING_LABEL_GOOD_SHOT              :Made good shot
-STR_SAYING_LABEL_TOO_EASY               :Too easy shot
-STR_SAYING_LABEL_HARD_SHOT              :Hard shot
-STR_SAYING_LABEL_REALLY_HARD            :Really hard shot
-STR_SAYING_LABEL_BAD_SHOT               :Hit bad shot
-STR_SAYING_LABEL_WORSE_SHOT             :Hit worse shot
-STR_SAYING_LABEL_ALMOST_HIT             :Almost hit by ball
-STR_SAYING_LABEL_HIT_TREE               :Hit a tree
-STR_SAYING_LABEL_WATER                  :Hit into the water
-STR_SAYING_LABEL_SCENIC                 :Notices scenic improvement
-STR_SAYING_LABEL_UGLY                   :Notices ugly item
-STR_SAYING_LABEL_ANIMAL                 :Notices animal
-STR_SAYING_LABEL_LONG_WAIT              :Long wait at tee
-STR_SAYING_LABEL_THIRSTY                :Getting thirsty
-STR_SAYING_LABEL_FOUND_DRINK            :Found a drink
-STR_SAYING_LABEL_HUNGRY                 :Getting hungry
-STR_SAYING_LABEL_FOUND_FOOD             :Found some food
-STR_SAYING_LABEL_TIRED                  :Getting tired
-STR_SAYING_LABEL_FOUND_BENCH            :Found a bench
+STR_SAYING_LABEL_SIGNATURE              :Jellegzetes mondás
+STR_SAYING_LABEL_GOOD_SHOT              :Sikeres ütés
+STR_SAYING_LABEL_TOO_EASY               :Túl könnyű ütés
+STR_SAYING_LABEL_HARD_SHOT              :Nehéz ütés
+STR_SAYING_LABEL_REALLY_HARD            :Rendkívül nehéz ütés
+STR_SAYING_LABEL_BAD_SHOT               :Rossz ütés
+STR_SAYING_LABEL_WORSE_SHOT             :Nagyon rossz ütés
+STR_SAYING_LABEL_ALMOST_HIT             :Majdnem eltalálta a labda
+STR_SAYING_LABEL_HIT_TREE               :Fának ütötte a labdát
+STR_SAYING_LABEL_WATER                  :Vízbe ütötte a labdát
+STR_SAYING_LABEL_SCENIC                 :Látványos elemet vesz észre
+STR_SAYING_LABEL_UGLY                   :Csúnya elemet vesz észre
+STR_SAYING_LABEL_ANIMAL                 :Állatot vesz észre
+STR_SAYING_LABEL_LONG_WAIT              :Hosszas várakozás az elütőhelynél
+STR_SAYING_LABEL_THIRSTY                :Megszomjazik
+STR_SAYING_LABEL_FOUND_DRINK            :Italt talál
+STR_SAYING_LABEL_HUNGRY                 :Megéhezik
+STR_SAYING_LABEL_FOUND_FOOD             :Ételt talál
+STR_SAYING_LABEL_TIRED                  :Elfárad
+STR_SAYING_LABEL_FOUND_BENCH            :Padot talál
 
 # Club names by club number (0x40a9a0)
 STR_CLUB_DRIVER                         :Driver
-STR_CLUB_3_WOOD                         :3 Wood
-STR_CLUB_4_WOOD                         :4 Wood
-STR_CLUB_2_IRON                         :2 Iron
-STR_CLUB_3_IRON                         :3 Iron
-STR_CLUB_4_IRON                         :4 Iron
-STR_CLUB_5_IRON                         :5 Iron
-STR_CLUB_6_IRON                         :6 Iron
-STR_CLUB_7_IRON                         :7 Iron
-STR_CLUB_8_IRON                         :8 Iron
-STR_CLUB_9_IRON                         :9 Iron
-STR_CLUB_LOB_WEDGE                      :Lob Wedge
-STR_CLUB_SAND_WEDGE                     :Sand Wedge
+STR_CLUB_3_WOOD                         :3-as faütő
+STR_CLUB_4_WOOD                         :4-es faütő
+STR_CLUB_2_IRON                         :2-es vasütő
+STR_CLUB_3_IRON                         :3-as vasütő
+STR_CLUB_4_IRON                         :4-es vasütő
+STR_CLUB_5_IRON                         :5-ös vasütő
+STR_CLUB_6_IRON                         :6-os vasütő
+STR_CLUB_7_IRON                         :7-es vasütő
+STR_CLUB_8_IRON                         :8-as vasütő
+STR_CLUB_9_IRON                         :9-es vasütő
+STR_CLUB_LOB_WEDGE                      :Lob wedge
+STR_CLUB_SAND_WEDGE                     :Sand wedge
 STR_CLUB_PUTTER                         :Putter
 
 ########################################################################################################################
 # The advisor's line over the pro (main frame 0x41676d)
 ########################################################################################################################
 # The advisor's line over the pro (main frame 0x41676d)
-STR_ADVISOR_PRESS_H                     :Press 'h' to open the hole.
-STR_ADVISOR_BUILD_GREEN                 :Now we need to build a green.
-STR_ADVISOR_BUILD_TEE                   :First we need to build a tee.
-STR_ADVISOR_FIRST_HOLE                  :Let's build our first golf hole.
-STR_ADVISOR_FAIRWAY_SAND                :We might add some fairway or sand traps.
-STR_ADVISOR_CLICK_BUILD_COURSE          :Click on the big 'Build Course' button.
-STR_ADVISOR_BUILD_MORE                  :We've built one hole, let's build more!
-STR_ADVISOR_GOLFERS_COMING              :Here come some golfers!
-STR_ADVISOR_FUN_RATING                  :This hole has a {PERCENT}% fun rating.
-STR_ADVISOR_PRACTICE_ROUND              :I'm ready for a practice round.
-STR_ADVISOR_TOURNAMENT                  :I'm ready to play a tournament.
-STR_ADVISOR_EACH_HOLE_DIFFERENT         :I like to make each hole different.
-STR_ADVISOR_FLOWERS_BENCHES             :Some flowers and benches will cheer our golfers.
-STR_ADVISOR_PATHS                       :Adding paths will help speed up play.
-STR_ADVISOR_SLOPES                      :Slopes affect the bounce and roll of the ball.
-STR_ADVISOR_BUILDINGS_PATH              :Buildings need a path to the clubhouse.
-STR_ADVISOR_BUILDINGS_IMPROVE           :Buildings are one way to improve our course.
-STR_ADVISOR_EMPLOYEE_GREAT_JOB          :{EMPLOYEE} is doing a great job.
-STR_ADVISOR_HIRE_EMPLOYEES              :If you hire employees I won't have to do everything myself!
+STR_ADVISOR_PRESS_H                     :A szakasz megnyitásához nyomd meg a H billentyűt.
+STR_ADVISOR_BUILD_GREEN                 :Most építenünk kell egy greent.
+STR_ADVISOR_BUILD_TEE                   :Először egy elütőhelyet kell kialakítanunk.
+STR_ADVISOR_FIRST_HOLE                  :Építsük meg az első golfpályaszakaszunkat!
+STR_ADVISOR_FAIRWAY_SAND                :Kialakíthatnánk egy fairwayt és néhány homokbunkert is.
+STR_ADVISOR_CLICK_BUILD_COURSE          :Kattints a nagy Pályaépítés gombra.
+STR_ADVISOR_BUILD_MORE                  :Elkészült az első szakaszunk, építsünk még többet!
+STR_ADVISOR_GOLFERS_COMING              :Máris érkeznek a golfozók!
+STR_ADVISOR_FUN_RATING                  :Ennek a szakasznak {PERCENT}%-os a szórakozási értéke.
+STR_ADVISOR_PRACTICE_ROUND              :Készen állok egy gyakorlókörre.
+STR_ADVISOR_TOURNAMENT                  :Készen állok egy versenyre.
+STR_ADVISOR_EACH_HOLE_DIFFERENT         :Szeretem, ha minden szakasz különbözik a többitől.
+STR_ADVISOR_FLOWERS_BENCHES             :Néhány virág és pad feldobná a golfozóink hangulatát.
+STR_ADVISOR_PATHS                       :Az utak építése felgyorsítja a játékot.
+STR_ADVISOR_SLOPES                      :A lejtők befolyásolják a labda pattanását és gurulását.
+STR_ADVISOR_BUILDINGS_PATH              :Az épületeket úttal kell összekötni a klubházzal.
+STR_ADVISOR_BUILDINGS_IMPROVE           :Az épületekkel is fejleszthetjük a pályánkat.
+STR_ADVISOR_EMPLOYEE_GREAT_JOB          :{EMPLOYEE} nagyszerű munkát végez.
+STR_ADVISOR_HIRE_EMPLOYEES              :Vegyél fel alkalmazottakat, ne nekem kelljen mindent csinálnom!
 
 ########################################################################################################################
 # Short notes at the bottom of the screen (toasts)
 ########################################################################################################################
 # Championship files saved from a game (Shift+F7, Shift+F8): the toasts
-STR_TOAST_CHAMP_NO_SAVE_IN_TOURNAMENT   :Cannot save course during a tournament.
-STR_TOAST_CHAMP_COURSE_SAVED            :{COURSE} saved for championship play.
-STR_TOAST_COULD_NOT_SAVE                :Could not save: {ERROR}
-STR_TOAST_CHAMP_PRO_SAVED               :{PRO} saved for championship play.
-STR_TOAST_CHAMP_PRO_NOT_SAVED           :Could not save the pro.
+STR_TOAST_CHAMP_NO_SAVE_IN_TOURNAMENT   :Verseny közben nem menthető a pálya.
+STR_TOAST_CHAMP_COURSE_SAVED            :{COURSE} elmentve bajnoki játékmódhoz.
+STR_TOAST_COULD_NOT_SAVE                :Nem sikerült a mentés: {ERROR}
+STR_TOAST_CHAMP_PRO_SAVED               :{PRO} elmentve bajnoki játékmódhoz.
+STR_TOAST_CHAMP_PRO_NOT_SAVED           :Nem sikerült elmenteni a klubprofit.
 # Toasts of the building and terrain tools
-STR_TOAST_NOT_OPERATIONAL               :WARNING: Your {BUILDING} will not be operational until you have a path connecting it to your clubhouse.
-STR_TOAST_NOT_ENOUGH_MONEY              :You don't have enough money.
-STR_TOAST_CHANGE_COSTS                  :This change costs {COST}. You have only {CASH}.
-STR_TOAST_BUILDING_DEMOLISHED           :Building demolished
-STR_TOAST_BUILD_MORE_HOLES              :Build more holes to unlock this building
-STR_TOAST_NO_UPGRADES_YET               :Sorry, upgraded buildings are not available until you build beyond 9 holes.
-STR_TOAST_NO_FURTHER_UPGRADE            :You cannot upgrade this building any further.
-STR_TOAST_NO_ROOM                       :There is no room for that building there
-STR_TOAST_LOT_NOT_ATTRACTIVE            :This is not a very attractive location for a building lot. Home buyers like water, woods, and grass near a golf hole with a good fun factor.
-STR_TOAST_EMPLOYEE_POSTED               :{EMPLOYEE} will work around here
-STR_TOAST_EMPLOYEE_CLICK                :Click the course where the {EMPLOYEE} should work
+STR_TOAST_NOT_OPERATIONAL               :FIGYELEM: A(z) {BUILDING} mindaddig nem működik, amíg úttal nem kötöd össze a klubházzal.
+STR_TOAST_NOT_ENOUGH_MONEY              :Nincs elegendő pénzed.
+STR_TOAST_CHANGE_COSTS                  :A módosítás ára {COST}, de csak {CASH} pénzed van.
+STR_TOAST_BUILDING_DEMOLISHED           :Épület lebontva.
+STR_TOAST_BUILD_MORE_HOLES              :Az épület feloldásához építs további szakaszokat.
+STR_TOAST_NO_UPGRADES_YET               :A továbbfejlesztett épületek csak 9-nél több szakasz megépítése után válnak elérhetővé.
+STR_TOAST_NO_FURTHER_UPGRADE            :Ezt az épületet már nem fejlesztheted tovább.
+STR_TOAST_NO_ROOM                       :Nincs elég hely az épület elhelyezéséhez.
+STR_TOAST_LOT_NOT_ATTRACTIVE            :Itt nem érdemes lakótelket kialakítani. A házvásárlók a vizet, az erdőt és a füves területeket kedvelik, különösen egy magas szórakozási értékű szakasz közelében.
+STR_TOAST_EMPLOYEE_POSTED               :{EMPLOYEE} ezen a környéken fog dolgozni.
+STR_TOAST_EMPLOYEE_CLICK                :Kattints a pálya arra a részére, ahol {EMPLOYEE} dolgozzon.
 # the typo is the exe's
-STR_TOAST_BUILDING_LOCKED               :This building is will become available as you build additional holes.
-STR_TOAST_NO_HOME_SITES                 :No home sites are free: each Silver (or better) member buys one lot.
-STR_TOAST_NO_LANDMARK                   :The club has no landmark to place yet.
-STR_TOAST_CANNOT_RENAME                 :Employees cannot be renamed yet
-STR_TOAST_PRO_ALREADY_PLAYING           :{PRO} is already playing
-STR_TOAST_PRO_NEEDS_HOLE                :Your pro needs at least one hole to play
-STR_TOAST_NO_CHALLENGE                  :No famous golfer has challenged you yet
-STR_TOAST_ROUND_CANT_START              :The round can't start now
-STR_TOAST_NO_ROUND_TO_CANCEL            :There is no round to cancel
-STR_TOAST_NEED_MONEY_PROPERTY           :You need more money before you can purchase this property.
-STR_TOAST_NO_TOURNAMENT_OFFER           :The SGA has not offered you a tournament yet
-STR_TOAST_TOURNAMENT_CANCELED           :The tournament has been canceled.
-STR_TOAST_COULD_NOT_LOAD_GAME           :Could not load the saved game: {ERROR}
-STR_TOAST_COULD_NOT_LOAD_COURSE         :Could not load the course: {ERROR}
-STR_TOAST_COULD_NOT_SAVE_GAME           :Could not save the game: {ERROR}
+STR_TOAST_BUILDING_LOCKED               :Ez az épület további szakaszok építésével válik majd elérhetővé.
+STR_TOAST_NO_HOME_SITES                 :Nincs szabad lakótelek: minden ezüst- vagy magasabb szintű tag vásárol egy telket.
+STR_TOAST_NO_LANDMARK                   :A klubnak egyelőre nincs elhelyezhető nevezetessége.
+STR_TOAST_CANNOT_RENAME                 :Az alkalmazottak neve egyelőre nem módosítható.
+STR_TOAST_PRO_ALREADY_PLAYING           :{PRO} már játszik.
+STR_TOAST_PRO_NEEDS_HOLE                :A klubprofidnak legalább egy szakaszra van szüksége a játékhoz.
+STR_TOAST_NO_CHALLENGE                  :Még egyetlen híres golfozó sem hívott ki mérkőzésre.
+STR_TOAST_ROUND_CANT_START              :Most nem lehet elkezdeni a kört.
+STR_TOAST_NO_ROUND_TO_CANCEL            :Nincs megszakítható kör.
+STR_TOAST_NEED_MONEY_PROPERTY           :Több pénzre van szükséged az ingatlan megvásárlásához.
+STR_TOAST_NO_TOURNAMENT_OFFER           :Az SGA még nem ajánlott fel neked versenyrendezési lehetőséget.
+STR_TOAST_TOURNAMENT_CANCELED           :A versenyt törölték.
+STR_TOAST_COULD_NOT_LOAD_GAME           :Nem sikerült betölteni a mentett játékot: {ERROR}
+STR_TOAST_COULD_NOT_LOAD_COURSE         :Nem sikerült betölteni a pályát: {ERROR}
+STR_TOAST_COULD_NOT_SAVE_GAME           :Nem sikerült elmenteni a játékot: {ERROR}
 # Toasts of the keyboard
-STR_TOAST_CANCEL_ROUND                  :Are you sure you want to cancel this round? Press N again to cancel.
-STR_TOAST_SPEED_NORMAL                  :Normal speed
-STR_TOAST_SPEED_FAST                    :Fast (x2)
-STR_TOAST_SPEED_FASTEST                 :Fastest (x4)
-STR_TOAST_HOLE_NEEDS_TEE_GREEN          :A new hole needs a tee and a green
+STR_TOAST_CANCEL_ROUND                  :Biztosan megszakítod ezt a kört? A megszakításhoz nyomd meg újra az N billentyűt.
+STR_TOAST_SPEED_NORMAL                  :Normál sebesség
+STR_TOAST_SPEED_FAST                    :Gyors (×2)
+STR_TOAST_SPEED_FASTEST                 :Leggyorsabb (×4)
+STR_TOAST_HOLE_NEEDS_TEE_GREEN          :Az új szakaszhoz elütőhelyre és greenre van szükség.
 
 # Why an item cannot go on a tile (the building tool, 0x41f34e)
-STR_ERROR_CANT_BUILD_THERE              :Can't build there.
-STR_ERROR_CANT_BUILD_BENCH              :Can't build bench there.
-STR_ERROR_CANT_BUILD_BRIDGE             :Can't build bridge there.
+STR_ERROR_CANT_BUILD_THERE              :Ide nem építhetsz.
+STR_ERROR_CANT_BUILD_BENCH              :Ide nem építhetsz padot.
+STR_ERROR_CANT_BUILD_BRIDGE             :Ide nem építhetsz hidat.
 # What the player sees when they ask for HD graphics and there is no pack
-STR_ERROR_NO_HD_PACK                    :No HD art pack found. Make one from your own copy of the game: Preferences, Graphics, Make HD graphics from my SimGolf files... (or tools/hd_pack, see docs/HD.md). Staying with Classic graphics.
+STR_ERROR_NO_HD_PACK                    :Nem található HD grafikai csomag. Készíts egyet a saját játékpéldányodból: Beállítások, Grafika, HD grafika készítése a SimGolf-fájlokból... (vagy tools/hd_pack, lásd docs/HD.md). Marad a klasszikus grafika.
 # Errors reading a saved game
-STR_ERROR_FILE_NOT_FOUND                :{FILE}: not found
-STR_ERROR_NOT_A_SAVED_GAME              :{FILE}: not a saved game
-STR_ERROR_COULD_NOT_WRITE               :{FILE}: could not write
-STR_ERROR_THEME_NOT_LOADED              :could not load the theme
+STR_ERROR_FILE_NOT_FOUND                :{FILE}: nem található.
+STR_ERROR_NOT_A_SAVED_GAME              :{FILE}: nem mentett játék.
+STR_ERROR_COULD_NOT_WRITE               :{FILE}: nem sikerült az írás.
+STR_ERROR_THEME_NOT_LOADED              :nem sikerült betölteni a témát.
 
 ########################################################################################################################
 # The course view: pause line, hole label, tool under the pointer, Shot Analysis, touch buttons
 ########################################################################################################################
 # "Paused" and " Fast" at the top of the screen (font 0x519948)
-STR_PAUSED                              :Paused
-STR_PAUSED_FAST                         : Fast
+STR_PAUSED                              :Szünet
+STR_PAUSED_FAST                         : Gyors
 
 # Hole type names by skill mask (0x4c2a28)
-STR_HOLE_TYPE_BREATHER                  :Breather
-STR_HOLE_TYPE_FREEWAY                   :Freeway
-STR_HOLE_TYPE_PRECISE                   :Precise
-STR_HOLE_TYPE_CHALLENGE                 :Challenge
-STR_HOLE_TYPE_CREATIVE                  :Creative
-STR_HOLE_TYPE_HEROIC                    :Heroic
-STR_HOLE_TYPE_STRATEGIC                 :Strategic
-STR_HOLE_TYPE_CLASSIC                   :Classic
+STR_HOLE_TYPE_BREATHER                  :Pihenős
+STR_HOLE_TYPE_FREEWAY                   :Szabad út
+STR_HOLE_TYPE_PRECISE                   :Precíz
+STR_HOLE_TYPE_CHALLENGE                 :Kihívás
+STR_HOLE_TYPE_CREATIVE                  :Kreatív
+STR_HOLE_TYPE_HEROIC                    :Hősies
+STR_HOLE_TYPE_STRATEGIC                 :Stratégiai
+STR_HOLE_TYPE_CLASSIC                   :Klasszikus
 # Proper hole names, indexed by hole number, one table per par (0x407280): women's names for par 3 (0x4c2e88), trees and
 # shrubs for par 4 (0x4c2e38), dark places for the rest (0x4c2ed8)
 STR_HOLE_NAME_PAR3_1                    :Alexandra
@@ -843,307 +843,307 @@ STR_HOLE_NAME_PAR3_15                   :Roxanne
 STR_HOLE_NAME_PAR3_16                   :Sarah
 STR_HOLE_NAME_PAR3_17                   :Valerie
 STR_HOLE_NAME_PAR3_18                   :Zelda
-STR_HOLE_NAME_PAR4_1                    :Olive
-STR_HOLE_NAME_PAR4_2                    :Dogwood
-STR_HOLE_NAME_PAR4_3                    :Peach
-STR_HOLE_NAME_PAR4_4                    :Crab Apple
-STR_HOLE_NAME_PAR4_5                    :Magnolia
-STR_HOLE_NAME_PAR4_6                    :Juniper
-STR_HOLE_NAME_PAR4_7                    :Pampas
-STR_HOLE_NAME_PAR4_8                    :Jasmime
-STR_HOLE_NAME_PAR4_9                    :Cherry
-STR_HOLE_NAME_PAR4_10                   :Camellia
-STR_HOLE_NAME_PAR4_11                   :Daisy
-STR_HOLE_NAME_PAR4_12                   :Golden Bell
-STR_HOLE_NAME_PAR4_13                   :Azalea
-STR_HOLE_NAME_PAR4_14                   :Chinese Fir
-STR_HOLE_NAME_PAR4_15                   :Firethorn
-STR_HOLE_NAME_PAR4_16                   :Redbud
+STR_HOLE_NAME_PAR4_1                    :Olajfa
+STR_HOLE_NAME_PAR4_2                    :Somfa
+STR_HOLE_NAME_PAR4_3                    :Őszibarack
+STR_HOLE_NAME_PAR4_4                    :Díszalma
+STR_HOLE_NAME_PAR4_5                    :Magnólia
+STR_HOLE_NAME_PAR4_6                    :Boróka
+STR_HOLE_NAME_PAR4_7                    :Pampafű
+STR_HOLE_NAME_PAR4_8                    :Jázmin
+STR_HOLE_NAME_PAR4_9                    :Cseresznye
+STR_HOLE_NAME_PAR4_10                   :Kamélia
+STR_HOLE_NAME_PAR4_11                   :Margaréta
+STR_HOLE_NAME_PAR4_12                   :Aranyvessző
+STR_HOLE_NAME_PAR4_13                   :Azálea
+STR_HOLE_NAME_PAR4_14                   :Kínai jegenyefenyő
+STR_HOLE_NAME_PAR4_15                   :Tűztövis
+STR_HOLE_NAME_PAR4_16                   :Júdásfa
 STR_HOLE_NAME_PAR4_17                   :Nandina
-STR_HOLE_NAME_PAR4_18                   :Holly
-STR_HOLE_NAME_PAR5_1                    :Pride
-STR_HOLE_NAME_PAR5_2                    :Inferno
-STR_HOLE_NAME_PAR5_3                    :Fortress
-STR_HOLE_NAME_PAR5_4                    :The Siren
-STR_HOLE_NAME_PAR5_5                    :Centaur
-STR_HOLE_NAME_PAR5_6                    :Styx
-STR_HOLE_NAME_PAR5_7                    :Flame
-STR_HOLE_NAME_PAR5_8                    :Serpent
-STR_HOLE_NAME_PAR5_9                    :Paradise
-STR_HOLE_NAME_PAR5_10                   :Eden
-STR_HOLE_NAME_PAR5_11                   :Valley
-STR_HOLE_NAME_PAR5_12                   :Torment
-STR_HOLE_NAME_PAR5_13                   :Misery
-STR_HOLE_NAME_PAR5_14                   :Archangel
-STR_HOLE_NAME_PAR5_15                   :Smoke
-STR_HOLE_NAME_PAR5_16                   :Gryphon
-STR_HOLE_NAME_PAR5_17                   :Beast
-STR_HOLE_NAME_PAR5_18                   :Purgatory
+STR_HOLE_NAME_PAR4_18                   :Magyal
+STR_HOLE_NAME_PAR5_1                    :Büszkeség
+STR_HOLE_NAME_PAR5_2                    :Pokol
+STR_HOLE_NAME_PAR5_3                    :Erőd
+STR_HOLE_NAME_PAR5_4                    :A szirén
+STR_HOLE_NAME_PAR5_5                    :Kentaur
+STR_HOLE_NAME_PAR5_6                    :Sztüx
+STR_HOLE_NAME_PAR5_7                    :Láng
+STR_HOLE_NAME_PAR5_8                    :Kígyó
+STR_HOLE_NAME_PAR5_9                    :Paradicsom
+STR_HOLE_NAME_PAR5_10                   :Éden
+STR_HOLE_NAME_PAR5_11                   :Völgy
+STR_HOLE_NAME_PAR5_12                   :Gyötrelem
+STR_HOLE_NAME_PAR5_13                   :Szenvedés
+STR_HOLE_NAME_PAR5_14                   :Arkangyal
+STR_HOLE_NAME_PAR5_15                   :Füst
+STR_HOLE_NAME_PAR5_16                   :Griff
+STR_HOLE_NAME_PAR5_17                   :Szörnyeteg
+STR_HOLE_NAME_PAR5_18                   :Purgatórium
 # A hole without a proper name ("Hole " and the number)
-STR_HOLE_NAME_NUMBER                    :Hole {HOLE}
+STR_HOLE_NAME_NUMBER                    :{HOLE}. szakasz
 # The announcement of a new hole (0x40e720): "Hole #3, a scenic 328 yard par 4, is now open for play.", in pieces
-STR_HOLE_OPEN_SHORT                     :short 
-STR_HOLE_OPEN_LONG                      :long 
-STR_HOLE_OPEN_SCENIC                    :scenic 
-STR_HOLE_OPEN_START                     :Hole #{HOLE}, a {SIZE}{YARDS} yard 
-STR_HOLE_OPEN_UPHILL                    :uphill 
-STR_HOLE_OPEN_DOWNHILL                  :downhill 
+STR_HOLE_OPEN_SHORT                     :rövid 
+STR_HOLE_OPEN_LONG                      :hosszú 
+STR_HOLE_OPEN_SCENIC                    :festői 
+STR_HOLE_OPEN_START                     :{HOLE}. szakasz, {SIZE}{YARDS} yard hosszú, 
+STR_HOLE_OPEN_UPHILL                    :emelkedős 
+STR_HOLE_OPEN_DOWNHILL                  :lejtős 
 STR_HOLE_OPEN_PAR                       :par {PAR}
-STR_HOLE_OPEN_DOGLEG_LEFT               : with a dogleg to the left
-STR_HOLE_OPEN_DOGLEG_RIGHT              : with a dogleg to the right
-STR_HOLE_OPEN_END                       :, is now open for play.
+STR_HOLE_OPEN_DOGLEG_LEFT               : , balra kanyarodó szakasszal
+STR_HOLE_OPEN_DOGLEG_RIGHT              : , jobbra kanyarodó szakasszal
+STR_HOLE_OPEN_END                       :, mostantól játékra nyitva.
 # The label of the hole being built (0x404bc0) and its hint
-STR_HOLE_LABEL_HOLE                     :Hole {HOLE}
-STR_HOLE_LABEL_YARDS                    :{YARDS} yards
+STR_HOLE_LABEL_HOLE                     :{HOLE}. szakasz
+STR_HOLE_LABEL_YARDS                    :{YARDS} yard
 STR_HOLE_LABEL_PAR                      :Par {PAR}
 # A home site's resident over the lot at the closest zoom (homes_ui.rs draw_home_labels; the exe's 0x415cc8)
-STR_HOME_LABEL_OWNER                    :{CELEBRITY}'s
-STR_HOME_LABEL_HOME                     :Home
-STR_HOLE_LABEL_PRESS_H                  :Press 'h' to open hole
+STR_HOME_LABEL_OWNER                    :{CELEBRITY}
+STR_HOME_LABEL_HOME                     :Otthona
+STR_HOLE_LABEL_PRESS_H                  :A szakasz megnyitásához nyomd meg a H billentyűt.
 
 # The tool under the pointer: the tricky green label, the distance from the last shot, the Home Site's sums (0x41a5d3)
-STR_CURSOR_TRICKY_GREEN                 :Tricky Green
-STR_CURSOR_YARDS                        :{YARDS} yards
-STR_CURSOR_LOT_VALUE                    :Lot value: {MONEY}
-STR_CURSOR_SITE_CLEAR                   :Site clear: {MONEY}
-STR_CURSOR_SITE_PREP                    :Site prep.: {MONEY}
-STR_CURSOR_PROFIT                       :Profit: {MONEY}
+STR_CURSOR_TRICKY_GREEN                 :Trükkös green
+STR_CURSOR_YARDS                        :{YARDS} yard
+STR_CURSOR_LOT_VALUE                    :Telek értéke: {MONEY}
+STR_CURSOR_SITE_CLEAR                   :Terület megtisztítása: {MONEY}
+STR_CURSOR_SITE_PREP                    :Terület előkészítése: {MONEY}
+STR_CURSOR_PROFIT                       :Nyereség: {MONEY}
 # the port's building tools (build_tools.rs): the tape's carry from a hole's tee, the brush's rectangle and fill
-STR_TAPE_CARRY                          :From hole {HOLE}'s tee: {YARDS} yards
-STR_AREA_COST                           :{TILES} tiles: {MONEY}
-STR_AREA_TILES                          :{TILES} tiles
-STR_AREA_TOO_LARGE                      :Too large: at most {MAX} tiles
-STR_TOAST_AREA_TOO_LARGE                :That area is too large to paint at once (at most {MAX} tiles).
+STR_TAPE_CARRY                          :A {HOLE}. szakasz elütőhelyétől: {YARDS} yard
+STR_AREA_COST                           :{TILES} mező: {MONEY}
+STR_AREA_TILES                          :{TILES} mező
+STR_AREA_TOO_LARGE                      :Túl nagy: legfeljebb {MAX} mező lehet.
+STR_TOAST_AREA_TOO_LARGE                :Túl nagy terület. Egyszerre legfeljebb {MAX} mezőt festhetsz.
 
 # Shot Analysis: the four kinds of golfer (0x40d760's labels) and the figure beside each ({SIGN} is + when positive)
-STR_ANALYSIS_NO_LENGTH                  :no Length skill
-STR_ANALYSIS_NO_ACCURACY                :no Accuracy skill
-STR_ANALYSIS_NO_IMAGINATION             :no Imagination skill
-STR_ANALYSIS_ALL_SKILLS                 :golfers with ALL skills
-STR_ANALYSIS_YARDS                      :{SIGN}{YARDS} yds.
+STR_ANALYSIS_NO_LENGTH                  :nincs Ütéshossz-jártasság
+STR_ANALYSIS_NO_ACCURACY                :nincs Pontosság-jártasság
+STR_ANALYSIS_NO_IMAGINATION             :nincs Képzelet-jártassága
+STR_ANALYSIS_ALL_SKILLS                 :minden jártassággal rendelkező golfozók
+STR_ANALYSIS_YARDS                      :{SIGN}{YARDS} yard
 # Shot Analysis (the hole analysis box)
-STR_ANALYSIS_TITLE                      :Shot Analysis:
-STR_ANALYSIS_GOLFERS_PLAYING            :Golfers playing hole {HOLE}...
+STR_ANALYSIS_TITLE                      :Ütéselemzés:
+STR_ANALYSIS_GOLFERS_PLAYING            :A(z) {HOLE}. szakaszon játszó golfozók...
 
 # What the undo tool names under the pointer (0x40a160)
-STR_UNDO_OUT_OF_BOUNDS                  :Out of bounds
-STR_UNDO_PERMANENT                      :Permanent
-STR_UNDO_DEMOLISH                       :Demolish {BUILDING}
-STR_UNDO_REMOVE_PATH                    :Remove Path
-STR_UNDO_REMOVE_BENCH                   :Remove Bench
-STR_UNDO_REMOVE_SCENIC_TREE             :Remove Scenic Tree
-STR_UNDO_REMOVE_SCENIC_BRIDGE           :Remove Scenic Bridge
-STR_UNDO_REMOVE_FLOWERS                 :Remove Flowers
-STR_UNDO_RESET_TO                       :Reset to {TERRAIN}
+STR_UNDO_OUT_OF_BOUNDS                  :Pályahatáron kívüli terület
+STR_UNDO_PERMANENT                      :Végleges
+STR_UNDO_DEMOLISH                       :{BUILDING} lebontása
+STR_UNDO_REMOVE_PATH                    :Út eltávolítása
+STR_UNDO_REMOVE_BENCH                   :Pad eltávolítása
+STR_UNDO_REMOVE_SCENIC_TREE             :Látványfa eltávolítása
+STR_UNDO_REMOVE_SCENIC_BRIDGE           :Festői híd eltávolítása
+STR_UNDO_REMOVE_FLOWERS                 :Virágok eltávolítása
+STR_UNDO_RESET_TO                       :Visszaállítás erre: {TERRAIN}
 
 # The touch screen buttons (browser build)
-STR_TOUCH_OPEN_HOLE                     :Open hole
-STR_TOUCH_TURN                          :Turn
-STR_TOUCH_SPEED                         :Speed
-STR_TOUCH_MESSAGE                       :Message
+STR_TOUCH_OPEN_HOLE                     :Szakasz megnyitása
+STR_TOUCH_TURN                          :Forgatás
+STR_TOUCH_SPEED                         :Sebesség
+STR_TOUCH_MESSAGE                       :Üzenet
 # Enhanced graphics turned off at start because the last run stopped while they were starting (issue #55)
-STR_ENHANCED_RECOVERED                  :The graphics settings were put back to safe ones (Classic, no frame rate cap): the game stopped while starting last time. You can change them again in Preferences.
-STR_ENHANCED_SLOW_SCALER_SHARP          :The game was running slowly: Enhanced graphics' pixel-art scaler now uses its quicker Sharp filter.
-STR_ENHANCED_SLOW_SCALER                :The game was running slowly: Enhanced graphics' pixel-art scaler is now off.
-STR_ENHANCED_SLOW_MSAA                  :The game was running slowly: Enhanced graphics' multisampling is now off.
-STR_ENHANCED_SLOW_EFFECTS               :The game was running slowly: Enhanced graphics' heaviest effects are now off.
-STR_ENHANCED_SLOW_OFF                   :The game was running slowly: Enhanced graphics are now off (Classic). They can be switched on again in Preferences.
+STR_ENHANCED_RECOVERED                  :A játék előzőleg a grafika indításakor leállt. A beállítások biztonságosra álltak (klasszikus grafika, korlátlan FPS). A Beállításokban módosíthatod őket.
+STR_ENHANCED_SLOW_SCALER_SHARP          :A játék lassú volt, ezért a HD grafika gyorsabb Sharp méretezőre váltott.
+STR_ENHANCED_SLOW_SCALER                :A játék lassan futott, ezért a továbbfejlesztett grafika pixelgrafikai méretezője kikapcsolt.
+STR_ENHANCED_SLOW_MSAA                  :A játék lassú volt, ezért az élsimítás kikapcsolt.
+STR_ENHANCED_SLOW_EFFECTS               :A játék lassú volt, ezért a nagy gépigényű grafikai effektek kikapcsoltak.
+STR_ENHANCED_SLOW_OFF                   :A játék lassan futott, ezért a továbbfejlesztett grafika kikapcsolt (klasszikus mód). A Beállításokban újra bekapcsolhatod.
 # The on-screen keyboard (browser on a touch screen, while a name is typed)
 STR_OSK_SHIFT                           :Shift
-STR_OSK_BACK                            :Delete
-STR_OSK_SPACE                           :Space
-STR_OSK_CANCEL                          :Cancel
+STR_OSK_BACK                            :Törlés
+STR_OSK_SPACE                           :Szóköz
+STR_OSK_CANCEL                          :Mégse
 STR_OSK_OK                              :OK
 
 ########################################################################################################################
 # The course badge (0x40daa0) and the date
 ########################################################################################################################
-STR_COURSE_MONTEREY                     :Ocean's Edge
-STR_COURSE_SAN_DIEGO                    :Dolphin Coast
-STR_COURSE_ROCKY_MTNS                   :Jurassic Springs
-STR_COURSE_LAS_VEGAS                    :Ace in the Hole
-STR_COURSE_PHOENIX                      :Coyote Flats
-STR_COURSE_HAWAII                       :Flamingo Shores
-STR_COURSE_OAHU                         :Island Palms
-STR_COURSE_NOVA_SCOTIA                  :Windy Point
-STR_COURSE_NORTHEAST                    :Ravenwood Farms
-STR_COURSE_CAROLINA                     :Christmas Pines
-STR_COURSE_IRELAND                      :County Kincaide
-STR_COURSE_SCOTLAND                     :Harold's Keep
-STR_COURSE_WALES                        :Thistle Runes
-STR_COURSE_SPAIN                        :Sangria Bay
-STR_COURSE_FLORIDA                      :Ocean Grove
-STR_COURSE_JAMAICA                      :Scorpion Cove
+STR_COURSE_MONTEREY                     :Óceán pereme
+STR_COURSE_SAN_DIEGO                    :Delfinpart
+STR_COURSE_ROCKY_MTNS                   :Jura-források
+STR_COURSE_LAS_VEGAS                    :Ász a lyukban
+STR_COURSE_PHOENIX                      :Prérifarkas-síkság
+STR_COURSE_HAWAII                       :Flamingópart
+STR_COURSE_OAHU                         :Szigeti pálmák
+STR_COURSE_NOVA_SCOTIA                  :Szeles-fok
+STR_COURSE_NORTHEAST                    :Hollóerdei farmok
+STR_COURSE_CAROLINA                     :Karácsonyi fenyves
+STR_COURSE_IRELAND                      :Kincaide megye
+STR_COURSE_SCOTLAND                     :Harold erődje
+STR_COURSE_WALES                        :Bogáncsrovások
+STR_COURSE_SPAIN                        :Sangria-öböl
+STR_COURSE_FLORIDA                      :Óceánliget
+STR_COURSE_JAMAICA                      :Skorpió-öböl
 # The course name with the rank suffix the badge appends (0x40daa0 with argument 0); the Championship one is empty in the exe
 STR_COURSE_NAME_MC                      :{COURSE} MC
 STR_COURSE_NAME_GC                      :{COURSE} GC
 STR_COURSE_NAME_CC                      :{COURSE} CC
 STR_COURSE_NAME_CHAMPIONSHIP            :{COURSE}
 # The course name with the long class word (0x40daa0 with argument 1), as the routing map shows it
-STR_COURSE_NAME_MUNICIPAL               :{COURSE} Municipal
-STR_COURSE_NAME_GOLF_CLUB               :{COURSE} Golf Club
+STR_COURSE_NAME_MUNICIPAL               :{COURSE} Városi golfpálya
+STR_COURSE_NAME_GOLF_CLUB               :{COURSE} Golfklub
 STR_COURSE_NAME_COUNTRY_CLUB            :{COURSE} Country Club
-STR_COURSE_NAME_LONG_CHAMPIONSHIP       :{COURSE} Championship
+STR_COURSE_NAME_LONG_CHAMPIONSHIP       :{COURSE} Bajnoki pálya
 
 # The date under the course badge
-STR_DATE                                :{MONTH} {YEAR}
+STR_DATE                                :{YEAR}. {MONTH}
 
 # The months of the game's year (0x4c2908), March to October
-STR_MONTH_MARCH                         :March
-STR_MONTH_APRIL                         :April
-STR_MONTH_MAY                           :May
-STR_MONTH_JUNE                          :June
-STR_MONTH_JULY                          :July
-STR_MONTH_AUGUST                        :August
-STR_MONTH_SEPTEMBER                     :September
-STR_MONTH_OCTOBER                       :October
+STR_MONTH_MARCH                         :március
+STR_MONTH_APRIL                         :április
+STR_MONTH_MAY                           :május
+STR_MONTH_JUNE                          :június
+STR_MONTH_JULY                          :július
+STR_MONTH_AUGUST                        :augusztus
+STR_MONTH_SEPTEMBER                     :szeptember
+STR_MONTH_OCTOBER                       :október
 # The twelve months, for the plain course badge used when the interface art is missing
-STR_MONTH_JANUARY                       :January
-STR_MONTH_FEBRUARY                      :February
-STR_MONTH_NOVEMBER                      :November
-STR_MONTH_DECEMBER                      :December
+STR_MONTH_JANUARY                       :január
+STR_MONTH_FEBRUARY                      :február
+STR_MONTH_NOVEMBER                      :november
+STR_MONTH_DECEMBER                      :december
 
 # The course name of the demo course (no property)
-STR_DEMO_COURSE                         :Demo Course
+STR_DEMO_COURSE                         :Bemutatópálya
 
 ########################################################################################################################
 # The dock (0x432ba0) and its panels: Build Course, Add Buildings, People, the Player panel
 ########################################################################################################################
 # The dock's tooltip captions (0x432ba0)
-STR_DOCK_BUILD_COURSE                   :Build Course
-STR_DOCK_ADD_BUILDINGS                  :Add Buildings
-STR_DOCK_PEOPLE                         :People
-STR_DOCK_ZOOM                           :Zoom Map
-STR_DOCK_UNZOOM                         :Unzoom Map
-STR_DOCK_ROTATE                         :Rotate Map
-STR_DOCK_INFORMATION                    :Information
-STR_DOCK_PAUSE                          :Pause or Unpause
-STR_DOCK_SYSTEM                         :System Functions
+STR_DOCK_BUILD_COURSE                   :Pályaépítés
+STR_DOCK_ADD_BUILDINGS                  :Épületek hozzáadása
+STR_DOCK_PEOPLE                         :Emberek
+STR_DOCK_ZOOM                           :Térkép nagyítása
+STR_DOCK_UNZOOM                         :Térkép kicsinyítése
+STR_DOCK_ROTATE                         :Térkép forgatása
+STR_DOCK_INFORMATION                    :Információk
+STR_DOCK_PAUSE                          :Szüneteltetés / folytatás
+STR_DOCK_SYSTEM                         :Rendszerfunkciók
 
 # The golfer list panel's tooltips
-STR_TIP_GOLFERS                         :Golfers
-STR_TIP_HIRE_EMPLOYEES                  :Hire Employees
-STR_TIP_AMENITIES                       :Amenities
-STR_TIP_COURSE_TERRAIN                  :Course Terrain
-STR_TIP_ELEVATION                       :Elevation
-STR_TIP_COST                            :Cost: {COST}
-STR_TIP_BUILDINGS                       :Buildings
-STR_TIP_HIRE_EMPLOYEES_LOWER            :Hire employees
+STR_TIP_GOLFERS                         :Golfozók
+STR_TIP_HIRE_EMPLOYEES                  :Alkalmazottak felvétele
+STR_TIP_AMENITIES                       :Kényelmi létesítmények
+STR_TIP_COURSE_TERRAIN                  :Pálya terepe
+STR_TIP_ELEVATION                       :Magasság
+STR_TIP_COST                            :Költség: {COST}
+STR_TIP_BUILDINGS                       :Épületek
+STR_TIP_HIRE_EMPLOYEES_LOWER            :Alkalmazottak felvétele
 
 # The dock panels (Build Course, Add Buildings, People). What the exe shows when Undo is clicked
-STR_PANEL_UNDO_HELP                     :Undo: click the map to take back what was built there. Your money will be refunded!
-STR_PANEL_UNDO                          :Undo
+STR_PANEL_UNDO_HELP                     :Visszavonás: kattints a térképre az ott végrehajtott építés visszavonásához. A pénzedet visszakapod!
+STR_PANEL_UNDO                          :Visszavonás
 
 # The terrain panel's tile buttons by theme (the exe's per-theme tile table); the theme's Interface text file's descriptions
 # are looked up by the English name
-STR_TILE_DESERT                         :Desert
+STR_TILE_DESERT                         :Sivatag
 STR_TILE_DESERT_ROUGH                   :Rough
-STR_TILE_RAVINE                         :Ravine
-STR_TILE_JOSHUA_TREE                    :Joshua tree
-STR_TILE_CACTUS                         :Cactus
-STR_TILE_TROPICAL_BUSH                  :Tropical bush
-STR_TILE_TROPICAL_TREE                  :Tropical tree
-STR_TILE_GORSE                          :Gorse
-STR_TILE_BURN                           :Burn
-STR_TILE_MAPLE_TREE                     :Maple tree
-STR_TILE_PINE                           :Pine
-STR_TILE_SCOTS_PINE                     :Scots pine
-STR_TILE_TEES                           :Tees
+STR_TILE_RAVINE                         :Szakadék
+STR_TILE_JOSHUA_TREE                    :Joshua-fa
+STR_TILE_CACTUS                         :Kaktusz
+STR_TILE_TROPICAL_BUSH                  :Trópusi bokor
+STR_TILE_TROPICAL_TREE                  :Trópusi fa
+STR_TILE_GORSE                          :Rekettye
+STR_TILE_BURN                           :Patak
+STR_TILE_MAPLE_TREE                     :Juharfa
+STR_TILE_PINE                           :Fenyő
+STR_TILE_SCOTS_PINE                     :Erdei fenyő
+STR_TILE_TEES                           :Elütőhelyek
 STR_TILE_GREEN                          :Green
 STR_TILE_FAIRWAY                        :Fairway
-STR_TILE_FIRM_FAIRWAY                   :Firm fairway
+STR_TILE_FIRM_FAIRWAY                   :Kemény talajú fairway
 STR_TILE_ROUGH                          :Rough
-STR_TILE_DEEP_ROUGH                     :Deep rough
-STR_TILE_MOUND                          :Mound
-STR_TILE_SAND_TRAP                      :Sand trap
-STR_TILE_WASTE_BUNKER                   :Waste bunker
+STR_TILE_DEEP_ROUGH                     :Sűrű rough
+STR_TILE_MOUND                          :Domb
+STR_TILE_SAND_TRAP                      :Homokbunker
+STR_TILE_WASTE_BUNKER                   :Kopár bunker
 STR_TILE_POT_BUNKER                     :Pot bunker
-STR_TILE_STREAM                         :Stream
-STR_TILE_BRUSH                          :Brush
-STR_TILE_ROCKS                          :Rocks
-STR_TILE_TREE                           :Tree
-STR_TILE_PINE_TREE                      :Pine tree
-STR_TILE_PALM_TREE                      :Palm tree
-STR_TILE_ELM_TREE                       :Elm tree
-STR_TILE_WATER                          :Water
+STR_TILE_STREAM                         :Patak
+STR_TILE_BRUSH                          :Bozót
+STR_TILE_ROCKS                          :Sziklák
+STR_TILE_TREE                           :Fa
+STR_TILE_PINE_TREE                      :Fenyőfa
+STR_TILE_PALM_TREE                      :Pálmafa
+STR_TILE_ELM_TREE                       :Szilfa
+STR_TILE_WATER                          :Víz
 
 # The amenities panel's slots (tooltips)
-STR_AMENITY_BALLWASHER                  :Ballwasher
-STR_AMENITY_PATHWAY                     :Pathway
-STR_AMENITY_BUILDING_LOT                :Building Lot
-STR_AMENITY_BENCHES                     :Benches
-STR_AMENITY_LANDMARKS                   :Landmarks
-STR_AMENITY_FLOWER_BED                  :Flower Bed
-STR_AMENITY_SCENIC_TREES                :Scenic Trees
-STR_AMENITY_SCENIC_BRIDGE               :Scenic Bridge
-STR_AMENITY_LANDMARK_COST               :5000-20,000
+STR_AMENITY_BALLWASHER                  :Labdamosó
+STR_AMENITY_PATHWAY                     :Gyalogút
+STR_AMENITY_BUILDING_LOT                :Építési telek
+STR_AMENITY_BENCHES                     :Padok
+STR_AMENITY_LANDMARKS                   :Nevezetességek
+STR_AMENITY_FLOWER_BED                  :Virágágyás
+STR_AMENITY_SCENIC_TREES                :Látványfák
+STR_AMENITY_SCENIC_BRIDGE               :Festői híd
+STR_AMENITY_LANDMARK_COST               :5000–20 000
 
 # Add Buildings: what each lot's building does (the info box's third line, the exe's)
-STR_LOT_PUTTING_GREEN                   :Helps imaginative golfers
-STR_LOT_SNACK_BAR                       :Feeds hungry golfers
-STR_LOT_PRO_SHOP                        :Improves accurate golfers
-STR_LOT_SWIM_CLUB                       :Golfers become members
-STR_LOT_DRIVING_RANGE                   :Helps long hitters
-STR_LOT_CART_GARAGE                     :Golfers play faster
-STR_LOT_MARINA                          :Increases property values
-STR_LOT_RESORT_HOTEL                    :Golfers stay happier
-STR_LOT_AIRSTRIP                        :Higher greens fees
-STR_LOT_UPGRADED                        :Upgraded {BUILDING}
+STR_LOT_PUTTING_GREEN                   :A Képzelet-jártasságú golfozókat segíti.
+STR_LOT_SNACK_BAR                       :Ételt kínál az éhes golfozóknak
+STR_LOT_PRO_SHOP                        :Fejleszti a pontos ütéseket végrehajtó golfozókat
+STR_LOT_SWIM_CLUB                       :A golfozók klubtagokká válnak
+STR_LOT_DRIVING_RANGE                   :Segíti a nagyot ütő golfozókat
+STR_LOT_CART_GARAGE                     :Gyorsabbá teszi a golfozók játékát
+STR_LOT_MARINA                          :Növeli az ingatlanok értékét
+STR_LOT_RESORT_HOTEL                    :Boldogabbá teszi a golfozókat
+STR_LOT_AIRSTRIP                        :Magasabb green fee-k
+STR_LOT_UPGRADED                        :Továbbfejlesztett {BUILDING}
 
 # Landmark names by type (the landmark tool's 0..13, then two only donations give, then the eyesores), long form (0x4074a0
 # with its second argument 1)
-STR_LANDMARK_LONG_SUNDIAL               :garden sundial
-STR_LANDMARK_LONG_BARN                  :traditional barn
-STR_LANDMARK_LONG_CANNON                :authentic Civil War cannon
-STR_LANDMARK_LONG_STONEHENGE            :ancient stonehenge rock
-STR_LANDMARK_LONG_WATER_MILL            :operating water mill
-STR_LANDMARK_LONG_ROCK_FACE             :unusual rock face
-STR_LANDMARK_LONG_STATUE                :authentic Civil War statue
-STR_LANDMARK_LONG_LIGHTHOUSE            :scenic New England lighthouse
-STR_LANDMARK_LONG_BUDDHA                :peaceful Buddha
-STR_LANDMARK_LONG_WINDMILL              :Dutch windmill
-STR_LANDMARK_LONG_HISTORIC_STATUE       :historic statue
-STR_LANDMARK_LONG_EASTER_ISLAND         :haunting Easter Island head
-STR_LANDMARK_LONG_PAGODA                :exquisite pagoda
-STR_LANDMARK_LONG_HATTERAS              :historic Hatteras lighthouse
-STR_LANDMARK_LONG_ORIENTAL_HOUSE        :ornate oriental house
-STR_LANDMARK_LONG_TARPIT                :dusty dinosaur tarpit
-STR_LANDMARK_FALLBACK                   :landmark
+STR_LANDMARK_LONG_SUNDIAL               :kerti napóra
+STR_LANDMARK_LONG_BARN                  :hagyományos pajta
+STR_LANDMARK_LONG_CANNON                :eredeti amerikai polgárháborús ágyú
+STR_LANDMARK_LONG_STONEHENGE            :ősi Stonehenge-szikla
+STR_LANDMARK_LONG_WATER_MILL            :működő vízimalom
+STR_LANDMARK_LONG_ROCK_FACE             :különleges sziklafal
+STR_LANDMARK_LONG_STATUE                :eredeti amerikai polgárháborús szobor
+STR_LANDMARK_LONG_LIGHTHOUSE            :festői új-angliai világítótorony
+STR_LANDMARK_LONG_BUDDHA                :békét sugárzó Buddha-szobor
+STR_LANDMARK_LONG_WINDMILL              :holland szélmalom
+STR_LANDMARK_LONG_HISTORIC_STATUE       :történelmi szobor
+STR_LANDMARK_LONG_EASTER_ISLAND         :hátborzongató húsvét-szigeti kőfej
+STR_LANDMARK_LONG_PAGODA                :pompás pagoda
+STR_LANDMARK_LONG_HATTERAS              :történelmi Hatteras-világítótorony
+STR_LANDMARK_LONG_ORIENTAL_HOUSE        :díszes keleti stílusú ház
+STR_LANDMARK_LONG_TARPIT                :poros dinoszaurusz-kátránytó
+STR_LANDMARK_FALLBACK                   :nevezetesség
 # The long name as the exe writes it after "a": with the "n" of "an" where the exe has one, otherwise after a space
-STR_LANDMARK_AFTER_AN                   :n {LANDMARK}
+STR_LANDMARK_AFTER_AN                   : {LANDMARK}
 STR_LANDMARK_AFTER_A                    : {LANDMARK}
 # Short names (0x4074a0 with its second argument 0), as the landmark tool labels its preview
-STR_LANDMARK_SUNDIAL                    :sundial
-STR_LANDMARK_BARN                       :barn
-STR_LANDMARK_CANNON                     :Civil War cannon
-STR_LANDMARK_STONEHENGE                 :stonehenge
-STR_LANDMARK_WATER_MILL                 :water mill
-STR_LANDMARK_ROCK_FACE                  :rock face
-STR_LANDMARK_STATUE                     :Civil War statue
-STR_LANDMARK_LIGHTHOUSE                 :lighthouse
-STR_LANDMARK_BUDDHA                     :Buddha
-STR_LANDMARK_WINDMILL                   :windmill
-STR_LANDMARK_HISTORIC_STATUE            :historic statue
-STR_LANDMARK_EASTER_ISLAND              :Easter Island head
+STR_LANDMARK_SUNDIAL                    :napóra
+STR_LANDMARK_BARN                       :pajta
+STR_LANDMARK_CANNON                     :amerikai polgárháborús ágyú
+STR_LANDMARK_STONEHENGE                 :Stonehenge
+STR_LANDMARK_WATER_MILL                 :vízimalom
+STR_LANDMARK_ROCK_FACE                  :sziklafal
+STR_LANDMARK_STATUE                     :amerikai polgárháborús szobor
+STR_LANDMARK_LIGHTHOUSE                 :világítótorony
+STR_LANDMARK_BUDDHA                     :Buddha-szobor
+STR_LANDMARK_WINDMILL                   :szélmalom
+STR_LANDMARK_HISTORIC_STATUE            :történelmi szobor
+STR_LANDMARK_EASTER_ISLAND              :húsvét-szigeti kőfej
 STR_LANDMARK_PAGODA                     :pagoda
-STR_LANDMARK_HATTERAS                   :historic lighthouse
-STR_LANDMARK_ORIENTAL_HOUSE             :oriental house
-STR_LANDMARK_TARPIT                     :dinosaur tarpit
-STR_LANDMARK_WATER_TOWER                :water tower
-STR_LANDMARK_RADIO_ANTENNA              :radio antenna
-STR_LANDMARK_OIL_PUMP                   :oil pump
-STR_LANDMARK_FREE                       :FREE!
+STR_LANDMARK_HATTERAS                   :Hatteras-világítótorony
+STR_LANDMARK_ORIENTAL_HOUSE             :keleti ház
+STR_LANDMARK_TARPIT                     :dinoszaurusz-kátránytó
+STR_LANDMARK_WATER_TOWER                :víztorony
+STR_LANDMARK_RADIO_ANTENNA              :rádióantenna
+STR_LANDMARK_OIL_PUMP                   :olajszivattyú
+STR_LANDMARK_FREE                       :INGYENES!
 STR_LANDMARK_TIP                        :{LANDMARK}, {PRICE}
-STR_LANDMARK_EFFECT_HAPPY_GOLFERS       :Happy Golfers
-STR_LANDMARK_EFFECT_NO_DANDELIONS       :No Dandelions
-STR_LANDMARK_EFFECT_SKILL_UPGRADE       :Skill Upgrade
-STR_LANDMARK_EFFECT_HAPPY_ENDINGS       :Happy Endings
+STR_LANDMARK_EFFECT_HAPPY_GOLFERS       :Boldog golfozók
+STR_LANDMARK_EFFECT_NO_DANDELIONS       :Pitypangmentes pálya
+STR_LANDMARK_EFFECT_SKILL_UPGRADE       :Jártasságfejlesztés
+STR_LANDMARK_EFFECT_HAPPY_ENDINGS       :Boldog befejezések
 
 # The elevation panel's tools
-STR_ELEVATION_VERTEX                    :Raise/lower vertex
-STR_ELEVATION_SQUARE                    :Raise/lower square
-STR_ELEVATION_AREA                      :Raise/lower area
-STR_ELEVATION_ANALYZE                   :Analyze Golf Shot
+STR_ELEVATION_VERTEX                    :Csúcs emelése/süllyesztése
+STR_ELEVATION_SQUARE                    :Négyzet emelése/süllyesztése
+STR_ELEVATION_AREA                      :Terület emelése/süllyesztése
+STR_ELEVATION_ANALYZE                   :Golfütés elemzése
 
 # An employee's name (0x467600): the first name (0x4c148c) and the title by job and experience; the last first name
 # has no space in the exe
@@ -1156,58 +1156,58 @@ STR_EMPLOYEE_TOMMY                      :Tommy {TITLE}
 STR_EMPLOYEE_SALLY                      :Sally {TITLE}
 STR_EMPLOYEE_RITA                       :Rita{TITLE}
 # The employee panel: actions, what the counter under a selected employee counts (regular, skilled), the hire dialog
-STR_EMPLOYEE_MOVE                       :Move this employee
-STR_EMPLOYEE_FIRE                       :Fire this employee
-STR_EMPLOYEE_RENAME                     :Rename this employee
-STR_EMPLOYEE_HIRED                      :Hired: {MONTH} {YEAR}
-STR_EMPLOYEE_PAID                       :Paid: {SIGN}{AMOUNT}
+STR_EMPLOYEE_MOVE                       :Alkalmazott áthelyezése
+STR_EMPLOYEE_FIRE                       :Alkalmazott elbocsátása
+STR_EMPLOYEE_RENAME                     :Alkalmazott átnevezése
+STR_EMPLOYEE_HIRED                      :Felvéve: {MONTH} {YEAR}
+STR_EMPLOYEE_PAID                       :Kifizetve: {SIGN}{AMOUNT}
 
-STR_COUNTER_GREETED                     :Players greeted:
-STR_COUNTER_CHEERED                     :Players cheered:
-STR_COUNTER_RUSHED                      :Players rushed:
-STR_COUNTER_INTIMIDATED                 :Slackers intimidated:
-STR_COUNTER_WEEDS_DESTROYED             :Weeds destroyed:
-STR_COUNTER_WEEDS_ERADICATED            :Weeds eradicated:
-STR_COUNTER_BEVERAGES                   :Beverages served:
-STR_COUNTER_SATISFIED                   :Satisfied customers:
+STR_COUNTER_GREETED                     :Üdvözölt golfozók:
+STR_COUNTER_CHEERED                     :Felvidított golfozók:
+STR_COUNTER_RUSHED                      :Siettetett golfozók:
+STR_COUNTER_INTIMIDATED                 :Megfélemlített lustálkodók:
+STR_COUNTER_WEEDS_DESTROYED             :Elpusztított gyomok:
+STR_COUNTER_WEEDS_ERADICATED            :Kiirtott gyomok:
+STR_COUNTER_BEVERAGES                   :Kiszolgált italok:
+STR_COUNTER_SATISFIED                   :Elégedett vendégek:
 
-STR_HIRE_GREETERS                       :Greeters...
-STR_HIRE_SPEED_UP                       :Speed up play...
-STR_HIRE_WEED_KILLERS                   :Weed Killers...
-STR_HIRE_THIRST                         :Thirst quenchers...
-STR_HIRE_SKILLED_REFUSAL                :You need to build up to a Daily Fee course (6 or more holes) before you can hire skilled employees.
-STR_HIRE_TITLE                          :HIRE AN EMPLOYEE
-STR_HIRE_WAGE                           :{EMPLOYEE}: {WAGE} per week
+STR_HIRE_GREETERS                       :Fogadók...
+STR_HIRE_SPEED_UP                       :Játékgyorsítók...
+STR_HIRE_WEED_KILLERS                   :Gyomirtók...
+STR_HIRE_THIRST                         :Szomjoltók...
+STR_HIRE_SKILLED_REFUSAL                :Szakképzett alkalmazottak felvételéhez fejleszd a pályát legalább 6 szakaszos, napi díjas pályává.
+STR_HIRE_TITLE                          :ALKALMAZOTT FELVÉTELE
+STR_HIRE_WAGE                           :{EMPLOYEE}: {WAGE} hetente
 
 # The Player (JoeCool) panel's buttons
-STR_PLAYER_PRACTICE_ROUND               :Practice Round
-STR_PLAYER_BEGIN_TOURNAMENT             :Begin Tournament
-STR_PLAYER_STRAIGHT                     :Straight shot
-STR_PLAYER_FADE                         :Fade shot, L to R
-STR_PLAYER_DRAW                         :Draw shot, R to L
-STR_PLAYER_HIGH                         :High backspin shot
-STR_PLAYER_LOW                          :Low punch shot
-STR_PLAYER_GOLFERS                      :Golfers
-STR_PLAYER_HIRE                         :Hire employee
-STR_PLAYER_PLAY_VS                      :Play {PRO}
-STR_PLAYER_PLAY_VS_PRO                  :Play vs. a pro
+STR_PLAYER_PRACTICE_ROUND               :Gyakorlókör
+STR_PLAYER_BEGIN_TOURNAMENT             :Verseny indítása
+STR_PLAYER_STRAIGHT                     :Egyenes ütés
+STR_PLAYER_FADE                         :Fade ütés, balról jobbra
+STR_PLAYER_DRAW                         :Draw ütés, jobbról balra
+STR_PLAYER_HIGH                         :Magas, visszapörgő ütés
+STR_PLAYER_LOW                          :Alacsony, lapos ütés
+STR_PLAYER_GOLFERS                      :Golfozók
+STR_PLAYER_HIRE                         :Alkalmazott felvétele
+STR_PLAYER_PLAY_VS                      :Mérkőzés {PRO} ellen
+STR_PLAYER_PLAY_VS_PRO                  :Klubprofi elleni mérkőzés
 
 # The Player panel's scorecard
-STR_SCORECARD_HOLE                      :Hole
+STR_SCORECARD_HOLE                      :Szakasz
 STR_SCORECARD_PAR                       :Par
-STR_SCORECARD_PRACTICE                  : Practice
-STR_SCORECARD_ROUND                     :  Round
-STR_SCORECARD_EXHIBITION                :Exhibition
-STR_SCORECARD_PER_HOLE                  :§{MONEY}/hole
-STR_SCORECARD_PROFESSIONAL              :Professional
-STR_SCORECARD_TOURNAMENT                :Tournament
-STR_SCORECARD_VS                        : vs.
+STR_SCORECARD_PRACTICE                  : Gyakorlás
+STR_SCORECARD_ROUND                     :  Kör
+STR_SCORECARD_EXHIBITION                :Bemutatómérkőzés
+STR_SCORECARD_PER_HOLE                  :§{MONEY}/szakasz
+STR_SCORECARD_PROFESSIONAL              :Profi
+STR_SCORECARD_TOURNAMENT                :Verseny
+STR_SCORECARD_VS                        : ellen
 
 # The aim's lines (the Player panel, or a box of their own without its art)
-STR_AIM_ATTITUDE                        :Attitude: {ATTITUDE}
-STR_AIM_CLUB                            :Club: {CLUB}
-STR_AIM_DISTANCE                        :Distance: {YARDS} yds
-STR_AIM_LIE                             :Lie: {LIE}
+STR_AIM_ATTITUDE                        :Hozzáállás: {ATTITUDE}
+STR_AIM_CLUB                            :Ütő: {CLUB}
+STR_AIM_DISTANCE                        :Távolság: {YARDS} yard
+STR_AIM_LIE                             :Labdafekvés: {LIE}
 STR_AIM_SKILL                           :{SKILL} +{PERCENT}%
 
 ########################################################################################################################
