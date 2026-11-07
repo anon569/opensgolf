@@ -2970,261 +2970,261 @@ STR_GRAPHS_SO_FAR                       :{MONTH} (eddig)
 STR_GRAPHS_NO_VALUE                     :Ebben a hónapban nem játszottak rajta.
 STR_GRAPHS_FROM_PLAYS                   :{COUNT} lejátszott szakasz alapján
 STR_GRAPHS_EMPTY                        :Még nincs havi adat. A grafikonok mostantól gyűjtik az adatokat.
-STR_GRAPHS_HELP                         :Left/Right: a month. Up/Down: the measure. PageUp/PageDown: club or hole.
-STR_GRAPHS_HOLE                         :Hole {HOLE}
-STR_GRAPHS_LATEST                       :Now: {VALUE}
-STR_GRAPHS_MONTHS                       :{COUNT} months
+STR_GRAPHS_HELP                         :Bal/Jobb: hónapváltás. Fel/Le: mérőszámváltás. PageUp/PageDown: klub vagy szakasz.
+STR_GRAPHS_HOLE                         :{HOLE}. szakasz
+STR_GRAPHS_LATEST                       :Most: {VALUE}
+STR_GRAPHS_MONTHS                       :{COUNT} hónap
 # Camera bookmarks (views.rs)
-STR_TOAST_VIEW_KEPT                     :View {SLOT} kept: {KEY} comes back to it.
-STR_TOAST_VIEW                          :View {SLOT}
-STR_TOAST_VIEW_NONE                     :No view {SLOT} yet: Ctrl+{KEY} keeps the view there.
+STR_TOAST_VIEW_KEPT                     :A(z) {SLOT}. nézet mentve. Visszatérés: {KEY}.
+STR_TOAST_VIEW                          :{SLOT}. nézet
+STR_TOAST_VIEW_NONE                     :A(z) {SLOT}. nézet nincs mentve. Mentés: Ctrl+{KEY}.
 # The tabs over the F1 to F10 reports (keep them short: ten share 740 pixels)
-STR_TABS_F1                             :F1 Course
-STR_TABS_F2                             :F2 Comments
-STR_TABS_F3                             :F3 Histograph
-STR_TABS_F4                             :F4 Finance
-STR_TABS_F5                             :F5 Routing
-STR_TABS_F6                             :F6 World
+STR_TABS_F1                             :F1 Pálya
+STR_TABS_F2                             :F2 Vélemények
+STR_TABS_F3                             :F3 Hisztogram
+STR_TABS_F4                             :F4 Pénzügy
+STR_TABS_F5                             :F5 Útvonalak
+STR_TABS_F6                             :F6 Világ
 STR_TABS_F7                             :F7 SGA
-STR_TABS_F8                             :F8 Keys
-STR_TABS_F9                             :F9 Roster
-STR_TABS_F10                            :F10 Awards
+STR_TABS_F8                             :F8 Billentyűk
+STR_TABS_F9                             :F9 Tagok
+STR_TABS_F10                            :F10 Díjak
 # the eleventh tab, with comments by hole on (eleven share 792 pixels)
-STR_TABS_HOLES                          :By hole
+STR_TABS_HOLES                          :Szakaszonként
 # the tab of the history graphs (twelve share 792 pixels)
-STR_TABS_GRAPHS                         :Graphs
+STR_TABS_GRAPHS                         :Grafikonok
 # Keyboard controls: the extras' keys
-STR_KEYS_HEAD_EXTRAS                    :OpenSGolf extras
+STR_KEYS_HEAD_EXTRAS                    :OpenSGolf extrák
 STR_KEYS_K_PEOPLE                       :Shift+G
-STR_KEYS_PEOPLE                         :People: golfers, staff and your pro
+STR_KEYS_PEOPLE                         :Emberek: golfozók, alkalmazottak és a klubprofid
 STR_KEYS_K_HISTORY                      :Shift+M
-STR_KEYS_HISTORY                        :Message history (or click the ticker)
+STR_KEYS_HISTORY                        :Üzenetelőzmények (vagy kattintás a futószalagra)
 STR_KEYS_K_TAGS                         :Shift+H
-STR_KEYS_TAGS                           :Name tags under the pointer off / on
+STR_KEYS_TAGS                           :Névcímkék a mutató alatt, ki/be
 STR_KEYS_K_PATHVIEW                     :Shift+V
-STR_KEYS_PATHVIEW                       :Path view: paths and places without one
+STR_KEYS_PATHVIEW                       :Útvonalnézet: utak és út nélküli helyek
 STR_KEYS_K_LANDING_MAP                  :Shift+D
-STR_KEYS_LANDING_MAP                    :Landing map: where shots on the hole under the pointer end up
+STR_KEYS_LANDING_MAP                    :Labdaérkezési térkép: az ütésnyomok a mutató alatti szakaszon
 STR_KEYS_K_HOLE_COMMENTS                :Shift+I
-STR_KEYS_HOLE_COMMENTS                  :Comments by hole: each hole's most frequent thoughts
+STR_KEYS_HOLE_COMMENTS                  :Szakaszonkénti vélemények: az egyes szakaszok leggyakoribb gondolatai
 STR_KEYS_K_GRAPHS                       :Shift+Y
-STR_KEYS_GRAPHS                         :History graphs: the club and each hole month by month
+STR_KEYS_GRAPHS                         :Előzménygrafikonok: a klub és az egyes szakaszok havi adatai
 STR_KEYS_K_REPORT_TABS                  :Tab
-STR_KEYS_REPORT_TABS                    :On a report: the next report's tab (Shift+Tab the one before; the F keys go straight there)
+STR_KEYS_REPORT_TABS                    :Jelentésben: ugrás a következő fülre (Shift+Tab: előző fül; az F billentyűkkel közvetlenül válthatsz)
 STR_KEYS_K_TAPE                         :'
-STR_KEYS_TAPE                           :Measuring tape: hold and move, or press and click (Esc puts it away)
-STR_KEYS_K_AREA_RECT                    :Shift+drag
-STR_KEYS_AREA_RECT                      :With a terrain brush: paint a rectangle
-STR_KEYS_K_AREA_FILL                    :Alt+click
-STR_KEYS_AREA_FILL                      :With a terrain brush: fill the region of one type
+STR_KEYS_TAPE                           :Mérőszalag: tartsd lenyomva és mozgasd, vagy nyomd meg, majd kattints (Esc: elrakás)
+STR_KEYS_K_AREA_RECT                    :Shift+húzás
+STR_KEYS_AREA_RECT                      :Terepecsettel: téglalap alakú terület festése
+STR_KEYS_K_AREA_FILL                    :Alt+kattintás
+STR_KEYS_AREA_FILL                      :Terepecsettel: egybefüggő, azonos típusú terület kitöltése
 STR_KEYS_K_QUICK_SAVE                   :Shift+F5
-STR_KEYS_QUICK_SAVE                     :Quick save (no dialog; Load lists it as "quick save")
+STR_KEYS_QUICK_SAVE                     :Gyorsmentés (párbeszédablak nélkül; a Betöltés listában „gyorsmentés”).
 STR_KEYS_K_QUICK_LOAD                   :Shift+F9
-STR_KEYS_QUICK_LOAD                     :Quick load (asks first)
+STR_KEYS_QUICK_LOAD                     :Gyorsbetöltés (előtte megerősítést kér)
 STR_KEYS_K_STAFF_VIEW                   :Shift+A
-STR_KEYS_STAFF_VIEW                     :Staff areas: every employee's ring, and the course no groundskeeper reaches
+STR_KEYS_STAFF_VIEW                     :Alkalmazotti területek: minden alkalmazott hatóköre, és a kertész által el nem ért területek
 STR_KEYS_K_VIEWS                        :Shift+F1 .. F4
-STR_KEYS_VIEWS                          :Camera bookmarks: back to a kept view (centre, zoom and turn)
-STR_KEYS_K_VIEW_KEEP                    :Ctrl+bookmark key
-STR_KEYS_VIEW_KEEP                      :Keep the view on that bookmark (saved with the game)
+STR_KEYS_VIEWS                          :Kameranézetek: mentett nézet visszaállítása (középpont, nagyítás, forgatás).
+STR_KEYS_K_VIEW_KEEP                    :Ctrl+nézetbillentyű
+STR_KEYS_VIEW_KEEP                      :Aktuális nézet mentése (a játékkal együtt).
 STR_KEYS_K_EDITOR                       :Shift+E
-STR_KEYS_EDITOR                         :Course editor only: the scenario settings box
+STR_KEYS_EDITOR                         :Csak a pályaszerkesztőben: forgatókönyv-beállítások
 # Quick save and quick load (comfort.rs)
-STR_TOAST_QUICK_SAVED                   :Quick saved ({KEY} loads it).
-STR_TOAST_QUICK_NO_SAVE                 :Cannot quick save during a tournament.
-STR_TOAST_QUICK_NONE                    :No quick save yet: {KEY} makes one.
-STR_QUICK_LOAD_1                        :Load the quick save?
-STR_QUICK_LOAD_2                        :Anything since it was made will be lost.
-STR_QUICK_LOAD_YES                      : Yes, load it.
-STR_QUICK_LOAD_NO                       : No, keep playing.
+STR_TOAST_QUICK_SAVED                   :Gyorsmentés elkészült (betöltés: {KEY}).
+STR_TOAST_QUICK_NO_SAVE                 :Verseny közben nem lehet gyorsmentést készíteni.
+STR_TOAST_QUICK_NONE                    :Még nincs gyorsmentés. Készítés: {KEY}.
+STR_QUICK_LOAD_1                        :Betöltöd a gyorsmentést?
+STR_QUICK_LOAD_2                        :A gyorsmentés óta történt minden változás elveszik.
+STR_QUICK_LOAD_YES                      : Igen, töltsd be.
+STR_QUICK_LOAD_NO                       : Nem, folytatom a játékot.
 # Pause on big news (comfort.rs): shown under the Paused caption
-STR_PAUSED_BACKGROUND                   :Paused while the window was in the background
-STR_PAUSED_EVENT                        :Paused for big news
+STR_PAUSED_BACKGROUND                   :Szüneteltetve, mert az ablak a háttérben volt
+STR_PAUSED_EVENT                        :Szüneteltetve, mert fontos esemény történt
 # The staff areas (Shift+A, staffview_ui.rs)
-STR_STAFF_VIEW_TITLE                    :Staff areas (Shift+A)
-STR_STAFF_VIEW_KEEPERS                  :Groundskeepers: {COUNT}
-STR_STAFF_VIEW_RANGERS                  :Rangers: {COUNT}
-STR_STAFF_VIEW_VENDORS                  :Soda vendors: {COUNT}
-STR_STAFF_VIEW_PROS                     :Club pros: {COUNT}
-STR_STAFF_VIEW_BARE                     :Unkept fairway, green, tee: {COUNT} tiles
-STR_STAFF_VIEW_ON                       :Staff areas on: Shift+A hides them.
-STR_STAFF_VIEW_OFF                      :Staff areas off.
+STR_STAFF_VIEW_TITLE                    :Alkalmazotti területek (Shift+A)
+STR_STAFF_VIEW_KEEPERS                  :Kertészek: {COUNT}
+STR_STAFF_VIEW_RANGERS                  :Pályafelügyelők: {COUNT}
+STR_STAFF_VIEW_VENDORS                  :Üdítőárusok: {COUNT}
+STR_STAFF_VIEW_PROS                     :Klubprofik: {COUNT}
+STR_STAFF_VIEW_BARE                     :Gondozatlan fairway, green és elütőhely: {COUNT} mező
+STR_STAFF_VIEW_ON                       :Alkalmazotti területek bekapcsolva. Elrejtés: Shift+A.
+STR_STAFF_VIEW_OFF                      :Alkalmazotti területek kikapcsolva.
 # The course editor (editor.rs; the port's own): the title button, the editor box, heightmap import, saving scenarios
-STR_EDITOR_HM_NOT_PNG                   :This is not a PNG picture OpenSGolf can read (8 or 16 bits per channel, not interlaced).
-STR_EDITOR_TITLE_BUTTON                 :Course editor...
-STR_EDITOR_TITLE                        :Course Editor
-STR_EDITOR_HELP                         :Build with the usual tools: nothing costs money and no time passes. Set up the scenario here and save it.
-STR_EDITOR_BAR                          :Course editor: scenario settings ({KEY})
-STR_EDITOR_NAME                         :Name
-STR_EDITOR_AUTHOR                       :Author
-STR_EDITOR_DESCRIPTION                  :Description
-STR_EDITOR_INTRO                        :Welcome text
-STR_EDITOR_WIN                          :When won
-STR_EDITOR_LOSE                         :When lost
-STR_EDITOR_CASH                         :Starting cash
-STR_EDITOR_DIFFICULTY                   :Difficulty
-STR_EDITOR_ANY_DIFFICULTY               :Player chooses
-STR_EDITOR_SANDBOX                      :Sandbox game
-STR_EDITOR_ON                           :On
-STR_EDITOR_OFF                          :Off
-STR_EDITOR_COURSE                       :Course
-STR_EDITOR_COURSE_TEXT                  :{PLACE}, {SIZE} ({N} x {N} tiles)
-STR_EDITOR_LAND                         :Land at the start (click a tract):
-STR_EDITOR_OWNED                        :owned
-STR_EDITOR_FOR_SALE                     :for sale
-STR_EDITOR_HM                           :Heightmap (a grey picture: black low, white high)
-STR_EDITOR_HM_RELIEF                    :Heights
-STR_EDITOR_RELIEF_GENTLE                :Gentle
-STR_EDITOR_RELIEF_ROLLING               :Rolling
-STR_EDITOR_RELIEF_HILLY                 :Hilly
-STR_EDITOR_HM_WATER                     :Water
-STR_EDITOR_HM_WATER_OFF                 :none
-STR_EDITOR_HM_WATER_LEVEL               :up to level {N}
-STR_EDITOR_HM_SMOOTH                    :Smoothing
-STR_EDITOR_HM_PICK                      :Import heightmap...
-STR_EDITOR_HM_PICKING                   :Choose a PNG picture...
-STR_EDITOR_HM_PICK_TITLE                :Import a heightmap (a grey PNG picture)
-STR_EDITOR_HM_SAMPLES                   :Samples:
-STR_EDITOR_HM_SAMPLE_VALLEY             :Valley
-STR_EDITOR_HM_SAMPLE_RIDGE              :Ridge
-STR_EDITOR_HM_SAMPLE_ISLAND             :Island
-STR_EDITOR_HM_DONE                      :{FILE}: the land takes the picture's heights; {WATER} water tiles. Ctrl+Z takes it back.
-STR_EDITOR_GOALS                        :Goals (reach them all to win):
-STR_EDITOR_NO_GOALS                     :No goals: the scenario is a free game on this course.
-STR_EDITOR_GOAL_ADD                     :Add a goal
-STR_EDITOR_GOAL_HOLES                   :Holes
-STR_EDITOR_GOAL_CASH                    :Cash
-STR_EDITOR_GOAL_FUN                     :Fun rating
-STR_EDITOR_GOAL_SKILL                   :Skill rating
-STR_EDITOR_GOAL_MEMBERS                 :Members
-STR_EDITOR_GOAL_RANK                    :Rank
-STR_EDITOR_ANY_TIME                     :any time
-STR_EDITOR_BY_YEAR                      :by {YEAR}
-STR_EDITOR_SAVE                         :Save scenario
-STR_EDITOR_LOAD                         :Load scenario...
-STR_EDITOR_BACK                         :Back to the course
-STR_EDITOR_LEAVE                        :Leave the editor
-STR_EDITOR_LEAVE_SURE                   :Click again to leave
-STR_EDITOR_SAVED                        :Saved as the scenario pack {PACK} ({DIR}). Start New Game lists it.
-STR_EDITOR_SAVE_FAILED                  :The scenario was not saved: {ERROR}
-STR_EDITOR_UNNAMED                      :My Scenario
-STR_EDITOR_DEFAULT_DESCRIPTION          :A scenario made in the OpenSGolf course editor.
-STR_EDITOR_LOAD_TITLE                   :Load a Scenario into the Editor
-STR_EDITOR_LOAD_HELP                    :Click a scenario to go on with it. Scenarios in your packs folder are saved back in place, others as a copy.
-STR_EDITOR_LOAD_NONE                    :No scenario packs are installed.
-STR_EDITOR_LOADED                       :{NAME} is in the editor.
+STR_EDITOR_HM_NOT_PNG                   :Ez nem olyan PNG-kép, amelyet az OpenSGolf be tud olvasni (csatornánként 8 vagy 16 bit, nem váltottsoros).
+STR_EDITOR_TITLE_BUTTON                 :Pályaszerkesztő...
+STR_EDITOR_TITLE                        :PÁLYASZERKESZTŐ
+STR_EDITOR_HELP                         :Építs a megszokott eszközökkel: nincs költség, és az idő sem telik. Itt állíthatod be a forgatókönyvet, majd elmentheted.
+STR_EDITOR_BAR                          :Pályaszerkesztő: forgatókönyv-beállítások ({KEY})
+STR_EDITOR_NAME                         :Név
+STR_EDITOR_AUTHOR                       :Készítő
+STR_EDITOR_DESCRIPTION                  :Leírás
+STR_EDITOR_INTRO                        :Üdvözlőszöveg
+STR_EDITOR_WIN                          :Győzelemkor
+STR_EDITOR_LOSE                         :Vereségkor
+STR_EDITOR_CASH                         :Kezdőtőke
+STR_EDITOR_DIFFICULTY                   :Nehézség
+STR_EDITOR_ANY_DIFFICULTY               :A játékos választja
+STR_EDITOR_SANDBOX                      :Homokozó játék
+STR_EDITOR_ON                           :Be
+STR_EDITOR_OFF                          :Ki
+STR_EDITOR_COURSE                       :Pálya
+STR_EDITOR_COURSE_TEXT                  :{PLACE}, {SIZE} ({N} × {N} mező)
+STR_EDITOR_LAND                         :Kezdőterület (kattints egy telekre):
+STR_EDITOR_OWNED                        :birtokolt
+STR_EDITOR_FOR_SALE                     :eladó
+STR_EDITOR_HM                           :Magasságtérkép (szürkeárnyalatos: fekete alacsony, fehér magas)
+STR_EDITOR_HM_RELIEF                    :Domborzat
+STR_EDITOR_RELIEF_GENTLE                :Enyhe
+STR_EDITOR_RELIEF_ROLLING               :Enyhén dombos
+STR_EDITOR_RELIEF_HILLY                 :Dombos
+STR_EDITOR_HM_WATER                     :Víz
+STR_EDITOR_HM_WATER_OFF                 :nincs
+STR_EDITOR_HM_WATER_LEVEL               :legfeljebb {N}. szintig
+STR_EDITOR_HM_SMOOTH                    :Simítás
+STR_EDITOR_HM_PICK                      :Magasságtérkép importálása...
+STR_EDITOR_HM_PICKING                   :Válassz egy PNG-képet...
+STR_EDITOR_HM_PICK_TITLE                :Magasságtérkép importálása (szürkeárnyalatos PNG-kép)
+STR_EDITOR_HM_SAMPLES                   :Példák:
+STR_EDITOR_HM_SAMPLE_VALLEY             :Völgy
+STR_EDITOR_HM_SAMPLE_RIDGE              :Hegygerinc
+STR_EDITOR_HM_SAMPLE_ISLAND             :Sziget
+STR_EDITOR_HM_DONE                      :{FILE}: a terep felvette a kép magassági értékeit; {WATER} vízmező. Ctrl+Z: visszavonás.
+STR_EDITOR_GOALS                        :Célok (a győzelemhez mindet teljesíteni kell):
+STR_EDITOR_NO_GOALS                     :Nincsenek célok: a forgatókönyv szabad játék ezen a pályán.
+STR_EDITOR_GOAL_ADD                     :Cél hozzáadása
+STR_EDITOR_GOAL_HOLES                   :Szakaszok
+STR_EDITOR_GOAL_CASH                    :Pénz
+STR_EDITOR_GOAL_FUN                     :Szórakozás
+STR_EDITOR_GOAL_SKILL                   :Jártasságértékelés
+STR_EDITOR_GOAL_MEMBERS                 :Klubtagok
+STR_EDITOR_GOAL_RANK                    :Pályakategória
+STR_EDITOR_ANY_TIME                     :bármikor
+STR_EDITOR_BY_YEAR                      :{YEAR} végéig
+STR_EDITOR_SAVE                         :Forgatókönyv mentése
+STR_EDITOR_LOAD                         :Forgatókönyv betöltése...
+STR_EDITOR_BACK                         :Vissza a pályához
+STR_EDITOR_LEAVE                        :Kilépés a szerkesztőből
+STR_EDITOR_LEAVE_SURE                   :A kilépéshez kattints még egyszer.
+STR_EDITOR_SAVED                        :Forgatókönyv mentve: {PACK} ({DIR}). Elérhető az Új játék indítása menüben.
+STR_EDITOR_SAVE_FAILED                  :A forgatókönyvet nem sikerült elmenteni: {ERROR}
+STR_EDITOR_UNNAMED                      :Saját forgatókönyv
+STR_EDITOR_DEFAULT_DESCRIPTION          :Az OpenSGolf pályaszerkesztőjében készült forgatókönyv.
+STR_EDITOR_LOAD_TITLE                   :Forgatókönyv betöltése a szerkesztőbe
+STR_EDITOR_LOAD_HELP                    :Válassz forgatókönyvet a szerkesztéshez. A packs mappában lévők helyben frissülnek, a többi másolatként mentődik.
+STR_EDITOR_LOAD_NONE                    :Nincs telepítve forgatókönyvcsomag.
+STR_EDITOR_LOADED                       :{NAME} megnyitva a szerkesztőben.
 # The Cheats box (cheats_ui.rs; a hidden key, Ctrl+Shift+C): options start with a space
-STR_CHEATS_TITLE                        :Cheats
-STR_CHEATS_NOTE                         :Any cheat you use is noted with the saved game.
-STR_CHEATS_ADD                          : Add {MONEY}
-STR_CHEATS_TAKE                         : Take away {MONEY}
-STR_CHEATS_VIP                          : Force a VIP visit now
-STR_CHEATS_LAND                         : Buy all the land
+STR_CHEATS_TITLE                        :Csalások
+STR_CHEATS_NOTE                         :A felhasznált csalások ténye megjelenik a mentett játék adatai között.
+STR_CHEATS_ADD                          : {MONEY} hozzáadása
+STR_CHEATS_TAKE                         : {MONEY} elvétele
+STR_CHEATS_VIP                          : VIP-vendég azonnali érkeztetése
+STR_CHEATS_LAND                         : Az összes terület megvásárlása
 # a Sandbox switch of the Extras box: its name (STR_EXTRAS_PAUSE_CALENDAR...) and on or off
 STR_CHEATS_SWITCH                       : {SWITCH}: {STATE}
-STR_CHEATS_ON                           :on
-STR_CHEATS_OFF                          :off
-STR_CHEATS_DONE                         : Done
-STR_TOAST_CHEAT_MONEY                   :Cheat: {MONEY}. Cash: {CASH}.
-STR_TOAST_CHEAT_VIP                     :Cheat: a VIP comes with the next pair to tee off.
-STR_TOAST_CHEAT_LAND                    :Cheat: all the land is yours.
-STR_CTL_CHEATS                          :Cheats box
+STR_CHEATS_ON                           :be
+STR_CHEATS_OFF                          :ki
+STR_CHEATS_DONE                         : Kész
+STR_TOAST_CHEAT_MONEY                   :Csalás: {MONEY}. Egyenleg: {CASH}.
+STR_TOAST_CHEAT_VIP                     :Csalás: a következő elütő golfozópárral együtt VIP-vendég is érkezik.
+STR_TOAST_CHEAT_LAND                    :Csalás: az összes terület a tiéd.
+STR_CTL_CHEATS                          :Csalások ablak
 # the Load list's note on a game in which cheats were used
-STR_FILES_CHEATED                       :Cheats used
+STR_FILES_CHEATED                       :Csalások használva
 # Customise Golfer, your pro, with the Left-handed golfers extra on
-STR_CUST_LEFT_HANDED                    :Left-handed
+STR_CUST_LEFT_HANDED                    :Balkezes
 # drag to place (an OpenSGolf extra, build_tools.rs): its tick on the Extras box's Interface page, and the row's count and
 # total cost shown by the pointer while dragging (the sandbox shows the count only)
-STR_EXTRAS_DRAG_PLACE                   : Drag to place rows of benches and the like
-STR_ROW_COST                            :{ITEMS} items: {MONEY}
-STR_ROW_ITEMS                           :{ITEMS} items
+STR_EXTRAS_DRAG_PLACE                   : Padok és hasonló elemek sorokban történő elhelyezése húzással
+STR_ROW_COST                            :{ITEMS} darab: {MONEY}
+STR_ROW_ITEMS                           :{ITEMS} darab
 # the Change keys screen's presets (controls.rs Preset): the buttons, and the line under them once one is clicked
-STR_CTL_PRESET_ORIGINAL                 :Original controls
-STR_CTL_PRESET_MODERN                   :Modern controls
-STR_CTL_PRESET_ORIGINAL_DONE            :Original controls: every key the original's; the WASD camera, zooming towards the pointer, drag to place, right-drag panning and the smooth camera off.
-STR_CTL_PRESET_MODERN_DONE              :Modern controls: the WASD camera, zooming towards the pointer, drag to place, right-drag panning and the smooth camera (with Enhanced graphics) on.
+STR_CTL_PRESET_ORIGINAL                 :Eredeti vezérlés
+STR_CTL_PRESET_MODERN                   :Modern vezérlés
+STR_CTL_PRESET_ORIGINAL_DONE            :Eredeti vezérlés: minden az eredeti szerint; WASD, mutatóhoz nagyítás, soros elhelyezés, jobb gombos mozgatás és folyamatos kamera kikapcsolva.
+STR_CTL_PRESET_MODERN_DONE              :Modern vezérlés: WASD, mutatóhoz nagyítás, soros elhelyezés, jobb gombos mozgatás és folyamatos kamera bekapcsolva.
 # Weather that matters (sg_core::weather, a gameplay extra): its line in the Extras box, the morning's forecast on the
 # ticker, and a thunderstorm holding play
-STR_EXTRAS_WEATHER                      : Weather that matters (rain, snow, heat, storms)
-STR_WEATHER_RAIN_TODAY                  :Rain today: the greens are slow and fewer golfers are coming out.
-STR_WEATHER_SNOW_TODAY                  :Snow today! Balls stop dead, and only the keenest golfers turn up.
-STR_WEATHER_HEAT_TODAY                  :Heat wave today: hard, fast ground and thirsty golfers.
-STR_WEATHER_STORM_TODAY                 :Thunderstorms are on the way today.
-STR_WEATHER_STORM_BREAKS                :Storm! Play is suspended while the golfers shelter.
-STR_WEATHER_STORM_PASSES                :The storm has passed. Play resumes.
+STR_EXTRAS_WEATHER                      : Időjárási hatások (eső, hó, hőség, viharok)
+STR_WEATHER_RAIN_TODAY                  :Ma esős idő várható: a greenek lassabbak, és kevesebb golfozó érkezik.
+STR_WEATHER_SNOW_TODAY                  :Havazik! A labda azonnal megáll; csak a leglelkesebb golfozók jönnek.
+STR_WEATHER_HEAT_TODAY                  :Hőhullám: kemény, gyors talaj és szomjas golfozók.
+STR_WEATHER_STORM_TODAY                 :Ma zivatarok várhatók.
+STR_WEATHER_STORM_BREAKS                :Vihar! A játék szünetel, amíg a golfozók menedékbe húzódnak.
+STR_WEATHER_STORM_PASSES                :A vihar elvonult. A játék folytatódik.
 # OpenSGolf extras 0.4.2: live scorecards, the clickable ticker, the year in numbers, home-site details (extras.rs)
-STR_EXTRAS_LIVE_SCORECARDS              : Live scorecards (the round so far under the golfer card)
-STR_EXTRAS_TICKER_JUMP                  : Clickable ticker (a click goes to the golfer or place)
-STR_EXTRAS_YEAR_SUMMARY                 : The year in numbers (a page after the End of Year report)
-STR_EXTRAS_HOME_DETAILS                 : Home-site details (cost, sale and value under the pointer)
-STR_SCORECARD_TOTAL                     :Total
+STR_EXTRAS_LIVE_SCORECARDS              : Élő eredménykártyák (az aktuális kör a golfozó adatlapja alatt)
+STR_EXTRAS_TICKER_JUMP                  : Kattintható üzenetszalag: ugrás a golfozóhoz vagy helyszínhez
+STR_EXTRAS_YEAR_SUMMARY                 : Az év számokban (az év végi jelentés után megjelenő oldal)
+STR_EXTRAS_HOME_DETAILS                 : Lakótelkek adatai (költség, eladási ár és érték az egérmutató alatt)
+STR_SCORECARD_TOTAL                     :Összesen
 STR_SCORECARD_EVEN                      :E
-STR_SCORECARD_LIVE                      :Round
-STR_SCORECARD_ON_HOLE                   :Hole {HOLE}
-STR_SCORECARD_FINISHED                  :Finished
-STR_YEARSUM_TITLE                       :{YEAR} in Numbers
-STR_YEARSUM_REVENUE                     :Money taken in
-STR_YEARSUM_PROFIT                      :Profit
-STR_YEARSUM_ROUNDS                      :Rounds played
-STR_YEARSUM_FUN                         :Fun rating
-STR_YEARSUM_SKILL                       :Skill rating
-STR_YEARSUM_MEMBERS                     :Members
-STR_YEARSUM_BEST_HOLE                   :Happiest hole
-STR_YEARSUM_WORST_HOLE                  :Unhappiest hole
-STR_YEARSUM_WINS                        :Tournaments won
-STR_YEARSUM_HOLE                        :Hole {HOLE}
-STR_YEARSUM_NOTE                        :Against the year before
-STR_HOMES_TITLE                         :Home site
-STR_HOMES_CELEBRITY                     :{CELEBRITY}'s home
-STR_HOMES_COST                          :Cost to build: {MONEY}
-STR_HOMES_SOLD                          :Sold for: {MONEY}
-STR_HOMES_MONTHLY                       :A month since: {MONEY}
-STR_HOMES_NO_RECORD                     :Placed before records
-STR_HOMES_VALUE                         :Lot value now: {MONEY}
-STR_HOMES_BUY_BACK                      :To buy back: {MONEY}
-STR_HOMES_HOLE                          :Hole {HOLE} adds {MONEY}
-STR_HOMES_NO_HOLE                       :No hole adds value yet
+STR_SCORECARD_LIVE                      :Kör
+STR_SCORECARD_ON_HOLE                   :{HOLE}. szakasz
+STR_SCORECARD_FINISHED                  :Befejezve
+STR_YEARSUM_TITLE                       :{YEAR} számokban
+STR_YEARSUM_REVENUE                     :Összes bevétel
+STR_YEARSUM_PROFIT                      :Nyereség
+STR_YEARSUM_ROUNDS                      :Lejátszott körök
+STR_YEARSUM_FUN                         :Szórakozás
+STR_YEARSUM_SKILL                       :Jártasságértékelés
+STR_YEARSUM_MEMBERS                     :Klubtagok
+STR_YEARSUM_BEST_HOLE                   :Legélvezetesebb szakasz
+STR_YEARSUM_WORST_HOLE                  :Legkevésbé élvezetes szakasz
+STR_YEARSUM_WINS                        :Megnyert versenyek
+STR_YEARSUM_HOLE                        :{HOLE}. szakasz
+STR_YEARSUM_NOTE                        :Változás az előző évhez képest
+STR_HOMES_TITLE                         :Lakótelek
+STR_HOMES_CELEBRITY                     :{CELEBRITY} háza
+STR_HOMES_COST                          :Építési költség: {MONEY}
+STR_HOMES_SOLD                          :Eladási ár: {MONEY}
+STR_HOMES_MONTHLY                       :Havi bevétel ettől: {MONEY}
+STR_HOMES_NO_RECORD                     :A nyilvántartás bevezetése előtt épült
+STR_HOMES_VALUE                         :A telek jelenlegi értéke: {MONEY}
+STR_HOMES_BUY_BACK                      :Visszavásárlási ár: {MONEY}
+STR_HOMES_HOLE                          :A(z) {HOLE}. szakasz {MONEY} értékkel növeli a telek árát.
+STR_HOMES_NO_HOLE                       :Egyik szakasz sem növeli még az értékét.
 # the Path styles and lamps extra (sg_core::extras PATHS): its line in the Extras box, the styles ({VALUE}), the lamp post
 # on the landmark strip and the toasts
-STR_EXTRAS_PATHS                        : Path styles and lamps: {VALUE}
-STR_EXTRAS_PATHS_OFF                    :off
-STR_EXTRAS_PATHS_ORIGINAL               :original paths
-STR_EXTRAS_PATHS_BRICK                  :brick
-STR_EXTRAS_PATHS_GRAVEL                 :gravel
-STR_EXTRAS_PATHS_STONE                  :dark stone
-STR_EXTRAS_PATHS_BOARDWALK              :boardwalk
-STR_EXTRAS_LAMP                         :lamp post
-STR_EXTRAS_LAMP_EFFECT                  :Lights the way at night
-STR_TOAST_PATH_STYLE                    :Paths: {STYLE}
-STR_TOAST_LAMP_NOT_HERE                 :A lamp post needs open ground on your course
-STR_TOAST_LAMPS_FULL                    :There is a lamp post on this tile already, or no room for more
+STR_EXTRAS_PATHS                        : Útburkolatok és lámpák: {VALUE}
+STR_EXTRAS_PATHS_OFF                    :kikapcsolva
+STR_EXTRAS_PATHS_ORIGINAL               :eredeti utak
+STR_EXTRAS_PATHS_BRICK                  :tégla
+STR_EXTRAS_PATHS_GRAVEL                 :kavics
+STR_EXTRAS_PATHS_STONE                  :sötét kő
+STR_EXTRAS_PATHS_BOARDWALK              :fapalló
+STR_EXTRAS_LAMP                         :lámpaoszlop
+STR_EXTRAS_LAMP_EFFECT                  :Éjszaka megvilágítja az utat.
+STR_TOAST_PATH_STYLE                    :Útburkolat: {STYLE}
+STR_TOAST_LAMP_NOT_HERE                 :A lámpaoszlop elhelyezéséhez szabad területre van szükség a pályádon.
+STR_TOAST_LAMPS_FULL                    :Ezen a mezőn már van lámpaoszlop, vagy nincs több hely továbbiaknak.
 # The More visitors extra (sg-core visitors.rs, data/visitors.toml): all names and lines are the port's own, invented
-STR_EXTRAS_MORE_VISITORS                : More visitors: touring pros and celebrities
-STR_PEOPLE_TOURING_PRO                  :Touring Pro
-STR_PEOPLE_CELEBRITY                    :Celebrity
-STR_VISITOR_PRO_ARRIVES                 :Touring pro {NAME} has dropped in between tournaments for a quick round. Pros pay more than the usual green fee.
-STR_VISITOR_PRO_RATES                   :Touring pro {NAME} rates your course: '{REMARK}'
-STR_VISITOR_CELEBRITY_ARRIVES           :{JOB} {NAME} is playing your course today! Word gets around, and more golfers are on their way.
-STR_VISITOR_CELEBRITY_SAYS              :{JOB} {NAME} on your course: '{REMARK}'
+STR_EXTRAS_MORE_VISITORS                : Több látogató: versenyző profik és hírességek
+STR_PEOPLE_TOURING_PRO                  :Versenyző profi
+STR_PEOPLE_CELEBRITY                    :Híresség
+STR_VISITOR_PRO_ARRIVES                 :{NAME} versenyző profi két verseny között beugrott hozzád egy gyors körre. A profik a szokásosnál magasabb green fee-t fizetnek.
+STR_VISITOR_PRO_RATES                   :{NAME} versenyző profi így értékeli a pályádat: „{REMARK}”
+STR_VISITOR_CELEBRITY_ARRIVES           :{JOB} {NAME} ma a pályádon golfozik! Híre megy a látogatásának, és hamarosan még több golfozó érkezik.
+STR_VISITOR_CELEBRITY_SAYS              :{JOB} {NAME} véleménye a pályádról: „{REMARK}”
 # a touring pro's few words on the course, the unhappiest first
-STR_VISITOR_PRO_REMARK_0                :Not up to tour standard.
-STR_VISITOR_PRO_REMARK_1                :Needs a lot of work.
-STR_VISITOR_PRO_REMARK_2                :A fair test of golf.
-STR_VISITOR_PRO_REMARK_3                :Tour quality. I'll be back.
-STR_VISITOR_PRO_REMARK_4                :Worthy of a major championship!
+STR_VISITOR_PRO_REMARK_0                :Nem üti meg a profi körversenyek színvonalát.
+STR_VISITOR_PRO_REMARK_1                :Még rengeteget kell rajta dolgozni.
+STR_VISITOR_PRO_REMARK_2                :Tisztességes golfkihívás.
+STR_VISITOR_PRO_REMARK_3                :Versenyszínvonalú pálya. Visszatérek.
+STR_VISITOR_PRO_REMARK_4                :Egy nagy bajnoksághoz is méltó!
 # a celebrity's words when a pack's celebrity has none of its own
-STR_VISITOR_CELEBRITY_REMARK_0          :Not my kind of place, I'm afraid.
-STR_VISITOR_CELEBRITY_REMARK_1          :A pleasant day out.
-STR_VISITOR_CELEBRITY_REMARK_2          :A wonderful course. I'll tell all my friends!
-STR_VISITOR_JOB_TOURING_PRO             :Touring Pro
-STR_VISITOR_JOB_FILM_STAR               :Film Star
-STR_VISITOR_JOB_POP_STAR                :Pop Star
-STR_VISITOR_JOB_TV_CHEF                 :TV Chef
-STR_VISITOR_JOB_FOOTBALLER              :Ex-Footballer
-STR_VISITOR_JOB_SOAP_STAR               :Soap Star
-STR_VISITOR_JOB_RACING_DRIVER           :Racing Driver
-STR_VISITOR_JOB_NOVELIST                :Novelist
-STR_VISITOR_JOB_ASTRONOMER              :TV Astronomer
+STR_VISITOR_CELEBRITY_REMARK_0          :Őszintén szólva nem az én világom.
+STR_VISITOR_CELEBRITY_REMARK_1          :Kellemes kikapcsolódás.
+STR_VISITOR_CELEBRITY_REMARK_2          :Csodálatos pálya. Minden barátomnak mesélni fogok róla!
+STR_VISITOR_JOB_TOURING_PRO             :Versenyző profi
+STR_VISITOR_JOB_FILM_STAR               :Filmsztár
+STR_VISITOR_JOB_POP_STAR                :Popsztár
+STR_VISITOR_JOB_TV_CHEF                 :Televíziós szakács
+STR_VISITOR_JOB_FOOTBALLER              :Visszavonult futballista
+STR_VISITOR_JOB_SOAP_STAR               :Szappanopera-sztár
+STR_VISITOR_JOB_RACING_DRIVER           :Autóversenyző
+STR_VISITOR_JOB_NOVELIST                :Regényíró
+STR_VISITOR_JOB_ASTRONOMER              :Televíziós csillagász
 STR_VISITOR_NAME_RENA_VASQUELL          :Rena Vasquell
 STR_VISITOR_NAME_HUGO_BRANDVOLD         :Hugo Brandvold
 STR_VISITOR_NAME_SAMI_VARKONYI          :Sami Varkonyi
@@ -3239,250 +3239,250 @@ STR_VISITOR_NAME_DELLA_STARLING         :Della Starling
 STR_VISITOR_NAME_ZIGGY_MARCHETTI        :Ziggy Marchetti
 STR_VISITOR_NAME_PRUDENCE_OAKES         :Prudence Oakes
 STR_VISITOR_NAME_FELIX_NIGHTLY          :Felix Nightly
-STR_VISITOR_REMARK_BROCK_STELLAN_0      :I've done stunts on safer ground than this.
-STR_VISITOR_REMARK_BROCK_STELLAN_1      :Not bad. Not a blockbuster, either.
-STR_VISITOR_REMARK_BROCK_STELLAN_2      :Two thumbs up. I want the sequel!
-STR_VISITOR_REMARK_MARISOL_VANE_0       :This course is so off-key.
-STR_VISITOR_REMARK_MARISOL_VANE_1       :Catchy, but it needs a better chorus.
-STR_VISITOR_REMARK_MARISOL_VANE_2       :This course is a number one hit!
-STR_VISITOR_REMARK_ARLO_PENNINGTON_0    :Undercooked and badly seasoned.
-STR_VISITOR_REMARK_ARLO_PENNINGTON_1    :A decent dish. A pinch more flair, please.
-STR_VISITOR_REMARK_ARLO_PENNINGTON_2    :Cooked to perfection. My compliments to the chef!
-STR_VISITOR_REMARK_GUS_MALLORY_0        :I've seen better pitches in a car park.
-STR_VISITOR_REMARK_GUS_MALLORY_1        :A course of two halves, this.
-STR_VISITOR_REMARK_GUS_MALLORY_2        :Back of the net! What a course.
-STR_VISITOR_REMARK_DELLA_STARLING_0     :Darling, this course is a tragedy.
-STR_VISITOR_REMARK_DELLA_STARLING_1     :Not quite prime time, but it has promise.
-STR_VISITOR_REMARK_DELLA_STARLING_2     :I'll be telling everyone at the studio!
-STR_VISITOR_REMARK_ZIGGY_MARCHETTI_0    :Too many slow corners for my taste.
-STR_VISITOR_REMARK_ZIGGY_MARCHETTI_1    :A decent lap. There are a few tenths to find.
-STR_VISITOR_REMARK_ZIGGY_MARCHETTI_2    :Pole position! A cracking course.
-STR_VISITOR_REMARK_PRUDENCE_OAKES_0     :A plot full of holes, and not the good kind.
-STR_VISITOR_REMARK_PRUDENCE_OAKES_1     :A solid first draft.
-STR_VISITOR_REMARK_PRUDENCE_OAKES_2     :A page-turner from the first tee to the last green.
-STR_VISITOR_REMARK_FELIX_NIGHTLY_0      :A black hole of a course.
-STR_VISITOR_REMARK_FELIX_NIGHTLY_1      :A middling star, but it shines now and then.
-STR_VISITOR_REMARK_FELIX_NIGHTLY_2      :Simply out of this world!
-STR_UPDATE_STAGE_COMPARE                :Comparing your game's files with OpenSGolf {VERSION}'s, to download only what changed...
-STR_NET_BUSY                            :{URL}: the server takes no more requests for now, HTTP {CODE}: GitHub answers 60 an hour per connection, so wait an hour
-STR_NET_HTTP                            :{URL}: the server answered HTTP {CODE}
+STR_VISITOR_REMARK_BROCK_STELLAN_0      :Biztonságosabb talajon is hajtottam már végre kaszkadőrmutatványokat.
+STR_VISITOR_REMARK_BROCK_STELLAN_1      :Nem rossz. De kasszasikernek azért nem nevezném.
+STR_VISITOR_REMARK_BROCK_STELLAN_2      :Két hüvelykujj felfelé! Jöhet a folytatás!
+STR_VISITOR_REMARK_MARISOL_VANE_0       :Ez a pálya teljesen hamis hangon szól.
+STR_VISITOR_REMARK_MARISOL_VANE_1       :Fülbemászó, de egy jobb refrén még hiányzik belőle.
+STR_VISITOR_REMARK_MARISOL_VANE_2       :Ez a pálya listavezető sláger!
+STR_VISITOR_REMARK_ARLO_PENNINGTON_0    :Alulsütött és rosszul fűszerezett.
+STR_VISITOR_REMARK_ARLO_PENNINGTON_1    :Nem rossz fogás. Egy kis több fantáziát azért elbírt volna.
+STR_VISITOR_REMARK_ARLO_PENNINGTON_2    :Tökéletesre sütve. Elismerésem a séfnek!
+STR_VISITOR_REMARK_GUS_MALLORY_0        :Láttam már jobb pályát egy parkolóban is.
+STR_VISITOR_REMARK_GUS_MALLORY_1        :Ez a pálya két teljesen különböző félből áll.
+STR_VISITOR_REMARK_GUS_MALLORY_2        :Gól! Micsoda pálya!
+STR_VISITOR_REMARK_DELLA_STARLING_0     :Drágám, ez a pálya maga a tragédia.
+STR_VISITOR_REMARK_DELLA_STARLING_1     :Még nem főműsoridős színvonal, de van benne lehetőség.
+STR_VISITOR_REMARK_DELLA_STARLING_2     :Mindenkinek mesélni fogok róla a stúdióban!
+STR_VISITOR_REMARK_ZIGGY_MARCHETTI_0    :Nekem túl sok a lassú kanyar.
+STR_VISITOR_REMARK_ZIGGY_MARCHETTI_1    :Egész jó kör. Még néhány tizedmásodpercet le lehetne faragni.
+STR_VISITOR_REMARK_ZIGGY_MARCHETTI_2    :Pole pozíció! Fantasztikus pálya!
+STR_VISITOR_REMARK_PRUDENCE_OAKES_0     :Tele van lyukakkal, de sajnos nem a jó fajtából.
+STR_VISITOR_REMARK_PRUDENCE_OAKES_1     :Egész ígéretes első változat.
+STR_VISITOR_REMARK_PRUDENCE_OAKES_2     :Lebilincselő történet az első elütőhelytől az utolsó greenig.
+STR_VISITOR_REMARK_FELIX_NIGHTLY_0      :Ez a pálya egy fekete lyuk.
+STR_VISITOR_REMARK_FELIX_NIGHTLY_1      :Közepes csillag, amely időnként azért felragyog.
+STR_VISITOR_REMARK_FELIX_NIGHTLY_2      :Egyszerűen földöntúli!
+STR_UPDATE_STAGE_COMPARE                :A játékfájlok összehasonlítása az OpenSGolf {VERSION} verziójával. Csak a megváltozott fájlok letöltése...
+STR_NET_BUSY                            :{URL}: HTTP {CODE}. A GitHub óránként 60 kérést engedélyez; próbáld újra egy óra múlva.
+STR_NET_HTTP                            :{URL}: a szerver válasza: HTTP {CODE}
 
 # Right-drag panning (OpenSGolf extras, issue #67)
-STR_EXTRAS_RIGHT_DRAG                   : Right-drag moves the course
-STR_EXTRAS_DESC_RIGHT_DRAG              :Drag with the right button to move the course; a right click still undoes, as in the original. Part of the Modern controls preset (Change keys).
+STR_EXTRAS_RIGHT_DRAG                   : A pálya mozgatása jobb gombbal történő húzással
+STR_EXTRAS_DESC_RIGHT_DRAG              :Húzd a pályát a jobb gombbal. A jobb kattintás továbbra is visszavonás. A modern vezérlés része.
 
 # Random trees (OpenSGolf extras, issue #68)
-STR_EXTRAS_RANDOM_TREES                 : Random trees: each tree planted gets a random look
-STR_EXTRAS_DESC_RANDOM_TREES            :Every tree the woods, pine and palm brushes plant gets a random size (and pines a random species), and every scenic tree a random one of the seven, for a more natural course. The look under the pointer is the next one.
+STR_EXTRAS_RANDOM_TREES                 : Véletlenszerű fák: minden elültetett fa véletlenszerű megjelenést kap
+STR_EXTRAS_DESC_RANDOM_TREES            :A fák mérete véletlenszerű; a fenyők fajtája is változik. A látványfák közül is véletlenszerűen választ a játék.
 
 # OpenSGolf extras: the presets, the Calendar line, the Info page's groups, the port's Preferences lines (0.5)
-STR_PRESET_ORIGINAL                     :Original
-STR_PRESET_HELPERS                      :Original + helpers
+STR_PRESET_ORIGINAL                     :Eredeti
+STR_PRESET_HELPERS                      :Eredeti + segítségek
 STR_PRESET_OPENSGOLF                    :OpenSGolf
-STR_PRESET_CUSTOM                       :Custom
-STR_EXTRAS_PRESET                       : Preset: {VALUE}
-STR_PRESET_DESC_ORIGINAL                :Every OpenSGolf extra off: the game exactly as it was. Click for the next preset; your pauses and controls stay as you set them.
-STR_PRESET_DESC_HELPERS                 :Every helper and look on (People, reports, autosave, path styles...) and nothing that changes how the game plays.
-STR_PRESET_DESC_OPENSGOLF               :The helpers and looks, plus a few small extras that keep the game's balance, such as higher staff limits and turning buildings.
-STR_PRESET_DESC_CUSTOM                  :Your own mix of ticks. A click steps through the presets; Custom brings your own mix back.
-STR_EXTRAS_TAG_EXPERIMENTAL             :Experimental
-STR_EXTRAS_CALENDAR                     : Calendar: {VALUE}
-STR_EXTRAS_CALENDAR_NORMAL              :normal
-STR_EXTRAS_CALENDAR_HALF                :half speed
-STR_EXTRAS_CALENDAR_QUARTER             :quarter speed
-STR_EXTRAS_CALENDAR_STOPPED             :stopped
-STR_EXTRAS_DESC_CALENDAR                :Half or quarter speed: each year holds more golf while golfers, staff and bills keep their pace. Stopped: no month or year ever ends.
-STR_EXTRAS_GROUP_PEOPLE                 : People screen, name tags and live scorecards
-STR_EXTRAS_GROUP_REPORTS                : Extra reports: landing map, hole comments, graphs...
-STR_EXTRAS_GROUP_MESSAGES               : Message history and clickable ticker (Shift+M)
-STR_EXTRAS_SOME_ON                      :{LINE} (some on)
-STR_EXTRAS_DESC_GROUP_PEOPLE            :Every golfer and employee in a sortable list (Shift+G), a name tag under the pointer (Shift+H hides them) and the round so far under a golfer card.
-STR_EXTRAS_DESC_GROUP_REPORTS           :Landing map (Shift+D), comments by hole (Shift+I), history graphs (Shift+Y), the year in numbers after End of Year, and tabs over the F1 to F10 reports.
-STR_EXTRAS_DESC_GROUP_MESSAGES          :Keeps every ticker message to read back (Shift+M); a click on a ticker message takes the camera to the golfer or place it is about.
-STR_MENU_PREFS_FIX_BUGS                 : Fix the original game's bugs
-STR_MENU_PREFS_FIX_BUGS_NOTE            :Its own glitches only; play is otherwise the original's.
-STR_MENU_PREFS_UPDATE_CHECK             : Check for updates when the game starts (online)
+STR_PRESET_CUSTOM                       :Egyéni
+STR_EXTRAS_PRESET                       : Előbeállítás: {VALUE}
+STR_PRESET_DESC_ORIGINAL                :Minden OpenSGolf-extra kikapcsolva; a játék az eredeti szerint működik. Kattintással válthatsz előbeállítást. A szünet és a vezérlés változatlan.
+STR_PRESET_DESC_HELPERS                 :Minden kényelmi és látványelem bekapcsolva (Emberek, jelentések, automatikus mentés, útburkolatok stb.); a játékmenet változatlan.
+STR_PRESET_DESC_OPENSGOLF               :Kényelmi extrák és kisebb játékmeneti újdonságok, például több alkalmazott és forgatható épületek.
+STR_PRESET_DESC_CUSTOM                  :Saját összeállítás. Kattintással válthatsz; az Egyéni az egyedi beállításokat használja.
+STR_EXTRAS_TAG_EXPERIMENTAL             :Kísérleti
+STR_EXTRAS_CALENDAR                     : Naptár: {VALUE}
+STR_EXTRAS_CALENDAR_NORMAL              :normál
+STR_EXTRAS_CALENDAR_HALF                :félsebesség
+STR_EXTRAS_CALENDAR_QUARTER             :negyedsebesség
+STR_EXTRAS_CALENDAR_STOPPED             :megállítva
+STR_EXTRAS_DESC_CALENDAR                :A naptár fél vagy negyed sebességen jár; a golfozók, alkalmazottak és számlák normál tempóban működnek. Megállítva nincs hónap- vagy évzárás.
+STR_EXTRAS_GROUP_PEOPLE                 : Emberek képernyő, névcímkék és élő eredménykártyák
+STR_EXTRAS_GROUP_REPORTS                : További jelentések: érkezési térkép, szakaszvélemények, grafikonok...
+STR_EXTRAS_GROUP_MESSAGES               : Üzenetelőzmények és kattintható üzenetszalag (Shift+M)
+STR_EXTRAS_SOME_ON                      :{LINE} (néhány bekapcsolva)
+STR_EXTRAS_DESC_GROUP_PEOPLE            :Minden golfozó és alkalmazott rendezhető listában (Shift+G), névcímke az egérmutató alatt (Shift+H: elrejtés), valamint az aktuális kör eredménye a golfozó adatlapján.
+STR_EXTRAS_DESC_GROUP_REPORTS           :Labdaérkezési térkép (Shift+D), szakaszonkénti vélemények (Shift+I), előzménygrafikonok (Shift+Y), az év számokban az év végi jelentés után, valamint fülek az F1–F10 jelentések fölött.
+STR_EXTRAS_DESC_GROUP_MESSAGES          :Az üzenetszalag üzenetei megmaradnak (Shift+M). Kattintással a kapcsolódó golfozóhoz vagy helyszínhez ugorhatsz.
+STR_MENU_PREFS_FIX_BUGS                 : Az eredeti játék hibáinak javítása
+STR_MENU_PREFS_FIX_BUGS_NOTE            :Csak az eredeti játék hibáit javítja; a játékmenet változatlan.
+STR_MENU_PREFS_UPDATE_CHECK             : Frissítések keresése a játék indításakor (online)
 
 # Enhanced graphics' looks of 0.5 (the port's own, docs/ENHANCED.md): lit windows and dawn sprinklers (with the time of
 # day), winter frost, and pixel-perfect scaling (Display; it counts with Enhanced graphics off too)
-STR_ENHANCED_FX_WINDOW_LIGHTS           : Warm light in the buildings' windows at night
-STR_ENHANCED_FX_SPRINKLERS              : Sprinklers on the fairways and greens at dawn
-STR_ENHANCED_FX_FROST                   : Frost on cold mornings, melting by late morning
-STR_ENHANCED_PIXEL_PERFECT              : Pixel-perfect scaling: whole sizes only (Classic too)
-STR_FX_WINDOW_LIGHTS                    :Lit windows
-STR_FX_SPRINKLERS                       :Dawn sprinklers
-STR_FX_FROST                            :Morning frost
+STR_ENHANCED_FX_WINDOW_LIGHTS           : Meleg fény az épületek ablakaiban éjszaka
+STR_ENHANCED_FX_SPRINKLERS              : Öntözőberendezések a fairwayeken és greeneken hajnalban
+STR_ENHANCED_FX_FROST                   : Dér a hideg reggeleken, amely késő délelőttre elolvad
+STR_ENHANCED_PIXEL_PERFECT              : Pixelpontos nagyítás: csak egész méretarány (klasszikus módban is)
+STR_FX_WINDOW_LIGHTS                    :Kivilágított ablakok
+STR_FX_SPRINKLERS                       :Hajnali öntözés
+STR_FX_FROST                            :Reggeli dér
 
 # The showcase fly-over (the port's own, showcase.rs; docs/PLAYING.md)
-STR_CTL_SHOWCASE                        :Showcase: fly over the course hole by hole
-STR_SHOWCASE_NO_HOLES                   :The showcase needs an open hole to fly over.
-STR_TOUCH_SHOWCASE                      :Showcase
-STR_SHOWCASE_HOLE                       :Hole {HOLE}  -  Par {PAR}  -  {YARDS} yards
+STR_CTL_SHOWCASE                        :Bemutatórepülés: a pálya bejárása szakaszról szakaszra
+STR_SHOWCASE_NO_HOLES                   :A bemutatórepüléshez legalább egy megnyitott szakaszra van szükség.
+STR_TOUCH_SHOWCASE                      :Bemutató
+STR_SHOWCASE_HOLE                       :{HOLE}. szakasz  -  Par {PAR}  -  {YARDS} yard
 
 # Saved games of the original SimGolf brought over (share.rs, sg_core::sve, issue #49)
-STR_TOAST_SVE_IMPORTED                  :{COURSE} from the original SimGolf was added to Load Previous Game as {NAME}.
-STR_TOAST_SVE_UNREADABLE                :{FILE} could not be read as a saved game of the original SimGolf ({WHY}). Nothing was added.
-STR_SVE_IMPORTED_SUFFIX                 :(imported)
-STR_SVE_PICKED_FILE                     :The file picked
-STR_SVE_IMPORTED_NOTE                   :Imported from the original: {CARRIED}. Not carried over: {DROPPED}.
-STR_SVE_PART_LAND                       :the land, terrain and elevation
-STR_SVE_PART_HOLES                      :the holes (tees, pins, par)
-STR_SVE_PART_BUILDINGS                  :buildings, paths and decorations
-STR_SVE_PART_MONEY                      :money and the yearly ledger
-STR_SVE_PART_DATE                       :the date
-STR_SVE_PART_DIFFICULTY                 :the difficulty
-STR_SVE_PART_PROPERTY                   :the property and its theme
-STR_SVE_PART_MEMBERS                    :the members
-STR_SVE_PART_PEOPLE                     :the people and your pro
-STR_SVE_PART_STAFF                      :the staff
-STR_SVE_PART_RECORDS                    :accomplishments, best rounds and history
-STR_SVE_LOST_GOLFERS                    :the golfers out on the course (new ones arrive)
-STR_SVE_LOST_HOLE_STATS                 :some hole statistics
-STR_SVE_LOST_WILDLIFE                   :animals and home residents (they come back)
-STR_SVE_LOST_STORIES                    :stories under way
-STR_SVE_LOST_TOURNAMENT                 :the tournament under way
-STR_SVE_LOST_HOLE_NAMES                 :the holes' names
-STR_SVE_LOST_OPTIONS                    :the original's Preferences
+STR_TOAST_SVE_IMPORTED                  :Az eredeti SimGolf-pálya ({COURSE}) hozzáadva a Betöltés listához: {NAME}.
+STR_TOAST_SVE_UNREADABLE                :A(z) {FILE} fájlt nem sikerült az eredeti SimGolf mentett játékaként beolvasni ({WHY}). Nem került hozzáadásra.
+STR_SVE_IMPORTED_SUFFIX                 :(importált)
+STR_SVE_PICKED_FILE                     :A kiválasztott fájl
+STR_SVE_IMPORTED_NOTE                   :Az eredeti játékból átvéve: {CARRIED}. Nem került átvételre: {DROPPED}.
+STR_SVE_PART_LAND                       :a terület, a terep és a magasság
+STR_SVE_PART_HOLES                      :a szakaszok (elütőhelyek, lyukak, par értékek)
+STR_SVE_PART_BUILDINGS                  :épületek, utak és díszítőelemek
+STR_SVE_PART_MONEY                      :pénz és éves pénzügyi nyilvántartás
+STR_SVE_PART_DATE                       :dátum
+STR_SVE_PART_DIFFICULTY                 :nehézségi szint
+STR_SVE_PART_PROPERTY                   :ingatlan és annak témája
+STR_SVE_PART_MEMBERS                    :klubtagok
+STR_SVE_PART_PEOPLE                     :emberek és a klubprofid
+STR_SVE_PART_STAFF                      :alkalmazottak
+STR_SVE_PART_RECORDS                    :eredmények, legjobb körök és előzmények
+STR_SVE_LOST_GOLFERS                    :a pályán lévő golfozók (újak érkeznek helyettük)
+STR_SVE_LOST_HOLE_STATS                 :néhány szakasz statisztikái
+STR_SVE_LOST_WILDLIFE                   :állatok és a lakóházak lakói (visszatérnek)
+STR_SVE_LOST_STORIES                    :folyamatban lévő történetek
+STR_SVE_LOST_TOURNAMENT                 :a folyamatban lévő verseny
+STR_SVE_LOST_HOLE_NAMES                 :a szakaszok nevei
+STR_SVE_LOST_OPTIONS                    :az eredeti játék beállításai
 # The Import and export saved games extra (extras.rs save_files; Load Previous Game's buttons, issue #49)
-STR_EXTRAS_SAVE_FILES                   : Import and export saved games (buttons in Load Previous Game)
-STR_EXTRAS_DESC_SAVE_FILES              :For moving your games to another device (computer, phone, tablet, browser): Load Previous Game gets Import a save file... and Export this save...
+STR_EXTRAS_SAVE_FILES                   : Mentések importálása/exportálása (a Betöltés képernyőn)
+STR_EXTRAS_DESC_SAVE_FILES              :A Betöltés képernyőn importálhatod vagy exportálhatod a mentéseidet, így más eszközre viheted őket.
 # Loading a game saved with other graphics (content_profiles.rs save_packs_question): the base packs in plain words
-STR_SAVE_PACKS_ART_ORIGINAL             :the original SimGolf art
-STR_SAVE_PACKS_ART_FREE                 :the free graphics
-STR_SAVE_PACKS_ART_OTHER                :the graphics "{ID}"
-STR_SAVE_PACKS_DIFFER_ART               :This game was saved with {SAVED}; you're using {NOW}. It may look or play a little differently. Load it anyway?
+STR_SAVE_PACKS_ART_ORIGINAL             :az eredeti SimGolf grafikája
+STR_SAVE_PACKS_ART_FREE                 :az ingyenes grafika
+STR_SAVE_PACKS_ART_OTHER                :a „{ID}” grafikai csomag
+STR_SAVE_PACKS_DIFFER_ART               :A mentés grafikája: {SAVED}; a jelenlegi: {NOW}. A játék máshogy nézhet ki vagy működhet. Betöltöd?
 
 # Aiming the pro by touch (the port's own, touch.rs; docs/PLAYING.md)
-STR_TOUCH_SWING                         :Swing
-STR_TOUCH_AIM_LABEL                     :{YARDS} yds, {CLUB}
-STR_TOUCH_PLACE                         :Place
-STR_TOUCH_CENTRE                        :Centre on my pro
-STR_TOUCH_UNDO                          :Undo
-STR_TOUCH_LOOK_HINT                     :Drag the course to look round, drag the target to aim. Two fingers move the view.
-STR_SELFCHECK_FOUND                     :OpenSGolf found a problem with a saved game and kept a report. Preferences > More > Report a problem can send it.
+STR_TOUCH_SWING                         :Ütés
+STR_TOUCH_AIM_LABEL                     :{YARDS} yard, {CLUB}
+STR_TOUCH_PLACE                         :Elhelyezés
+STR_TOUCH_CENTRE                        :Középre a klubprofimmal
+STR_TOUCH_UNDO                          :Visszavonás
+STR_TOUCH_LOOK_HINT                     :A körbenézéshez húzd a pályát, a célzáshoz pedig húzd a célpontot. Két ujjal mozgathatod a nézetet.
+STR_SELFCHECK_FOUND                     :Hibát találtunk a mentésben. Jelentheted: Beállítások > Egyéb > Hiba jelentése.
 
 # The desert's Ravine and Brush art (OpenSGolf extras, extras.rs desert_art, issue #89; retired in 0.6, shown nowhere)
-STR_EXTRAS_DESERT_ART                   : Fix the desert's swapped Ravine and Brush art
-STR_EXTRAS_DESC_DESERT_ART              :The original desert shows the Ravine as dry weeds and the Brush as a crack, on the course and on their buttons. This trades the two pictures; play is unchanged.
+STR_EXTRAS_DESERT_ART                   : A sivatagi szakadék és bozót felcserélt grafikájának javítása
+STR_EXTRAS_DESC_DESERT_ART              :A sivatagi témában felcserélhető a szakadék és a bozót grafikája a pályán és az eszközöknél. A játékmenet nem változik.
 
 # Report a problem (the port's own helper, bugreport.rs; docs/PLAYING.md "Reporting a problem")
-STR_MENU_PREFS_REPORT                   : Report a problem...
-STR_PREFS_DESC_REPORT                   :Opens a filled-in bug report form and keeps a copy of this game to attach. Nothing is sent until you submit.
-STR_CTL_REPORT_PROBLEM                  :Report a problem (opens the bug report form, asks first)
-STR_BUGREPORT_TITLE                     :Report a problem
-STR_BUGREPORT_EXPLAIN                   :This opens the project's bug report form on GitHub in your browser, filled in with the game's version and your system.\nA copy of this game, its recent warnings (and a screenshot, if ticked) go in the Reports folder in your save folder, which opens too: drag the files into the form.\nNothing is sent automatically: you read the form, say what happened and submit it yourself.
-STR_BUGREPORT_EXPLAIN_WEB               :This opens the project's bug report form on GitHub in a new tab, filled in with the game's version and your browser.\nA copy of this game, its recent warnings (and a screenshot, if ticked) are downloaded: drag the files into the form.\nNothing is sent automatically: you read the form, say what happened and submit it yourself.
-STR_BUGREPORT_EXPLAIN_ANDROID           :This opens the project's bug report form on GitHub in your browser, filled in with the game's version and your phone.\nA copy of this game, its recent warnings (and a screenshot, if ticked) go in the Reports folder next to the game's Photos, for you to attach.\nNothing is sent automatically: you read the form, say what happened and submit it yourself.
-STR_BUGREPORT_SCREENSHOT                : Include a screenshot
-STR_BUGREPORT_OPEN                      : OK, open the form
-STR_BUGREPORT_CANCEL                    : Cancel
-STR_BUGREPORT_DONE                      :The bug report form is open in your browser. Drag these files from the Reports folder (just opened) into its "Screenshots, save file, log" box: {FILES}.\nThe folder: {FOLDER}
-STR_BUGREPORT_DONE_WEB                  :The bug report form is open in a new tab, and these files were downloaded: {FILES}. Drag them into the form's "Screenshots, save file, log" box.
-STR_BUGREPORT_DONE_ANDROID              :The bug report form is open in your browser. These files are in {FOLDER} for you to attach (a computer sees the folder over USB): {FILES}.
-STR_BUGREPORT_DONE_NO_FILES             :The bug report form is open in your browser. Say what happened and submit it when you're ready.
-STR_BUGREPORT_NO_BROWSER                :No browser could be opened. The form's address is on the clipboard: paste it into a browser.
-STR_BUGREPORT_FORM_LOG                  :Recent warnings:
-STR_BUGREPORT_FORM_NO_LOG               :No warnings so far.
+STR_MENU_PREFS_REPORT                   : Hiba jelentése...
+STR_PREFS_DESC_REPORT                   :Előre kitöltött hibajelentést nyit, és mellékeli a játék mentését. Beküldés előtt te ellenőrzöd és küldöd el.
+STR_CTL_REPORT_PROBLEM                  :Hibajelentés megnyitása (megerősítéssel)
+STR_BUGREPORT_TITLE                     :Hiba jelentése
+STR_BUGREPORT_EXPLAIN                   :Megnyílik a GitHub hibajelentő űrlapja a játék és a rendszer adataival.\nA mentés, a legutóbbi figyelmeztetések és (ha bejelölöd) a képernyőkép a mentések mappájának Reports almappájába kerül, amelyet a játék megnyit. Húzd át a fájlokat az űrlapra.\nA játék semmit sem küld el automatikusan. Olvasd át az űrlapot, írd le, mi történt, majd küldd be.
+STR_BUGREPORT_EXPLAIN_WEB               :Új böngészőlapon megnyílik a GitHub hibajelentő űrlapja a játék és a böngésző adataival.\nA mentés, a figyelmeztetések és (ha bejelölöd) a képernyőkép letöltődik. Húzd át a fájlokat az űrlapra.\nA játék semmit sem küld el automatikusan. Olvasd át az űrlapot, írd le, mi történt, majd küldd be.
+STR_BUGREPORT_EXPLAIN_ANDROID           :Megnyílik a GitHub hibajelentő űrlapja a játék és a telefon adataival.\nA mentés, a figyelmeztetések és (ha bejelölöd) a képernyőkép a játék Photos mappája melletti Reports mappába kerül. Húzd át a fájlokat az űrlapra.\nA játék semmit sem küld el automatikusan. Olvasd át az űrlapot, írd le, mi történt, majd küldd be.
+STR_BUGREPORT_SCREENSHOT                : Képernyőkép csatolása
+STR_BUGREPORT_OPEN                      : Rendben, űrlap megnyitása
+STR_BUGREPORT_CANCEL                    : Mégse
+STR_BUGREPORT_DONE                      :A hibajelentő űrlap megnyílt a böngésződben. Húzd át a következő fájlokat a most megnyitott Reports mappából az űrlap „Screenshots, save file, log” mezőjébe: {FILES}.\nA mappa helye: {FOLDER}
+STR_BUGREPORT_DONE_WEB                  :A hibajelentő űrlap megnyílt egy új böngészőlapon, a következő fájlok pedig letöltődtek: {FILES}. Húzd át őket az űrlap „Screenshots, save file, log” mezőjébe.
+STR_BUGREPORT_DONE_ANDROID              :A hibajelentő űrlap megnyílt a böngésződben. A csatolandó fájlokat itt találod: {FOLDER} ({FILES}). Számítógépről USB-kapcsolaton keresztül is elérheted ezt a mappát.
+STR_BUGREPORT_DONE_NO_FILES             :A hibajelentő űrlap megnyílt a böngésződben. Írd le, mi történt, majd küldd be, amikor készen állsz.
+STR_BUGREPORT_NO_BROWSER                :Nem sikerült megnyitni a böngészőt. Az űrlap címe a vágólapra került; illeszd be a böngésző címsorába.
+STR_BUGREPORT_FORM_LOG                  :Legutóbbi figyelmeztetések:
+STR_BUGREPORT_FORM_NO_LOG               :Eddig nem történt figyelmeztetés.
 STR_KEYS_K_REPORT_PROBLEM               :Shift+F8
-STR_KEYS_REPORT_PROBLEM                 :Report a problem (the bug report form, asks first)
+STR_KEYS_REPORT_PROBLEM                 :Hiba jelentése (hibajelentő űrlap megnyitása, előzetes megerősítéssel)
 
 # The support reminder (the port's own, support.rs; docs/PLAYING.md "Supporting OpenSGolf")
-STR_SUPPORT_TITLE                       :Enjoying OpenSGolf?
-STR_SUPPORT_PLAYED_1                    :You've played for about an hour.
-STR_SUPPORT_PLAYED                      :You've played for about {HOURS} hours.
-STR_SUPPORT_BODY                        :Thanks for playing! OpenSGolf is free and always will be, with no ads. It's made by one person, and the tools cost about £90 a month. If it's given you some good hours, a coffee helps keep the updates coming. No pressure either way: enjoy your course!
-STR_SUPPORT_YES                         : Support on Buy Me a Coffee
-STR_SUPPORT_LATER                       : Maybe later
-STR_SUPPORT_NEVER                       : Don't ask again
-STR_SUPPORT_NO_BROWSER                  :No browser could be opened. The address is on the clipboard: {URL}
-STR_MENU_PREFS_SUPPORT                  : Support OpenSGolf...
-STR_MENU_PREFS_PLAYED_NOTE              :Your time played: {TIME}.
-STR_TITLE_PLAYED                        :{TIME} played
+STR_SUPPORT_TITLE                       :Tetszik az OpenSGolf?
+STR_SUPPORT_PLAYED_1                    :Már körülbelül egy órája játszol.
+STR_SUPPORT_PLAYED                      :Már körülbelül {HOURS} órája játszol.
+STR_SUPPORT_BODY                        :Köszönjük, hogy játszol! Az OpenSGolf ingyenes és reklámmentes. Egy ember fejleszti, az eszközök havi költsége kb. 90 font. Ha támogatnád a folytatást, egy kávé árával segíthetsz. Nem kötelező. Jó játékot!
+STR_SUPPORT_YES                         : Támogatás a Buy Me a Coffee oldalon
+STR_SUPPORT_LATER                       : Talán később
+STR_SUPPORT_NEVER                       : Ne kérdezze meg újra
+STR_SUPPORT_NO_BROWSER                  :Nem sikerült megnyitni a böngészőt. A cím a vágólapra került: {URL}
+STR_MENU_PREFS_SUPPORT                  : OpenSGolf támogatása...
+STR_MENU_PREFS_PLAYED_NOTE              :Játékidőd: {TIME}.
+STR_TITLE_PLAYED                        :Játékidő: {TIME}
 STR_TITLE_VERSION                       :OpenSGolf {VERSION}
-STR_TIME_HOUR                           :1 hour
-STR_TIME_HOURS                          :{N} hours
-STR_TIME_MINUTE                         :1 minute
-STR_TIME_MINUTES                        :{N} minutes
-STR_PREFS_DESC_SUPPORT                  :Opens OpenSGolf's Buy Me a Coffee page in your browser. The game stays free and complete either way.
+STR_TIME_HOUR                           :1 óra
+STR_TIME_HOURS                          :{N} óra
+STR_TIME_MINUTE                         :1 perc
+STR_TIME_MINUTES                        :{N} perc
+STR_PREFS_DESC_SUPPORT                  :Megnyitja az OpenSGolf támogatói oldalát. A játék mindig ingyenes és teljes értékű marad.
 # The welcome boxes (the port's own, welcome.rs; docs/PLAYING.md "How would you like to play?"). The choices start with a
 # space (options); the notes under them are wrapped by the game. The four choices are the four presets (STR_PRESET_*).
-STR_WELCOME_TITLE                       :How would you like to play?
-STR_WELCOME_ORIGINAL                    : The original game
-STR_WELCOME_ORIGINAL_NOTE               :Everything exactly as it was in 2002.
-STR_WELCOME_HELPERS                     : Original + helpers
-STR_WELCOME_HELPERS_NOTE                :The same game, with helpers that show more and save clicks.
+STR_WELCOME_TITLE                       :Hogyan szeretnél játszani?
+STR_WELCOME_ORIGINAL                    : Az eredeti játék
+STR_WELCOME_ORIGINAL_NOTE               :Minden pontosan úgy működik, ahogy 2002-ben.
+STR_WELCOME_HELPERS                     : Eredeti + segítségek
+STR_WELCOME_HELPERS_NOTE                :Ugyanaz a játék, de több információval és kevesebb kattintással.
 STR_WELCOME_OPENSGOLF                   : OpenSGolf
-STR_WELCOME_OPENSGOLF_NOTE              :The helpers and looks, plus small extras that keep the game's balance.
-STR_WELCOME_CUSTOM                      : Custom
-STR_WELCOME_CUSTOM_NOTE                 :Your own mix: opens Game options to tick each extra yourself.
-STR_WELCOME_CHANGE                      :You can change this any time in Preferences > Game options.
+STR_WELCOME_OPENSGOLF_NOTE              :Kényelmi extrák, látványelemek és kisebb játékmeneti újdonságok.
+STR_WELCOME_CUSTOM                      : Egyéni
+STR_WELCOME_CUSTOM_NOTE                 :Saját összeállítás a Játékmenet beállításai között.
+STR_WELCOME_CHANGE                      :Később a Beállítások > Játékmenet menüben módosíthatod.
 # "What's new" after an update ({VERSION} is e.g. 0.6). Each highlight is a line (starting with a space) and a note.
-STR_WHATSNEW_TITLE                      :What's new in OpenSGolf {VERSION}
-STR_WHATSNEW_SMOOTH                     : Smoother play
-STR_WHATSNEW_SMOOTH_NOTE                :No more short freezes, and the course draws faster.
-STR_WHATSNEW_HD                         : HD graphics (beta)
-STR_WHATSNEW_HD_NOTE                    :Sharper art, made in the game from your own SimGolf files.
-STR_WHATSNEW_SWING                      : Mouse aim and swing
-STR_WHATSNEW_SWING_NOTE                 :Aim and swing your pro's shots with the mouse, as on a touch screen.
-STR_WHATSNEW_RIGHT                      : Right click puts the tool away
-STR_WHATSNEW_RIGHT_NOTE                 :A brush left in hand no longer undoes a hole's tee or green.
-STR_WHATSNEW_WEEDS                      : Sandbox: no new dandelions
-STR_WHATSNEW_WEEDS_NOTE                 :Dandelions stop spreading, so the course stays clear.
-STR_WHATSNEW_MORE                       : And more
-STR_WHATSNEW_MORE_NOTE                  :Wide-screen interface, update check, [ ] for speed, desert fixes.
-STR_WHATSNEW_ALL                        : See everything that's new
+STR_WHATSNEW_TITLE                      :Újdonságok az OpenSGolf {VERSION} verziójában
+STR_WHATSNEW_SMOOTH                     : Folyamatosabb játékmenet
+STR_WHATSNEW_SMOOTH_NOTE                :Megszűntek a rövid megakadások, és gyorsabban rajzolódik ki a pálya.
+STR_WHATSNEW_HD                         : HD grafika (béta)
+STR_WHATSNEW_HD_NOTE                    :Élesebb grafika, amelyet a játék a saját SimGolf-fájljaidból készít.
+STR_WHATSNEW_SWING                      : Célzás és ütés egérrel
+STR_WHATSNEW_SWING_NOTE                 :A klubprofid célzását és ütését egérrel is vezérelheted.
+STR_WHATSNEW_RIGHT                      : Jobb kattintással elrakható az eszköz
+STR_WHATSNEW_RIGHT_NOTE                 :Jobb kattintással elrakhatod az eszközt, így nem vonsz vissza véletlenül.
+STR_WHATSNEW_WEEDS                      : Homokozó mód: ne nőjön új pitypang
+STR_WHATSNEW_WEEDS_NOTE                 :A pitypangok nem terjednek tovább, így tiszta marad a pálya.
+STR_WHATSNEW_MORE                       : És még sok más
+STR_WHATSNEW_MORE_NOTE                  :Szélesvásznú felület, frissítéskeresés, sebességállítás ([ ]) és sivatagi grafikai javítások.
+STR_WHATSNEW_ALL                        : Az összes újdonság megtekintése
 STR_WHATSNEW_OK                         : OK
-STR_WHATSNEW_TRY                        :Try it
-STR_WHATSNEW_ON                         :On
-STR_MENU_PREFS_WHATSNEW                 : What's new...
-STR_PREFS_DESC_WHATSNEW                 :Opens the list of what's new in each version (the changelog) in your browser.
-STR_PLAYCOUNT_NOTICE                    :OpenSGolf counts anonymous play time (no personal data). Turn it off in Preferences > More.
-STR_MENU_PREFS_PLAYCOUNT                : Count my play time (anonymous)
-STR_PREFS_DESC_PLAYCOUNT                :One count per 15 minutes played and one at start: only system and version, no names or saves. Offline counts are sent later.
+STR_WHATSNEW_TRY                        :Kipróbálás
+STR_WHATSNEW_ON                         :Be
+STR_MENU_PREFS_WHATSNEW                 : Újdonságok...
+STR_PREFS_DESC_WHATSNEW                 :Megnyitja a böngészőben az egyes verziók újdonságainak listáját (változásnapló).
+STR_PLAYCOUNT_NOTICE                    :Az OpenSGolf névtelenül méri a játékidőt, személyes adat nélkül. Kikapcsolás: Beállítások > Egyéb.
+STR_MENU_PREFS_PLAYCOUNT                : Játékidőm névtelen számítása
+STR_PREFS_DESC_PLAYCOUNT                :Indításkor és 15 percenként névtelen számlálóadatot küld. Csak a rendszer és a játék verzióját tartalmazza; nevet és mentést nem. Az offline adat később megy el.
 
 # Making HD graphics from the player's own files (the port's own, hd_make.rs; docs/HD.md)
-STR_PREFS_MAKE_HD                       : Make HD graphics from my SimGolf files (beta)...
-STR_PREFS_MAKE_HD_AGAIN                 : Make HD graphics again (beta)...
-STR_PREFS_MAKE_HD_RESUME                : Finish making HD graphics...
-STR_PREFS_MAKE_HD_RUNNING               : Making HD graphics: {PCT}% (show)
-STR_PREFS_REMOVE_HD                     : Remove HD graphics...
-STR_PREFS_DESC_REMOVE_HD                :Back to Classic graphics, and the HD pack deleted to free its space. You can make it again.
-STR_HD_REMOVE_ASK                       :Remove the HD graphics? The game goes back to Classic graphics and the HD pack is deleted from this device, freeing {SIZE}. You can make it again at any time.
-STR_HD_REMOVE_ASK_PLAIN                 :Remove the HD graphics? The game goes back to Classic graphics and the HD pack is deleted from this browser. You can make it again at any time.
-STR_HD_REMOVE_OK                        :Remove them
-STR_HD_REMOVED                          :The HD graphics are removed and the game is back to Classic graphics.
-STR_PREFS_DESC_MAKE_HD                  :Beta: an AI upscaler in the game redraws the art from your files, on this device, then turns HD on.
-STR_HD_MAKE_ASK                         :Make HD graphics (beta)? An AI upscaler built into the game redraws its {PICTURES} pictures from your own SimGolf files, on this device: about {SIZE} and {TIME} here. HD switches itself on when it is done, with no restart. You can play on meanwhile, stop at any time and carry on later. The pack is made from EA's art: keep it to yourself, do not share it.
-STR_HD_MAKE_ASK_BROWSER                 :Make HD graphics (beta)? An AI upscaler built into the game redraws its {PICTURES} pictures twice their size from your own SimGolf files, here in this browser, which keeps them with your game files: about {SIZE} and {TIME} here. You can play on meanwhile (more slowly), stop at any time and carry on later. Keep the pack to yourself.
-STR_HD_MAKE_AGAIN_NOTE                  :You have an HD pack already: making it again replaces it.
-STR_HD_MAKE_BIG                         :Make it (4 times the size: {SIZE}, {TIME})
-STR_HD_MAKE_SMALL                       :Make a smaller one (twice the size: {SIZE}, {TIME})
-STR_HD_MAKE_X2                          :Make it (twice the size: {SIZE}, {TIME})
-STR_HD_MAKE_ASK_RESUME                  :Making HD graphics was stopped before it was done. Carry on where it stopped?
-STR_HD_MAKE_RESUME                      :Carry on
-STR_HD_MAKE_RESTART                     :Start again
-STR_HD_MAKE_MINUTE                      :about a minute
-STR_HD_MAKE_MINUTES                     :about {N} minutes
-STR_HD_MAKE_LEFT_UNKNOWN                :working out how long
-STR_HD_MAKE_PROGRESS                    :Making HD graphics from your SimGolf files: {PCT}% done ({PICTURES} pictures), {LEFT} to go. HD switches itself on when it is done: there is nothing else to do.
-STR_HD_MAKE_STOP                        :Stop (carry on later)
-STR_HD_MAKE_HIDE                        :Keep playing (the top of the screen shows how far it is)
-STR_HD_MAKE_BADGE                       :HD graphics (beta): {PCT}%, {LEFT} to go
-STR_HD_MAKE_STOPPED                     :Stopped making HD graphics. Preferences, Graphics carries on where it stopped.
-STR_HD_MAKE_DONE                        :HD graphics are on now, with no restart needed, and stay on next time. Preferences, Graphics switches them off or removes them.
-STR_HD_MAKE_FAILED                      :Making HD graphics stopped: {ERR}
-STR_HD_MAKE_WRITE_FAILED                :{FILE} could not be written (is the disk full?)
+STR_PREFS_MAKE_HD                       : HD grafika készítése a saját SimGolf-fájljaimból (béta)...
+STR_PREFS_MAKE_HD_AGAIN                 : HD grafika újbóli elkészítése (béta)...
+STR_PREFS_MAKE_HD_RESUME                : HD grafika készítésének folytatása...
+STR_PREFS_MAKE_HD_RUNNING               : HD grafika készítése: {PCT}% (megjelenítés)
+STR_PREFS_REMOVE_HD                     : HD grafika eltávolítása...
+STR_PREFS_DESC_REMOVE_HD                :HD-csomag törlése és visszatérés a klasszikus grafikához. Később újra elkészítheted.
+STR_HD_REMOVE_ASK                       :Eltávolítod a HD grafikát? A játék visszaáll a klasszikus grafikára, a HD-csomag pedig törlődik erről az eszközről, így {SIZE} tárhely szabadul fel. Bármikor újra elkészítheted.
+STR_HD_REMOVE_ASK_PLAIN                 :Eltávolítod a HD grafikát? A játék visszaáll a klasszikus grafikára, a HD-csomag pedig törlődik ebből a böngészőből. Bármikor újra elkészítheted.
+STR_HD_REMOVE_OK                        :Eltávolítás
+STR_HD_REMOVED                          :A HD grafika eltávolítva, a játék visszaállt a klasszikus grafikára.
+STR_PREFS_DESC_MAKE_HD                  :Béta: a beépített AI-felskálázó HD grafikát készít a saját SimGolf-fájljaidból ezen az eszközön.
+STR_HD_MAKE_ASK                         :Elkészíted a HD grafikát (béta)? Az AI-felskálázó a SimGolf-fájljaidból {PICTURES} képet rajzol újra. Méret: {SIZE}; idő: {TIME}. Elkészültekor a HD mód bekapcsol. Közben játszhatsz; a folyamat leállítható és folytatható. Az EA grafikájából készül, ezért csak saját használatra tartsd meg.
+STR_HD_MAKE_ASK_BROWSER                 :Elkészíted a HD grafikát (béta)? Az AI-felskálázó {PICTURES} SimGolf-képet rajzol újra kétszeres méretben, és a böngészőben tárolja. Méret: {SIZE}; idő: {TIME}. Közben játszhatsz, de lassabban. A folyamat leállítható és folytatható. Csak saját használatra.
+STR_HD_MAKE_AGAIN_NOTE                  :Már van HD grafikai csomagod. Az új elkészítése felülírja a meglévőt.
+STR_HD_MAKE_BIG                         :Elkészítés (négyszeres méret: {SIZE}, {TIME})
+STR_HD_MAKE_SMALL                       :Kisebb változat készítése (kétszeres méret: {SIZE}, {TIME})
+STR_HD_MAKE_X2                          :Elkészítés (kétszeres méret: {SIZE}, {TIME})
+STR_HD_MAKE_ASK_RESUME                  :A HD grafika készítése még a befejezés előtt megszakadt. Folytatod onnan, ahol abbamaradt?
+STR_HD_MAKE_RESUME                      :Folytatás
+STR_HD_MAKE_RESTART                     :Újrakezdés
+STR_HD_MAKE_MINUTE                      :körülbelül egy perc
+STR_HD_MAKE_MINUTES                     :körülbelül {N} perc
+STR_HD_MAKE_LEFT_UNKNOWN                :a hátralévő idő kiszámítása
+STR_HD_MAKE_PROGRESS                    :HD grafika készítése a SimGolf-fájljaidból: {PCT}% kész ({PICTURES} kép), hátralévő idő: {LEFT}. Ha elkészül, a HD mód automatikusan bekapcsol; nincs más teendőd.
+STR_HD_MAKE_STOP                        :Leállítás (folytatás később)
+STR_HD_MAKE_HIDE                        :Játék folytatása (a képernyő tetején láthatod a folyamatot)
+STR_HD_MAKE_BADGE                       :HD grafika (béta): {PCT}%, hátralévő idő: {LEFT}
+STR_HD_MAKE_STOPPED                     :A HD-készítés leállt. Folytatás: Beállítások > Grafika.
+STR_HD_MAKE_DONE                        :A HD grafika bekapcsolt, újraindítás nélkül. A Beállítások > Grafika menüben kikapcsolhatod vagy törölheted.
+STR_HD_MAKE_FAILED                      :A HD grafika készítése megszakadt: {ERR}
+STR_HD_MAKE_WRITE_FAILED                :A(z) {FILE} fájlt nem sikerült kiírni. Lehet, hogy megtelt a lemez?
 
 # Mouse aim and swing (OpenSGolf extras, extras.rs mouse_swing; touch.rs)
-STR_EXTRAS_MOUSE_SWING                  : Aim and swing with the mouse as by touch
-STR_EXTRAS_DESC_MOUSE_SWING             :Aim your pro as on a touch screen: a click sets the target, a drag moves it or looks round, the round Swing button shoots.
-STR_MOUSE_SWING_HINT                    :Click to set the target, drag it to aim, drag the course to look round. Then click Swing.
+STR_EXTRAS_MOUSE_SWING                  : Célzás és ütés egérrel, az érintőképernyős vezérléshez hasonlóan
+STR_EXTRAS_DESC_MOUSE_SWING             :A profi célzása érintőképernyős módon működik: kattintás a célpontra, húzás a célzáshoz vagy körbenézéshez, majd Ütés.
+STR_MOUSE_SWING_HINT                    :Kattints a célpontra, húzással célozz, a pálya húzásával nézz körül, majd nyomd meg az Ütés gombot.
 # Right click puts the tool away (OpenSGolf extras, extras.rs right_drop; main.rs right_click)
-STR_EXTRAS_RIGHT_DROP                   : Right click puts the tool away
-STR_EXTRAS_DESC_RIGHT_DROP              :A right click (B on a controller) drops the brush or tool in hand, as Space does, instead of the original's undo.
+STR_EXTRAS_RIGHT_DROP                   : Jobb kattintással elrakható az eszköz
+STR_EXTRAS_DESC_RIGHT_DROP              :Jobb kattintás (kontrolleren B): az eszköz elrakása, mint a Szóköz. Nem vonja vissza az előző műveletet.
 # The interface at the screen's edges (OpenSGolf extras, extras.rs wide_ui; enhanced.rs widescreen)
-STR_EXTRAS_WIDE_UI                      : Interface at the screen's edges
-STR_EXTRAS_DESC_WIDE_UI                 :On a wide screen the dock, panels and money sit at the screen's edges (on by default; off keeps them in the 4:3 middle).
+STR_EXTRAS_WIDE_UI                      : Kezelőfelület a képernyő szélein
+STR_EXTRAS_DESC_WIDE_UI                 :Széles képernyőn a dokkoló, panelek és pénzegyenleg a szélekre kerül. Kikapcsolva minden a középső 4:3-as területen marad.
 # Edge scrolling (OpenSGolf extras, extras.rs edge_scroll; main.rs edge_scroll)
-STR_EXTRAS_EDGE_SCROLL                  : Edge scrolling
-STR_EXTRAS_DESC_EDGE_SCROLL             :In full screen the pointer at the screen's edge scrolls the view, as in the original (on by default).
+STR_EXTRAS_EDGE_SCROLL                  : Görgetés a képernyő szélén
+STR_EXTRAS_DESC_EDGE_SCROLL             :Teljes képernyőn a képernyő széléhez vitt mutató görgeti a nézetet, mint az eredeti játékban.
