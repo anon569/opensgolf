@@ -2027,756 +2027,756 @@ STR_BONUS_JAMAICA                       :Festői szobrok
 # Tournaments: the SGA report and offer, the preparation list, the leader board and the results
 ########################################################################################################################
 # The ten criteria of the SGA report
-STR_SGA_COURSE_LENGTH                   :Course length
-STR_SGA_NUMBER_OF_HOLES                 :Number of holes
-STR_SGA_TIME_TO_PLAY                    :Time to play
-STR_SGA_FUN                             :Fun
-STR_SGA_VARIETY                         :Variety
-STR_SGA_SCENIC_HOLES                    :Scenic holes
-STR_SGA_LENGTH_HOLES                    :Length holes
-STR_SGA_ACCURACY_HOLES                  :Accuracy holes
-STR_SGA_IMAGINATION_HOLES               :Imagination holes
-STR_SGA_FACILITIES                      :Facilities
+STR_SGA_COURSE_LENGTH                   :Pálya hossza
+STR_SGA_NUMBER_OF_HOLES                 :Szakaszok száma
+STR_SGA_TIME_TO_PLAY                    :Játékidő
+STR_SGA_FUN                             :Szórakozás
+STR_SGA_VARIETY                         :Változatosság
+STR_SGA_SCENIC_HOLES                    :Látványos szakaszok
+STR_SGA_LENGTH_HOLES                    :Ütéshosszra építő szakaszok
+STR_SGA_ACCURACY_HOLES                  :Pontosságra építő szakaszok
+STR_SGA_IMAGINATION_HOLES               :Képzeletet igénylő szakaszok
+STR_SGA_FACILITIES                      :Létesítmények
 # The SGA report (0x44fb30 in its SGA modes)
-STR_SGA_TITLE                           :REPORT of the SIM GOLF ASSOCIATION
-STR_SGA_SELECTION                       :Selection Criteria: {CLASS}
-STR_SGA_GRADE                           :Grade:
-STR_SGA_IDEAL_MINIMUM                   :Ideal  (Minimum)
-STR_SGA_IDEAL_TIME                      :4 hours or less  (max: 5 hrs)
-STR_SGA_VALUE_YARDS                     :{YARDS} yds.
-STR_SGA_VALUE_HOURS                     :{HOURS} h {MINUTES} m
-STR_SGA_VALUE_MINUTES                   :{MINUTES} m
-STR_SGA_NOT_ACCEPTABLE                  :- not acceptable -
-STR_SGA_RECOMMENDATION                  :Committee recommendation
-STR_SGA_IMPROVEMENT_REQUIRED            :Improvement Required.
-STR_SGA_FIRST_PRIZE                     :§{PURSE},000 first prize.
+STR_SGA_TITLE                           :A SIM GOLF SZÖVETSÉG JELENTÉSE
+STR_SGA_SELECTION                       :Értékelési kategória: {CLASS}
+STR_SGA_GRADE                           :Minősítés:
+STR_SGA_IDEAL_MINIMUM                   :Ideális  (Minimum)
+STR_SGA_IDEAL_TIME                      :Legfeljebb 4 óra  (maximum: 5 óra)
+STR_SGA_VALUE_YARDS                     :{YARDS} yard
+STR_SGA_VALUE_HOURS                     :{HOURS} óra {MINUTES} perc
+STR_SGA_VALUE_MINUTES                   :{MINUTES} perc
+STR_SGA_NOT_ACCEPTABLE                  :- nem elfogadható -
+STR_SGA_RECOMMENDATION                  :A bizottság javaslata
+STR_SGA_IMPROVEMENT_REQUIRED            :Fejlesztés szükséges.
+STR_SGA_FIRST_PRIZE                     :§{PURSE},000 fődíj.
 # The SGA report's rows
-STR_SGA_ROW_LENGTH                      :Length of Course
-STR_SGA_ROW_HOLES                       :Number of Holes
-STR_SGA_ROW_TIME                        :Time to Play
-STR_SGA_ROW_FUN                         :Fun Factor
-STR_SGA_ROW_VARIETY                     :Holes with Variety
-STR_SGA_ROW_SCENIC                      :Scenic Holes
-STR_SGA_ROW_LENGTH_HOLES                :Length Holes
-STR_SGA_ROW_ACCURACY_HOLES              :Accuracy Holes
-STR_SGA_ROW_IMAGINATION_HOLES           :Imagination Holes
-STR_SGA_ROW_FACILITIES                  :Facilities on Site
+STR_SGA_ROW_LENGTH                      :Pálya hossza
+STR_SGA_ROW_HOLES                       :Szakaszok száma
+STR_SGA_ROW_TIME                        :Játékidő
+STR_SGA_ROW_FUN                         :Szórakozás
+STR_SGA_ROW_VARIETY                     :Változatos szakaszok
+STR_SGA_ROW_SCENIC                      :Látványos szakaszok
+STR_SGA_ROW_LENGTH_HOLES                :Ütéshosszra építő szakaszok
+STR_SGA_ROW_ACCURACY_HOLES              :Pontosságra építő szakaszok
+STR_SGA_ROW_IMAGINATION_HOLES           :Képzeletet igénylő szakaszok
+STR_SGA_ROW_FACILITIES                  :Helyszíni létesítmények
 
 # The SGA's offer box (0x46d6e0 at (400, 360), main loop 0x41ce8b)
-STR_OFFER_LINE_1                        :The SGA offers to hold the
-STR_OFFER_LINE_2                        :{EVENT} tournament
-STR_OFFER_LINE_3                        :at your course with a
-STR_OFFER_LINE_4                        :first prize of §{PURSE},000.
-STR_OFFER_YES                           : 'Great, let the games begin.'
-STR_OFFER_NO                            : 'I think I need more practice.'
+STR_OFFER_LINE_1                        :Az SGA megrendezi a
+STR_OFFER_LINE_2                        :{EVENT} versenyt
+STR_OFFER_LINE_3                        :a pályádon, a
+STR_OFFER_LINE_4                        :§{PURSE},000 összegű fődíjjal.
+STR_OFFER_YES                           : „Remek, kezdődhet a verseny!”
+STR_OFFER_NO                            : „Azt hiszem, még gyakorolnom kell.”
 
 # The tournament preparation checklist (0x4e3d20 on)
-STR_PREP_TV_TOWERS                      :Install TV towers and booths for live broadcast.
-STR_PREP_SMOOTH_GREENS                  :Roll your greens extra smooth and fast.
-STR_PREP_DEEP_ROUGH                     :Increase the depth of rough and deep rough grass.
-STR_PREP_CHANGE_PAR                     :Change hole {HOLE} from a par {OLD} to a par {NEW}.
+STR_PREP_TV_TOWERS                      :Állíts fel televíziós tornyokat és közvetítőállásokat az élő adáshoz.
+STR_PREP_SMOOTH_GREENS                  :Hengereld le a greent, hogy extra sima és gyors legyen.
+STR_PREP_DEEP_ROUGH                     :Növeld meg a rough és a sűrű rough fűmagasságát.
+STR_PREP_CHANGE_PAR                     :Módosítsd a(z) {HOLE}. szakasz par értékét {OLD}-ról {NEW}-ra.
 # The tournament recommendations list (0x46d200): the two-line heading, then the options (STR_PREP_*)
-STR_PREP_HEADING_1                      :In preparation for the tournament the
-STR_PREP_HEADING_2                      :following changes have been recommended:
+STR_PREP_HEADING_1                      :A versenyre való felkészüléshez a következő
+STR_PREP_HEADING_2                      :változtatásokat javasoljuk:
 
 # The SGA's event names by score
-STR_EVENT_JR_QUALIFYING                 :Jr. Qualifying School
-STR_EVENT_SGA_QUALIFYING                :SGA Qualifying School
-STR_EVENT_JR_TOUR_EVENT                 :Jr. Tour Event
-STR_EVENT_JR_TOUR_CHAMPIONSHIP          :Jr. Tour Championship
-STR_EVENT_SGA_AMATEUR                   :SGA Amateur Championship
-STR_EVENT_SENIOR_TOUR_EVENT             :Senior SGA Tour Event
-STR_EVENT_SENIOR_CHAMPIONSHIP           :Senior SGA Championship
-STR_EVENT_SGA_TOUR_EVENT                :SGA Tour Event
-STR_EVENT_SGA_PLAYERS                   :SGA Players Championship
-STR_EVENT_SGA_CHAMPIONSHIP              :SGA Championship
-STR_EVENT_IMPROVEMENT_REQUIRED          :Improvement Required
-STR_EVENT_GRAND_SLAM                    :Grand Slam Championship
-STR_EVENT_MINI_SLAM                     :Mini Slam Championship
+STR_EVENT_JR_QUALIFYING                 :Junior selejtező
+STR_EVENT_SGA_QUALIFYING                :SGA-selejtező
+STR_EVENT_JR_TOUR_EVENT                 :Junior körverseny
+STR_EVENT_JR_TOUR_CHAMPIONSHIP          :Junior körverseny-bajnokság
+STR_EVENT_SGA_AMATEUR                   :SGA Amatőr Bajnokság
+STR_EVENT_SENIOR_TOUR_EVENT             :Senior SGA-körverseny
+STR_EVENT_SENIOR_CHAMPIONSHIP           :Senior SGA-bajnokság
+STR_EVENT_SGA_TOUR_EVENT                :SGA-körverseny
+STR_EVENT_SGA_PLAYERS                   :SGA Játékosbajnokság
+STR_EVENT_SGA_CHAMPIONSHIP              :SGA-bajnokság
+STR_EVENT_IMPROVEMENT_REQUIRED          :Fejlesztés szükséges
+STR_EVENT_GRAND_SLAM                    :Grand Slam-bajnokság
+STR_EVENT_MINI_SLAM                     :Mini Slam-bajnokság
 
-STR_TOURNAMENT_JOE_PRO                  :Joe Pro
+STR_TOURNAMENT_JOE_PRO                  :Joe profi
 # The year's tournament as the SGA names it ("2004 San Diego Open")
-STR_TOURNAMENT_OPEN_NAME                :{YEAR} {PLACE} Open
+STR_TOURNAMENT_OPEN_NAME                :{YEAR}. évi {PLACE} Open
 
 # The leader board over the course (0x45a090)
-STR_LEADERBOARD_OF_THE                  :LEADER BOARD of the
-STR_LEADERBOARD_AT                      :at {COURSE}
-STR_LEADERBOARD_OF                      :LEADER BOARD of
-STR_LEADERBOARD_PURSE                   :the §{PURSE},000
+STR_LEADERBOARD_OF_THE                  :A VERSENY ÁLLÁSA:
+STR_LEADERBOARD_AT                      :{COURSE} pályáján
+STR_LEADERBOARD_OF                      :A VERSENY ÁLLÁSA:
+STR_LEADERBOARD_PURSE                   :Fődíj: §{PURSE},000
 
 # Tournament Results
-STR_RESULTS_TITLE                       :TOURNAMENT RESULTS
-STR_RESULTS_RANKING                     :Ranking
-STR_RESULTS_PRIZE                       :Prize
-STR_RESULTS_FINAL                       :F
+STR_RESULTS_TITLE                       :VERSENYEREDMÉNYEK
+STR_RESULTS_RANKING                     :Helyezés
+STR_RESULTS_PRIZE                       :Díjazás
+STR_RESULTS_FINAL                       :V
 
 # The leader board's score against par: even
 STR_SCORE_EVEN                          :E
 
 # The championship event's name on the leaderboard, by difficulty
-STR_CHAMPIONSHIP_QUALIFYING             :SGA Qualifying School
-STR_CHAMPIONSHIP_JUNIOR                 :SGA Jr. Championship
-STR_CHAMPIONSHIP_TOUR                   :SGA Tour Championship
-STR_CHAMPIONSHIP_OPEN                   :SGA Open Championship
+STR_CHAMPIONSHIP_QUALIFYING             :SGA-selejtező
+STR_CHAMPIONSHIP_JUNIOR                 :SGA Junior Bajnokság
+STR_CHAMPIONSHIP_TOUR                   :SGA Tour-bajnokság
+STR_CHAMPIONSHIP_OPEN                   :SGA Nyílt Bajnokság
 
 ########################################################################################################################
 # Names of things: terrain, buildings, landmarks, animals, staff, skills, clubs, ranks, celebrities
 ########################################################################################################################
 # The terrain table's names (+0x00, the singular form) as the exe's static table at 0x4c1a40 has them
-STR_TERRAIN_TEES                        :tees
+STR_TERRAIN_TEES                        :elütőhelyek
 STR_TERRAIN_GREEN                       :green
 STR_TERRAIN_FAIRWAY                     :fairway
-STR_TERRAIN_FIRM_FAIRWAY                :firm fairway
+STR_TERRAIN_FIRM_FAIRWAY                :kemény talajú fairway
 STR_TERRAIN_ROUGH                       :rough
-STR_TERRAIN_DEEP_ROUGH                  :deep rough
-STR_TERRAIN_MOUND                       :mound
-STR_TERRAIN_SAND_TRAP                   :sand trap
-STR_TERRAIN_WASTE_BUNKER                :waste bunker
+STR_TERRAIN_DEEP_ROUGH                  :sűrű rough
+STR_TERRAIN_MOUND                       :domb
+STR_TERRAIN_SAND_TRAP                   :homokbunker
+STR_TERRAIN_WASTE_BUNKER                :kopár bunker
 STR_TERRAIN_POT_BUNKER                  :pot bunker
-STR_TERRAIN_RAVINE                      :ravine
-STR_TERRAIN_BRUSH                       :brush
-STR_TERRAIN_ROCKS                       :rocks
-STR_TERRAIN_TREE                        :tree
-STR_TERRAIN_PINE_TREE                   :pine tree
-STR_TERRAIN_PALM_TREE                   :palm tree
-STR_TERRAIN_ELM_TREE                    :elm tree
-STR_TERRAIN_WATER                       :water
-STR_TERRAIN_WETLANDS                    :wetlands
-STR_TERRAIN_MARSH                       :marsh
-STR_TERRAIN_OUT_OF_BOUNDS               :out of bounds
-STR_TERRAIN_BUILDING                    :building
+STR_TERRAIN_RAVINE                      :szakadék
+STR_TERRAIN_BRUSH                       :bozót
+STR_TERRAIN_ROCKS                       :sziklák
+STR_TERRAIN_TREE                        :fa
+STR_TERRAIN_PINE_TREE                   :fenyőfa
+STR_TERRAIN_PALM_TREE                   :pálmafa
+STR_TERRAIN_ELM_TREE                    :szilfa
+STR_TERRAIN_WATER                       :víz
+STR_TERRAIN_WETLANDS                    :mocsaras terület
+STR_TERRAIN_MARSH                       :mocsár
+STR_TERRAIN_OUT_OF_BOUNDS               :pályahatáron kívüli terület
+STR_TERRAIN_BUILDING                    :épület
 
 # Terrain names as the themes rename them (the tract offers and the narration): single, then plural
-STR_THEME_TERRAIN_DESERT                :desert
-STR_THEME_TERRAIN_DESERT_PLURAL         :desert
+STR_THEME_TERRAIN_DESERT                :sivatag
+STR_THEME_TERRAIN_DESERT_PLURAL         :sivatagok
 STR_THEME_TERRAIN_ROUGH                 :rough
 STR_THEME_TERRAIN_ROUGH_PLURAL          :rough
-STR_THEME_TERRAIN_BRUSH                 :brush
-STR_THEME_TERRAIN_BRUSH_PLURAL          :brush
-STR_THEME_TERRAIN_RAVINE                :ravine
-STR_THEME_TERRAIN_RAVINE_PLURAL         :ravine
-STR_THEME_TERRAIN_JOSHUA_TREE           :joshua tree
-STR_THEME_TERRAIN_JOSHUA_TREE_PLURAL    :joshua trees
-STR_THEME_TERRAIN_CACTUS                :cactus
-STR_THEME_TERRAIN_CACTUS_PLURAL         :cacti
-STR_THEME_TERRAIN_PALM_TREE             :palm tree
-STR_THEME_TERRAIN_PALM_TREE_PLURAL      :palm trees
-STR_THEME_TERRAIN_CANYON                :canyon
-STR_THEME_TERRAIN_CANYON_PLURAL         :canyon
-STR_THEME_TERRAIN_STREAM                :stream
-STR_THEME_TERRAIN_STREAM_PLURAL         :stream
-STR_THEME_TERRAIN_WETLANDS              :wetlands
-STR_THEME_TERRAIN_WETLANDS_PLURAL       :wetlands
-STR_THEME_TERRAIN_TROPICAL_BUSH         :tropical bush
-STR_THEME_TERRAIN_TROPICAL_BUSH_PLURAL  :tropical bushes
-STR_THEME_TERRAIN_TROPICAL_TREE         :tropical tree
-STR_THEME_TERRAIN_TROPICAL_TREE_PLURAL  :tropical trees
-STR_THEME_TERRAIN_BURN                  :burn
-STR_THEME_TERRAIN_BURN_PLURAL           :burn
-STR_THEME_TERRAIN_GORSE                 :gorse
-STR_THEME_TERRAIN_GORSE_PLURAL          :gorse
-STR_THEME_TERRAIN_MAPLE_TREE            :maple tree
-STR_THEME_TERRAIN_MAPLE_TREE_PLURAL     :maple trees
-STR_THEME_TERRAIN_PINE                  :pine
-STR_THEME_TERRAIN_PINE_PLURAL           :pines
-STR_THEME_TERRAIN_SCOTS_PINE            :scots pine
-STR_THEME_TERRAIN_SCOTS_PINE_PLURAL     :scots pines
+STR_THEME_TERRAIN_BRUSH                 :bozót
+STR_THEME_TERRAIN_BRUSH_PLURAL          :bozótos
+STR_THEME_TERRAIN_RAVINE                :szakadék
+STR_THEME_TERRAIN_RAVINE_PLURAL         :szakadékok
+STR_THEME_TERRAIN_JOSHUA_TREE           :Joshua-fa
+STR_THEME_TERRAIN_JOSHUA_TREE_PLURAL    :Joshua-fák
+STR_THEME_TERRAIN_CACTUS                :kaktusz
+STR_THEME_TERRAIN_CACTUS_PLURAL         :kaktuszok
+STR_THEME_TERRAIN_PALM_TREE             :pálmafa
+STR_THEME_TERRAIN_PALM_TREE_PLURAL      :pálmafák
+STR_THEME_TERRAIN_CANYON                :kanyon
+STR_THEME_TERRAIN_CANYON_PLURAL         :kanyonok
+STR_THEME_TERRAIN_STREAM                :patak
+STR_THEME_TERRAIN_STREAM_PLURAL         :patakok
+STR_THEME_TERRAIN_WETLANDS              :mocsaras terület
+STR_THEME_TERRAIN_WETLANDS_PLURAL       :mocsaras területek
+STR_THEME_TERRAIN_TROPICAL_BUSH         :trópusi bokor
+STR_THEME_TERRAIN_TROPICAL_BUSH_PLURAL  :trópusi bokrok
+STR_THEME_TERRAIN_TROPICAL_TREE         :trópusi fa
+STR_THEME_TERRAIN_TROPICAL_TREE_PLURAL  :trópusi fák
+STR_THEME_TERRAIN_BURN                  :patak
+STR_THEME_TERRAIN_BURN_PLURAL           :patak
+STR_THEME_TERRAIN_GORSE                 :rekettye
+STR_THEME_TERRAIN_GORSE_PLURAL          :rekettye
+STR_THEME_TERRAIN_MAPLE_TREE            :juharfa
+STR_THEME_TERRAIN_MAPLE_TREE_PLURAL     :juharfák
+STR_THEME_TERRAIN_PINE                  :fenyő
+STR_THEME_TERRAIN_PINE_PLURAL           :fenyők
+STR_THEME_TERRAIN_SCOTS_PINE            :erdei fenyő
+STR_THEME_TERRAIN_SCOTS_PINE_PLURAL     :erdei fenyők
 # The plural of a tree type the theme does not rename: the terrain table's name and an s
-STR_THEME_TERRAIN_TREES                 :{TREE}s
+STR_THEME_TERRAIN_TREES                 :{TREE}fák
 
 # Buildings and objects by the exe's object kind
-STR_BUILDING_PATHWAY                    :Pathway
-STR_BUILDING_BENCHES                    :Benches
-STR_BUILDING_FLOWER_BED                 :Flower Bed
-STR_BUILDING_BALL_WASHER                :Ball Washer
-STR_BUILDING_LANDMARK                   :Landmark
-STR_BUILDING_HOME_SITE                  :Home Site
-STR_BUILDING_PUTTING_GREEN              :Putting Green
-STR_BUILDING_SNACK_BAR                  :Snack Bar
-STR_BUILDING_PRO_SHOP                   :Pro Shop
-STR_BUILDING_SWIM_CLUB                  :Swim Club
-STR_BUILDING_DRIVING_RANGE              :Driving Range
-STR_BUILDING_CART_GARAGE                :Cart Garage
-STR_BUILDING_MARINA                     :Marina
-STR_BUILDING_RESORT_HOTEL               :Resort Hotel
-STR_BUILDING_AIRSTRIP                   :Airstrip
-STR_BUILDING_CLUBHOUSE                  :Clubhouse
-STR_BUILDING_WILLOW_TREE                :Willow Tree
-STR_BUILDING_TV_TOWER                   :TV Tower
-STR_BUILDING_TV_BOOTH                   :TV Booth
-STR_BUILDING_SCENIC_BRIDGE              :Scenic Bridge
+STR_BUILDING_PATHWAY                    :Gyalogút
+STR_BUILDING_BENCHES                    :Padok
+STR_BUILDING_FLOWER_BED                 :Virágágyás
+STR_BUILDING_BALL_WASHER                :Labdamosó
+STR_BUILDING_LANDMARK                   :Nevezetesség
+STR_BUILDING_HOME_SITE                  :Lakótelek
+STR_BUILDING_PUTTING_GREEN              :Gyakorló green
+STR_BUILDING_SNACK_BAR                  :Büfé
+STR_BUILDING_PRO_SHOP                   :Golfbolt
+STR_BUILDING_SWIM_CLUB                  :Úszóklub
+STR_BUILDING_DRIVING_RANGE              :Gyakorlópálya
+STR_BUILDING_CART_GARAGE                :Golfkocsi-garázs
+STR_BUILDING_MARINA                     :Kikötő
+STR_BUILDING_RESORT_HOTEL               :Üdülőszálló
+STR_BUILDING_AIRSTRIP                   :Leszállópálya
+STR_BUILDING_CLUBHOUSE                  :Klubház
+STR_BUILDING_WILLOW_TREE                :Fűzfa
+STR_BUILDING_TV_TOWER                   :Tévétorony
+STR_BUILDING_TV_BOOTH                   :Közvetítőállás
+STR_BUILDING_SCENIC_BRIDGE              :Festői híd
 # The theme's own names for the Snack Bar, Swim Club, Marina and Airstrip (the exe copies them over the table at theme load)
-STR_BUILDING_TENNIS_COURT               :Tennis Court
-STR_BUILDING_SPA                        :Spa
-STR_BUILDING_HELIPAD                    :Helipad
-STR_BUILDING_CASINO                     :Casino
-STR_BUILDING_THEME_PARK                 :Theme Park
-STR_BUILDING_PUB                        :Pub
-STR_BUILDING_STABLE                     :Stable
-STR_BUILDING_CHURCH                     :Church
-STR_BUILDING_CASTLE                     :Castle
+STR_BUILDING_TENNIS_COURT               :Teniszpálya
+STR_BUILDING_SPA                        :Wellnessközpont
+STR_BUILDING_HELIPAD                    :Helikopter-leszálló
+STR_BUILDING_CASINO                     :Kaszinó
+STR_BUILDING_THEME_PARK                 :Vidámpark
+STR_BUILDING_PUB                        :Kocsma
+STR_BUILDING_STABLE                     :Istálló
+STR_BUILDING_CHURCH                     :Templom
+STR_BUILDING_CASTLE                     :Kastély
 
 # Animal names (the exe's kind table 0x4c1998), as the habitat labels and the golfers' thoughts use them
-STR_ANIMAL_ELK                          :Elk
-STR_ANIMAL_CRANE                        :Crane
-STR_ANIMAL_FLAMINGO                     :Flamingo
-STR_ANIMAL_SHEEP                        :Sheep
-STR_ANIMAL_CROCODILE                    :Crocodile
-STR_ANIMAL_SNAKE                        :Snake
-STR_ANIMAL_GILA                         :Gila
-STR_ANIMAL_ROAD_RUNNER                  :Road runner
-STR_ANIMAL_DUCK                         :Duck
+STR_ANIMAL_ELK                          :Wapiti
+STR_ANIMAL_CRANE                        :Daru
+STR_ANIMAL_FLAMINGO                     :Flamingó
+STR_ANIMAL_SHEEP                        :Bárány
+STR_ANIMAL_CROCODILE                    :Krokodil
+STR_ANIMAL_SNAKE                        :Kígyó
+STR_ANIMAL_GILA                         :Gila-szörny
+STR_ANIMAL_ROAD_RUNNER                  :Futókakukk
+STR_ANIMAL_DUCK                         :Kacsa
 
-STR_WILDLIFE_HABITAT                    :{ANIMAL} habitat
+STR_WILDLIFE_HABITAT                    :{ANIMAL} élőhelye
 
 # Employee kinds
-STR_STAFF_CLUB_PRO                      :Club Pro
-STR_STAFF_RANGER                        :Ranger
-STR_STAFF_GROUNDSKEEPER                 :Groundskeeper
-STR_STAFF_SODA_VENDOR                   :Soda Vendor
+STR_STAFF_CLUB_PRO                      :Klubprofi
+STR_STAFF_RANGER                        :Pályafelügyelő
+STR_STAFF_GROUNDSKEEPER                 :Kertész
+STR_STAFF_SODA_VENDOR                   :Üdítőárus
 STR_STAFF_UNKNOWN                       :?
-STR_STAFF_CELEBRITY                     :Celebrity
-STR_STAFF_MARSHALL                      :Marshall
-STR_STAFF_TECHNICIAN                    :Technician
-STR_STAFF_REFRESHER                     :Refresher
+STR_STAFF_CELEBRITY                     :Híresség
+STR_STAFF_MARSHALL                      :Pályamarshall
+STR_STAFF_TECHNICIAN                    :Technikus
+STR_STAFF_REFRESHER                     :Frissítő
 
-STR_JOB_GOLF_PRO                        :Golf Pro
+STR_JOB_GOLF_PRO                        :Profi golfozó
 
 # Skill names in the order of the skill bytes (the pro panel, Customise Golfer)
-STR_SKILL_POWER_HITTER                  :Power Hitter
-STR_SKILL_LONG_DRIVER                   :Long Driver
-STR_SKILL_ACCURATE_DRIVER               :Accurate Driver
-STR_SKILL_ACCURATE_IRONS                :Accurate Irons
-STR_SKILL_ACCURATE_PUTTER               :Accurate Putter
-STR_SKILL_DRAW_SHOT                     :Draw Shot
-STR_SKILL_FADE_SHOT                     :Fade Shot
-STR_SKILL_HIGH_BACKSPIN                 :High Backspin Shot
-STR_SKILL_RECOVERY                      :Recovery Skills
-STR_SKILL_LUCK                          :Luck
-STR_SKILL_DRAW_SHOT_R_TO_L              :Draw Shot (R to L)
-STR_SKILL_FADE_SHOT_L_TO_R              :Fade Shot (L to R)
-STR_SKILL_POSITIVE_ATTITUDE             :Positive Attitude
-STR_SKILL_MENTAL_TOUGHNESS              :Mental Toughness
+STR_SKILL_POWER_HITTER                  :Ütőerő
+STR_SKILL_LONG_DRIVER                   :Hosszú drive
+STR_SKILL_ACCURATE_DRIVER               :Pontos drive
+STR_SKILL_ACCURATE_IRONS                :Pontos vasütések
+STR_SKILL_ACCURATE_PUTTER               :Pontos gurítás
+STR_SKILL_DRAW_SHOT                     :Draw ütés
+STR_SKILL_FADE_SHOT                     :Fade ütés
+STR_SKILL_HIGH_BACKSPIN                 :Erős visszapörgésű ütés
+STR_SKILL_RECOVERY                      :Helyzetmentés
+STR_SKILL_LUCK                          :Szerencse
+STR_SKILL_DRAW_SHOT_R_TO_L              :Draw ütés (jobbról balra)
+STR_SKILL_FADE_SHOT_L_TO_R              :Fade ütés (balról jobbra)
+STR_SKILL_POSITIVE_ATTITUDE             :Pozitív hozzáállás
+STR_SKILL_MENTAL_TOUGHNESS              :Mentális erő
 
 
 # The "Attitude" word for the pro's momentum
-STR_ATTITUDE_FURIOUS                    :furious
-STR_ATTITUDE_MAD                        :mad
-STR_ATTITUDE_UPSET                      :upset
-STR_ATTITUDE_WORRIED                    :worried
-STR_ATTITUDE_CALM                       :calm
-STR_ATTITUDE_DETERMINED                 :determined
-STR_ATTITUDE_PUMPED                     :pumped
-STR_ATTITUDE_INVINCIBLE                 :invincible
+STR_ATTITUDE_FURIOUS                    :dühöngő
+STR_ATTITUDE_MAD                        :mérges
+STR_ATTITUDE_UPSET                      :zaklatott
+STR_ATTITUDE_WORRIED                    :aggódó
+STR_ATTITUDE_CALM                       :nyugodt
+STR_ATTITUDE_DETERMINED                 :eltökélt
+STR_ATTITUDE_PUMPED                     :feldobott
+STR_ATTITUDE_INVINCIBLE                 :legyőzhetetlen
 
 # Course ranks
-STR_RANK_MUNICIPAL                      :Municipal
-STR_RANK_DAILY_FEE                      :Daily Fee
+STR_RANK_MUNICIPAL                      :Városi pálya
+STR_RANK_DAILY_FEE                      :Napi díjas pálya
 STR_RANK_COUNTRY_CLUB                   :Country Club
-STR_RANK_CHAMPIONSHIP                   :Championship
+STR_RANK_CHAMPIONSHIP                   :Bajnoki pálya
 
 # Celebrity type names (the exe's table at 0x4c2ba8)
-STR_CELEBRITY_ACTION_STAR               :action star
-STR_CELEBRITY_POP_STAR                  :pop star
-STR_CELEBRITY_POLITICIAN                :politician
-STR_CELEBRITY_COMEDIAN                  :comedian
-STR_CELEBRITY_SUPERMODEL                :supermodel
-STR_CELEBRITY_FITNESS_STAR              :fitness star
-STR_CELEBRITY_COMEDIENNE                :comedienne
-STR_CELEBRITY_LEADING_MAN               :leading man
-STR_CELEBRITY_MOVIE_STAR                :movie star
-STR_CELEBRITY_ROCK_AND_ROLLER           :rock and roller
-STR_CELEBRITY_ATHLETE                   :athlete
+STR_CELEBRITY_ACTION_STAR               :Akciófilmsztár
+STR_CELEBRITY_POP_STAR                  :Popsztár
+STR_CELEBRITY_POLITICIAN                :Politikus
+STR_CELEBRITY_COMEDIAN                  :Komikus
+STR_CELEBRITY_SUPERMODEL                :Szupermodell
+STR_CELEBRITY_FITNESS_STAR              :Fitneszsztár
+STR_CELEBRITY_COMEDIENNE                :Komika
+STR_CELEBRITY_LEADING_MAN               :Férfi főszereplő
+STR_CELEBRITY_MOVIE_STAR                :Filmsztár
+STR_CELEBRITY_ROCK_AND_ROLLER           :Rocksztár
+STR_CELEBRITY_ATHLETE                   :Sportoló
 
 # The 22 Professional Accomplishments, as the plaques name them (table 0x4c1578); on Easy and Moderate ids 0, 1 and 4 are
 # the three alternatives that follow
-STR_ACCOMPLISHMENT_CHALLENGE_HOLE       :1st Challenge Hole
-STR_ACCOMPLISHMENT_HEROIC_HOLE          :1st Heroic Hole
-STR_ACCOMPLISHMENT_SKILL_UPGRADE        :1st Skill Upgrade
-STR_ACCOMPLISHMENT_TOURNAMENT           :1st Tournament
-STR_ACCOMPLISHMENT_STRATEGIC_HOLE       :1st Strategic Hole
-STR_ACCOMPLISHMENT_MATCH_VICTORY        :1st Match Victory
-STR_ACCOMPLISHMENT_9_HOLE_COURSE        :1st 9+ Hole Course
-STR_ACCOMPLISHMENT_TOP_100_HOLE         :1st Top 100 Hole
-STR_ACCOMPLISHMENT_500K_TOURNAMENT      :1st $500,000 Tournament
-STR_ACCOMPLISHMENT_CLASSIC_HOLE         :1st Classic Hole
-STR_ACCOMPLISHMENT_TOP_18_HOLE          :1st Top 18 Hole
-STR_ACCOMPLISHMENT_VICTORY_9            :1st Tournament Victory (9+ Hole)
-STR_ACCOMPLISHMENT_GRAND_SLAM_COURSE_9  :1st Grand Slam Course (9+ holes)
-STR_ACCOMPLISHMENT_1M_TOURNAMENT        :1st $1,000,000 Tournament
-STR_ACCOMPLISHMENT_18_HOLE_COURSE       :1st 18 Hole Course
-STR_ACCOMPLISHMENT_VICTORY_18           :1st Tournament Victory (18 Hole)
-STR_ACCOMPLISHMENT_GRAND_SLAM_COURSE_18 :1st Grand Slam Course (18 Hole)
-STR_ACCOMPLISHMENT_GRAND_SLAM_PARKLAND  :1st Grand Slam Victory (Parkland)
-STR_ACCOMPLISHMENT_GRAND_SLAM_DESERT    :1st Grand Slam Victory (Desert)
-STR_ACCOMPLISHMENT_GRAND_SLAM_TROPICAL  :1st Grand Slam Victory (Tropical)
-STR_ACCOMPLISHMENT_GRAND_SLAM_LINKS     :1st Grand Slam Victory (Links)
-STR_ACCOMPLISHMENT_100_STAR             :1st 100 Star Rating
-STR_ACCOMPLISHMENT_DOGLEG_RIGHT         :1st Dogleg Right Hole
-STR_ACCOMPLISHMENT_DOGLEG_LEFT          :1st Dogleg Left Hole
-STR_ACCOMPLISHMENT_PAR_5                :1st Par 5 Hole
+STR_ACCOMPLISHMENT_CHALLENGE_HOLE       :Első kihívást jelentő szakasz
+STR_ACCOMPLISHMENT_HEROIC_HOLE          :Első hősies szakasz
+STR_ACCOMPLISHMENT_SKILL_UPGRADE        :Első jártasságfejlesztés
+STR_ACCOMPLISHMENT_TOURNAMENT           :Első verseny
+STR_ACCOMPLISHMENT_STRATEGIC_HOLE       :Első stratégiai szakasz
+STR_ACCOMPLISHMENT_MATCH_VICTORY        :Első mérkőzésgyőzelem
+STR_ACCOMPLISHMENT_9_HOLE_COURSE        :Első legalább 9 szakaszos pálya
+STR_ACCOMPLISHMENT_TOP_100_HOLE         :Első Top 100-as szakasz
+STR_ACCOMPLISHMENT_500K_TOURNAMENT      :Első 500 000 dolláros verseny
+STR_ACCOMPLISHMENT_CLASSIC_HOLE         :Első klasszikus szakasz
+STR_ACCOMPLISHMENT_TOP_18_HOLE          :Első Top 18-as szakasz
+STR_ACCOMPLISHMENT_VICTORY_9            :Első versenygyőzelem (legalább 9 szakaszos pálya)
+STR_ACCOMPLISHMENT_GRAND_SLAM_COURSE_9  :Első Grand Slam-pálya (legalább 9 szakasz)
+STR_ACCOMPLISHMENT_1M_TOURNAMENT        :Első 1 000 000 dolláros verseny
+STR_ACCOMPLISHMENT_18_HOLE_COURSE       :Első 18 szakaszos pálya
+STR_ACCOMPLISHMENT_VICTORY_18           :Első versenygyőzelem (18 szakaszos pálya)
+STR_ACCOMPLISHMENT_GRAND_SLAM_COURSE_18 :Első Grand Slam-pálya (18 szakasz)
+STR_ACCOMPLISHMENT_GRAND_SLAM_PARKLAND  :Első Grand Slam-győzelem (parkos pálya)
+STR_ACCOMPLISHMENT_GRAND_SLAM_DESERT    :Első Grand Slam-győzelem (sivatagi pálya)
+STR_ACCOMPLISHMENT_GRAND_SLAM_TROPICAL  :Első Grand Slam-győzelem (trópusi pálya)
+STR_ACCOMPLISHMENT_GRAND_SLAM_LINKS     :Első Grand Slam-győzelem (links pálya)
+STR_ACCOMPLISHMENT_100_STAR             :Első 100 csillagos értékelés
+STR_ACCOMPLISHMENT_DOGLEG_RIGHT         :Első jobbra kanyarodó szakasz
+STR_ACCOMPLISHMENT_DOGLEG_LEFT          :Első balra kanyarodó szakasz
+STR_ACCOMPLISHMENT_PAR_5                :Első par 5-ös szakasz
 
-########################################################################################################################
+############################################
 # Content packs, scenarios, scripts and the content index (the port's own, docs/MODDING.md)
 ########################################################################################################################
 # Preferences > Content. {KIND} a pack kind, {BY} STR_CONTENT_BY or nothing, {LICENCE} STR_CONTENT_LICENCE or nothing,
 # {STATE} on, off, an error ...
-STR_CONTENT_TITLE                       :Content packs
-STR_CONTENT_HELP                        :Base set first, then the mods in this order (later ones win), then the translation.
+STR_CONTENT_TITLE                       :Tartalomcsomagok
+STR_CONTENT_HELP                        :Alapcsomag, majd a modok sorrendben (a későbbiek felülírják a korábbiakat), végül a fordítás.
 STR_CONTENT_PACK_LINE                   :{KIND}{BY}{LICENCE}  -  {STATE}
-STR_CONTENT_BY                          : by {AUTHORS}
+STR_CONTENT_BY                          : , készítette: {AUTHORS}
 STR_CONTENT_LICENCE                     :, {LICENCE}
-STR_CONTENT_KIND_BASE                   :base set
+STR_CONTENT_KIND_BASE                   :alapcsomag
 STR_CONTENT_KIND_MOD                    :mod
-STR_CONTENT_KIND_TRANSLATION            :translation
-STR_CONTENT_KIND_SCENARIO               :scenario
-STR_CONTENT_ON                          :on
-STR_CONTENT_ON_AFTER_RESTART            :on after a restart
-STR_CONTENT_OFF                         :off
-STR_CONTENT_OFF_AFTER_RESTART           :off after a restart
-STR_CONTENT_ERROR                       :error: {ERROR}
-STR_CONTENT_SCENARIO_CHOSEN             :chosen when a game starts: Start New Game
-STR_CONTENT_WARNING                     :warning: {WARNING}{MORE}
-STR_CONTENT_SCRIPT_ERROR                :script error: {ERROR}{MORE}
-STR_CONTENT_MORE                        : (+{N} more)
-STR_CONTENT_UP                          :Up
-STR_CONTENT_DOWN                        :Down
-STR_CONTENT_PREVIOUS                    :Previous
-STR_CONTENT_NEXT                        :Next
-STR_CONTENT_NOTE                        :Changes are saved at once and take effect when you restart the game.
-STR_CONTENT_NOTE_CHANGED                :Your changes are saved. They take effect when you restart the game.
-STR_CONTENT_FIND_MORE                   :Find more...
+STR_CONTENT_KIND_TRANSLATION            :fordítás
+STR_CONTENT_KIND_SCENARIO               :forgatókönyv
+STR_CONTENT_ON                          :bekapcsolva
+STR_CONTENT_ON_AFTER_RESTART            :újraindítás után bekapcsolva
+STR_CONTENT_OFF                         :kikapcsolva
+STR_CONTENT_OFF_AFTER_RESTART           :újraindítás után kikapcsolva
+STR_CONTENT_ERROR                       :hiba: {ERROR}
+STR_CONTENT_SCENARIO_CHOSEN             :a játék indításakor kiválasztva: Új játék indítása
+STR_CONTENT_WARNING                     :figyelmeztetés: {WARNING}{MORE}
+STR_CONTENT_SCRIPT_ERROR                :szkript hiba: {ERROR}{MORE}
+STR_CONTENT_MORE                        : (+{N} további)
+STR_CONTENT_UP                          :Fel
+STR_CONTENT_DOWN                        :Le
+STR_CONTENT_PREVIOUS                    :Előző
+STR_CONTENT_NEXT                        :Következő
+STR_CONTENT_NOTE                        :A módosítások mentése azonnali; életbe lépésükhöz indítsd újra a játékot.
+STR_CONTENT_NOTE_CHANGED                :A módosításokat elmentettük. A játék újraindítása után lépnek érvénybe.
+STR_CONTENT_FIND_MORE                   :Továbbiak keresése...
 # Shown at start up when the game folder named with --game has no SimGolf files
-STR_CONTENT_NO_GAME_FILES               :No SimGolf files found in {DIR}: playing with the free OpenSGolf graphics.
+STR_CONTENT_NO_GAME_FILES               :Nincs SimGolf-fájl ebben a mappában: {DIR}. Az OpenSGolf ingyenes grafikát használ.
 
 # Preferences > Content: profiles, named sets of content choices (the port's own, content_profiles.rs). {NAME} is a
 # profile's name; STR_PROFILE_LINE sums one up ({BASE} the base set, {MODS} the mods switched on, {TRANSLATION}).
-STR_PROFILE_SAVE                        :Save profile...
-STR_PROFILE_LIST                        :Profiles...
-STR_PROFILE_TITLE                       :Content profiles
-STR_PROFILE_HELP                        :Load sets the content choices to a profile's; like every change here, it takes effect when you restart the game.
-STR_PROFILE_NONE                        :No profiles yet: use Save profile... on the list of packs.
-STR_PROFILE_LINE                        :base: {BASE}; mods: {MODS}; translation: {TRANSLATION}
-STR_PROFILE_NO_MODS                     :none
-STR_PROFILE_LOAD                        :Load
-STR_PROFILE_DELETE                      :Delete
-STR_PROFILE_NAME_PROMPT                 :Save the content choices as the profile:
-STR_PROFILE_NAME_KEYS                   :Enter saves (a profile of that name is replaced), Esc cancels
-STR_PROFILE_SAVED                       :Profile "{NAME}" saved.
-STR_PROFILE_DELETED                     :Profile "{NAME}" deleted.
-STR_PROFILE_LOADED                      :Profile "{NAME}" loaded: restart the game to play with it.
-STR_PROFILE_LOADED_MISSING              :Profile "{NAME}" loaded without the packs not installed: {MISSING}. Restart the game to play with it.
+STR_PROFILE_SAVE                        :Profil mentése...
+STR_PROFILE_LIST                        :Profilok...
+STR_PROFILE_TITLE                       :Tartalomprofilok
+STR_PROFILE_HELP                        :A profil betöltése alkalmazza a mentett csomagbeállításokat. Újraindítás után lép életbe.
+STR_PROFILE_NONE                        :Még nincs profil. A csomaglistában a Mentés profilként... ponttal készíthetsz.
+STR_PROFILE_LINE                        :alap: {BASE}; modok: {MODS}; fordítás: {TRANSLATION}
+STR_PROFILE_NO_MODS                     :nincs
+STR_PROFILE_LOAD                        :Betöltés
+STR_PROFILE_DELETE                      :Törlés
+STR_PROFILE_NAME_PROMPT                 :Milyen néven mentsük a tartalomcsomag-beállításokat?
+STR_PROFILE_NAME_KEYS                   :Enter: mentés (azonos nevű profil felülírása), Esc: mégse
+STR_PROFILE_SAVED                       :A(z) „{NAME}” profil mentve.
+STR_PROFILE_DELETED                     :A(z) „{NAME}” profil törölve.
+STR_PROFILE_LOADED                      :A(z) „{NAME}” profil betöltve. A használatához indítsd újra a játékot.
+STR_PROFILE_LOADED_MISSING              :A(z) „{NAME}” profil betöltve, de a nem telepített csomagok kimaradtak: {MISSING}. A használatához indítsd újra a játékot.
 # Loading a game saved with other content packs (content_profiles.rs): plain words; the packs' ids and versions go to the
 # log only
-STR_SAVE_PACKS_DIFFER                   :This game was saved with other add-ons (mods or a translation) than the ones in use. It may play a little differently. Load it anyway?
-STR_SAVE_PACKS_MISSING                  :Some of them are not installed here.
-STR_SAVE_PACKS_SWITCH                   :Switch to what it was saved with (the game restarts and loads it)
-STR_SAVE_PACKS_SWITCH_LATER             :Switch to what it was saved with (then restart and load it)
-STR_SAVE_PACKS_LOAD_ANYWAY              :Load it anyway
-STR_SAVE_PACKS_CANCEL                   :Do not load it
-STR_SAVE_PACKS_SWITCHED                 :Switched to the saved game's content packs.
-STR_SAVE_PACKS_RESTART_YOURSELF         :The save's content packs are chosen. Restart the game (in a browser: reload the page), then load the game again.
+STR_SAVE_PACKS_DIFFER                   :Ez a játék a jelenlegiektől eltérő kiegészítőkkel (modokkal vagy fordítással) lett elmentve. Emiatt kissé másképp működhet. Ennek ellenére betöltöd?
+STR_SAVE_PACKS_MISSING                  :Ezek közül néhány nincs telepítve.
+STR_SAVE_PACKS_SWITCH                   :Váltás a mentés csomagjaira (újraindít és betölti a mentést)
+STR_SAVE_PACKS_SWITCH_LATER             :Váltás a mentés csomagjaira (újraindítás után töltsd be)
+STR_SAVE_PACKS_LOAD_ANYWAY              :Betöltés mindenképpen
+STR_SAVE_PACKS_CANCEL                   :Ne töltsd be
+STR_SAVE_PACKS_SWITCHED                 :Átváltottál a mentéshez használt tartalomcsomagokra.
+STR_SAVE_PACKS_RESTART_YOURSELF         :A mentés csomagjai kiválasztva. Indítsd újra a játékot (böngészőben töltsd újra az oldalt), majd töltsd be a mentést.
 # Shown at start up when the sounds of the player's SimGolf copy cannot be played (missing or in a coding the game cannot
 # read); {WHY} is the first problem found, in English
-STR_FILES_UNREADABLE_1                  :One of your SimGolf files could not be read ({FILE}), so part of the course may be missing. Copying the game's files again from your CD usually puts this right.
-STR_FILES_UNREADABLE                    :{N} of your SimGolf files could not be read (one is {FILE}), so parts of the course may be missing. Copying the game's files again from your CD usually puts this right.
-STR_SOUND_NO_DEVICE                     :No sound: the computer gave OpenSGolf no audio output. Check the volume and the output chosen in your system's sound settings, then start the game again. What the game saw is in sound.txt in {DIR}.
-STR_SOUND_CANNOT_PLAY                   :The sounds of your SimGolf copy could not be played ({WHY}). Playing the free OpenSGolf sounds instead.
-STR_SOUND_NONE_IN_COPY                  :Your SimGolf files have no sounds (their Sounds and SimsFX folders are empty: some downloaded copies leave them out). The free OpenSGolf sounds play instead; for the original sounds, use the SimGolf CD or its .iso, or a full installed copy.
-STR_SOUND_ONLY_VOICES                   :Your SimGolf files have no Sounds folder (only the {N} voice clips in SimsFX): the free OpenSGolf sounds play for the rest. For the original sounds, use the SimGolf CD or its .iso, or a full installed copy.
-STR_SOUND_MISSING                       :{N} of the game's {OF} sounds are not in your SimGolf files (some downloaded copies leave sounds out): the free OpenSGolf sounds play for those. For the original sounds, use the SimGolf CD or its .iso, or a full installed copy.
-STR_SOUND_UNPLAYABLE                    :{N} of your sounds use a format OpenSGolf can't play yet (e.g. {CODEC}): the free OpenSGolf sounds play for those. A copy of the game with its original sounds (the CD, or a full installed copy) plays them all.
+STR_FILES_UNREADABLE_1                  :A SimGolf egyik fájlját nem sikerült beolvasni ({FILE}), ezért a pálya egy része hiányozhat. A játékfájlok újbóli másolása a CD-ről általában megoldja a problémát.
+STR_FILES_UNREADABLE                    :A SimGolf {N} fájlját nem sikerült beolvasni (az egyik: {FILE}), ezért a pálya egyes részei hiányozhatnak. A játékfájlok újbóli másolása a CD-ről általában megoldja a problémát.
+STR_SOUND_NO_DEVICE                     :Nincs hangkimenet az OpenSGolf számára. Ellenőrizd a hangerőt és a rendszer kimenetét, majd indítsd újra. Az eszközök listája: {DIR}/sound.txt.
+STR_SOUND_CANNOT_PLAY                   :A SimGolf-példányod hangjait nem sikerült lejátszani ({WHY}). Helyettük az OpenSGolf ingyenes hangjai szólnak.
+STR_SOUND_NONE_IN_COPY                  :A SimGolf-fájlokból hiányoznak a hangok (a Sounds és SimsFX mappák üresek). Helyettük az OpenSGolf ingyenes hangjai szólnak. Eredeti hangokhoz használd a CD-t, annak ISO-képét vagy a teljes telepítést.
+STR_SOUND_ONLY_VOICES                   :Hiányzik a SimGolf Sounds mappája; csak a SimsFX {N} hangja van meg. A többi helyett az OpenSGolf ingyenes hangjai szólnak. Az eredeti hangokhoz használd a CD-t, ISO-képét vagy a teljes telepítést.
+STR_SOUND_MISSING                       :A SimGolf {OF} hangjából {N} hiányzik. Ezek helyett az OpenSGolf ingyenes hangjai szólnak. Az eredeti hangokhoz használd a CD-t, ISO-képét vagy a teljes telepítést.
+STR_SOUND_UNPLAYABLE                    :{N} hangfájl formátumát az OpenSGolf nem támogatja (pl. {CODEC}). Helyettük az ingyenes hangok szólnak. Az eredeti hangok CD-ről vagy teljes telepítésből működnek.
 
 # Preferences > Keyboard controls (the port's own screen, keys_ui.rs). STR_KEYS_HEAD_* are the group headings,
 # STR_KEYS_K_* the keys as printed (keep them short: they share a column of about 110 pixels) and the others what the
 # key does. {PAGE} and {PAGES} number the pages.
-STR_KEYS_TITLE                          :Keyboard controls
-STR_KEYS_HELP                           :Every key of the game: the original's, and OpenSGolf's own (game speed, the stand-ins for the F keys).
-STR_KEYS_PAGE                           :Page {PAGE} of {PAGES}
-STR_KEYS_CLOSE                          :Esc, Enter or a click outside the box closes this screen.
-STR_KEYS_HEAD_VIEW                      :Moving around the course
-STR_KEYS_K_ARROWS                       :Arrow keys
-STR_KEYS_ARROWS                         :Scroll the course four tiles
+STR_KEYS_TITLE                          :Billentyűzetvezérlés
+STR_KEYS_HELP                           :Billentyűparancsok: az eredeti és az OpenSGolf saját parancsai (sebesség, F-billentyűk helyettesítői).
+STR_KEYS_PAGE                           :{PAGE}/{PAGES}. oldal
+STR_KEYS_CLOSE                          :Esc, Enter vagy ablakon kívüli kattintás: bezárás.
+STR_KEYS_HEAD_VIEW                      :Mozgás a pályán
+STR_KEYS_K_ARROWS                       :Nyílbillentyűk
+STR_KEYS_ARROWS                         :A pálya görgetése négy mezővel
 STR_KEYS_K_ZOOM                         :z / x
-STR_KEYS_ZOOM                           :Zoom in / zoom out
+STR_KEYS_ZOOM                           :Nagyítás / kicsinyítés
 STR_KEYS_K_TURN                         :PageUp / Home
-STR_KEYS_TURN                           :Turn the view a quarter
-STR_KEYS_K_TURN_MAC                     :fn+Up / fn+Left
-STR_KEYS_TURN_MAC                       :The same on a Mac keyboard
+STR_KEYS_TURN                           :A nézet elforgatása negyedfordulattal
+STR_KEYS_K_TURN_MAC                     :fn+Fel / fn+Bal
+STR_KEYS_TURN_MAC                       :Ugyanez Mac-billentyűzeten
 STR_KEYS_K_TURN_BACK                    :0
-STR_KEYS_TURN_BACK                      :Turn the view back; again: go to the clubhouse
-STR_KEYS_K_HOLES                        :1 to 9
-STR_KEYS_HOLES                          :Go to hole 1 to 9
-STR_KEYS_K_HOLES_BACK                   :Shift+1 to 9
-STR_KEYS_HOLES_BACK                     :Go to hole 10 to 18
-STR_KEYS_K_SHIFT_HELD                   :Shift (held)
-STR_KEYS_SHIFT_HELD                     :The face strip shows the back nine only
+STR_KEYS_TURN_BACK                      :Nézet visszaforgatása; újabb megnyomásra ugrás a klubházhoz
+STR_KEYS_K_HOLES                        :1–9
+STR_KEYS_HOLES                          :Ugrás az 1–9. szakaszhoz
+STR_KEYS_K_HOLES_BACK                   :Shift+1–9
+STR_KEYS_HOLES_BACK                     :Ugrás a 10–18. szakaszhoz
+STR_KEYS_K_SHIFT_HELD                   :Shift (nyomva tartva)
+STR_KEYS_SHIFT_HELD                     :Az arcképcsíkon csak a hátsó kilenc szakasz jelenik meg
 STR_KEYS_K_PHOTO_MODE                   :c
-STR_KEYS_PHOTO_MODE                     :Photo mode (Enhanced graphics; Esc leaves)
+STR_KEYS_PHOTO_MODE                     :Fotómód (továbbfejlesztett grafika; Esc: kilépés)
 STR_KEYS_K_HIDE_INTERFACE               :u
-STR_KEYS_HIDE_INTERFACE                 :Hide / show the whole interface
-STR_KEYS_K_MIDDLE_DRAG                  :Middle drag
-STR_KEYS_MIDDLE_DRAG                    :Drag the course with any tool held
+STR_KEYS_HIDE_INTERFACE                 :A teljes kezelőfelület elrejtése/megjelenítése
+STR_KEYS_K_MIDDLE_DRAG                  :Középső egérgomb húzása
+STR_KEYS_MIDDLE_DRAG                    :A pálya húzása bármely eszköz használata közben
 STR_KEYS_K_WASD                         :w a s d
-STR_KEYS_WASD                           :Scroll, with the WASD camera on (Change keys)
-STR_KEYS_HEAD_TIME                      :Time
+STR_KEYS_WASD                           :Görgetés bekapcsolt WASD-kameravezérléssel (Billentyűk módosítása)
+STR_KEYS_HEAD_TIME                      :Idő
 STR_KEYS_K_PAUSE                        :Shift+P
-STR_KEYS_PAUSE                          :Pause / go on
+STR_KEYS_PAUSE                          :Szüneteltetés / folytatás
 STR_KEYS_K_SPEED                        :[ / ]
-STR_KEYS_SPEED                          :Game speed slower / faster (normal, x2, x4)
-STR_KEYS_HEAD_BUILD                     :Building the course
+STR_KEYS_SPEED                          :Játéksebesség csökkentése / növelése (normál, ×2, ×4)
+STR_KEYS_HEAD_BUILD                     :Pályaépítés
 STR_KEYS_K_GREEN                        :g
-STR_KEYS_GREEN                          :Green tool; again: tee tool
+STR_KEYS_GREEN                          :Green eszköz; ismételt megnyomásra elütőhely eszköz
 STR_KEYS_K_FAIRWAY                      :f
-STR_KEYS_FAIRWAY                        :Fairway tool
+STR_KEYS_FAIRWAY                        :Fairway eszköz
 STR_KEYS_K_ROUGH                        :r
-STR_KEYS_ROUGH                          :Rough tool
+STR_KEYS_ROUGH                          :Rough eszköz
 STR_KEYS_K_SAND                         :s
-STR_KEYS_SAND                           :Sand trap tool
+STR_KEYS_SAND                           :Homokbunker eszköz
 STR_KEYS_K_TREES                        :t
-STR_KEYS_TREES                          :Trees tool
+STR_KEYS_TREES                          :Fa eszköz
 STR_KEYS_K_WATER                        :w
-STR_KEYS_WATER                          :Water tool
+STR_KEYS_WATER                          :Víz eszköz
 STR_KEYS_K_RAVINE                       :v
-STR_KEYS_RAVINE                         :Ravine tool
+STR_KEYS_RAVINE                         :Szakadék eszköz
 STR_KEYS_K_PATH                         :p
-STR_KEYS_PATH                           :Path tool
+STR_KEYS_PATH                           :Út eszköz
 STR_KEYS_K_BENCH                        :b
-STR_KEYS_BENCH                          :Bench tool
+STR_KEYS_BENCH                          :Pad eszköz
 STR_KEYS_K_HOME_SITE                    :Shift+B
-STR_KEYS_HOME_SITE                      :Home site tool (sell a lot)
+STR_KEYS_HOME_SITE                      :Lakótelek eszköz (telek eladása)
 STR_KEYS_K_ELEVATION                    :e
-STR_KEYS_ELEVATION                      :Elevation tools
+STR_KEYS_ELEVATION                      :Magasságállító eszközök
 STR_KEYS_K_RAISE                        := / -
-STR_KEYS_RAISE                          :Raise / lower the ground at the pointer
+STR_KEYS_RAISE                          :Talaj emelése / süllyesztése a mutató alatt
 STR_KEYS_K_TAB                          :Tab
-STR_KEYS_TAB                            :Turn a building before placing it; step the elevation brush
-STR_KEYS_K_SPACE                        :Space
-STR_KEYS_SPACE                          :Put the tool down
-STR_KEYS_K_UNDO                         :Shift+click
-STR_KEYS_UNDO                           :Take back a path or garden item; demolish a building
-STR_KEYS_HEAD_HOLES                     :Holes and messages
+STR_KEYS_TAB                            :Épület forgatása elhelyezés előtt; magasságállító ecset léptetése
+STR_KEYS_K_SPACE                        :Szóköz
+STR_KEYS_SPACE                          :Az eszköz elhelyezése
+STR_KEYS_K_UNDO                         :Shift+kattintás
+STR_KEYS_UNDO                           :Út vagy kertészeti elem eltávolítása; épület lebontása
+STR_KEYS_HEAD_HOLES                     :Szakaszok és üzenetek
 STR_KEYS_K_OPEN_HOLE                    :h
-STR_KEYS_OPEN_HOLE                      :Open the hole being built
+STR_KEYS_OPEN_HOLE                      :Az építés alatt álló szakasz megnyitása
 STR_KEYS_K_ANALYSIS                     :/
-STR_KEYS_ANALYSIS                       :Instant shot analysis of the hole at the pointer
+STR_KEYS_ANALYSIS                       :A mutató alatt lévő szakasz azonnali ütéselemzése
 STR_KEYS_K_ANALYSIS_AGAIN               :.
-STR_KEYS_ANALYSIS_AGAIN                 :The last shot analysis again
+STR_KEYS_ANALYSIS_AGAIN                 :Az utolsó ütéselemzés ismétlése
 STR_KEYS_K_TREES_OFF                    :Shift+T
-STR_KEYS_TREES_OFF                      :Trees off / on
+STR_KEYS_TREES_OFF                      :Fák megjelenítésének be-/kikapcsolása
 STR_KEYS_K_NAMES                        :Shift+N
-STR_KEYS_NAMES                          :Golfers' names off / on
+STR_KEYS_NAMES                          :Golfozók neveinek be-/kikapcsolása
 STR_KEYS_K_MESSAGE                      :?
-STR_KEYS_MESSAGE                        :Repeat the last message
+STR_KEYS_MESSAGE                        :Utolsó üzenet ismétlése
 STR_KEYS_K_MUSIC                        :m
-STR_KEYS_MUSIC                          :Music off / on
-STR_KEYS_HEAD_REPORTS                   :Reports and maps
+STR_KEYS_MUSIC                          :Zene be-/kikapcsolása
+STR_KEYS_HEAD_REPORTS                   :Jelentések és térképek
 STR_KEYS_K_F1                           :F1
-STR_KEYS_F1                             :Course Report
+STR_KEYS_F1                             :Pályajelentés
 STR_KEYS_K_F2                           :F2
-STR_KEYS_F2                             :Player Comments
+STR_KEYS_F2                             :Golfozói vélemények
 STR_KEYS_K_F3                           :F3
-STR_KEYS_F3                             :Histograph
+STR_KEYS_F3                             :Hisztogram
 STR_KEYS_K_F4                           :F4
-STR_KEYS_F4                             :Financial Report
+STR_KEYS_F4                             :Pénzügyi jelentés
 STR_KEYS_K_F5                           :F5
-STR_KEYS_F5                             :Routing Map
+STR_KEYS_F5                             :Útvonaltervezési térkép
 STR_KEYS_K_F6                           :F6
-STR_KEYS_F6                             :World Map (move the club)
+STR_KEYS_F6                             :Világtérkép (klub áthelyezése)
 STR_KEYS_K_F7                           :F7
-STR_KEYS_F7                             :SGA Evaluation
+STR_KEYS_F7                             :SGA-értékelés
 STR_KEYS_K_F8                           :F8
-STR_KEYS_F8                             :The original's Keyboard Shortcuts
+STR_KEYS_F8                             :Az eredeti játék billentyűparancsai
 STR_KEYS_K_F9                           :F9
-STR_KEYS_F9                             :Membership Roster
+STR_KEYS_F9                             :Tagnyilvántartás
 STR_KEYS_K_F10                          :F10
-STR_KEYS_F10                            :Professional Accomplishments
+STR_KEYS_F10                            :Profi eredmények
 STR_KEYS_K_ROUTING                      :Shift+R
-STR_KEYS_ROUTING                        :Routing Map
+STR_KEYS_ROUTING                        :Útvonaltervezési térkép
 STR_KEYS_K_WORLD                        :Shift+W
-STR_KEYS_WORLD                          :World Map
-STR_KEYS_K_ALT_DIGITS                   :Alt+1 to 0
-STR_KEYS_ALT_DIGITS                     :F1 to F10 (on a Mac: Option+1 to 0), with Shift as with the F keys
-STR_KEYS_K_CTRL_DIGITS                  :Ctrl+1 to 0
-STR_KEYS_CTRL_DIGITS                    :F1 to F10 too, where the browser lets it
-STR_KEYS_HEAD_GOLFERS                   :Your pro and the golfers
+STR_KEYS_WORLD                          :Világtérkép
+STR_KEYS_K_ALT_DIGITS                   :Alt+1–0
+STR_KEYS_ALT_DIGITS                     :F1–F10 (Macen: Option+1–0), a Shift billentyűvel az F billentyűkkel megegyezően
+STR_KEYS_K_CTRL_DIGITS                  :Ctrl+1–0
+STR_KEYS_CTRL_DIGITS                    :F1–F10 is, ha a böngésző engedélyezi
+STR_KEYS_HEAD_GOLFERS                   :A klubprofid és a golfozók
 STR_KEYS_K_SHOTS                        :s f d h l
-STR_KEYS_SHOTS                          :While your pro aims: straight, fade, draw, high, low
+STR_KEYS_SHOTS                          :A klubprofid célzásakor: egyenes, fade, draw, magas, alacsony
 STR_KEYS_K_CANCEL_ROUND                 :n, n
-STR_KEYS_CANCEL_ROUND                   :Cancel your pro's round or the tournament
+STR_KEYS_CANCEL_ROUND                   :A klubprofid körének vagy a versenynek a megszakítása
 STR_KEYS_K_TOURNAMENT                   :Shift+J
-STR_KEYS_TOURNAMENT                     :Begin a tournament the SGA offered
-STR_KEYS_K_LET_GO                       :Space
-STR_KEYS_LET_GO                         :Let go of the golfer picked
-STR_KEYS_HEAD_FILES                     :Saving and loading
+STR_KEYS_TOURNAMENT                     :Az SGA által felajánlott verseny indítása
+STR_KEYS_K_LET_GO                       :Szóköz
+STR_KEYS_LET_GO                         :A kiválasztott golfozó elengedése
+STR_KEYS_HEAD_FILES                     :Mentés és betöltés
 STR_KEYS_K_SAVE                         :Shift+S
-STR_KEYS_SAVE                           :Save the game
+STR_KEYS_SAVE                           :Játék mentése
 STR_KEYS_K_LOAD                         :Shift+L
-STR_KEYS_LOAD                           :Load a game
+STR_KEYS_LOAD                           :Játék betöltése
 STR_KEYS_K_CHAMP_COURSE                 :Shift+C
-STR_KEYS_CHAMP_COURSE                   :Save the course for a championship
+STR_KEYS_CHAMP_COURSE                   :Pálya mentése bajnoksághoz
 STR_KEYS_K_SAVE_BOX                     :Enter / Esc
-STR_KEYS_SAVE_BOX                       :Save box: save / cancel
+STR_KEYS_SAVE_BOX                       :Mentési ablak: mentés / mégse
 STR_KEYS_K_EXPORT                       :Tab
-STR_KEYS_EXPORT                         :Save box: export as a scenario pack
-STR_KEYS_HEAD_PICTURES                  :Pictures
+STR_KEYS_EXPORT                         :Mentési ablak: exportálás forgatókönyvcsomagként
+STR_KEYS_HEAD_PICTURES                  :Képek
 STR_KEYS_K_SCREENSHOT                   :Shift+F6
-STR_KEYS_SCREENSHOT                     :Screenshot into the save folder (the browser downloads it)
+STR_KEYS_SCREENSHOT                     :Képernyőkép mentése a mentési mappába (böngészőben letöltésként)
 STR_KEYS_K_PHOTO                        :F10
-STR_KEYS_PHOTO                          :On a SimFoto: keep the photo
-STR_KEYS_HEAD_OTHER                     :Everywhere
+STR_KEYS_PHOTO                          :SimFoto esetén: fénykép megőrzése
+STR_KEYS_HEAD_OTHER                     :Mindenhol
 STR_KEYS_K_ESC                          :Esc
-STR_KEYS_ESC                            :System Functions; closes a screen or box
-STR_KEYS_K_MENU_MOVE                    :Up / Down
-STR_KEYS_MENU_MOVE                      :Move in a menu or list
-STR_KEYS_K_MENU_CHOOSE                  :Enter / Space
-STR_KEYS_MENU_CHOOSE                    :Choose; OK
-STR_KEYS_K_PAGES                        :Left / Right
-STR_KEYS_PAGES                          :Pages of this screen and of Enhanced graphics settings
+STR_KEYS_ESC                            :Rendszerfunkciók; képernyő vagy ablak bezárása
+STR_KEYS_K_MENU_MOVE                    :Fel / Le
+STR_KEYS_MENU_MOVE                      :Mozgás a menüben vagy a listában
+STR_KEYS_K_MENU_CHOOSE                  :Enter / Szóköz
+STR_KEYS_MENU_CHOOSE                    :Kiválasztás; OK
+STR_KEYS_K_PAGES                        :Bal / Jobb
+STR_KEYS_PAGES                          :Váltás a beállítási oldalak között
 STR_KEYS_K_CONTENT_ORDER                :PgUp / PgDn
-STR_KEYS_CONTENT_ORDER                  :Content packs: move the mod picked
-STR_KEYS_K_BACK_BUTTON                  :Back button
-STR_KEYS_BACK_BUTTON                    :Android: the same as Esc
+STR_KEYS_CONTENT_ORDER                  :Tartalomcsomagok: a kijelölt mod áthelyezése
+STR_KEYS_K_BACK_BUTTON                  :Vissza gomb
+STR_KEYS_BACK_BUTTON                    :Androidon: ugyanaz, mint az Esc
 STR_KEYS_K_BROWSER                      :F11 / F12
-STR_KEYS_BROWSER                        :Left to the browser (full screen, tools), as are the Cmd keys
+STR_KEYS_BROWSER                        :Böngészővezérlők (teljes képernyő, eszközök); Macen Cmd-billentyűkkel.
 # The Keyboard controls screen's button to the Change keys screen
-STR_KEYS_CHANGE                         :Change keys...
+STR_KEYS_CHANGE                         :Billentyűk módosítása...
 
 # Preferences > Keyboard controls > Change keys (the port's own, controls_ui.rs): the actions that can be given another key,
 # the screen's lines and buttons. {ACTION} is an action's name, {KEY} a key as printed, {ACTIONS} a list of actions.
-STR_CTL_TITLE                           :Change keys
-STR_CTL_HELP                            :Click an action, then press its new key (Shift may be held). Esc while waiting keeps the old key.
-STR_CTL_FOOT                            :Keys are saved at once. Two actions on one key are shown in red: only the first in this list answers.
-STR_CTL_WAITING                         :Press a key...
-STR_CTL_NO_KEY                          :(none)
-STR_CTL_PRESS                           :Press the new key for {ACTION}, or Esc to keep the old one.
+STR_CTL_TITLE                           :Billentyűk módosítása
+STR_CTL_HELP                            :Válassz műveletet, majd nyomd meg az új billentyűt. A Shift használható. Esc: régi billentyű megtartása.
+STR_CTL_FOOT                            :A billentyűk azonnal mentődnek. Az ütköző hozzárendelések pirosak; csak az első működik.
+STR_CTL_WAITING                         :Nyomj meg egy billentyűt...
+STR_CTL_NO_KEY                          :(nincs)
+STR_CTL_PRESS                           :Új billentyű a(z) {ACTION} művelethez; Esc: régi megtartása.
 STR_CTL_BOUND                           :{ACTION}: {KEY}.
-STR_CTL_ALSO                            :{KEY} is also the key of: {ACTIONS}. Only one of them will answer; give one of them another key.
-STR_CTL_CLASH                           :Keys used twice: {ACTIONS}.
-STR_CTL_RESERVED                        :{KEY} cannot be given to an action (the digits jump to holes, Esc cancels).
-STR_CTL_SAVED                           :Keys saved.
-STR_CTL_WASD_ON                         :WASD camera on: w a s d scroll, the water tool moves to q and the sand tool to k.
-STR_CTL_WASD                            :WASD camera: {STATE}
-STR_CTL_ON                              :on
-STR_CTL_OFF                             :off
-STR_CTL_RESET                           :Reset to defaults
-STR_CTL_RESET_DONE                      :Every key is back to the original's.
+STR_CTL_ALSO                            :A(z) {KEY} már ehhez is tartozik: {ACTIONS}. Egyszerre csak az első működik; rendelj másik billentyűt.
+STR_CTL_CLASH                           :Több művelethez is használt billentyűk: {ACTIONS}.
+STR_CTL_RESERVED                        :A(z) {KEY} nem rendelhető hozzá (a számok szakaszt váltanak, az Esc megszakít).
+STR_CTL_SAVED                           :Billentyűk elmentve.
+STR_CTL_WASD_ON                         :WASD-kamera bekapcsolva: WASD görget, Q a víz-, K a homokbunker-eszköz.
+STR_CTL_WASD                            :WASD-kameravezérlés: {STATE}
+STR_CTL_ON                              :be
+STR_CTL_OFF                             :ki
+STR_CTL_RESET                           :Alapértelmezett billentyűk visszaállítása
+STR_CTL_RESET_DONE                      :Minden billentyű visszaállt az eredeti játék szerinti értékre.
 # Shown in the bottom left corner while the interface is hidden
-STR_CTL_HUD_HINT                        :Interface hidden: press {KEY} to show it
-STR_CTL_SCROLL_UP                       :Scroll up
-STR_CTL_SCROLL_DOWN                     :Scroll down
-STR_CTL_SCROLL_LEFT                     :Scroll left
-STR_CTL_SCROLL_RIGHT                    :Scroll right
-STR_CTL_ZOOM_IN                         :Zoom in
-STR_CTL_ZOOM_OUT                        :Zoom out
-STR_CTL_TURN_LEFT                       :Turn the view
-STR_CTL_TURN_RIGHT                      :Turn the view back
-STR_CTL_TURN_BACK                       :Turn back / clubhouse
-STR_CTL_PHOTO_MODE                      :Photo mode
-STR_CTL_HIDE_INTERFACE                  :Hide the interface
-STR_CTL_PAUSE                           :Pause
-STR_CTL_SLOWER                          :Game speed: slower
-STR_CTL_SPEED                           :Game speed: faster
-STR_CTL_GREEN                           :Green / tee tool
-STR_CTL_FAIRWAY                         :Fairway tool
-STR_CTL_ROUGH                           :Rough tool
-STR_CTL_SAND                            :Sand trap tool
-STR_CTL_TREES                           :Trees tool
-STR_CTL_WATER                           :Water tool
-STR_CTL_RAVINE                          :Ravine tool
-STR_CTL_PATH                            :Path tool
-STR_CTL_BENCH                           :Bench tool
-STR_CTL_HOME_SITE                       :Home site tool
-STR_CTL_ELEVATION                       :Elevation tools
-STR_CTL_RAISE                           :Raise the ground
-STR_CTL_LOWER                           :Lower the ground
-STR_CTL_TURN_BUILDING                   :Turn a building
-STR_CTL_PUT_DOWN                        :Put the tool down
-STR_CTL_OPEN_HOLE                       :Open the hole
-STR_CTL_ANALYSIS                        :Shot analysis
-STR_CTL_ANALYSIS_AGAIN                  :Last shot analysis
-STR_CTL_TREES_OFF                       :Trees off / on
-STR_CTL_NAMES                           :Names off / on
-STR_CTL_MESSAGE                         :Repeat the last message
-STR_CTL_MUSIC                           :Music off / on
-STR_CTL_SHOT_STRAIGHT                   :Aiming: straight shot
-STR_CTL_SHOT_FADE                       :Aiming: fade
-STR_CTL_SHOT_DRAW                       :Aiming: draw
-STR_CTL_SHOT_HIGH                       :Aiming: high shot
-STR_CTL_SHOT_LOW                        :Aiming: low shot
-STR_CTL_CANCEL_ROUND                    :Cancel the pro's round
-STR_CTL_TOURNAMENT                      :Begin a tournament
-STR_CTL_SAVE                            :Save the game
-STR_CTL_LOAD                            :Load a game
-STR_CTL_CHAMP_COURSE                    :Save a championship course
-STR_CTL_SCREENSHOT                      :Screenshot
-STR_CTL_ROUTING                         :Routing Map
-STR_CTL_WORLD                           :World Map
+STR_CTL_HUD_HINT                        :Kezelőfelület rejtve. Megjelenítés: {KEY}.
+STR_CTL_SCROLL_UP                       :Görgetés felfelé
+STR_CTL_SCROLL_DOWN                     :Görgetés lefelé
+STR_CTL_SCROLL_LEFT                     :Görgetés balra
+STR_CTL_SCROLL_RIGHT                    :Görgetés jobbra
+STR_CTL_ZOOM_IN                         :Nagyítás
+STR_CTL_ZOOM_OUT                        :Kicsinyítés
+STR_CTL_TURN_LEFT                       :Nézet elforgatása
+STR_CTL_TURN_RIGHT                      :Nézet visszaforgatása
+STR_CTL_TURN_BACK                       :Visszaforgatás / ugrás a klubházhoz
+STR_CTL_PHOTO_MODE                      :Fotómód
+STR_CTL_HIDE_INTERFACE                  :Kezelőfelület elrejtése
+STR_CTL_PAUSE                           :Szünet
+STR_CTL_SLOWER                          :Játéksebesség csökkentése
+STR_CTL_SPEED                           :Játéksebesség növelése
+STR_CTL_GREEN                           :Green / elütőhely eszköz
+STR_CTL_FAIRWAY                         :Fairway eszköz
+STR_CTL_ROUGH                           :Rough eszköz
+STR_CTL_SAND                            :Homokbunker eszköz
+STR_CTL_TREES                           :Fa eszköz
+STR_CTL_WATER                           :Víz eszköz
+STR_CTL_RAVINE                          :Szakadék eszköz
+STR_CTL_PATH                            :Út eszköz
+STR_CTL_BENCH                           :Pad eszköz
+STR_CTL_HOME_SITE                       :Lakótelek eszköz
+STR_CTL_ELEVATION                       :Magasságállító eszközök
+STR_CTL_RAISE                           :Talaj emelése
+STR_CTL_LOWER                           :Talaj süllyesztése
+STR_CTL_TURN_BUILDING                   :Épület forgatása
+STR_CTL_PUT_DOWN                        :Eszköz elhelyezése
+STR_CTL_OPEN_HOLE                       :Szakasz megnyitása
+STR_CTL_ANALYSIS                        :Ütéselemzés
+STR_CTL_ANALYSIS_AGAIN                  :Utolsó ütéselemzés
+STR_CTL_TREES_OFF                       :Fák be-/kikapcsolása
+STR_CTL_NAMES                           :Nevek be-/kikapcsolása
+STR_CTL_MESSAGE                         :Utolsó üzenet ismétlése
+STR_CTL_MUSIC                           :Zene be-/kikapcsolása
+STR_CTL_SHOT_STRAIGHT                   :Célzás: egyenes ütés
+STR_CTL_SHOT_FADE                       :Célzás: fade ütés
+STR_CTL_SHOT_DRAW                       :Célzás: draw ütés
+STR_CTL_SHOT_HIGH                       :Célzás: magas ütés
+STR_CTL_SHOT_LOW                        :Célzás: alacsony ütés
+STR_CTL_CANCEL_ROUND                    :A klubprofid körének megszakítása
+STR_CTL_TOURNAMENT                      :Verseny indítása
+STR_CTL_SAVE                            :Játék mentése
+STR_CTL_LOAD                            :Játék betöltése
+STR_CTL_CHAMP_COURSE                    :Bajnoki pálya mentése
+STR_CTL_SCREENSHOT                      :Képernyőkép készítése
+STR_CTL_ROUTING                         :Útvonaltervezési térkép
+STR_CTL_WORLD                           :Világtérkép
 # the OpenSGolf extras' keys (extras.rs)
-STR_CTL_PEOPLE                          :People screen
-STR_CTL_HISTORY                         :Message history
-STR_CTL_NAME_TAGS                       :Name tags off / on
-STR_CTL_PATH_VIEW                       :Path view off / on
+STR_CTL_PEOPLE                          :Emberek képernyő
+STR_CTL_HISTORY                         :Üzenetelőzmények
+STR_CTL_NAME_TAGS                       :Névcímkék be-/kikapcsolása
+STR_CTL_PATH_VIEW                       :Útvonalnézet be-/kikapcsolása
 # the port's building tools (build_tools.rs)
-STR_CTL_TAPE                            :Measuring tape
-STR_CTL_QUICK_SAVE                      :Quick save
-STR_CTL_QUICK_LOAD                      :Quick load
-STR_CTL_STAFF_VIEW                      :Staff areas off / on
-STR_CTL_LANDING_MAP                     :Landing map off / on
-STR_CTL_HOLE_COMMENTS                   :Comments by hole
-STR_CTL_GRAPHS                          :History graphs
-STR_CTL_VIEW_1                          :Camera bookmark 1 (Ctrl+key keeps it)
-STR_CTL_VIEW_2                          :Camera bookmark 2 (Ctrl+key keeps it)
-STR_CTL_VIEW_3                          :Camera bookmark 3 (Ctrl+key keeps it)
-STR_CTL_VIEW_4                          :Camera bookmark 4 (Ctrl+key keeps it)
-STR_CTL_EDITOR                          :Course editor: scenario settings
+STR_CTL_TAPE                            :Mérőszalag
+STR_CTL_QUICK_SAVE                      :Gyorsmentés
+STR_CTL_QUICK_LOAD                      :Gyorsbetöltés
+STR_CTL_STAFF_VIEW                      :Alkalmazotti területek be-/kikapcsolása
+STR_CTL_LANDING_MAP                     :Labdaérkezési térkép be-/kikapcsolása
+STR_CTL_HOLE_COMMENTS                   :Szakaszonkénti vélemények
+STR_CTL_GRAPHS                          :Előzménygrafikonok
+STR_CTL_VIEW_1                          :1. kameranézet mentése (Ctrl+billentyű: megőrzés)
+STR_CTL_VIEW_2                          :2. kameranézet mentése (Ctrl+billentyű: megőrzés)
+STR_CTL_VIEW_3                          :3. kameranézet mentése (Ctrl+billentyű: megőrzés)
+STR_CTL_VIEW_4                          :4. kameranézet mentése (Ctrl+billentyű: megőrzés)
+STR_CTL_EDITOR                          :Pályaszerkesztő: forgatókönyv beállításai
 
 # The player's own SimGolf files (the port's own, gamefiles.rs): the title screen's button and the Preferences line
-STR_GAME_FILES_USE_MINE                 :Use my SimGolf files...
-STR_GAME_FILES_USE_FREE                 :Use the free graphics
+STR_GAME_FILES_USE_MINE                 :Saját SimGolf-fájlok használata...
+STR_GAME_FILES_USE_FREE                 :Ingyenes grafika használata
 # The title of the system's folder picker
-STR_GAME_FILES_PICK_TITLE               :Choose the folder SimGolf is installed in, or the SimGolf CD
+STR_GAME_FILES_PICK_TITLE               :Válaszd ki a SimGolf telepítési mappáját vagy a SimGolf CD-t.
 # Shown once on the title screen when no SimGolf files were found
-STR_GAME_FILES_HINT                     :Playing with OpenSGolf's free graphics. Have SimGolf? Choose 'Use my SimGolf files...'
+STR_GAME_FILES_HINT                     :Az OpenSGolf ingyenes grafikáját használod. Van SimGolfod? Válaszd a „Saját SimGolf-fájlok használata...” pontot.
 # The folder picked does not hold the game; {MISSING} lists what it lacks
-STR_GAME_FILES_NOT_FOUND                :The folder "{DIR}" does not hold SimGolf's game files ({MISSING} not there). Choose the folder SimGolf is installed in: the one with the Interface and Flics folders, or the CD's Program_Files_(ENGLISH).
+STR_GAME_FILES_NOT_FOUND                :A(z) „{DIR}” mappa nem tartalmazza a SimGolf játékfájljait (hiányzik: {MISSING}). Válaszd ki a SimGolf telepítési mappáját: azt, amelyben az Interface és a Flics mappa található, vagy a CD Program_Files_(ENGLISH) mappáját.
 # Shown after the game started again on the files chosen
-STR_GAME_FILES_USING                    :Playing with your own SimGolf files.
-STR_GAME_FILES_USING_FREE               :Playing with OpenSGolf's free graphics.
+STR_GAME_FILES_USING                    :A saját SimGolf-fájljaiddal játszol.
+STR_GAME_FILES_USING_FREE               :Az OpenSGolf ingyenes grafikájával játszol.
 # Where to put the files (Android, or a build without a folder picker)
-STR_GAME_FILES_COPY_HERE                :Copy everything in SimGolf's Program_Files_(ENGLISH) folder (on the CD, or in the folder SimGolf is installed in) into {DIR}, then start OpenSGolf again.
+STR_GAME_FILES_COPY_HERE                :Másold át a SimGolf CD-n vagy a telepítési mappában található Program_Files_(ENGLISH) mappa teljes tartalmát a(z) {DIR} mappába, majd indítsd újra az OpenSGolfot.
 # Asked before the game starts again from Preferences during a game
-STR_GAME_FILES_ASK_RESTART              :OpenSGolf starts again to change its graphics. Anything not saved in this game is lost.
-STR_GAME_FILES_GO_ON                    :Start again now
-STR_GAME_FILES_NOT_NOW                  :Not now
-STR_GAME_FILES_RESTART                  :Your choice is saved. Start OpenSGolf again to use it.
+STR_GAME_FILES_ASK_RESTART              :A grafika váltásához újraindul a játék. Minden nem mentett változás elvész.
+STR_GAME_FILES_GO_ON                    :Újraindítás most
+STR_GAME_FILES_NOT_NOW                  :Most nem
+STR_GAME_FILES_RESTART                  :Választás mentve. Indítsd újra az OpenSGolfot.
 # "Use my SimGolf files...": a .zip of the game folder, a CD image (.iso, .cdr), or a folder (installed, or the CD itself)
-STR_GAME_FILES_ASK_KIND                 :Where are your SimGolf files? Choose a .zip of the game folder, a SimGolf CD image (.iso, or a Mac's .cdr; or a .zip containing one), or a folder: the one SimGolf is installed in (with Flics, Interface and Data), or the SimGolf CD itself.
-STR_GAME_FILES_KIND_ZIP                 :A .zip, .iso or .cdr file
-STR_GAME_FILES_KIND_FOLDER              :A folder, or the SimGolf CD
-STR_GAME_FILES_PICK_ZIP_TITLE           :Choose a SimGolf .zip or CD image (.iso, .cdr)
+STR_GAME_FILES_ASK_KIND                 :Hol vannak a SimGolf-fájlok? Választhatsz .zip fájlt, CD-lemezképet (.iso/.cdr vagy ezeket tartalmazó .zip), illetve mappát: telepített játékot (Flics, Interface, Data) vagy magát a CD-t.
+STR_GAME_FILES_KIND_ZIP                 :.zip, .iso vagy .cdr fájl
+STR_GAME_FILES_KIND_FOLDER              :Mappa vagy SimGolf CD
+STR_GAME_FILES_PICK_ZIP_TITLE           :Válassz egy SimGolf .zip fájlt vagy CD-lemezképet (.iso, .cdr)
 # Bringing the files into OpenSGolf's own folder (a .zip unpacked, a folder copied); {N} and {OF} count files
-STR_GAME_FILES_IMPORTING                :Getting your SimGolf files ready...
-STR_GAME_FILES_UNPACKING                :Unpacking your SimGolf files: {N} of {OF}...
-STR_GAME_FILES_COPYING                  :Copying your SimGolf files: {N} files...
-STR_GAME_FILES_COPYING_MB               :Copying your SimGolf files into OpenSGolf: {MB} MB...
-STR_GAME_FILES_BAD_ZIP                  :OpenSGolf could not read that .zip ({ERR}). Make the .zip again, or unpack it and choose the folder.
-STR_GAME_FILES_BAD_DISC                 :OpenSGolf could not read that SimGolf CD ({ERR}). Choose the SimGolf CD itself, an .iso or .cdr image of it (or a .zip containing one), or an installed SimGolf folder.
-STR_GAME_FILES_ZIP_NO_GAME              :That does not hold SimGolf's game files. Choose an installed SimGolf folder (with Flics, Interface and Data), a .zip of it, the SimGolf CD, or a CD image (.iso, .cdr).
-STR_GAME_FILES_FOLDER_NO_GAME           :The folder "{DIR}" holds neither an installed SimGolf ({MISSING} not there) nor the SimGolf CD's installer files (DATA1.HDR and the DATA*.CAB files). Choose the folder SimGolf is installed in (with Interface and Flics), or the SimGolf CD itself (on a Mac, the CD under Locations) or a copy of all its files.
-STR_GAME_FILES_DMG                      :OpenSGolf cannot read a Mac .dmg disk image. Make a .cdr of the CD instead: in Disk Utility, with the SimGolf CD in, choose File > New Image > Image from the CD, Format "DVD/CD master", then choose that .cdr here. Or choose the SimGolf CD itself as a folder.
-STR_GAME_FILES_IMPORT_FAILED            :Your SimGolf files could not be copied: {ERR}
-STR_GAME_FILES_USING_SKIPPED            :Playing with your own SimGolf files. {N} files in the .zip use a compression OpenSGolf cannot unpack and were left out: if something is missing, zip the folder again with normal (Deflate) compression.
+STR_GAME_FILES_IMPORTING                :SimGolf-fájlok előkészítése...
+STR_GAME_FILES_UNPACKING                :SimGolf-fájlok kicsomagolása: {N}/{OF}...
+STR_GAME_FILES_COPYING                  :SimGolf-fájlok másolása: {N} fájl...
+STR_GAME_FILES_COPYING_MB               :SimGolf-fájlok másolása az OpenSGolfba: {MB} MB...
+STR_GAME_FILES_BAD_ZIP                  :Nem olvasható a .zip fájl ({ERR}). Készíts újat, vagy csomagold ki, és válaszd a mappát.
+STR_GAME_FILES_BAD_DISC                 :Az OpenSGolf nem tudta beolvasni ezt a SimGolf CD-t ({ERR}). Válaszd ki magát a SimGolf CD-t, annak .iso vagy .cdr lemezképét (vagy ezeket tartalmazó .zip fájlt), esetleg egy telepített SimGolf mappát.
+STR_GAME_FILES_ZIP_NO_GAME              :Ez nem tartalmazza a SimGolf játékfájljait. Válaszd ki a telepített SimGolf mappáját (a Flics, Interface és Data mappákkal), annak .zip változatát, a SimGolf CD-t vagy egy CD-lemezképet (.iso, .cdr).
+STR_GAME_FILES_FOLDER_NO_GAME           :A(z) „{DIR}” mappában nincs telepített SimGolf (hiányzik: {MISSING}), és a CD telepítőfájljai (DATA1.HDR, DATA*.CAB) sem találhatók. Válaszd a játék mappáját, a CD-t vagy annak teljes másolatát.
+STR_GAME_FILES_DMG                      :A .dmg nem támogatott. Macen készíts .cdr lemezképet: a Lemezkezelőben válaszd a File > New Image > Image from the CD pontot, formátumnak pedig a „DVD/CD master” opciót. A SimGolf CD-t mappaként is kiválaszthatod.
+STR_GAME_FILES_IMPORT_FAILED            :Nem sikerült átmásolni a SimGolf-fájljaidat: {ERR}
+STR_GAME_FILES_USING_SKIPPED            :A saját SimGolf-fájljaiddal játszol. A .zip fájlban {N} olyan tömörített fájl volt, amelyet az OpenSGolf nem tudott kicsomagolni, ezért kimaradtak. Ha valami hiányzik, tömörítsd újra a mappát normál (Deflate) tömörítéssel.
 # The system does not let the game read the folder ({DIR})
-STR_GAME_FILES_NO_ACCESS                :Your computer does not let OpenSGolf read "{DIR}". On a Mac, allow OpenSGolf in System Settings > Privacy & Security > Files and Folders, or choose a .zip of the folder instead. Or move the SimGolf folder somewhere else, such as your home folder.
+STR_GAME_FILES_NO_ACCESS                :Az OpenSGolf nem fér hozzá a(z) „{DIR}” mappához. Macen engedélyezd a hozzáférést a Rendszerbeállítások > Adatvédelem és biztonság > Fájlok és mappák részen, vagy válaszd a mappát tartalmazó .zip fájlt.
 # After a restart: the folder chosen ({DIR}) could not be loaded
-STR_GAME_FILES_LOST                     :OpenSGolf could not find SimGolf's game files in "{DIR}" on this start, so it plays with its free graphics. Choose 'Use my SimGolf files...' again.
+STR_GAME_FILES_LOST                     :A SimGolf-fájlok nem találhatók itt: „{DIR}”. Az OpenSGolf ingyenes grafikával indul. Válaszd újra a „Saját SimGolf-fájlok használata...” pontot.
 # Android: shown at start when the last run crashed; the report can be copied and sent
-STR_CRASH_LAST                          :Sorry, OpenSGolf closed unexpectedly last time. A report of what went wrong is ready: copy it and send it to the developers (an issue on OpenSGolf's GitHub page, or a message) to help fix it.
-STR_CRASH_COPY                          :Copy the report
-STR_CRASH_CLOSE                         :Close
-STR_CRASH_COPIED                        :The report is copied. Paste it into an issue on OpenSGolf's GitHub page or a message to the developers. Thank you!
+STR_CRASH_LAST                          :Az OpenSGolf legutóbb váratlanul leállt. A hibajelentést másold ki, és küldd el a fejlesztőknek GitHub-hibajegyen vagy üzenetben. Ezzel segítesz a hiba javításában.
+STR_CRASH_COPY                          :Hibajelentés másolása
+STR_CRASH_CLOSE                         :Bezárás
+STR_CRASH_COPIED                        :A hibajelentés másolása megtörtént. Illeszd be az OpenSGolf GitHub-oldalán egy hibajegybe, vagy küldd el üzenetben a fejlesztőknek. Köszönjük!
 
 # "Check for updates" on the title menu (update.rs); {VERSION} a version number like 0.3.1, {CURRENT} this one's
-STR_UPDATE_CHECK                        :Check for updates
-STR_UPDATE_CHECKING_BUTTON              :Checking...
-STR_UPDATE_LATEST                       :You have the latest version of OpenSGolf ({VERSION}).
-STR_UPDATE_NEWER                        :OpenSGolf {VERSION} is out (you have {CURRENT}). Its page has the downloads and what is new.
-STR_UPDATE_OPEN_PAGE                    :Open the download page
-STR_UPDATE_FAILED                       :OpenSGolf could not check for updates ({ERROR}). Check the internet connection and try again later.
-STR_UPDATE_NO_BROWSER                   :No browser could be opened. The newest version is at {URL}
-STR_UPDATE_NOW                          :Update now
-STR_UPDATE_SKIP                         :Skip this version
-STR_UPDATE_STAGE_SUMS                   :Getting OpenSGolf {VERSION}'s signed checksums...
-STR_UPDATE_STAGE_DOWNLOAD               :Downloading OpenSGolf {VERSION}: {DONE} of {TOTAL} MB
-STR_UPDATE_STAGE_DOWNLOAD_MB            :Downloading OpenSGolf {VERSION}: {DONE} MB
-STR_UPDATE_STAGE_VERIFY                 :Checking the download against the signed checksums...
-STR_UPDATE_STAGE_INSTALL                :Installing OpenSGolf {VERSION}...
-STR_UPDATE_DONE                         :Updated to OpenSGolf {VERSION}.
-STR_UPDATE_RESTART_FAILED               :OpenSGolf {VERSION} is installed, but it could not be started. Close the game and start it again.
-STR_UPDATE_NOT_SET_UP                   :This version of OpenSGolf cannot update itself: it has no key to check that a download really comes from OpenSGolf, and it installs nothing it cannot check. Download the new version from its page instead.
-STR_UPDATE_REFUSED                      :The update was not installed: {WHY} Your version is unchanged. You can download the new version from its page.
-STR_UPDATE_WHY_NO_FILE                  :the release has no package for this system ({FILE}).
-STR_UPDATE_WHY_UNSIGNED                 :the release is not signed (it has no SHA256SUMS and SHA256SUMS.sig).
-STR_UPDATE_WHY_BAD_SIGNATURE            :its signature is not OpenSGolf's.
-STR_UPDATE_WHY_NOT_LISTED               :the signed checksums do not list {FILE}.
-STR_UPDATE_WHY_HASH                     :the download of {FILE} does not match its signed checksum.
-STR_UPDATE_NOT_PACKAGED                 :OpenSGolf cannot update itself here ({DIR}): this copy was not installed from a release package. Download the new version from its page.
-STR_UPDATE_NO_ACCESS                    :OpenSGolf may not change the files in {DIR}, so it cannot update itself there. Download the new version from its page and install it as the first time.
-STR_UPDATE_INSTALL_FAILED               :The update could not be installed ({ERROR}). Your version is unchanged. You can download the new version from its page.
-STR_UPDATE_ANDROID_CONFIRM              :Android asks you to confirm the update (the first time, it asks to allow OpenSGolf to install apps). The game closes while it installs; open it again afterwards.
-STR_UPDATE_ANDROID_FAILED               :Android did not install the update ({ERROR}). Your version is unchanged. You can download the new version from its page.
+STR_UPDATE_CHECK                        :Frissítések keresése
+STR_UPDATE_CHECKING_BUTTON              :Ellenőrzés...
+STR_UPDATE_LATEST                       :Az OpenSGolf legújabb verzióját használod ({VERSION}).
+STR_UPDATE_NEWER                        :Megjelent az OpenSGolf {VERSION} (jelenlegi: {CURRENT}). Letöltés és újdonságok a kiadás oldalán.
+STR_UPDATE_OPEN_PAGE                    :Letöltési oldal megnyitása
+STR_UPDATE_FAILED                       :Az OpenSGolf nem tudott frissítéseket keresni ({ERROR}). Ellenőrizd az internetkapcsolatot, majd próbáld újra később.
+STR_UPDATE_NO_BROWSER                   :A böngésző nem nyitható meg. Legújabb verzió: {URL}
+STR_UPDATE_NOW                          :Frissítés most
+STR_UPDATE_SKIP                         :Verzió kihagyása
+STR_UPDATE_STAGE_SUMS                   :Az OpenSGolf {VERSION} aláírt ellenőrzőösszegeinek lekérése...
+STR_UPDATE_STAGE_DOWNLOAD               :Az OpenSGolf {VERSION} letöltése: {DONE}/{TOTAL} MB
+STR_UPDATE_STAGE_DOWNLOAD_MB            :Az OpenSGolf {VERSION} letöltése: {DONE} MB
+STR_UPDATE_STAGE_VERIFY                 :A letöltés ellenőrzése az aláírt ellenőrzőösszegek alapján...
+STR_UPDATE_STAGE_INSTALL                :Az OpenSGolf {VERSION} telepítése...
+STR_UPDATE_DONE                         :Az OpenSGolf frissítése megtörtént erre a verzióra: {VERSION}.
+STR_UPDATE_RESTART_FAILED               :Az OpenSGolf {VERSION} telepítése sikerült, de nem indult el. Zárd be a játékot, majd indítsd el újra.
+STR_UPDATE_NOT_SET_UP                   :Ez az OpenSGolf-verzió nem tud önfrissítést végezni: nincs ellenőrzőkulcsa a letöltés hitelesítéséhez. Biztonsági okból nem telepít ellenőrizetlen fájlt. Töltsd le az új verziót a kiadás oldaláról.
+STR_UPDATE_REFUSED                      :A frissítés nem lett telepítve: {WHY} A jelenlegi verziód változatlan maradt. Az új verziót a kiadás oldaláról töltheted le.
+STR_UPDATE_WHY_NO_FILE                  :a kiadás nem tartalmaz ehhez a rendszerhez való csomagot ({FILE}).
+STR_UPDATE_WHY_UNSIGNED                 :a kiadás nincs aláírva (hiányzik a SHA256SUMS és a SHA256SUMS.sig fájl).
+STR_UPDATE_WHY_BAD_SIGNATURE            :az aláírás nem az OpenSGolfhoz tartozik.
+STR_UPDATE_WHY_NOT_LISTED               :az aláírt ellenőrzőösszegek között nem szerepel a(z) {FILE} fájl.
+STR_UPDATE_WHY_HASH                     :a(z) {FILE} ellenőrzőösszege eltér az aláírt értéktől.
+STR_UPDATE_NOT_PACKAGED                 :Az OpenSGolf itt nem tudja önmagát frissíteni ({DIR}): ez a példány nem kiadási csomagból lett telepítve. Töltsd le az új verziót a kiadás oldaláról.
+STR_UPDATE_NO_ACCESS                    :Az OpenSGolf nem módosíthatja a(z) {DIR} mappában található fájlokat, ezért itt nem tudja frissíteni önmagát. Töltsd le az új verziót a kiadás oldaláról, és telepítsd a szokásos módon.
+STR_UPDATE_INSTALL_FAILED               :Nem sikerült telepíteni a frissítést ({ERROR}). A jelenlegi verziód változatlan maradt. Az új verziót a kiadás oldaláról töltheted le.
+STR_UPDATE_ANDROID_CONFIRM              :Az Android megkér, hogy erősítsd meg a frissítést (első alkalommal azt is engedélyezned kell, hogy az OpenSGolf alkalmazásokat telepítsen). A játék a telepítés idejére bezárul; utána indítsd el újra.
+STR_UPDATE_ANDROID_FAILED               :Az Android nem telepítette a frissítést ({ERROR}). A jelenlegi verziód változatlan maradt. Az új verziót a kiadás oldaláról töltheted le.
 
 # Preferences > Content > Find more: the content index (docs/CONTENT_INDEX.md)
-STR_INDEX_TITLE                         :Find more content
-STR_INDEX_SOURCE                        :Content index: {URL}
-STR_INDEX_SOURCE_NONE                   :No content index is set.
-STR_INDEX_NO_URL                        :No content index is set. Put the address of an index.json in settings.json as "content_index_url" (in the save folder; docs/CONTENT_INDEX.md says how), then open Find more again.
-STR_INDEX_LOADING                       :Reading the content index...
-STR_INDEX_FAILED                        :The content index could not be read: {ERROR}
-STR_INDEX_NOTHING_NEW                   :You have every pack the index lists, in its newest version.
-STR_INDEX_LISTED                        :{N} packs you do not have yet (or have in an older version). Pick one to read about it.
+STR_INDEX_TITLE                         :További tartalmak keresése
+STR_INDEX_SOURCE                        :Tartalomjegyzék: {URL}
+STR_INDEX_SOURCE_NONE                   :Nincs beállítva tartalomjegyzék.
+STR_INDEX_NO_URL                        :Nincs tartalomjegyzék. A mentési mappában lévő settings.json fájlban állítsd be a „content_index_url” értékét egy index.json címére (docs/CONTENT_INDEX.md).
+STR_INDEX_LOADING                       :Tartalomjegyzék beolvasása...
+STR_INDEX_FAILED                        :Nem sikerült beolvasni a tartalomjegyzéket: {ERROR}
+STR_INDEX_NOTHING_NEW                   :Minden csomag legújabb verziója telepítve van.
+STR_INDEX_LISTED                        :{N} új vagy frissíthető csomag. Válassz egyet a részletekhez.
 STR_INDEX_PACK_LINE                     :{KIND}{BY}{LICENCE}  -  {STATE}, {SIZE}
-STR_INDEX_NEW                           :new
-STR_INDEX_UPDATE                        :update (you have {VERSION})
+STR_INDEX_NEW                           :új
+STR_INDEX_UPDATE                        :frissítés (jelenlegi: {VERSION})
 STR_INDEX_SIZE                          :{KB} KB
-STR_INDEX_DOWNLOAD                      :Download
-STR_INDEX_DOWNLOADING_BUTTON            :Downloading...
-STR_INDEX_DOWNLOADING                   :Downloading {PACK}...
-STR_INDEX_INSTALLED                     :{PACK} {VERSION} is installed. Switch it on in the list of packs; it takes effect when you restart the game.
-STR_INDEX_DOWNLOAD_FAILED               :{PACK} was not installed: {ERROR}
-STR_INDEX_PROBLEM                       :index: {PROBLEM}{MORE}
-STR_INDEX_BACK                          :Installed packs
+STR_INDEX_DOWNLOAD                      :Letöltés
+STR_INDEX_DOWNLOADING_BUTTON            :Letöltés...
+STR_INDEX_DOWNLOADING                   :{PACK} letöltése...
+STR_INDEX_INSTALLED                     :A(z) {PACK} {VERSION} telepítve. Kapcsold be a csomaglistában; a játék újraindítása után válik aktívvá.
+STR_INDEX_DOWNLOAD_FAILED               :A(z) {PACK} telepítése nem sikerült: {ERROR}
+STR_INDEX_PROBLEM                       :tartalomjegyzék: {PROBLEM}{MORE}
+STR_INDEX_BACK                          :Telepített csomagok
 # Why a download cannot start
-STR_NET_TOO_BIG                         :{URL} is larger than expected
-STR_NET_NOT_BUILT                       :{URL}: this version of the game was built without downloads (the net feature); use a file:// index
+STR_NET_TOO_BIG                         :A(z) {URL} nagyobb a vártnál.
+STR_NET_NOT_BUILT                       :{URL}: a játék ezen verziója letöltési funkció (net) nélkül készült. Használj file:// kezdetű tartalomjegyzéket.
 
 # Start New Game when scenario packs are installed. {PLACE} a property, {DIFFICULTY}, {MONEY} STR_SCENARIOS_MONEY or
 # nothing, {GOALS} a count
-STR_SCENARIOS_TITLE                     :Start New Game
-STR_SCENARIOS_HELP                      :Play a free game, or a scenario with goals to reach. Click twice (or press Enter) to start.
-STR_SCENARIOS_FREE_GAME                 :Free game
-STR_SCENARIOS_FREE_GAME_TEXT            :Choose the difficulty and a property, and play as long as you like.
-STR_SCENARIOS_SUMMARY                   :{PLACE}, {DIFFICULTY}{MONEY}, {GOALS} goals
-STR_SCENARIOS_MONEY                     :, §{MONEY} to start
-STR_SCENARIOS_ANY_DIFFICULTY            :your choice of difficulty
-STR_SCENARIOS_GOALS                     :Goals: {GOALS}.
-STR_SCENARIOS_BACK                      :Back
-STR_SCENARIO_NO_FILE                    :the pack has no scenario.toml
+STR_SCENARIOS_TITLE                     :Új játék indítása
+STR_SCENARIOS_HELP                      :Indíthatsz szabad játékot vagy célokkal rendelkező forgatókönyvet. Indítás: dupla kattintás vagy Enter.
+STR_SCENARIOS_FREE_GAME                 :Szabad játék
+STR_SCENARIOS_FREE_GAME_TEXT            :Válaszd ki a nehézségi szintet és a helyszínt, majd játssz, ameddig csak szeretnél.
+STR_SCENARIOS_SUMMARY                   :{PLACE}, {DIFFICULTY}{MONEY}, {GOALS} cél
+STR_SCENARIOS_MONEY                     :, kezdőtőke: §{MONEY}
+STR_SCENARIOS_ANY_DIFFICULTY            :választható nehézségi szint
+STR_SCENARIOS_GOALS                     :Célok: {GOALS}.
+STR_SCENARIOS_BACK                      :Vissza
+STR_SCENARIO_NO_FILE                    :a csomag nem tartalmaz scenario.toml fájlt
 
 # Goals: the messages, Information > Scenario Goals, and the conditions in words
-STR_GOAL_REACHED                        :Goal reached: {GOAL}
-STR_GOAL_MISSED                         :Goal missed: {GOAL}
-STR_SCENARIO_WON_DEFAULT                :Congratulations! You reached every goal of the scenario.
-STR_SCENARIO_LOST_DEFAULT               :You did not reach the scenario's goals in time.
-STR_GOALS_TITLE                         :Goals
-STR_GOALS_TITLE_SCENARIO                :Goals: {NAME}
-STR_GOALS_IN_PROGRESS                   :Reach every goal to win the scenario.
-STR_GOALS_WON                           :The scenario is won!
-STR_GOALS_LOST                          :The scenario is lost.
-STR_GOALS_SCRIPTS_ONLY                  :Goals set by the scripts of your content packs.
-STR_GOALS_NONE                          :There are no goals yet.
-STR_GOALS_CLOSE                         :Click anywhere or press a key to go back to the game.
-STR_GOAL_STATE_OPEN                     :open
-STR_GOAL_STATE_BY                       :open, by the end of {YEAR}
-STR_GOAL_STATE_DONE                     :reached
-STR_GOAL_STATE_MISSED                   :missed
-STR_GOAL_COND_HOLES                     :{N} holes
-STR_GOAL_COND_CASH                      :§{MONEY} cash
-STR_GOAL_COND_FUN                       :fun rating {N}
-STR_GOAL_COND_SKILL                     :skill rating {N}
-STR_GOAL_COND_MEMBERS                   :{N} members
-STR_GOAL_COND_RANK                      :{RANK} rank
-STR_GOAL_AUTO                           :Reach {GOAL}
-STR_GOAL_AUTO_BY                        :Reach {GOAL} by the end of {YEAR}
+STR_GOAL_REACHED                        :Teljesített cél: {GOAL}
+STR_GOAL_MISSED                         :Nem teljesített cél: {GOAL}
+STR_SCENARIO_WON_DEFAULT                :Gratulálunk! A forgatókönyv összes célját teljesítetted.
+STR_SCENARIO_LOST_DEFAULT               :Nem sikerült időben teljesítened a forgatókönyv céljait.
+STR_GOALS_TITLE                         :Célok
+STR_GOALS_TITLE_SCENARIO                :Célok: {NAME}
+STR_GOALS_IN_PROGRESS                   :A forgatókönyv megnyeréséhez teljesítsd az összes célt.
+STR_GOALS_WON                           :Megnyerted a forgatókönyvet!
+STR_GOALS_LOST                          :Elveszítetted a forgatókönyvet.
+STR_GOALS_SCRIPTS_ONLY                  :A tartalomcsomagok szkriptjei által meghatározott célok.
+STR_GOALS_NONE                          :Egyelőre nincsenek célok.
+STR_GOALS_CLOSE                         :Kattints vagy nyomj meg egy billentyűt a folytatáshoz.
+STR_GOAL_STATE_OPEN                     :folyamatban
+STR_GOAL_STATE_BY                       :határidő: {YEAR} vége
+STR_GOAL_STATE_DONE                     :teljesítve
+STR_GOAL_STATE_MISSED                   :nem teljesítve
+STR_GOAL_COND_HOLES                     :{N} szakasz
+STR_GOAL_COND_CASH                      :§{MONEY} pénz
+STR_GOAL_COND_FUN                       :szórakozás: {N}
+STR_GOAL_COND_SKILL                     :jártasságértékelés: {N}
+STR_GOAL_COND_MEMBERS                   :{N} klubtag
+STR_GOAL_COND_RANK                      :{RANK} kategória
+STR_GOAL_AUTO                           :Teljesítsd ezt: {GOAL}
+STR_GOAL_AUTO_BY                        :Teljesítsd ezt: {GOAL} {YEAR} végéig
 
 # Scripts (docs/MODDING.md 6): the toast when a pack's script fails (the message is on the Content screen)
-STR_SCRIPT_ERROR_TOAST                  :A script of the pack {PACK} failed: see System Functions, Preferences, Content packs.
+STR_SCRIPT_ERROR_TOAST                  :A(z) {PACK} szkriptje hibát jelzett. Részletek: Rendszerfunkciók > Beállítások > Tartalomcsomagok.
 
 # Export as scenario (the Save dialog, docs/MODDING.md 5)
-STR_EXPORT_UNNAMED                      :My Course
-STR_EXPORT_DESCRIPTION                  :{COURSE}, a course by {PRO}, exported from OpenSGolf.
-STR_TOAST_EXPORTED                      :Exported as the scenario pack {PACK} (in the packs folder of the save folder).
+STR_EXPORT_UNNAMED                      :Saját pályám
+STR_EXPORT_DESCRIPTION                  :{COURSE}, {PRO} által tervezett pálya, exportálva az OpenSGolfból.
+STR_TOAST_EXPORTED                      :Exportálás megtörtént forgatókönyvcsomagként: {PACK} (a mentési mappa packs almappájába).
 
 ########################################################################################################################
 # OpenSGolf extras (the port's own additions, extras.rs; docs/PLAYING.md "OpenSGolf extras")
