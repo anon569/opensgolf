@@ -2782,194 +2782,194 @@ STR_TOAST_EXPORTED                      :Exportálás megtörtént forgatóköny
 # OpenSGolf extras (the port's own additions, extras.rs; docs/PLAYING.md "OpenSGolf extras")
 ########################################################################################################################
 # Preferences > OpenSGolf extras, Interface page: a tick per interface extra
-STR_EXTRAS_PEOPLE                       : People screen and golfer profiles (Shift+G)
-STR_EXTRAS_HISTORY                      : Message history (Shift+M, or click the ticker)
-STR_EXTRAS_NAME_TAGS                    : Name tags under the pointer (Shift+H)
-STR_EXTRAS_REPORT_TABS                  : Tabs over the F1 to F10 reports
-STR_EXTRAS_PATH_HELP                    : Path help: path view (Shift+V) and Show buttons
-STR_EXTRAS_AUTOSAVE                     : Autosave every five minutes (the last three kept)
-STR_EXTRAS_SAVE_PICTURES                : A map of the course beside each saved game
-STR_EXTRAS_SHARING                      : Course sharing: course codes and challenges (Ctrl+V pastes one)
-STR_EXTRAS_PAUSE_BACKGROUND             : Pause while the game's window is in the background
-STR_EXTRAS_PAUSE_EVENTS                 : Pause on big news: VIPs, challenges, offers, debt
-STR_EXTRAS_LANDING_MAP                  : Landing map: where shots on a hole end up (Shift+D)
-STR_EXTRAS_HOLE_COMMENTS                : Comments by hole, this month and last (Shift+I)
-STR_EXTRAS_UPDATE_CHECK                 : Check for updates when the game starts (online)
-STR_EXTRAS_GRAPHS                       : History graphs: the club and each hole month by month (Shift+Y)
-STR_EXTRAS_ZOOM_POINTER                 : Zoom towards the pointer
-STR_MENU_SYSTEM_SHARE                   : Share course (copy a course code)
-STR_FILES_PASTE_CODE                    :Paste a course code
-STR_FILES_CHALLENGE                     :Challenge: beat {DESIGNER}'s record of {SCORE}
-STR_TOAST_SHARE_COPIED                  :Course code for {COURSE} copied. Paste it to a friend: in OpenSGolf they press Ctrl+V, or Paste a course code in Play a Championship.
-STR_TOAST_SHARE_NO_CODE                 :No course code on the clipboard. Copy the whole code, then paste again.
-STR_TOAST_SHARE_COURSE_ADDED            :{COURSE} added to Play a Championship. Beat the course record!
-STR_TOAST_SHARE_GAME_ADDED              :{COURSE} added to Load Previous Game.
+STR_EXTRAS_PEOPLE                       : Emberek képernyő és golfozói profilok (Shift+G)
+STR_EXTRAS_HISTORY                      : Üzenetelőzmények (Shift+M vagy kattintás a futószalagra)
+STR_EXTRAS_NAME_TAGS                    : Névcímkék a mutató alatt (Shift+H)
+STR_EXTRAS_REPORT_TABS                  : Fülek az F1–F10 jelentések fölött
+STR_EXTRAS_PATH_HELP                    : Útvonalsegéd: útvonalnézet (Shift+V) és Megjelenítés gombok
+STR_EXTRAS_AUTOSAVE                     : Automatikus mentés ötpercenként (az utolsó három megőrzésével)
+STR_EXTRAS_SAVE_PICTURES                : A mentett játékok mellett a pálya térképe
+STR_EXTRAS_SHARING                      : Pályamegosztás: pályakódok és kihívások (Ctrl+V: kód beillesztése)
+STR_EXTRAS_PAUSE_BACKGROUND             : Szüneteltetés, amikor a játék ablaka a háttérben van
+STR_EXTRAS_PAUSE_EVENTS                 : Szünet fontos eseményekkor: VIP, kihívás, ajánlat, adósság
+STR_EXTRAS_LANDING_MAP                  : Labdaérkezési térkép (Shift+D)
+STR_EXTRAS_HOLE_COMMENTS                : Szakaszonkénti vélemények, erre a hónapra és az előzőre (Shift+I)
+STR_EXTRAS_UPDATE_CHECK                 : Frissítések keresése a játék indításakor (online)
+STR_EXTRAS_GRAPHS                       : Előzménygrafikonok: a klub és az egyes szakaszok havi adatai (Shift+Y)
+STR_EXTRAS_ZOOM_POINTER                 : Nagyítás a mutató irányába
+STR_MENU_SYSTEM_SHARE                   : Pálya megosztása (pályakód másolása)
+STR_FILES_PASTE_CODE                    :Pályakód beillesztése
+STR_FILES_CHALLENGE                     :Kihívás: döntsd meg {DESIGNER} rekordját ({SCORE})
+STR_TOAST_SHARE_COPIED                  :A(z) {COURSE} pályakódja másolva. Küldd el barátodnak: Ctrl+V-vel vagy a Bajnokság indítása > Pályakód beillesztése ponttal használhatja.
+STR_TOAST_SHARE_NO_CODE                 :Nincs pályakód a vágólapon. Másold ki a teljes kódot, majd próbáld újra a beillesztést.
+STR_TOAST_SHARE_COURSE_ADDED            :{COURSE} hozzáadva a Bajnokság indítása listához. Döntsd meg a pályarekordot!
+STR_TOAST_SHARE_GAME_ADDED              :{COURSE} hozzáadva a Korábbi játék betöltése listához.
 # Load Previous Game's buttons with the Course sharing extra: saved games to and from files the player keeps
-STR_FILES_IMPORT_SAVE                   :Import a save file...
-STR_FILES_EXPORT_SAVE                   :Export this save...
-STR_FILES_PICK_SAVE_TITLE               :Import a saved game, shared course or course code
-STR_FILES_EXPORT_TITLE                  :Export the saved game
-STR_TOAST_SAVE_EXPORTED                 :{NAME} exported: {FILE}
-STR_TOAST_SAVE_FOLDER                   :Saved games are files in {FOLDER}. Copy a save file (.sgs) there to load it.
-STR_TOAST_TOP10_IMPORTED                :The original's Top 10 Designers were added to yours ({COUNT} made the list).
+STR_FILES_IMPORT_SAVE                   :Mentésfájl importálása...
+STR_FILES_EXPORT_SAVE                   :Mentés exportálása...
+STR_FILES_PICK_SAVE_TITLE               :Mentett játék, megosztott pálya vagy pályakód importálása
+STR_FILES_EXPORT_TITLE                  :Mentett játék exportálása
+STR_TOAST_SAVE_EXPORTED                 :{NAME} exportálva: {FILE}
+STR_TOAST_SAVE_FOLDER                   :A mentések a(z) {FOLDER} mappában vannak. Betöltéshez másolj ide egy .sgs fájlt.
+STR_TOAST_TOP10_IMPORTED                :Az eredeti Top 10 pályatervező hozzáadva ({COUNT} új név).
 # A game date: "March 3, 2001"
-STR_EXTRAS_DATE                         :{MONTH} {DAY}, {YEAR}
+STR_EXTRAS_DATE                         :{YEAR}. {MONTH} {DAY}.
 # Under the Paused caption while People > Follow keeps the camera on someone
-STR_EXTRAS_FOLLOWING                    :Following {NAME} (Space stops)
+STR_EXTRAS_FOLLOWING                    :Követés: {NAME} (Szóköz: leállítás)
 # The Information menu's extra lines (options start with a space)
-STR_MENU_INFO_PEOPLE                    : People
-STR_MENU_INFO_HISTORY                   : Message history
-STR_MENU_INFO_PATH_VIEW                 : Path view on / off
-STR_MENU_INFO_LANDING_MAP               : Landing map on / off
-STR_MENU_INFO_HOLE_COMMENTS             : Comments by hole
-STR_MENU_INFO_GRAPHS                    : History graphs
+STR_MENU_INFO_PEOPLE                    : Emberek
+STR_MENU_INFO_HISTORY                   : Üzenetelőzmények
+STR_MENU_INFO_PATH_VIEW                 : Útvonalnézet be-/kikapcsolása
+STR_MENU_INFO_LANDING_MAP               : Labdaérkezési térkép be-/kikapcsolása
+STR_MENU_INFO_HOLE_COMMENTS             : Szakaszonkénti vélemények
+STR_MENU_INFO_GRAPHS                    : Előzménygrafikonok
 # The message history
-STR_HISTORY_TITLE                       :Message History
-STR_HISTORY_HELP                        :Messages kept: {COUNT}, newest first. Click a message to go to the golfer or the place it is about.
-STR_HISTORY_EMPTY                       :No messages yet.
-STR_HISTORY_SHOW                        :Show
-STR_HISTORY_CLOSE                       :Up, Down, PageUp, PageDown or the wheel scroll; Esc, Enter or a click outside the box closes.
+STR_HISTORY_TITLE                       :Üzenetelőzmények
+STR_HISTORY_HELP                        :{COUNT} üzenet, legújabb elöl. Kattints az üzenetre a golfozóhoz vagy helyszínhez ugráshoz.
+STR_HISTORY_EMPTY                       :Még nincsenek üzenetek.
+STR_HISTORY_SHOW                        :Megjelenítés
+STR_HISTORY_CLOSE                       :Görgetés: fel, le, PageUp, PageDown vagy egérgörgő. Bezárás: Esc, Enter vagy kattintás az ablakon kívül.
 # The ticker's button for a message about a place
-STR_TICKER_SHOW                         :Show
+STR_TICKER_SHOW                         :Megjelenítés
 # The People screen
-STR_PEOPLE_TITLE                        :People
-STR_PEOPLE_TAB_GOLFERS                  :Golfers ({COUNT})
-STR_PEOPLE_TAB_STAFF                    :Staff ({COUNT} of {LIMIT})
-STR_PEOPLE_TAB_PRO                      :Your pro
-STR_PEOPLE_COL_NAME                     :Name
-STR_PEOPLE_COL_TYPE                     :Type
-STR_PEOPLE_COL_HOLE                     :Hole
-STR_PEOPLE_COL_MOOD                     :Mood
-STR_PEOPLE_COL_HCP                      :Hcp
-STR_PEOPLE_COL_SPENT                    :Spent
-STR_PEOPLE_COL_JOB                      :Job
-STR_PEOPLE_COL_HIRED                    :Hired
-STR_PEOPLE_COL_WAGE                     :Wage
-STR_PEOPLE_COL_SERVED                   :Served
-STR_PEOPLE_COL_PAID                     :Paid
+STR_PEOPLE_TITLE                        :Emberek
+STR_PEOPLE_TAB_GOLFERS                  :Golfozók ({COUNT})
+STR_PEOPLE_TAB_STAFF                    :Alkalmazottak ({COUNT}/{LIMIT})
+STR_PEOPLE_TAB_PRO                      :A klubprofid
+STR_PEOPLE_COL_NAME                     :Név
+STR_PEOPLE_COL_TYPE                     :Típus
+STR_PEOPLE_COL_HOLE                     :Szakasz
+STR_PEOPLE_COL_MOOD                     :Hangulat
+STR_PEOPLE_COL_HCP                      :HCP
+STR_PEOPLE_COL_SPENT                    :Költés
+STR_PEOPLE_COL_JOB                      :Munkakör
+STR_PEOPLE_COL_HIRED                    :Felvétel
+STR_PEOPLE_COL_WAGE                     :Bér
+STR_PEOPLE_COL_SERVED                   :Kiszolgálás
+STR_PEOPLE_COL_PAID                     :Fizetve
 STR_PEOPLE_MONTH_YEAR                   :{MONTH} {YEAR}
-STR_PEOPLE_GUEST                        :Guest
-STR_PEOPLE_PLATINUM                     :Platinum
-STR_PEOPLE_PRO                          :Pro
+STR_PEOPLE_GUEST                        :Vendég
+STR_PEOPLE_PLATINUM                     :Platina
+STR_PEOPLE_PRO                          :Profi
 STR_PEOPLE_VIP                          :VIP
-STR_PEOPLE_LEAVING                      :leaving
-STR_PEOPLE_NO_GOLFERS                   :Nobody is on the course.
-STR_PEOPLE_NO_STAFF                     :No employees yet: Hire takes you to the hiring dialog.
-STR_PEOPLE_LOCATE                       :Locate
-STR_PEOPLE_FOLLOW                       :Follow
-STR_PEOPLE_CARD                         :Card
-STR_PEOPLE_PROFILE                      :Profile
-STR_PEOPLE_HIRE                         :Hire...
-STR_PEOPLE_FIRE                         :Fire
-STR_PEOPLE_MOVE                         :Move
-STR_PEOPLE_RENAME                       :Rename
-STR_PEOPLE_HELP_GOLFERS                 :Click a heading to sort. Keys: Enter locate, F follow, C card, P profile, Left/Right tabs, Esc close.
-STR_PEOPLE_HELP_STAFF                   :Click a heading to sort. Keys: Enter locate, F follow, H hire, Del fire, M move, R rename, Esc close.
-STR_PEOPLE_HELP_PRO                     :Keys 1 to 5 press the buttons; Left/Right change the tab; Esc closes.
-STR_PEOPLE_PRO_RECORD                   :Skill points to spend: {POINTS}    Skill levels: {SKILLS}    Trophies: {TROPHIES}
-STR_PEOPLE_PRO_PLAYING                  :Your pro is out on the course.
-STR_PEOPLE_PRO_FREE                     :Your pro is in the clubhouse.
-STR_PEOPLE_PRO_PROFILE                  :Profile
-STR_PEOPLE_PRO_PROFILE_HELP             :Customise your pro: looks, name and bio.
-STR_PEOPLE_PRO_SKILLS                   :Skills
-STR_PEOPLE_PRO_SKILLS_HELP              :Spend skill points.
-STR_PEOPLE_PRO_PRACTICE                 :Practice round
-STR_PEOPLE_PRO_PRACTICE_HELP            :Play a practice round (needs two holes and your pro free).
-STR_PEOPLE_PRO_MATCH                    :Match
-STR_PEOPLE_PRO_MATCH_HELP               :Play a challenger's match (when one has been offered).
-STR_PEOPLE_PRO_TOURNAMENT               :Tournament
-STR_PEOPLE_PRO_TOURNAMENT_HELP          :Start the tournament the SGA has offered.
-STR_PEOPLE_PRO_NOTE                     :The same buttons are on the Player panel (the dock's People button).
+STR_PEOPLE_LEAVING                      :távozik
+STR_PEOPLE_NO_GOLFERS                   :Senki sincs a pályán.
+STR_PEOPLE_NO_STAFF                     :Még nincs alkalmazottad. Felvételhez kattints a Felvétel gombra.
+STR_PEOPLE_LOCATE                       :Megkeresés
+STR_PEOPLE_FOLLOW                       :Követés
+STR_PEOPLE_CARD                         :Adatlap
+STR_PEOPLE_PROFILE                      :Profil
+STR_PEOPLE_HIRE                         :Felvétel...
+STR_PEOPLE_FIRE                         :Elbocsátás
+STR_PEOPLE_MOVE                         :Áthelyezés
+STR_PEOPLE_RENAME                       :Átnevezés
+STR_PEOPLE_HELP_GOLFERS                 :Kattints a fejlécen a rendezéshez. Enter: megkeresés; F: követés; C: adatlap; P: profil; Bal/Jobb: fülek; Esc: bezárás.
+STR_PEOPLE_HELP_STAFF                   :Fejléc: rendezés. Enter: megkeresés; F: követés; H: felvétel; Del: elbocsátás; M: áthelyezés; R: átnevezés; Esc: bezárás.
+STR_PEOPLE_HELP_PRO                     :1–5: gombok; Bal/Jobb: fülek; Esc: bezárás.
+STR_PEOPLE_PRO_RECORD                   :Elkölthető jártasságpont: {POINTS}    Jártasságszintek: {SKILLS}    Trófeák: {TROPHIES}
+STR_PEOPLE_PRO_PLAYING                  :A klubprofid a pályán van.
+STR_PEOPLE_PRO_FREE                     :A klubprofid a klubházban van.
+STR_PEOPLE_PRO_PROFILE                  :Profil
+STR_PEOPLE_PRO_PROFILE_HELP             :A klubprofid testre szabása: megjelenés, név és életrajz.
+STR_PEOPLE_PRO_SKILLS                   :Jártasságok
+STR_PEOPLE_PRO_SKILLS_HELP              :Jártasságpontok elköltése.
+STR_PEOPLE_PRO_PRACTICE                 :Gyakorlókör
+STR_PEOPLE_PRO_PRACTICE_HELP            :Gyakorlókör (legalább 2 szakasz és szabad profi kell).
+STR_PEOPLE_PRO_MATCH                    :Mérkőzés
+STR_PEOPLE_PRO_MATCH_HELP               :Kihívó elleni mérkőzés indítása (ha már kaptál kihívást).
+STR_PEOPLE_PRO_TOURNAMENT               :Verseny
+STR_PEOPLE_PRO_TOURNAMENT_HELP          :Az SGA által felajánlott verseny indítása.
+STR_PEOPLE_PRO_NOTE                     :Ugyanezek a gombok a Klubprofi panelen is megtalálhatók (a dokkoló Emberek gombjánál).
 # A golfer's profile page
-STR_CARD_PROFILE                        :Profile
-STR_GPROFILE_LIKES                       :Likes {LIKES}
-STR_GPROFILE_RECORD                      :Rounds {ROUNDS}, best {BEST}, handicap {HCP}
-STR_GPROFILE_NOW                         :{TYPE}, now on hole {HOLE}, spent {SPENT} this round
-STR_GPROFILE_NOT_HERE                    :Not on the course now.
-STR_GPROFILE_BIO                         :Bio
-STR_GPROFILE_NO_BIO                      :No bio yet: Edit bio writes one.
-STR_GPROFILE_EDIT_BIO                    :Edit bio
-STR_GPROFILE_SAID                        :What {GOLFER} has said
-STR_GPROFILE_NOTHING_SAID                :Nothing heard yet this game.
-STR_GPROFILE_HELP                        :L locate, C card, B edit bio, Up/Down scroll; Esc, Enter or a click outside the box goes back.
-STR_RENAME_EMPLOYEE                     :Rename the employee:
-STR_RENAME_BIO                          :The golfer's bio:
+STR_CARD_PROFILE                        :Profil
+STR_GPROFILE_LIKES                       :Kedveli: {LIKES}
+STR_GPROFILE_RECORD                      :Körök: {ROUNDS}, legjobb eredmény: {BEST}, hendikep: {HCP}
+STR_GPROFILE_NOW                         :{TYPE}, jelenleg a(z) {HOLE}. szakaszon, eddigi költése: {SPENT}
+STR_GPROFILE_NOT_HERE                    :Jelenleg nincs a pályán.
+STR_GPROFILE_BIO                         :Életrajz
+STR_GPROFILE_NO_BIO                      :Még nincs életrajz. Az Életrajz szerkesztése gombbal írhatsz neki.
+STR_GPROFILE_EDIT_BIO                    :Életrajz szerkesztése
+STR_GPROFILE_SAID                        :Ezeket mondta {GOLFER}
+STR_GPROFILE_NOTHING_SAID                :Ebben a játékban még nem hallottunk tőle semmit.
+STR_GPROFILE_HELP                        :L: megkeresés; C: adatlap; B: életrajz; Fel/Le: görgetés; Esc/Enter/külső kattintás: vissza.
+STR_RENAME_EMPLOYEE                     :Alkalmazott új neve:
+STR_RENAME_BIO                          :A golfozó életrajza:
 # The path view
-STR_PATHVIEW_TITLE                      :Path view (Shift+V)
-STR_PATHVIEW_JOINED                     :Path joined to the clubhouse
-STR_PATHVIEW_CUT                        :Path not joined (golfers can't use it)
-STR_PATHVIEW_MARKS                      :No path: {COUNT} places
-STR_PATHVIEW_CLOSE                      :Shift+V hides the path view.
-STR_PATHVIEW_NO_PATH                    :No path
-STR_PATHVIEW_HOLE                       :Hole {HOLE} tee
-STR_PATHVIEW_ON                         :Path view on: Shift+V hides it.
-STR_PATHVIEW_OFF                        :Path view off.
-STR_TOAST_NAME_TAGS_ON                  :Name tags shown (Shift+H hides them).
-STR_TOAST_NAME_TAGS_OFF                 :Name tags hidden (Shift+H shows them again).
+STR_PATHVIEW_TITLE                      :Útvonalnézet (Shift+V)
+STR_PATHVIEW_JOINED                     :Az út csatlakozik a klubházhoz.
+STR_PATHVIEW_CUT                        :Az út nem csatlakozik (a golfozók nem használhatják).
+STR_PATHVIEW_MARKS                      :Út nélküli helyek: {COUNT}
+STR_PATHVIEW_CLOSE                      :Az útvonalnézet elrejtéséhez nyomd meg a Shift+V billentyűkombinációt.
+STR_PATHVIEW_NO_PATH                    :Nincs út
+STR_PATHVIEW_HOLE                       :{HOLE}. szakasz elütőhelye
+STR_PATHVIEW_ON                         :Útvonalnézet bekapcsolva. Elrejtés: Shift+V.
+STR_PATHVIEW_OFF                        :Útvonalnézet kikapcsolva.
+STR_TOAST_NAME_TAGS_ON                  :Névcímkék megjelenítve (Shift+H: elrejtés).
+STR_TOAST_NAME_TAGS_OFF                 :Névcímkék elrejtve (Shift+H: ismételt megjelenítés).
 # The landing map (insight.rs): the legend in the upper right
-STR_LANDING_TITLE                       :Landing map (Shift+D)
-STR_LANDING_TITLE_HOLE                  :Landing map: hole {HOLE}
-STR_LANDING_SHOT_1                      :Tee shot
-STR_LANDING_SHOT_2                      :Second shot
-STR_LANDING_SHOT_3                      :Third shot
-STR_LANDING_SHOT_4                      :Fourth and later
-STR_LANDING_SHOTS                       :The last {COUNT} shots ended in:
-STR_LANDING_GROUNDS_1                   :Fairway {FAIRWAY}   Rough {ROUGH}   Sand {SAND}
-STR_LANDING_GROUNDS_2                   :Water {WATER}   Green {GREEN}   Other {OTHER}
-STR_LANDING_NONE                        :No shots seen on this hole yet.
-STR_LANDING_POINT                       :Point at a hole to see its shots.
-STR_LANDING_CLOSE                       :Shift+D hides the landing map.
-STR_LANDING_ON                          :Landing map on: point at a hole. Shift+D hides it.
-STR_LANDING_OFF                         :Landing map off.
+STR_LANDING_TITLE                       :Labdaérkezési térkép (Shift+D)
+STR_LANDING_TITLE_HOLE                  :Labdaérkezési térkép: {HOLE}. szakasz
+STR_LANDING_SHOT_1                      :Elütés
+STR_LANDING_SHOT_2                      :Második ütés
+STR_LANDING_SHOT_3                      :Harmadik ütés
+STR_LANDING_SHOT_4                      :Negyedik és további ütések
+STR_LANDING_SHOTS                       :Az utolsó {COUNT} ütés célterülete:
+STR_LANDING_GROUNDS_1                   :Fairway {FAIRWAY}   Rough {ROUGH}   Homok {SAND}
+STR_LANDING_GROUNDS_2                   :Víz {WATER}   Green {GREEN}   Egyéb {OTHER}
+STR_LANDING_NONE                        :Ezen a szakaszon még nem történt ütés.
+STR_LANDING_POINT                       :Mutass egy szakaszra az ütéseinek megtekintéséhez.
+STR_LANDING_CLOSE                       :Shift+D: labdaérkezési térkép elrejtése.
+STR_LANDING_ON                          :Labdaérkezési térkép be. Mutass egy szakaszra; Shift+D: elrejtés.
+STR_LANDING_OFF                         :Labdaérkezési térkép kikapcsolva.
 # The landing map's heat maps (insight.rs): the legend's tabs and key
-STR_LANDING_TITLE_COURSE                :Landing map: whole course
-STR_LANDING_SHOW_DOTS                   :Shots
-STR_LANDING_SHOW_LANDED                 :Landings
-STR_LANDING_SHOW_WAITING                :Waiting
-STR_LANDING_SHOW_COMPLAINTS             :Complaints
-STR_LANDING_THIS_HOLE                   :This hole
-STR_LANDING_WHOLE_COURSE                :Whole course
-STR_LANDING_NO_HOLES                    :No holes are open yet.
-STR_LANDING_FEW                         :few
-STR_LANDING_MANY                        :many
-STR_LANDING_HEAT_NONE                   :Nothing seen here yet: the map fills as golfers play.
-STR_LANDING_HEAT_LANDED                 :Where the last {COUNT} tee shots and approaches came to rest.
-STR_LANDING_HEAT_WAITING                :Where golfers stood waiting: {MINUTES} golfer-minutes in all.
-STR_LANDING_HEAT_COMPLAINTS             :Where golfers complained: {COUNT} complaints in all.
+STR_LANDING_TITLE_COURSE                :Labdaérkezési térkép: teljes pálya
+STR_LANDING_SHOW_DOTS                   :Ütések
+STR_LANDING_SHOW_LANDED                 :Labdaérkezések
+STR_LANDING_SHOW_WAITING                :Várakozás
+STR_LANDING_SHOW_COMPLAINTS             :Panaszok
+STR_LANDING_THIS_HOLE                   :Ez a szakasz
+STR_LANDING_WHOLE_COURSE                :Teljes pálya
+STR_LANDING_NO_HOLES                    :Még nincs megnyitott szakasz.
+STR_LANDING_FEW                         :kevés
+STR_LANDING_MANY                        :sok
+STR_LANDING_HEAT_NONE                   :Még nincs adat. A térkép játék közben telik meg.
+STR_LANDING_HEAT_LANDED                 :Az utolsó {COUNT} elütés és közelítő ütés érkezési helye.
+STR_LANDING_HEAT_WAITING                :A golfozók várakozási helyei: összesen {MINUTES} golfozóperc.
+STR_LANDING_HEAT_COMPLAINTS             :A golfozók panaszainak helyei: összesen {COUNT} panasz.
 # Comments by hole (insight.rs)
-STR_HOLECOMMENTS_TITLE                  :Comments by Hole
-STR_HOLECOMMENTS_THIS_MONTH             :This month ({MONTH})
-STR_HOLECOMMENTS_LAST_MONTH             :Last month ({MONTH})
-STR_HOLECOMMENTS_THIS_YEAR              :This year ({YEAR})
-STR_HOLECOMMENTS_HOLE                   :Hole {HOLE}
-STR_HOLECOMMENTS_HEARD                  :{COUNT} in all
-STR_HOLECOMMENTS_NOTHING                :Nothing heard yet.
-STR_HOLECOMMENTS_NO_HOLES               :No holes are open yet.
-STR_HOLECOMMENTS_COUNTED                :Each hole's three most frequent thoughts and how often: green cheered golfers up, red put them out.
-STR_HOLECOMMENTS_HELP                   :Left/Right: the period. Up/Down or the wheel scroll. Esc or a click outside closes.
-STR_HOLECOMMENTS_HELP_MAP               :Left/Right: the period. Up/Down or the wheel scroll. Click a hole for its landing map.
+STR_HOLECOMMENTS_TITLE                  :Szakaszonkénti vélemények
+STR_HOLECOMMENTS_THIS_MONTH             :Ebben a hónapban ({MONTH})
+STR_HOLECOMMENTS_LAST_MONTH             :Előző hónapban ({MONTH})
+STR_HOLECOMMENTS_THIS_YEAR              :Ebben az évben ({YEAR})
+STR_HOLECOMMENTS_HOLE                   :{HOLE}. szakasz
+STR_HOLECOMMENTS_HEARD                  :Összesen: {COUNT}
+STR_HOLECOMMENTS_NOTHING                :Még nem érkezett vélemény.
+STR_HOLECOMMENTS_NO_HOLES               :Még nincs megnyitott szakasz.
+STR_HOLECOMMENTS_COUNTED                :Szakaszonként a három leggyakoribb gondolatot és azok gyakoriságát mutatja. Zöld: felvidító, piros: kedvszegő gondolatok.
+STR_HOLECOMMENTS_HELP                   :Bal/Jobb: időszakváltás. Fel/Le vagy egérgörgő: görgetés. Bezárás: Esc vagy kattintás az ablakon kívül.
+STR_HOLECOMMENTS_HELP_MAP               :Bal/Jobb: időszak; Fel/Le vagy görgő: görgetés. Kattints egy szakaszra a labdaérkezési térképhez.
 # History graphs (graphs.rs)
-STR_GRAPHS_TITLE                        :HISTORY GRAPHS
-STR_GRAPHS_CLUB                         :Club
-STR_GRAPHS_ROUNDS                       :Rounds
-STR_GRAPHS_PLAYS                        :Holes played
-STR_GRAPHS_REVENUE                      :Revenue
-STR_GRAPHS_COSTS                        :Costs
-STR_GRAPHS_PROFIT                       :Profit
-STR_GRAPHS_CASH                         :Cash
-STR_GRAPHS_HAPPINESS                    :Happiness
-STR_GRAPHS_FUN                          :Fun rating
-STR_GRAPHS_SKILL                        :Skill rating
-STR_GRAPHS_MEMBERS                      :Members
-STR_GRAPHS_HOLE_PLAYS                   :Times played
-STR_GRAPHS_OVER_PAR                     :Strokes over par
-STR_GRAPHS_HOLE_FEES                    :Greens fees
-STR_GRAPHS_HOLE_TITLE                   :Hole {HOLE}: {MEASURE}
+STR_GRAPHS_TITLE                        :ELŐZMÉNYGRAFIKONOK
+STR_GRAPHS_CLUB                         :Klub
+STR_GRAPHS_ROUNDS                       :Körök
+STR_GRAPHS_PLAYS                        :Lejátszott szakaszok
+STR_GRAPHS_REVENUE                      :Bevétel
+STR_GRAPHS_COSTS                        :Költségek
+STR_GRAPHS_PROFIT                       :Nyereség
+STR_GRAPHS_CASH                         :Pénz
+STR_GRAPHS_HAPPINESS                    :Boldogság
+STR_GRAPHS_FUN                          :Szórakozás
+STR_GRAPHS_SKILL                        :Jártasságértékelés
+STR_GRAPHS_MEMBERS                      :Klubtagok
+STR_GRAPHS_HOLE_PLAYS                   :Játékok száma
+STR_GRAPHS_OVER_PAR                     :Par feletti ütések
+STR_GRAPHS_HOLE_FEES                    :Green fee-bevételek
+STR_GRAPHS_HOLE_TITLE                   :{HOLE}. szakasz: {MEASURE}
 STR_GRAPHS_MONTH                        :{MONTH} {YEAR}
-STR_GRAPHS_SO_FAR                       :{MONTH} (so far)
-STR_GRAPHS_NO_VALUE                     :Not played this month
-STR_GRAPHS_FROM_PLAYS                   :From {COUNT} holes played
-STR_GRAPHS_EMPTY                        :No months yet: the graphs fill in month by month from now on.
+STR_GRAPHS_SO_FAR                       :{MONTH} (eddig)
+STR_GRAPHS_NO_VALUE                     :Ebben a hónapban nem játszottak rajta.
+STR_GRAPHS_FROM_PLAYS                   :{COUNT} lejátszott szakasz alapján
+STR_GRAPHS_EMPTY                        :Még nincs havi adat. A grafikonok mostantól gyűjtik az adatokat.
 STR_GRAPHS_HELP                         :Left/Right: a month. Up/Down: the measure. PageUp/PageDown: club or hole.
 STR_GRAPHS_HOLE                         :Hole {HOLE}
 STR_GRAPHS_LATEST                       :Now: {VALUE}
