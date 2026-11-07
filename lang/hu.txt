@@ -1214,444 +1214,444 @@ STR_AIM_SKILL                           :{SKILL} +{PERCENT}%
 # The plain panels and badge used when the interface art is missing (not in the original)
 ########################################################################################################################
 # The plain panels used when the interface art is missing
-STR_PLAIN_PATH_GRAVEL                   :Path, gravel
-STR_PLAIN_PATH_PAVED                    :Path, paved
-STR_PLAIN_RAISE                         :Raise ground
-STR_PLAIN_LOWER                         :Lower ground
-STR_PLAIN_CLICK_TO_AIM                  :Click the course to aim and swing.  N twice cancels the round.
-STR_PLAIN_PRACTICE                      :{PRO}: Practice Round
-STR_PLAIN_MATCH_VS                      :{PRO}: Match vs. {PRO2}  (§{MONEY}/hole)
-STR_PLAIN_MATCH_WAITING                 :{PRO}: Match vs. a pro  (waiting for a challenge)
-STR_PLAIN_BEGIN_TOURNAMENT              :{PRO}: Begin Tournament
-STR_PLAIN_TOURNAMENT_CANCEL             :Tournament under way: cancel it (no prizes)
-STR_PLAIN_PRO_PLAYING                   :{PRO} is playing: cancel the round
-STR_PLAIN_POINTS_TO_ADD                 :  ({POINTS} points to add)
-STR_PLAIN_SKILLS                        :{PRO}'s skills{POINTS}
-STR_PLAIN_GOLFERS                       :Golfers on the course
-STR_PLAIN_EMPLOYEES                     :Employees
-STR_PLAIN_STAFF                         :{KIND}: {COUNT}  (click to hire, right click to fire)
-STR_PLAIN_SANDBOX                       :Sandbox
-STR_PLAIN_FUN_SKILL                     :Fun {FUN}  Skill {SKILL}
+STR_PLAIN_PATH_GRAVEL                   :Kavicsos út
+STR_PLAIN_PATH_PAVED                    :Burkolt út
+STR_PLAIN_RAISE                         :Talaj emelése
+STR_PLAIN_LOWER                         :Talaj süllyesztése
+STR_PLAIN_CLICK_TO_AIM                  :Kattints a pályára a célzáshoz és az ütéshez.  A kör megszakítása: N kétszer.
+STR_PLAIN_PRACTICE                      :{PRO}: Gyakorlókör
+STR_PLAIN_MATCH_VS                      :{PRO}: Mérkőzés {PRO2} ellen  (§{MONEY}/szakasz)
+STR_PLAIN_MATCH_WAITING                 :{PRO}: Mérkőzés egy profi ellen  (kihívásra várva)
+STR_PLAIN_BEGIN_TOURNAMENT              :{PRO}: Verseny indítása
+STR_PLAIN_TOURNAMENT_CANCEL             :A verseny már folyamatban van: megszakítás (nincs díjazás)
+STR_PLAIN_PRO_PLAYING                   :{PRO} játszik: kör megszakítása
+STR_PLAIN_POINTS_TO_ADD                 :  ({POINTS} pont még hozzáadandó)
+STR_PLAIN_SKILLS                        :{PRO} jártasságai{POINTS}
+STR_PLAIN_GOLFERS                       :Golfozók a pályán
+STR_PLAIN_EMPLOYEES                     :Alkalmazottak
+STR_PLAIN_STAFF                         :{KIND}: {COUNT}  (kattintás: felvétel, jobb kattintás: elbocsátás)
+STR_PLAIN_SANDBOX                       :Homokozó mód
+STR_PLAIN_FUN_SKILL                     :Szór. {FUN}  Járt. {SKILL}
 # The plain golfer list used when the panel art is missing
-STR_PLAIN_GOLFERS_ON_COURSE             :Golfers on the course: {COUNT}
-STR_PLAIN_NEXT_PAGE                     :next page >
+STR_PLAIN_GOLFERS_ON_COURSE             :Golfozók a pályán: {COUNT}
+STR_PLAIN_NEXT_PAGE                     :következő oldal >
 # The pro's shot buttons (panel buttons 4..8)
-STR_PLAIN_SHOT_STRAIGHT                 :Straight shot
-STR_PLAIN_SHOT_FADE                     :Fade shot (L to R)
-STR_PLAIN_SHOT_DRAW                     :Draw shot (R to L)
-STR_PLAIN_SHOT_HIGH                     :High backspin shot
-STR_PLAIN_SHOT_LOW                      :Low punch shot
+STR_PLAIN_SHOT_STRAIGHT                 :Egyenes ütés
+STR_PLAIN_SHOT_FADE                     :Fade ütés (balról jobbra)
+STR_PLAIN_SHOT_DRAW                     :Draw ütés (jobbról balra)
+STR_PLAIN_SHOT_HIGH                     :Magas, visszapörgő ütés
+STR_PLAIN_SHOT_LOW                      :Alacsony, lapos ütés
 
 # The terrain brushes (the plain Build Course panel used when the interface art is missing)
 STR_PAINT_FAIRWAY                       :Fairway
-STR_PAINT_FIRM_FAIRWAY                  :Firm fairway
+STR_PAINT_FIRM_FAIRWAY                  :Kemény talajú fairway
 STR_PAINT_GREEN                         :Green
-STR_PAINT_TEE                           :Tee
+STR_PAINT_TEE                           :Elütőhely
 STR_PAINT_ROUGH                         :Rough
-STR_PAINT_DEEP_ROUGH                    :Deep rough
-STR_PAINT_WOODS                         :Woods
-STR_PAINT_SAND_BUNKER                   :Sand bunker
+STR_PAINT_DEEP_ROUGH                    :Sűrű rough
+STR_PAINT_WOODS                         :Erdős terület
+STR_PAINT_SAND_BUNKER                   :Homokbunker
 STR_PAINT_POT_BUNKER                    :Pot bunker
-STR_PAINT_WATER_SHALLOW                 :Water shallow
-STR_PAINT_WATER_MIDDLE                  :Water middle
-STR_PAINT_WATER_DEEP                    :Water deep
-STR_PAINT_ROCK                          :Rock
-STR_PAINT_BRUSH                         :Brush
-STR_PAINT_BUILDING_LOT                  :Building lot
-STR_PAINT_CLIFF                         :Cliff (editor id)
-STR_PAINT_RAVINE                        :Ravine (editor id)
-STR_PAINT_FLOWER_BED                    :Flower bed (editor id)
-STR_PAINT_ZEN_SAND                      :Zen sand (editor id)
-STR_PAINT_GRASS_BUNKER                  :Grass bunker (editor id)
-STR_PAINT_WASTE_BUNKER                  :Waste bunker
-STR_PAINT_STREAM                        :Stream
-STR_PAINT_PINE_TREE                     :Pine tree
-STR_PAINT_PALM_TREE                     :Palm tree
+STR_PAINT_WATER_SHALLOW                 :Sekély víz
+STR_PAINT_WATER_MIDDLE                  :Közepes mélységű víz
+STR_PAINT_WATER_DEEP                    :Mély víz
+STR_PAINT_ROCK                          :Szikla
+STR_PAINT_BRUSH                         :Bozót
+STR_PAINT_BUILDING_LOT                  :Építési telek
+STR_PAINT_CLIFF                         :Sziklafal (szerkesztőazonosító)
+STR_PAINT_RAVINE                        :Szakadék (szerkesztőazonosító)
+STR_PAINT_FLOWER_BED                    :Virágágyás (szerkesztőazonosító)
+STR_PAINT_ZEN_SAND                      :Zen homok (szerkesztőazonosító)
+STR_PAINT_GRASS_BUNKER                  :Füves bunker (szerkesztőazonosító)
+STR_PAINT_WASTE_BUNKER                  :Kopár bunker
+STR_PAINT_STREAM                        :Patak
+STR_PAINT_PINE_TREE                     :Fenyőfa
+STR_PAINT_PALM_TREE                     :Pálmafa
 
 ########################################################################################################################
 # Pop-up menus: Information, System Functions, Preferences; the quit, land offer and career-over boxes
 ########################################################################################################################
 # The Information menu
-STR_MENU_INFO_TITLE                     :Information...
-STR_MENU_INFO_REPEAT                    : Repeat Last Message
-STR_MENU_INFO_REPORT                    : Course Report
-STR_MENU_INFO_COMMENTS                  : Player Comments
-STR_MENU_INFO_ROUTING                   : Routing Map
-STR_MENU_INFO_HISTOGRAM                 : Histogram
-STR_MENU_INFO_SGA                       : SGA Evaluation
-STR_MENU_INFO_FINANCE                   : Financial Report
-STR_MENU_INFO_ROSTER                    : Membership Roster
-STR_MENU_INFO_ACCOMPLISHMENTS           : Professional Accomplishments
-STR_MENU_INFO_WORLD_MAP                 : World Map
-STR_MENU_INFO_BEST_SCORES               : Best Scores
-STR_MENU_INFO_TOP10                     : Top 10 Designers
+STR_MENU_INFO_TITLE                     :Információk...
+STR_MENU_INFO_REPEAT                    : Utolsó üzenet ismétlése
+STR_MENU_INFO_REPORT                    : Pályajelentés
+STR_MENU_INFO_COMMENTS                  : Golfozói vélemények
+STR_MENU_INFO_ROUTING                   : Útvonaltervezési térkép
+STR_MENU_INFO_HISTOGRAM                 : Hisztogram
+STR_MENU_INFO_SGA                       : SGA-értékelés
+STR_MENU_INFO_FINANCE                   : Pénzügyi jelentés
+STR_MENU_INFO_ROSTER                    : Tagnyilvántartás
+STR_MENU_INFO_ACCOMPLISHMENTS           : Profi eredmények
+STR_MENU_INFO_WORLD_MAP                 : Világtérkép
+STR_MENU_INFO_BEST_SCORES               : Legjobb eredmények
+STR_MENU_INFO_TOP10                     : A 10 legjobb pályatervező
 # The port's own last line, shown when the game has goals (a scenario's or a script's, docs/MODDING.md 5)
-STR_MENU_INFO_GOALS                     : Scenario Goals
+STR_MENU_INFO_GOALS                     : Forgatókönyv céljai
 # The System Functions menu
-STR_MENU_SYSTEM_TITLE                   :System Functions
-STR_MENU_SYSTEM_SAVE                    : Save the current game
-STR_MENU_SYSTEM_LOAD                    : Load a previous game
-STR_MENU_SYSTEM_CANCEL_MATCH            : Cancel match or tournament
-STR_MENU_SYSTEM_SAVE_PRO                : Save your pro for Championship
-STR_MENU_SYSTEM_RENAME                  : Rename your course
-STR_MENU_SYSTEM_PREFERENCES             : Preferences
-STR_MENU_SYSTEM_SAVE_COURSE             : Save course for Championship
-STR_MENU_SYSTEM_QUIT                    : Quit to the title screen
-STR_MENU_SYSTEM_BACK                    : Back to the game
+STR_MENU_SYSTEM_TITLE                   :Rendszerfunkciók
+STR_MENU_SYSTEM_SAVE                    : Jelenlegi játék mentése
+STR_MENU_SYSTEM_LOAD                    : Korábbi játék betöltése
+STR_MENU_SYSTEM_CANCEL_MATCH            : Mérkőzés vagy verseny megszakítása
+STR_MENU_SYSTEM_SAVE_PRO                : Profi mentése bajnoksághoz
+STR_MENU_SYSTEM_RENAME                  : Pálya átnevezése
+STR_MENU_SYSTEM_PREFERENCES             : Beállítások
+STR_MENU_SYSTEM_SAVE_COURSE             : Pálya mentése bajnoksághoz
+STR_MENU_SYSTEM_QUIT                    : Kilépés a főmenübe
+STR_MENU_SYSTEM_BACK                    : Vissza a játékhoz
 # Preferences
-STR_MENU_PREFS_TITLE                    :Preferences...
-STR_MENU_PREFS_THOUGHTS                 : Show golfers' thoughts
-STR_MENU_PREFS_ADVISOR                  : Advisor and first-time messages
-STR_MENU_PREFS_ANIMALS                  : Ambient animals
-STR_MENU_PREFS_SOUND                    : Sound
-STR_MENU_PREFS_HD                       : HD graphics (off: Classic)
+STR_MENU_PREFS_TITLE                    :Beállítások...
+STR_MENU_PREFS_THOUGHTS                 : Golfozók gondolatainak megjelenítése
+STR_MENU_PREFS_ADVISOR                  : Tanácsadó és kezdeti üzenetek
+STR_MENU_PREFS_ANIMALS                  : Környezeti állatok
+STR_MENU_PREFS_SOUND                    : Hang
+STR_MENU_PREFS_HD                       : HD grafika (kikapcsolva: klasszikus)
 # The Preferences' language line (only when a translation is installed; a click switches to the next language)
-STR_MENU_PREFS_LANGUAGE                 : Language: {LANGUAGE}
+STR_MENU_PREFS_LANGUAGE                 : Nyelv: {LANGUAGE}
 # Preferences > Content (the port's own, docs/MODDING.md)
-STR_MENU_PREFS_CONTENT                  : Content packs...
+STR_MENU_PREFS_CONTENT                  : Tartalomcsomagok...
 # Preferences > Enhanced graphics (the port's own, not in the original; docs/ENHANCED.md). The options start with a space.
-STR_MENU_PREFS_ENHANCED_ON              : Enhanced graphics (off: Classic)
-STR_MENU_PREFS_ENHANCED                 : Enhanced graphics settings...
+STR_MENU_PREFS_ENHANCED_ON              : Továbbfejlesztett grafika (kikapcsolva: klasszikus)
+STR_MENU_PREFS_ENHANCED                 : Továbbfejlesztett grafika beállításai...
 # Preferences > Search (the port's own, prefs_search.rs): find an option on any page of the Preferences by its words
-STR_MENU_PREFS_SEARCH                   : Search options...
+STR_MENU_PREFS_SEARCH                   : Beállítások keresése...
 # Preferences' text size line (the port's own, textsize.rs): a click steps normal, 125%, 150%
-STR_MENU_PREFS_TEXT_SIZE                : Text size: {SIZE}
+STR_MENU_PREFS_TEXT_SIZE                : Szövegméret: {SIZE}
 # Preferences' layout (the port's own, prefs_ui.rs): the original's four ticks, a divider, then one line per group of the
 # port's options, each opening a box (Text size steps at once). The options start with a space.
 STR_PREFS_DIVIDER                       :OpenSGolf
-STR_PREFS_GAME_OPTIONS                  : Game options...
-STR_PREFS_GRAPHICS                      : Graphics...
-STR_PREFS_CONTROLS                      : Controls and keys...
-STR_PREFS_GAME_FILES                    : Game files...
-STR_PREFS_MORE                          : More...
-STR_PREFS_GRAPHICS_TITLE                :Graphics
-STR_PREFS_FILES_TITLE                   :Game files
-STR_PREFS_MORE_TITLE                    :More
-STR_PREFS_UPDATE_NOW                    : Check for updates now (online)
+STR_PREFS_GAME_OPTIONS                  : Játékmenet beállításai...
+STR_PREFS_GRAPHICS                      : Grafika...
+STR_PREFS_CONTROLS                      : Vezérlés és billentyűk...
+STR_PREFS_GAME_FILES                    : Játékfájlok...
+STR_PREFS_MORE                          : Egyéb...
+STR_PREFS_GRAPHICS_TITLE                :Grafika
+STR_PREFS_FILES_TITLE                   :Játékfájlok
+STR_PREFS_MORE_TITLE                    :Egyéb
+STR_PREFS_UPDATE_NOW                    : Frissítések keresése most (online)
 # The description at the foot of Preferences and its boxes, of the line pointed at or tapped; the hint with none
-STR_PREFS_HINT                          :Point at an OpenSGolf line, or tap it, to read what it does.
-STR_PREFS_HINT_GRAPHICS                 :With HD and Enhanced both off you play in Classic, the original's own graphics.
-STR_PREFS_TAP_AGAIN                     :{DESC} Tap again to open.
-STR_PREFS_DESC_GAME_OPTIONS             :Optional extras, all off at first: presets, gameplay, sandbox, looks, information and helpers.
-STR_PREFS_DESC_GRAPHICS                 :Classic (the original's), HD art or Enhanced graphics, and pixel-perfect scaling.
-STR_PREFS_DESC_CONTROLS                 :Every key the game takes, the Original or Modern controls, and Change keys to set your own.
-STR_PREFS_DESC_TEXT_SIZE                :Bigger text in the boxes, messages and tooltips. Each click steps: normal, 125%, 150%.
-STR_PREFS_DESC_GAME_FILES               :Your own SimGolf files or the free graphics, content packs (mods) and the language.
-STR_PREFS_DESC_MORE                     :Fixes for the original game's bugs, checking for updates, and a search of every option.
-STR_PREFS_DESC_HD                       :The game's art upscaled from an HD pack you make from your own copy (docs/HD.md); play is unchanged.
-STR_PREFS_DESC_ENHANCED                 :Sharp at any screen size and widescreen, with optional effects; play is unchanged. Off: Classic.
-STR_PREFS_DESC_PIXEL_PERFECT            :Scales the picture by whole sizes only, so every pixel stays the same size; counts in Classic too.
-STR_PREFS_DESC_ENHANCED_SETTINGS        :What Enhanced graphics does, page by page: display, effects, atmosphere, weather and water.
-STR_PREFS_DESC_FILES_MINE               :Plays on your own copy of SimGolf's files instead of the free graphics (the game starts again).
-STR_PREFS_DESC_FILES_FREE               :Plays on OpenSGolf's free graphics instead of your SimGolf files (the game starts again).
-STR_PREFS_DESC_CONTENT                  :Your content packs (mods): switch them on or off and set their order, from the next start.
-STR_PREFS_DESC_LANGUAGE                 :The game's language: each click steps to the next installed translation.
-STR_PREFS_DESC_FIX_BUGS                 :Mends glitches of the original game itself (docs/FIXES.md); on at first. Off: the game as it was in 2002.
-STR_PREFS_DESC_UPDATE_NOW               :Asks GitHub now whether a newer OpenSGolf is out, as the title menu's button does.
-STR_PREFS_DESC_SEARCH                   :Finds any option by its words, shows what differs from the original, or resets it all.
-STR_TEXT_SIZE_NORMAL                    :normal
+STR_PREFS_HINT                          :Mutass egy beállításra, vagy koppints rá a leírásához.
+STR_PREFS_HINT_GRAPHICS                 :HD és továbbfejlesztett grafika nélkül az eredeti, klasszikus grafikát használod.
+STR_PREFS_TAP_AGAIN                     :{DESC} A megnyitáshoz koppints még egyszer.
+STR_PREFS_DESC_GAME_OPTIONS             :Extrák: előbeállítások, játékmenet, homokozó, látvány, információk és kényelmi funkciók. Kezdetben kikapcsolva.
+STR_PREFS_DESC_GRAPHICS                 :Klasszikus (az eredeti), HD grafika vagy továbbfejlesztett grafika, valamint pixelpontos méretezés.
+STR_PREFS_DESC_CONTROLS                 :A játék összes billentyűparancsa, az eredeti vagy modern vezérlés, valamint saját billentyűk beállítása.
+STR_PREFS_DESC_TEXT_SIZE                :Nagyobb szöveg az ablakokban, üzenetekben és súgókban. Fokozatok: normál, 125%, 150%.
+STR_PREFS_DESC_GAME_FILES               :Saját SimGolf-fájlok vagy ingyenes grafika, tartalomcsomagok (modok) és a játék nyelve.
+STR_PREFS_DESC_MORE                     :Az eredeti játék hibáinak javításai, frissítések keresése és az összes beállítás keresője.
+STR_PREFS_DESC_HD                       :HD grafika a saját SimGolf-példányodból készített csomagból (docs/HD.md). A játékmenet nem változik.
+STR_PREFS_DESC_ENHANCED                 :Éles, szélesvásznú grafika és választható effektek. A játékmenet nem változik. Kikapcsolva: klasszikus grafika.
+STR_PREFS_DESC_PIXEL_PERFECT            :Egész számú nagyítás: minden képpont azonos méretű marad. Klasszikus grafikával is működik.
+STR_PREFS_DESC_ENHANCED_SETTINGS        :A továbbfejlesztett grafika beállításai oldalanként: megjelenítés, effektek, atmoszféra, időjárás és víz.
+STR_PREFS_DESC_FILES_MINE               :A játék a SimGolf saját fájljaidat használja az ingyenes grafika helyett (a játék újraindul).
+STR_PREFS_DESC_FILES_FREE               :A játék az OpenSGolf ingyenes grafikáját használja a saját SimGolf-fájljaid helyett (a játék újraindul).
+STR_PREFS_DESC_CONTENT                  :Modok kezelése: be- és kikapcsolás, sorrendjük megadása. Újraindítás után lép életbe.
+STR_PREFS_DESC_LANGUAGE                 :A játék nyelve: minden kattintással a következő telepített fordításra válthatsz.
+STR_PREFS_DESC_FIX_BUGS                 :Az eredeti játék hibáinak javítása (docs/FIXES.md). Kezdetben be van kapcsolva. Kikapcsolva az eredeti, 2002-es működést kapod.
+STR_PREFS_DESC_UPDATE_NOW               :Új OpenSGolf-verzió keresése a GitHubon, mint a főmenüben.
+STR_PREFS_DESC_SEARCH                   :Beállítások keresése, az eredetitől eltérő értékek megjelenítése vagy visszaállítás.
+STR_TEXT_SIZE_NORMAL                    :normál
 STR_TEXT_SIZE_125                       :125%
 STR_TEXT_SIZE_150                       :150%
 # The search box's place of the text size line: Preferences itself
-STR_SEARCH_PLACE_PREFS                  :Preferences
-STR_SEARCH_TITLE                        :Search the Preferences (type to find)
-STR_SEARCH_FIND                         :Find: {QUERY}
-STR_SEARCH_HINT                         :(type a word, e.g. snow, pause or par)
-STR_SEARCH_CHANGED                      : Show only what differs from the original game
+STR_SEARCH_PLACE_PREFS                  :Beállítások
+STR_SEARCH_TITLE                        :Beállítások keresése (gépelj a kereséshez)
+STR_SEARCH_FIND                         :Keresés: {QUERY}
+STR_SEARCH_HINT                         :(írj be egy szót, például: hó, szünet vagy par)
+STR_SEARCH_CHANGED                      : Csak az eredeti játéktól eltérő beállítások megjelenítése
 # A found option: "{place}: {option}", the place being the Preferences line that leads to it (prefs_ui.rs)
-STR_SEARCH_PLACE_KEYS                   :Controls and keys
-STR_SEARCH_PLACE_GRAPHICS               :Graphics
-STR_SEARCH_PLACE_FILES                  :Game files
-STR_SEARCH_PLACE_MORE                   :More
-STR_SEARCH_PLACE_GAME_OPTIONS           :Game options
+STR_SEARCH_PLACE_KEYS                   :Vezérlés és billentyűk
+STR_SEARCH_PLACE_GRAPHICS               :Grafika
+STR_SEARCH_PLACE_FILES                  :Játékfájlok
+STR_SEARCH_PLACE_MORE                   :Egyéb
+STR_SEARCH_PLACE_GAME_OPTIONS           :Játékmenet beállításai
 # a box and the page in it (Graphics > Water, Game options > Gameplay)
 STR_SEARCH_PLACE_IN                     :{A} > {B}
 # a found option's category and its page or tag (Graphics · Water, Gameplay · Noticeable)
 STR_SEARCH_PLACE_TWO                    :{A} · {B}
 STR_SEARCH_KEY                          :{ACTION} ({KEY})
-STR_SEARCH_NONE                         :Nothing found.
-STR_SEARCH_MORE                         :{N} more: type more to narrow the list.
-STR_SEARCH_RESET                        : Reset everything to the original game...
-STR_RESET_ORIGINAL_1                    :Put every option back as in the original game?
-STR_RESET_ORIGINAL_2                    :All extras and Enhanced graphics off, every key as it was.
-STR_RESET_ORIGINAL_YES                  : Yes, back to the original game.
-STR_RESET_ORIGINAL_NO                   : No, keep my choices.
-STR_EXTRAS_TITLE                        :OpenSGolf extras (not in the original)
-STR_EXTRAS_ROTATE                       : Tab turns placed buildings and the clubhouse
-STR_EXTRAS_CUT_CONTENT                  : Cut content: unused landmarks (decoration only)
-STR_EXTRAS_HARDCORE                     : Hardcore economy
-STR_EXTRAS_MORE_STAFF                   : Higher staff limits
-STR_EXTRAS_ANIMALS                      : Buyable animals
-STR_EXTRAS_SET_PAR                      : Set par: change a hole's par on its Hole Stats
+STR_SEARCH_NONE                         :Nincs találat.
+STR_SEARCH_MORE                         :Még {N} találat: szűkítsd a keresést további szavakkal.
+STR_SEARCH_RESET                        : Minden beállítás visszaállítása az eredeti játék értékeire...
+STR_RESET_ORIGINAL_1                    :Visszaállítasz minden beállítást az eredeti játék szerinti értékre?
+STR_RESET_ORIGINAL_2                    :Minden extra és HD grafika kikapcsol; a billentyűk visszaállnak az eredetire.
+STR_RESET_ORIGINAL_YES                  : Igen, vissza az eredeti játékhoz.
+STR_RESET_ORIGINAL_NO                   : Nem, maradjanak a saját beállításaim.
+STR_EXTRAS_TITLE                        :OpenSGolf extrák (az eredeti játékban nem szerepelnek)
+STR_EXTRAS_ROTATE                       : A Tab billentyűvel forgathatók az épületek és a klubház
+STR_EXTRAS_CUT_CONTENT                  : Kimaradt tartalmak: nem használt nevezetességek (csak díszítés)
+STR_EXTRAS_HARDCORE                     : Kemény gazdaság
+STR_EXTRAS_MORE_STAFF                   : Magasabb alkalmazotti létszámkorlát
+STR_EXTRAS_ANIMALS                      : Megvásárolható állatok
+STR_EXTRAS_SET_PAR                      : Par beállítása: a szakasz par értékének módosítása a statisztikáknál
 # The extras box's pages (tabs), by what their ticks change: how the game plays, relaxed play, the look, information, effort
-STR_EXTRAS_PAGE_GAMEPLAY                :Gameplay
-STR_EXTRAS_PAGE_SANDBOX                 :Sandbox
-STR_EXTRAS_PAGE_LOOKS                   :Looks
-STR_EXTRAS_PAGE_INFO                    :Info
-STR_EXTRAS_PAGE_SAVES                   :Saves
-STR_EXTRAS_PAGE_CONTROLS                :Controls
+STR_EXTRAS_PAGE_GAMEPLAY                :Játékmenet
+STR_EXTRAS_PAGE_SANDBOX                 :Homokozó
+STR_EXTRAS_PAGE_LOOKS                   :Megjelenés
+STR_EXTRAS_PAGE_INFO                    :Információk
+STR_EXTRAS_PAGE_SAVES                   :Mentések
+STR_EXTRAS_PAGE_CONTROLS                :Vezérlés
 # each page's banner under the tabs
-STR_EXTRAS_BANNER_GAMEPLAY              :Changes how the game plays.
-STR_EXTRAS_BANNER_SANDBOX               :Bends the rules for relaxed play.
-STR_EXTRAS_BANNER_LOOKS                 :Changes how it looks. Play is unchanged.
-STR_EXTRAS_BANNER_INFO                  :Shows more about your club. Play is unchanged.
-STR_EXTRAS_BANNER_SAVES                 :Keeps, shows and shares your games. Play is unchanged.
-STR_EXTRAS_BANNER_CONTROLS              :Changes what the mouse does and when the game pauses. Play is unchanged.
+STR_EXTRAS_BANNER_GAMEPLAY              :Módosítja a játékmenetet.
+STR_EXTRAS_BANNER_SANDBOX               :A lazább játék érdekében módosítja a szabályokat.
+STR_EXTRAS_BANNER_LOOKS                 :A játék megjelenését módosítja. A játékmenet változatlan.
+STR_EXTRAS_BANNER_INFO                  :Több információt jelenít meg a klubodról. A játékmenet változatlan.
+STR_EXTRAS_BANNER_SAVES                 :Mentés, megjelenítés és megosztás. A játékmenet nem változik.
+STR_EXTRAS_BANNER_CONTROLS              :Az egér és a szünet működését módosítja. A játékmenet nem változik.
 # the pill at the right end of a gameplay or sandbox line: how much it changes the game
-STR_EXTRAS_TAG_LIGHT                    :Light touch
-STR_EXTRAS_TAG_NOTICEABLE               :Noticeable
-STR_EXTRAS_TAG_BIG                      :Big change
+STR_EXTRAS_TAG_LIGHT                    :Enyhe változás
+STR_EXTRAS_TAG_NOTICEABLE               :Érezhető változás
+STR_EXTRAS_TAG_BIG                      :Jelentős változás
 # the foot of the box with no option under the pointer
-STR_EXTRAS_HINT_TAGGED                  :Each tag says how much the game changes. Point at an option, or tap it, to read what it does.
-STR_EXTRAS_HINT_PLAIN                   :Point at an option, or tap it, to read what it does.
+STR_EXTRAS_HINT_TAGGED                  :A címkék a játékmenetre gyakorolt hatást jelzik. Mutass egy extrára a leírásához.
+STR_EXTRAS_HINT_PLAIN                   :Mutass rá egy beállításra, vagy koppints rá a leírásához.
 # the foot of the box: what the option under the pointer (or last tapped) changes
-STR_EXTRAS_DESC_ROTATE                  :Tab turns a placed building or the clubhouse a quarter, or steps through the designs of the item in hand. Only the picture turns.
-STR_EXTRAS_DESC_CUT_CONTENT             :Experimental: decoration only, no landmark powers. Fourteen landmarks the original never used join the landmark strip; golfers enjoy the view.
-STR_EXTRAS_DESC_HARDCORE                :Tighter money and choosier golfers: higher wages, upkeep and land prices, more interest, lower fees and at most 12 staff.
-STR_EXTRAS_DESC_MORE_STAFF              :Your club may hire up to 40 employees instead of the original's 20.
-STR_EXTRAS_DESC_ANIMALS                 :Buy pairs of the theme's animals from the landmark strip. They stay near where you set them down and cheer golfers up.
-STR_EXTRAS_DESC_SET_PAR                 :Minus and plus buttons on Hole Stats change a hole's par (2 to 6), and golfers are scored against your par.
-STR_EXTRAS_DESC_SEASON_SPEED            :The calendar runs at half or a quarter speed while golfers, staff and bills keep their pace, so each year holds more golf.
-STR_EXTRAS_DESC_PAUSE_CALENDAR          :The date stands still: golfers keep coming and paying, but no month or year ends, so no interest and no board review.
-STR_EXTRAS_DESC_FREEZE_MOODS            :Golfers' moods never drop. Good moments still cheer them up, and nobody leaves unhappy.
-STR_EXTRAS_DESC_NO_WEEDS                :Dandelions stop spreading and unhappy golfers no longer start them, so the course stays clear without groundskeepers. The ones already there stay until pulled.
-STR_EXTRAS_DESC_UNLOCK_ALL              :Every building, home site and landmark of the theme is on the panels from the start, as in Sandbox Mode.
-STR_EXTRAS_DESC_LEFTIES                 :About one golfer in ten is left-handed: a mirrored swing, and the ball curves the other way. Your pro can be one too.
-STR_EXTRAS_DESC_WEATHER                 :Rain and snow slow the ball and keep some golfers at home; desert heat waves speed it up. Gentle over a year.
-STR_EXTRAS_DESC_PATHS                   :Draws every path in brick, gravel, dark stone or boardwalk, and adds lamp posts to the landmark strip. A click picks the style.
-STR_EXTRAS_DESC_MORE_VISITORS           :Touring pros and celebrities drop in now and then. They pay more, draw crowds and say what they thought of your course.
-STR_EXTRAS_DESC_PEOPLE                  :A sortable list of every golfer and employee, with golfer profiles and your pro's screens (Shift+G).
-STR_EXTRAS_DESC_HISTORY                 :Keeps every ticker message with its date, so you can read back what you missed (Shift+M).
-STR_EXTRAS_DESC_NAME_TAGS               :A small tag with the name of the golfer or employee under the pointer (Shift+H hides and shows them).
-STR_EXTRAS_DESC_REPORT_TABS             :A strip of tabs over the F1 to F10 reports flips from one report to another without going back to the course.
-STR_EXTRAS_DESC_PATH_HELP               :Path view (Shift+V) marks paths that reach the clubhouse and buildings they miss; a Show button finds a closed building.
-STR_EXTRAS_DESC_LANDING_MAP             :Dots on the course show where the golfers' shots on a hole come to rest; its legend switches to heat maps of where balls land, golfers wait and golfers complain (Shift+D).
-STR_EXTRAS_DESC_HOLE_COMMENTS           :The thoughts golfers had most often on each hole, this month, last month or this year (Shift+I).
-STR_EXTRAS_DESC_GRAPHS                  :Graphs of the club and each hole month by month: rounds, money, happiness, ratings and members (Shift+Y).
-STR_EXTRAS_DESC_LIVE_SCORECARDS         :An open golfer card shows the golfer's round so far, hole by hole, as the original shows your pro's.
-STR_EXTRAS_DESC_YEAR_SUMMARY            :After the End of Year report, a page of the year's key figures against the year before.
-STR_EXTRAS_DESC_HOME_DETAILS            :Point at a home site to see whose it is, what it cost, what it sold for and what it is worth now.
-STR_EXTRAS_DESC_AUTOSAVE                :Saves the game every five minutes of play and as its window goes to the background, keeping the last three, so a crash or a closed page loses little.
-STR_EXTRAS_DESC_SAVE_PICTURES           :Load Previous Game shows a small map of each saved game's course.
-STR_EXTRAS_DESC_SHARING                 :Copy a code for your course to send to a friend; paste one (Ctrl+V) to play theirs and try to beat their record.
-STR_EXTRAS_DESC_PAUSE_BACKGROUND        :The game and its sound pause while its window is in the background, and go on when you come back.
-STR_EXTRAS_DESC_PAUSE_EVENTS            :The game pauses when a VIP arrives, a famous golfer challenges your pro, the SGA makes an offer or money runs short.
-STR_EXTRAS_DESC_UPDATE_CHECK            :Looks online for a newer OpenSGolf when the game starts, and offers it only if there is one.
-STR_EXTRAS_DESC_ZOOM_POINTER            :The mouse wheel and a pinch zoom towards the spot you point at. Part of the Modern controls preset (Keyboard controls, Change keys).
-STR_EXTRAS_DESC_DRAG_PLACE              :Drag with benches, flower beds and the like in hand to lay a straight row of them. Part of the Modern controls preset (Change keys).
-STR_EXTRAS_DESC_TICKER_JUMP             :A click on a ticker message takes the camera to the golfer or place it is about.
+STR_EXTRAS_DESC_ROTATE                  :Tab: az épület vagy a klubház 90°-os forgatása; a kézben tartott elem változatainak váltása. Csak a látvány változik.
+STR_EXTRAS_DESC_CUT_CONTENT             :Kísérleti, csak dekorációs tartalom: 14, az eredetiből kimaradt nevezetesség. Nincs külön hatásuk, a golfozók viszont kedvelik őket.
+STR_EXTRAS_DESC_HARDCORE                :Szigorúbb gazdaság: magasabb bérek, fenntartási és telekárak, nagyobb kamatok, kisebb bevétel; legfeljebb 12 alkalmazott.
+STR_EXTRAS_DESC_MORE_STAFF              :A klubod az eredeti 20 helyett akár 40 alkalmazottat is felvehet.
+STR_EXTRAS_DESC_ANIMALS                 :A nevezetességek választékából megvásárolhatod a téma állatainak párjait. A kihelyezés helyének közelében maradnak, és felvidítják a golfozókat.
+STR_EXTRAS_DESC_SET_PAR                 :A Szakaszstatisztikák panel +/− gombjaival 2–6 között állíthatod a par értéket. A golfozók ehhez mérik az eredményüket.
+STR_EXTRAS_DESC_SEASON_SPEED            :A naptár fél vagy negyed sebességen jár, a golfozók, alkalmazottak és számlák normál tempóban működnek. Több játék fér egy évbe.
+STR_EXTRAS_DESC_PAUSE_CALENDAR          :A dátum megáll, de a golfozók érkeznek és fizetnek. Hónap- és évzárás, kamatfizetés, valamint igazgatótanácsi értékelés nincs.
+STR_EXTRAS_DESC_FREEZE_MOODS            :A golfozók hangulata nem romlik. A jó pillanatok továbbra is felvidítják őket, és senki sem távozik boldogtalanul.
+STR_EXTRAS_DESC_NO_WEEDS                :A pitypangok nem terjednek tovább, és a boldogtalan golfozók sem ültetnek újakat, így kertészek nélkül is tiszta marad a pálya. A már meglévőket továbbra is el kell távolítani.
+STR_EXTRAS_DESC_UNLOCK_ALL              :A téma összes épülete, lakótelke és nevezetessége már a játék kezdetétől elérhető a paneleken, akárcsak a Homokozó módban.
+STR_EXTRAS_DESC_LEFTIES                 :Minden tizedik golfozó balkezes lehet: fordított lendítéssel játszik, és ellenkező irányba íveli a labdát. A profi is lehet balkezes.
+STR_EXTRAS_DESC_WEATHER                 :Az eső és a hó lassítja a labdát, és néhány golfozót otthon tart; a sivatagi hőhullámok felgyorsítják. A hatás egy év alatt mérsékelt.
+STR_EXTRAS_DESC_PATHS                   :Tégla-, kavics-, sötétkő- és pallóutak, valamint lámpaoszlopok. Kattintással választhatsz stílust.
+STR_EXTRAS_DESC_MORE_VISITORS           :Időnként vendég profi golfozók és hírességek látogatnak el hozzád. Többet fizetnek, tömegeket vonzanak, és elmondják a véleményüket a pályádról.
+STR_EXTRAS_DESC_PEOPLE                  :Rendezhető lista minden golfozóról és alkalmazottról, golfozói adatlapokkal és a klubprofid képernyőivel (Shift+G).
+STR_EXTRAS_DESC_HISTORY                 :Dátummal együtt megőrzi az összes futószalagüzenetet, így később visszaolvashatod, amiről lemaradtál (Shift+M).
+STR_EXTRAS_DESC_NAME_TAGS               :Kis névcímkét jelenít meg az egérmutató alatt álló golfozó vagy alkalmazott neve alatt (Shift+H: be- és kikapcsolás).
+STR_EXTRAS_DESC_REPORT_TABS             :Az F1–F10 jelentések fölötti fül segítségével oda-vissza válthatsz a jelentések között anélkül, hogy vissza kellene térned a pályához.
+STR_EXTRAS_DESC_PATH_HELP               :Az Útvonalnézet (Shift+V) jelzi a klubházhoz kapcsolódó utakat és az út nélküli épületeket. A Megjelenítés gomb a bezárt épületeket mutatja.
+STR_EXTRAS_DESC_LANDING_MAP             :A pályán elhelyezett pontok jelzik, hol álltak meg a labdák az adott szakaszon. A jelmagyarázat hőtérképekre válthat, amelyek a labdák érkezési helyét, a golfozók várakozását és panaszkodását mutatják (Shift+D).
+STR_EXTRAS_DESC_HOLE_COMMENTS           :Az egyes szakaszok leggyakoribb golfozói gondolatai ebben a hónapban, az előzőben vagy az évben (Shift+I).
+STR_EXTRAS_DESC_GRAPHS                  :A klub és az egyes szakaszok havi grafikonjai: körök, pénz, boldogság, értékelések és tagok száma (Shift+Y).
+STR_EXTRAS_DESC_LIVE_SCORECARDS         :A golfozó adatlapján szakaszonként követheted az aktuális kör eredményét, ahogy a klubprofidnál.
+STR_EXTRAS_DESC_YEAR_SUMMARY            :Az év végi jelentés után megjeleníti az év legfontosabb adatait az előző év számaival összehasonlítva.
+STR_EXTRAS_DESC_HOME_DETAILS            :Mutass rá egy lakótelekre, hogy megtudd, kié, mennyibe került, mennyiért adták el, és mennyit ér jelenleg.
+STR_EXTRAS_DESC_AUTOSAVE                :A játék ötpercenként, valamint az ablak háttérbe kerülésekor automatikusan ment. Az utolsó három mentést őrzi meg, így összeomlás vagy bezárt böngészőlap esetén is kevés veszhet el.
+STR_EXTRAS_DESC_SAVE_PICTURES           :A Betöltés képernyőn a mentések mellett látható a pálya térképe.
+STR_EXTRAS_DESC_SHARING                 :Másold ki és küldd el a pályakódot. Ctrl+V-vel beillesztheted egy barátod pályáját, és megdöntheted a rekordját.
+STR_EXTRAS_DESC_PAUSE_BACKGROUND        :A játék és a hang szünetel, amíg az ablak a háttérben van, és folytatódik, amikor visszatérsz.
+STR_EXTRAS_DESC_PAUSE_EVENTS            :A játék szünetel, ha VIP-vendég érkezik, híres golfozó hívja ki a klubprofidat, az SGA ajánlatot tesz, vagy elfogy a pénzed.
+STR_EXTRAS_DESC_UPDATE_CHECK            :Indításkor ellenőrzi, van-e új OpenSGolf-verzió, és csak akkor ajánlja fel a frissítést.
+STR_EXTRAS_DESC_ZOOM_POINTER            :Az egérgörgővel és a csippentő mozdulattal a mutató alatti pontra közelíthetsz. A modern vezérlési előbeállítás része (Billentyűzetvezérlés, Billentyűk módosítása).
+STR_EXTRAS_DESC_DRAG_PLACE              :A kézben tartott padokat, virágágyásokat és hasonló elemeket húzással egyenes sorban helyezheted el. A modern vezérlési előbeállítás része (Billentyűk módosítása).
+STR_EXTRAS_DESC_TICKER_JUMP             :A futószalagon megjelenő üzenetre kattintva a kamera az érintett golfozóhoz vagy helyszínhez ugrik.
 # Slower seasons: a click steps the calendar's speed (1x is the original's)
-STR_EXTRAS_SEASON_SPEED                 : Slower seasons: the calendar at {VALUE}
-STR_EXTRAS_SPEED_1                      :1x (original)
-STR_EXTRAS_SPEED_HALF                   :1/2x
-STR_EXTRAS_SPEED_QUARTER                :1/4x
-STR_EXTRAS_PAUSE_CALENDAR               : Sandbox: pause the calendar
-STR_EXTRAS_FREEZE_MOODS                 : Sandbox: freeze golfer happiness
-STR_EXTRAS_UNLOCK_ALL                   : Sandbox: unlock all buildings and landmarks
-STR_EXTRAS_NO_WEEDS                     : Sandbox: no new dandelions
+STR_EXTRAS_SEASON_SPEED                 : Lassabb évszakok: naptársebesség: {VALUE}
+STR_EXTRAS_SPEED_1                      :1× (eredeti)
+STR_EXTRAS_SPEED_HALF                   :1/2×
+STR_EXTRAS_SPEED_QUARTER                :1/4×
+STR_EXTRAS_PAUSE_CALENDAR               : Homokozó: naptár megállítása
+STR_EXTRAS_FREEZE_MOODS                 : Homokozó: a golfozók boldogságának befagyasztása
+STR_EXTRAS_UNLOCK_ALL                   : Homokozó: minden épület és nevezetesség feloldása
+STR_EXTRAS_NO_WEEDS                     : Homokozó: ne nőjön új pitypang
 # Left-handed golfers (sg_core::extras): about one golfer in ten, and a tick for your pro on Customise Golfer
-STR_EXTRAS_LEFTIES                      : Left-handed golfers
-STR_SET_PAR_1                           :Change hole {HOLE} from par {OLD} to par {NEW}?
-STR_SET_PAR_2                           :Golfers will be scored against the new par.
-STR_SET_PAR_YES                         : Yes, change the par.
-STR_SET_PAR_NO                          : No, leave it.
+STR_EXTRAS_LEFTIES                      : Balkezes golfozók
+STR_SET_PAR_1                           :Módosítod a(z) {HOLE}. szakasz par értékét {OLD}-ról {NEW}-ra?
+STR_SET_PAR_2                           :A golfozók eredményét az új par értékhez viszonyítja a játék.
+STR_SET_PAR_YES                         : Igen, módosítsd a par értéket.
+STR_SET_PAR_NO                          : Nem, maradjon a jelenlegi érték.
 # The tooltip's second line over a cut landmark and over an animal on the landmark strip
-STR_EXTRAS_CUT_EFFECT                   :Scenic (cut content)
-STR_EXTRAS_ANIMAL_EFFECT                :A pair that stays nearby
-STR_TOAST_ANIMAL_NOT_HERE               :Animals need open ground on your course
-STR_TOAST_ANIMALS_FULL                  :There is no room for more animals
+STR_EXTRAS_CUT_EFFECT                   :Látványosság (kimaradt tartalom)
+STR_EXTRAS_ANIMAL_EFFECT                :Egy pár, amely a kihelyezése közelében marad
+STR_TOAST_ANIMAL_NOT_HERE               :Az állatoknak szabad területre van szükségük a pályádon.
+STR_TOAST_ANIMALS_FULL                  :Nincs elég hely további állatok számára.
 # The cut landmarks' names (docs/CUT_CONTENT.md), as the landmark strip and the golfers name them
-STR_CUT_CACTUS_GROUP                    :cactus garden
-STR_CUT_BLACK_PINE                      :black pine
-STR_CUT_CATHEDRAL_RUINS                 :ruined cathedral
-STR_CUT_GARGOYLE                        :gargoyle
-STR_CUT_BOULDER                         :tropical boulder
-STR_CUT_ROCK_GARDEN                     :rock garden
-STR_CUT_GARDEN_SUNDIAL                  :garden sundial
-STR_CUT_CHAPEL                          :chapel
-STR_CUT_CATTAILS                        :cattail patch
-STR_CUT_KOI_POND                        :koi pond
-STR_CUT_HOT_SPRING                      :hot spring
-STR_CUT_OASIS                           :desert oasis
-STR_CUT_DESERT_FOUNTAIN                 :desert fountain
-STR_CUT_SEA_ROCK                        :sea rock
-STR_ENHANCED_TITLE                      :Enhanced graphics (not in the original)
-STR_ENHANCED_MASTER                     : Enhanced graphics (off: Classic)
+STR_CUT_CACTUS_GROUP                    :kaktuszkert
+STR_CUT_BLACK_PINE                      :feketefenyő
+STR_CUT_CATHEDRAL_RUINS                 :katedrálisrom
+STR_CUT_GARGOYLE                        :vízköpő
+STR_CUT_BOULDER                         :trópusi sziklatömb
+STR_CUT_ROCK_GARDEN                     :sziklakert
+STR_CUT_GARDEN_SUNDIAL                  :kerti napóra
+STR_CUT_CHAPEL                          :kápolna
+STR_CUT_CATTAILS                        :gyékényes
+STR_CUT_KOI_POND                        :koi-tó
+STR_CUT_HOT_SPRING                      :hőforrás
+STR_CUT_OASIS                           :sivatagi oázis
+STR_CUT_DESERT_FOUNTAIN                 :sivatagi szökőkút
+STR_CUT_SEA_ROCK                        :tengeri szikla
+STR_ENHANCED_TITLE                      :Továbbfejlesztett grafika (az eredeti játékban nem szerepel)
+STR_ENHANCED_MASTER                     : Továbbfejlesztett grafika (kikapcsolva: klasszikus)
 # the banner under the Enhanced graphics box's tabs
-STR_ENHANCED_BANNER                     :Graphics only: play is never changed.
-STR_ENHANCED_NATIVE_TEXT                : Sharp text at the screen's resolution
-STR_ENHANCED_SMOOTH_UI                  : Smooth interface art at any size
-STR_ENHANCED_WIDESCREEN                 : Widescreen: interface at the window's edges
-STR_ENHANCED_TERRAIN_FILTER             : Sharper course textures
-STR_ENHANCED_MSAA                       : Anti-aliasing
-STR_ENHANCED_SMOOTH_CAMERA              : Smooth camera: zoom, turns and panning
-STR_ENHANCED_SMOOTH_MOTION              : Smooth motion between game ticks
-STR_ENHANCED_PHOTO_MODE                 : Photo mode (the C key or the camera button)
-STR_ENHANCED_FX_SCALER                  : Pixel-art scaling of sprites and pictures
-STR_ENHANCED_FX_SCALER_MODE             : Pixel-art scaler: {VALUE}
-STR_ENHANCED_FX_WATER                   : Animated water
-STR_ENHANCED_FX_TERRAIN_LIGHT           : Terrain light, occlusion and shadows
-STR_ENHANCED_FX_SPRITE_SHADOWS          : Soft sprite shadows
-STR_ENHANCED_FX_SKY                     : Sky beyond the map
-STR_ENHANCED_FX_TILT_SHIFT              : Tilt-shift (miniature look)
-STR_ENHANCED_FX_GRADING                 : Colour grading and vignette
-STR_ENHANCED_FX_BLOOM                   : Bloom
-STR_ENHANCED_FX_QUALITY                 : Effects quality: {VALUE}
-STR_ENHANCED_FX_CAST_SHADOWS            : Cast shadows from buildings and trees
-STR_ENHANCED_FX_BALL_TRAIL              : Trail behind balls in flight
-STR_ENHANCED_FX_BALL_IMPACTS            : Sand, splash and grass where balls land
-STR_ENHANCED_FX_TIME_OF_DAY             : Time of day: morning, sunset and dusk
-STR_ENHANCED_FX_CLOUDS                  : Drifting cloud shadows
-STR_ENHANCED_FX_HAZE                    : Distance haze
-STR_ENHANCED_FX_RAIN                    : Rain on some days
-STR_ENHANCED_FX_MIST                    : Morning mist in low ground
-STR_ENHANCED_FX_REFLECTIONS             : Reflections and sun glitter on the water
-STR_ENHANCED_FX_WIND                    : Wind: trees, palms and flags sway
-STR_ENHANCED_FX_EVENING_LIGHTS          : Lamps and fireflies at dusk
-STR_ENHANCED_FX_SEASONS                 : Seasons: blossom, autumn colours, dew
-STR_ENHANCED_FX_AFTER_RAIN              : Wet ground, puddles and rainbows
-STR_ENHANCED_FX_LIGHTNING               : Lightning in heavy rain
-STR_ENHANCED_FX_HEAT                    : Heat waves in the desert: bleached light, parched grass
-STR_ENHANCED_FX_GRASS                   : Grass tufts in the rough
-STR_ENHANCED_FX_SHARPEN                 : Sharper art: contrast-adaptive sharpening
-STR_ENHANCED_FX_WINTER                  : Late-winter frost and snow in early March
-STR_ENHANCED_FX_CROWDS                  : Crowds at tournaments and championships
-STR_ENHANCED_FX_LIFE                    : Birds, butterflies and falling leaves
-STR_ENHANCED_FX_DAY_LENGTH              : Day length: {VALUE}
+STR_ENHANCED_BANNER                     :Csak a grafikát módosítja, a játékmenetet soha.
+STR_ENHANCED_NATIVE_TEXT                : Éles szöveg a képernyő natív felbontásában
+STR_ENHANCED_SMOOTH_UI                  : Simított kezelőfelületi grafika bármilyen méretben
+STR_ENHANCED_WIDESCREEN                 : Szélesvásznú kezelőfelület, a képernyő szélein
+STR_ENHANCED_TERRAIN_FILTER             : Élesebb pályatextúrák
+STR_ENHANCED_MSAA                       : Élsimítás
+STR_ENHANCED_SMOOTH_CAMERA              : Folyamatos kameramozgás: nagyítás, forgatás és pásztázás
+STR_ENHANCED_SMOOTH_MOTION              : Folyamatos mozgás a játékfrissítések között
+STR_ENHANCED_PHOTO_MODE                 : Fotómód (C billentyű vagy kameragomb)
+STR_ENHANCED_FX_SCALER                  : Sprite-ok és képek pixelgrafikai méretezése
+STR_ENHANCED_FX_SCALER_MODE             : Pixelgrafikai méretező: {VALUE}
+STR_ENHANCED_FX_WATER                   : Animált víz
+STR_ENHANCED_FX_TERRAIN_LIGHT           : A terep megvilágítása, takarása és árnyékai
+STR_ENHANCED_FX_SPRITE_SHADOWS          : Lágy sprite-árnyékok
+STR_ENHANCED_FX_SKY                     : Az égbolt megjelenítése a térképen túl
+STR_ENHANCED_FX_TILT_SHIFT              : Tilt-shift (makett-hatás)
+STR_ENHANCED_FX_GRADING                 : Színkorrekció és vignettálás
+STR_ENHANCED_FX_BLOOM                   : Fényudvar
+STR_ENHANCED_FX_QUALITY                 : Effektek minősége: {VALUE}
+STR_ENHANCED_FX_CAST_SHADOWS            : Épületek és fák árnyékvetése
+STR_ENHANCED_FX_BALL_TRAIL              : A repülő labdák nyomvonala
+STR_ENHANCED_FX_BALL_IMPACTS            : Homok-, víz- és fűhatás a labda érkezési helyén
+STR_ENHANCED_FX_TIME_OF_DAY             : Napszak: reggel, naplemente és alkonyat
+STR_ENHANCED_FX_CLOUDS                  : Vándorló felhők árnyékai
+STR_ENHANCED_FX_HAZE                    : Távoli pára
+STR_ENHANCED_FX_RAIN                    : Esős napok
+STR_ENHANCED_FX_MIST                    : Reggeli köd a mélyebben fekvő területeken
+STR_ENHANCED_FX_REFLECTIONS             : Tükröződések és napfénycsillogás a vízen
+STR_ENHANCED_FX_WIND                    : Szél: a fák, pálmák és zászlók lengedeznek
+STR_ENHANCED_FX_EVENING_LIGHTS          : Lámpák és szentjánosbogarak alkonyatkor
+STR_ENHANCED_FX_SEASONS                 : Évszakok: virágzás, őszi színek, harmat
+STR_ENHANCED_FX_AFTER_RAIN              : Nedves talaj, tócsák és szivárványok
+STR_ENHANCED_FX_LIGHTNING               : Villámlás heves esőben
+STR_ENHANCED_FX_HEAT                    : Sivatagi hőhullámok: fakó fény és kiszáradt fű
+STR_ENHANCED_FX_GRASS                   : Fűcsomók a rough területén
+STR_ENHANCED_FX_SHARPEN                 : Élesebb grafika: kontrasztadaptív élesítés
+STR_ENHANCED_FX_WINTER                  : Tél végi dér és hó március elején
+STR_ENHANCED_FX_CROWDS                  : Tömeg a versenyeken és bajnokságokon
+STR_ENHANCED_FX_LIFE                    : Madarak, pillangók és lehulló levelek
+STR_ENHANCED_FX_DAY_LENGTH              : Nappalok hossza: {VALUE}
 # Enhanced graphics > Display: the frame rate settings (the port's own, framerate.rs). They count with Enhanced graphics off
 # too. Browsers always draw on the display's refresh, so v-sync cannot be turned off there.
-STR_ENHANCED_FRAME_CAP                  : Frame rate cap: {VALUE}
-STR_ENHANCED_VSYNC                      : V-sync (from the next start)
-STR_ENHANCED_VSYNC_BROWSER              : V-sync (always on in a browser)
-STR_ENHANCED_PAGE_DISPLAY               :Display
-STR_ENHANCED_PAGE_EFFECTS               :Effects
-STR_ENHANCED_PAGE_ATMOSPHERE            :Atmosphere
-STR_ENHANCED_PAGE_WEATHER               :Weather
-STR_ENHANCED_PAGE_WATER                 :Water
+STR_ENHANCED_FRAME_CAP                  : Képkockasebesség-korlát: {VALUE}
+STR_ENHANCED_VSYNC                      : V-sync (a következő indítástól)
+STR_ENHANCED_VSYNC_BROWSER              : V-sync (böngészőben mindig bekapcsolva)
+STR_ENHANCED_PAGE_DISPLAY               :Megjelenítés
+STR_ENHANCED_PAGE_EFFECTS               :Effektek
+STR_ENHANCED_PAGE_ATMOSPHERE            :Atmoszféra
+STR_ENHANCED_PAGE_WEATHER               :Időjárás
+STR_ENHANCED_PAGE_WATER                 :Víz
 # Enhanced graphics > Water (the port's own, docs/ENHANCED.md "Water")
-STR_ENHANCED_FX_WATER_COLOUR            : Truer water colour: light shallows, deep middle
-STR_ENHANCED_FX_WAVES                   : Waves that follow the wind and the weather
-STR_ENHANCED_FX_SHORELINE               : Water lapping at the shore, a wet bank
-STR_ENHANCED_FX_CAUSTICS                : Sunlight rippling on the bottom of shallows
-STR_ENHANCED_FX_RAIN_RINGS              : Raindrop rings on the water
-STR_ENHANCED_FX_WATER_LIFE              : Reeds, lily pads, ducks, swans and fish
-STR_ENHANCED_FX_ICE                     : Ponds icing over in a late-winter cold snap
-STR_ENHANCED_FX_SPRAY                   : Spray at fountains and waterfalls
+STR_ENHANCED_FX_WATER_COLOUR            : Valósághűbb vízszínek: világos sekély víz, sötétebb mélyebb részek
+STR_ENHANCED_FX_WAVES                   : A szélhez és az időjáráshoz igazodó hullámok
+STR_ENHANCED_FX_SHORELINE               : Hullámzó vízpart és nedves part menti talaj
+STR_ENHANCED_FX_CAUSTICS                : A sekély víz alján fodrozódó napfény
+STR_ENHANCED_FX_RAIN_RINGS              : Esőcseppek keltette vízgyűrűk
+STR_ENHANCED_FX_WATER_LIFE              : Nád, tavirózsa-levelek, kacsák, hattyúk és halak
+STR_ENHANCED_FX_ICE                     : A tavak befagyása egy késő téli hideghullámban
+STR_ENHANCED_FX_SPRAY                   : Permet a szökőkutaknál és vízeséseknél
 # Enhanced graphics > Effects (the port's own, docs/ENHANCED.md): each option's label and its choices
-STR_FX_EFFECTS                          :Effects
-STR_FX_SCALER                           :Pixel-art scaling of sprites and pictures
-STR_FX_WATER                            :Animated water
-STR_FX_LIGHTING                         :Per-pixel terrain light
-STR_FX_OCCLUSION                        :Ambient occlusion
-STR_FX_SHADOWS                          :Soft terrain shadows
-STR_FX_SPRITE_SHADOWS                   :Soft sprite shadows
-STR_FX_SKY                              :Sky beyond the map
-STR_FX_TILT_SHIFT                       :Tilt-shift (miniature look)
-STR_FX_GRADING                          :Colour grading
-STR_FX_BLOOM                            :Bloom
-STR_FX_VIGNETTE                         :Vignette
-STR_FX_QUALITY                          :Effects quality
-STR_FX_CAST_SHADOWS                     :Cast shadows from buildings and trees
-STR_FX_TIME_OF_DAY                      :Time of day
-STR_FX_CLOUDS                           :Cloud shadows
-STR_FX_RAIN                             :Rain on some days
-STR_FX_MIST                             :Morning mist
-STR_FX_HAZE                             :Distance haze
-STR_FX_BALL_TRAIL                       :Ball trail
-STR_FX_BALL_IMPACTS                     :Ball impacts
-STR_FX_REFLECTIONS                      :Water reflections
-STR_FX_WIND                             :Wind
-STR_FX_EVENING_LIGHTS                   :Evening lights
-STR_FX_SEASONS                          :Seasons
-STR_FX_AFTER_RAIN                       :After the rain
-STR_FX_LIGHTNING                        :Lightning
-STR_FX_HEAT                             :Heat waves
-STR_FX_GRASS                            :Grass tufts
-STR_FX_SHARPEN                          :Sharpen
-STR_FX_WINTER                           :Winter
-STR_FX_CROWDS                           :Tournament crowds
-STR_FX_LIFE                             :Life on the course
-STR_FX_WATER_COLOUR                     :Truer water colour
-STR_FX_WAVES                            :Painterly waves
-STR_FX_SHORELINE                        :Shoreline
-STR_FX_CAUSTICS                         :Caustics
-STR_FX_RAIN_RINGS                       :Rain rings
-STR_FX_WATER_LIFE                       :Life on the water
-STR_FX_ICE                              :Frozen ponds
-STR_FX_SPRAY                            :Fountain and waterfall spray
-STR_FX_DAY_LENGTH                       :Day length
-STR_FX_DAY_SHORT                        :Short (a game month)
-STR_FX_DAY_NORMAL                       :Normal (three months)
-STR_FX_DAY_LONG                         :Long (six months)
-STR_FRAME_CAP_30                        :30 a second
-STR_FRAME_CAP_60                        :60 a second
-STR_FRAME_CAP_120                       :120 a second
-STR_FRAME_CAP_144                       :144 a second
-STR_FRAME_CAP_240                       :240 a second
-STR_FRAME_CAP_NONE                      :Uncapped
-STR_FX_OFF                              :Off
-STR_FX_ON                               :On
-STR_FX_SCALER_SHARP                     :Sharp bilinear
-STR_FX_SCALER_EDGE                      :Edge-directed
-STR_FX_SCALER_SMOOTH                    :Smooth (strongest)
-STR_FX_QUALITY_LOW                      :Low
-STR_FX_QUALITY_MEDIUM                   :Medium
-STR_FX_QUALITY_HIGH                     :High
+STR_FX_EFFECTS                          :Effektek
+STR_FX_SCALER                           :Sprite-ok és képek pixelgrafikai méretezése
+STR_FX_WATER                            :Animált víz
+STR_FX_LIGHTING                         :Terep megvilágítása pixelenként
+STR_FX_OCCLUSION                        :Környezeti árnyékolás
+STR_FX_SHADOWS                          :Lágy terepárnyékok
+STR_FX_SPRITE_SHADOWS                   :Lágy sprite-árnyékok
+STR_FX_SKY                              :Az égbolt a térképen túl
+STR_FX_TILT_SHIFT                       :Tilt-shift (makett-hatás)
+STR_FX_GRADING                          :Színkorrekció
+STR_FX_BLOOM                            :Fényudvar
+STR_FX_VIGNETTE                         :Vignettálás
+STR_FX_QUALITY                          :Effektek minősége
+STR_FX_CAST_SHADOWS                     :Épületek és fák árnyékvetése
+STR_FX_TIME_OF_DAY                      :Napszak
+STR_FX_CLOUDS                           :Felhőárnyékok
+STR_FX_RAIN                             :Esős napok
+STR_FX_MIST                             :Reggeli köd
+STR_FX_HAZE                             :Távoli pára
+STR_FX_BALL_TRAIL                       :Labdanyomvonal
+STR_FX_BALL_IMPACTS                     :Labdaérkezési effektek
+STR_FX_REFLECTIONS                      :Víztükröződések
+STR_FX_WIND                             :Szél
+STR_FX_EVENING_LIGHTS                   :Esti fények
+STR_FX_SEASONS                          :Évszakok
+STR_FX_AFTER_RAIN                       :Eső utáni látvány
+STR_FX_LIGHTNING                        :Villámlás
+STR_FX_HEAT                             :Hőhullámok
+STR_FX_GRASS                            :Fűcsomók
+STR_FX_SHARPEN                          :Élesítés
+STR_FX_WINTER                           :Tél
+STR_FX_CROWDS                           :Versenyközönség
+STR_FX_LIFE                             :Élet a golfpályán
+STR_FX_WATER_COLOUR                     :Valósághűbb vízszínek
+STR_FX_WAVES                            :Festői hullámok
+STR_FX_SHORELINE                        :Vízpart
+STR_FX_CAUSTICS                         :Fénytörési minták
+STR_FX_RAIN_RINGS                       :Esőcseppek keltette gyűrűk
+STR_FX_WATER_LIFE                       :Élet a vízben
+STR_FX_ICE                              :Befagyott tavak
+STR_FX_SPRAY                            :Szökőkút- és vízeséspermet
+STR_FX_DAY_LENGTH                       :Nappalok hossza
+STR_FX_DAY_SHORT                        :Rövid (egy játékbeli hónap)
+STR_FX_DAY_NORMAL                       :Normál (három hónap)
+STR_FX_DAY_LONG                         :Hosszú (hat hónap)
+STR_FRAME_CAP_30                        :30 képkocka/másodperc
+STR_FRAME_CAP_60                        :60 képkocka/másodperc
+STR_FRAME_CAP_120                       :120 képkocka/másodperc
+STR_FRAME_CAP_144                       :144 képkocka/másodperc
+STR_FRAME_CAP_240                       :240 képkocka/másodperc
+STR_FRAME_CAP_NONE                      :Korlátlan
+STR_FX_OFF                              :Ki
+STR_FX_ON                               :Be
+STR_FX_SCALER_SHARP                     :Éles bilineáris
+STR_FX_SCALER_EDGE                      :Élvezérelt
+STR_FX_SCALER_SMOOTH                    :Sima (legerősebb)
+STR_FX_QUALITY_LOW                      :Alacsony
+STR_FX_QUALITY_MEDIUM                   :Közepes
+STR_FX_QUALITY_HIGH                     :Magas
 
 # Enhanced graphics > photo mode (the port's own, docs/ENHANCED.md "Photo mode"): the camera button's tooltip, the hint at
 # the top, the buttons along the bottom ({VALUE} the current choice) and what a photo did ({FILE}, {WIDTH} x {HEIGHT})
-STR_PHOTO_BUTTON_TIP                    :Photo mode (C)
-STR_PHOTO_TITLE                         :Photo mode
-STR_PHOTO_HINT_1                        :Drag or arrows: move   Wheel, pinch or Z / X: zoom   PageUp / Home: turn   Click: focus here
-STR_PHOTO_HINT_2                        :Space: pause   F, [ ]: focus blur   L: look   V: vignette   R: size   Enter: take photo   H: hide   Esc: leave
-STR_PHOTO_BTN_LEAVE                     :Leave
-STR_PHOTO_BTN_PAUSE                     :Pause
-STR_PHOTO_BTN_RESUME                    :Resume
-STR_PHOTO_BTN_LOOK                      :Look: {VALUE}
-STR_PHOTO_BTN_BLUR                      :Blur: {VALUE}
-STR_PHOTO_BTN_VIGNETTE                  :Vignette: {VALUE}
-STR_PHOTO_BTN_SIZE                      :Size: {VALUE}
-STR_PHOTO_BTN_SHOOT                     :Take photo
-STR_PHOTO_ON                            :on
-STR_PHOTO_OFF                           :off
-STR_PHOTO_LOOK_NATURAL                  :Natural
-STR_PHOTO_LOOK_WARM                     :Warm
-STR_PHOTO_LOOK_VIVID                    :Vivid
-STR_PHOTO_LOOK_BW                       :B&W
-STR_PHOTO_LOOK_VINTAGE                  :Vintage
-STR_PHOTO_SIZE_WINDOW                   :window
-STR_PHOTO_SIZE_2X                       :2x
+STR_PHOTO_BUTTON_TIP                    :Fotómód (C)
+STR_PHOTO_TITLE                         :Fotómód
+STR_PHOTO_HINT_1                        :Húzás/nyilak: mozgatás   Görgő, csippentés, Z/X: nagyítás   PageUp/Home: forgatás   Kattintás: fókusz
+STR_PHOTO_HINT_2                        :Szóköz: szünet   F, [ ]: mélységélesség   L: látvány   V: vignettálás   R: méret   Enter: fényképezés   H: elrejtés   Esc: kilépés
+STR_PHOTO_BTN_LEAVE                     :Kilépés
+STR_PHOTO_BTN_PAUSE                     :Szünet
+STR_PHOTO_BTN_RESUME                    :Folytatás
+STR_PHOTO_BTN_LOOK                      :Megjelenés: {VALUE}
+STR_PHOTO_BTN_BLUR                      :Elmosás: {VALUE}
+STR_PHOTO_BTN_VIGNETTE                  :Vignettálás: {VALUE}
+STR_PHOTO_BTN_SIZE                      :Méret: {VALUE}
+STR_PHOTO_BTN_SHOOT                     :Fénykép készítése
+STR_PHOTO_ON                            :be
+STR_PHOTO_OFF                           :ki
+STR_PHOTO_LOOK_NATURAL                  :Természetes
+STR_PHOTO_LOOK_WARM                     :Meleg
+STR_PHOTO_LOOK_VIVID                    :Élénk
+STR_PHOTO_LOOK_BW                       :Fekete-fehér
+STR_PHOTO_LOOK_VINTAGE                  :Retró
+STR_PHOTO_SIZE_WINDOW                   :ablakméret
+STR_PHOTO_SIZE_2X                       :2×
 STR_PHOTO_SIZE_4K                       :4K
-STR_PHOTO_SAVED                         :Photo saved ({WIDTH} x {HEIGHT}): {FILE}
-STR_PHOTO_DOWNLOADED                    :Photo downloaded ({WIDTH} x {HEIGHT}): {FILE}
-STR_PHOTO_FAILED                        :The photo could not be saved
+STR_PHOTO_SAVED                         :Fénykép mentve ({WIDTH} × {HEIGHT}): {FILE}
+STR_PHOTO_DOWNLOADED                    :Fénykép letöltve ({WIDTH} × {HEIGHT}): {FILE}
+STR_PHOTO_FAILED                        :A fényképet nem sikerült elmenteni.
 
 # The quit question (main loop 0x420b4e): the heading by the career's length, or after a championship
-STR_RETIRE_HIS                          :his
-STR_RETIRE_HER                          :her
-STR_RETIRE_CHAMPIONSHIP                 :After an exciting championship
-STR_RETIRE_RETURNS_HOME                 :{PRO} returns home.
-STR_RETIRE_WAIT                         : Wait, I don't want to quit yet!
-STR_RETIRE_SAVE_FIRST                   : I'd like to save this game first.
-STR_RETIRE_SO_LONG                      : So long for now.
+STR_RETIRE_HIS                          :saját
+STR_RETIRE_HER                          :saját
+STR_RETIRE_CHAMPIONSHIP                 :Egy izgalmas bajnokság után
+STR_RETIRE_RETURNS_HOME                 :{PRO} hazatér.
+STR_RETIRE_WAIT                         : Várj, még nem akarok kilépni!
+STR_RETIRE_SAVE_FIRST                   : Előbb szeretném elmenteni ezt a játékot.
+STR_RETIRE_SO_LONG                      : Akkor egyelőre viszlát!
 # "lengthy" once the year index is above 9 (from 2011 on)
-STR_RETIRE_LENGTHY_CAREER               :After a lengthy career
-STR_RETIRE_SHORT_CAREER                 :After a short career
-STR_RETIRE_PLANS                        :{PRO} plans {HIS} retirement.
+STR_RETIRE_LENGTHY_CAREER               :Egy hosszú pályafutás után
+STR_RETIRE_SHORT_CAREER                 :Egy rövid pályafutás után
+STR_RETIRE_PLANS                        :{PRO} {HIS} nyugdíjba vonulását tervezi.
 
 # The commissioner's approval (main routine 0x41e2a0, texts 0x4c5d74 and 0x4c5d48)
-STR_LAND_OFFER_1                        :Do you wish to purchase additional
-STR_LAND_OFFER_2                        :land to expand your course?
-STR_LAND_OFFER_YES                      : Yup, I've got big plans.
-STR_LAND_OFFER_NO                       : No, I'm fine.
+STR_LAND_OFFER_1                        :Szeretnél további
+STR_LAND_OFFER_2                        :területet vásárolni a pályád bővítéséhez?
+STR_LAND_OFFER_YES                      : Igen, nagy terveim vannak!
+STR_LAND_OFFER_NO                       : Nem, köszönöm.
 
 # Three year ends in the red (text 0x4c5ad0)
-STR_CAREER_OVER_1                       :Your career as a golf course designer
-STR_CAREER_OVER_2                       :has ended.  Will you...
-STR_CAREER_OVER_SANDBOX                 : Continue this game in Sandbox Mode.
-STR_CAREER_OVER_MENU                    : Return to Main Menu.
+STR_CAREER_OVER_1                       :Golfpálya-tervezői pályafutásod
+STR_CAREER_OVER_2                       :véget ért.  Hogyan tovább?
+STR_CAREER_OVER_SANDBOX                 : Folytatás homokozó módban.
+STR_CAREER_OVER_MENU                    : Visszatérés a főmenübe.
 
-STR_RENAME_COURSE                       :Rename Course...
+STR_RENAME_COURSE                       :Pálya átnevezése...
 
 ########################################################################################################################
 # The golfer card, Customise Golfer, Select the Next Pair, the skill points card
