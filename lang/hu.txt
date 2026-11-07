@@ -1657,106 +1657,106 @@ STR_RENAME_COURSE                       :Pálya átnevezése...
 # The golfer card, Customise Golfer, Select the Next Pair, the skill points card
 ########################################################################################################################
 # The golfer card's five bars (the first is the string at 0x4d2120)
-STR_CARD_FUN                            :Fun
-STR_CARD_ATTITUDE                       :Attitude
-STR_CARD_ENERGY                         :Energy
-STR_CARD_HUNGER                         :Hunger
-STR_CARD_THIRST                         :Thirst
+STR_CARD_FUN                            :Szór.
+STR_CARD_ATTITUDE                       :Hozzáállás
+STR_CARD_ENERGY                         :Energia
+STR_CARD_HUNGER                         :Éhség
+STR_CARD_THIRST                         :Szomjúság
 # The golfer card: identity lines, the opinion in quotes, the buttons' tooltips
 STR_CARD_NAME_JOB                       :{GOLFER} ({JOB})
-STR_CARD_MARITAL_AGE                    :{MARITAL}, age {AGE}
-STR_CARD_OPINION                        :"{OPINION}"
-STR_CARD_CUSTOMIZE                      :Customize
-STR_CARD_MOVE_EJECT                     :Move/Eject Golfer
-STR_CARD_SNAPSHOT                       :Take Snapshot
-STR_CARD_COMMENTS                       :Golfer Comments
-STR_CARD_VIEW_STORY                     :View Story
-STR_CARD_NEXT_CHAPTER                   :Next Chapter
-STR_CARD_STORY_HEAD                     :'{STORY}' with {GOLFER} and {PARTNER}
+STR_CARD_MARITAL_AGE                    :{MARITAL}, {AGE} éves
+STR_CARD_OPINION                        :„{OPINION}”
+STR_CARD_CUSTOMIZE                      :Testreszabás
+STR_CARD_MOVE_EJECT                     :Golfozó áthelyezése/eltávolítása
+STR_CARD_SNAPSHOT                       :Pillanatkép készítése
+STR_CARD_COMMENTS                       :Golfozói vélemények
+STR_CARD_VIEW_STORY                     :Történet megtekintése
+STR_CARD_NEXT_CHAPTER                   :Következő fejezet
+STR_CARD_STORY_HEAD                     :„{STORY}” – {GOLFER} és {PARTNER} története
 
 # Customise Golfer: the buttons' tooltips
-STR_CUST_LOAD                           :Load character
-STR_CUST_SAVE                           :Save character
-STR_CUST_BODY_TYPE                      :Body type
-STR_CUST_ADULT_CHILD                    :Adult/child
-STR_CUST_SELECT_FACE                    :Select face
-STR_CUST_SHIRT_COLOR                    :Shirt Color
-STR_CUST_PANTS_COLOR                    :Pants Color
-STR_CUST_HAIR_COLOR                     :Hair Color
-STR_CUST_SKIN_TONE                      :Skin Tone
-STR_CUST_GENDER                         :Gender
-STR_CUST_CANCEL                         :Cancel
-STR_CUST_EXIT                           :Exit
-STR_CUST_UPDATE_BIO                     :Update Bio
+STR_CUST_LOAD                           :Karakter betöltése
+STR_CUST_SAVE                           :Karakter mentése
+STR_CUST_BODY_TYPE                      :Testalkat
+STR_CUST_ADULT_CHILD                    :Felnőtt/gyerek
+STR_CUST_SELECT_FACE                    :Arc kiválasztása
+STR_CUST_SHIRT_COLOR                    :Felső színe
+STR_CUST_PANTS_COLOR                    :Nadrág színe
+STR_CUST_HAIR_COLOR                     :Hajszín
+STR_CUST_SKIN_TONE                      :Bőrszín
+STR_CUST_GENDER                         :Nem
+STR_CUST_CANCEL                         :Mégse
+STR_CUST_EXIT                           :Kilépés
+STR_CUST_UPDATE_BIO                     :Életrajz frissítése
 # Saving a character (0x437910, 0x4385d0, 0x46de70)
-STR_CUST_INVALID_FILE_NAME              :Invalid file name.
-STR_CUST_INVALID_FILE_PATH              :Invalid file path.
-STR_CUST_SAVED_AS                       :Character saved as
-STR_CUST_PICK_ONE                       :Pick one...
-STR_CUST_ALREADY_EXISTS                 :already exists!
-STR_CUST_OVERWRITE                      : Overwrite the old version.
-STR_CUST_OVERWRITE_CANCEL               : Cancel
+STR_CUST_INVALID_FILE_NAME              :Érvénytelen fájlnév.
+STR_CUST_INVALID_FILE_PATH              :Érvénytelen fájlútvonal.
+STR_CUST_SAVED_AS                       :Karakter mentve ezen a néven:
+STR_CUST_PICK_ONE                       :Válassz egyet...
+STR_CUST_ALREADY_EXISTS                 :már létezik!
+STR_CUST_OVERWRITE                      : A régi változat felülírása.
+STR_CUST_OVERWRITE_CANCEL               : Mégse
 STR_CUST_JUNIOR                         :{NAME} Jr.
-STR_CUST_SKILL_LEVELS                   :Golf Skill Levels
+STR_CUST_SKILL_LEVELS                   :Golfjártasságok szintjei
 # The one-line text boxes' prompts (0x45b2c0)
-STR_CUST_NEW_NAME                       :New name...
-STR_CUST_PROFESSION                     :Profession...
-STR_CUST_NEW_TEXT                       :New text...
+STR_CUST_NEW_NAME                       :Új név...
+STR_CUST_PROFESSION                     :Foglalkozás...
+STR_CUST_NEW_TEXT                       :Új szöveg...
 
 # Select the next pair of golfers (0x459850)
-STR_PAIR_TITLE                          :SELECT THE NEXT PAIR OF GOLFERS
-STR_PAIR_AGE                            :{AGE} years old
+STR_PAIR_TITLE                          :VÁLASZD KI A KÖVETKEZŐ GOLFOZÓPÁRT
+STR_PAIR_AGE                            :{AGE} éves
 
 # The skill points card: the explanation 0x4065c0 shows on the first allocation (texts 0x4c4714 and 0x4c46bc), the confirm
 # box, the award heading, the points line
-STR_SKILLS_INTRO                        :Before you play your course you may customize your character by improving his or her golf skills. You can also win additional skill points for each accomplishment added to your trophy.
-STR_SKILLS_UNUSED_TITLE                 :You haven't used all your skill points!
-STR_SKILLS_UNUSED_QUESTION              :Do you really want to exit?
-STR_SKILLS_UNUSED_YES                   : Yea, I don't need no stinkin' skill points.
-STR_SKILLS_UNUSED_NO                    : Whoops, my bad.
-STR_SKILLS_AWARD_TITLE                  :Add three skill points to your player...
-STR_SKILLS_ADD_POINTS                   :Add {POINTS} skill points.
+STR_SKILLS_INTRO                        :A pályán való játék előtt fejlesztheted karaktered golfjártasságait. Minden trófeás eredményért további jártasságpontokat kapsz.
+STR_SKILLS_UNUSED_TITLE                 :Maradtak fel nem használt jártasságpontjaid!
+STR_SKILLS_UNUSED_QUESTION              :Biztosan ki szeretnél lépni?
+STR_SKILLS_UNUSED_YES                   : Igen, nem kérem a jártasságpontokat.
+STR_SKILLS_UNUSED_NO                    : Hoppá, ezt elrontottam.
+STR_SKILLS_AWARD_TITLE                  :Ossz el három jártasságpontot...
+STR_SKILLS_ADD_POINTS                   :{POINTS} jártasságpont hozzáadása.
 
 # The five trait words of a person (pointer table 0x4c2864) and the three skill class words (table 0x4c2858)
-STR_TRAIT_NEAT                          :Neat
-STR_TRAIT_OUTGOING                      :Outgoing
-STR_TRAIT_ACTIVE                        :Active
-STR_TRAIT_PLAYFUL                       :Playful
-STR_TRAIT_NICE                          :Nice
+STR_TRAIT_NEAT                          :Rendezett
+STR_TRAIT_OUTGOING                      :Társaságkedvelő
+STR_TRAIT_ACTIVE                        :Aktív
+STR_TRAIT_PLAYFUL                       :Játékos
+STR_TRAIT_NICE                          :Kedves
 
-STR_CLASS_LENGTH                        :length
-STR_CLASS_ACCURACY                      :accuracy
-STR_CLASS_IMAGINATION                   :imagination
+STR_CLASS_LENGTH                        :Ütéshossz
+STR_CLASS_ACCURACY                      :Pontosság
+STR_CLASS_IMAGINATION                   :Képzelet
 
 # A golfer's marital word (the golfer card)
-STR_MARITAL_SINGLE                      :Single
-STR_MARITAL_MARRIED                     :Married
-STR_MARITAL_DIVORCED                    :Divorced
-STR_MARITAL_WIDOWED                     :Widowed
+STR_MARITAL_SINGLE                      :Egyedülálló
+STR_MARITAL_MARRIED                     :Házas
+STR_MARITAL_DIVORCED                    :Elvált
+STR_MARITAL_WIDOWED                     :Özvegy
 
-STR_AGE_YOUNG                           :Young
-STR_AGE_MIDDLE_AGED                     :Middle Aged
-STR_AGE_MATURE                          :Mature
+STR_AGE_YOUNG                           :Fiatal
+STR_AGE_MIDDLE_AGED                     :Középkorú
+STR_AGE_MATURE                          :Érett korú
 
 # Lists of words: "a, b and c"
-STR_LIST_AND                            :{LIST} and {LAST}
+STR_LIST_AND                            :{LIST} és {LAST}
 STR_LIST_SEPARATOR                      :, 
 
 # The membership panel
-STR_MEMBER_RESIGNED                     :Resigned
-STR_MEMBER_VISITOR                      :Visitor
-STR_MEMBER_MEMBER                       :Member
-STR_MEMBER_SILVER                       :Silver Member
-STR_MEMBER_GOLD                         :Gold Member
-STR_MEMBER_PLATINUM                     :Platinum Member
-STR_MEMBER_ROUNDS_NONE                  :none
-STR_MEMBER_LOW_ROUND                    :Low round: {SCORE}
-STR_MEMBER_HANDICAP                     :Handicap: {HANDICAP}
-STR_MEMBER_ROUNDS_PLAYED                :Rounds played: {ROUNDS}
-STR_MEMBER_BIO                          :Bio
+STR_MEMBER_RESIGNED                     :Kilépett
+STR_MEMBER_VISITOR                      :Látogató
+STR_MEMBER_MEMBER                       :Tag
+STR_MEMBER_SILVER                       :Ezüsttag
+STR_MEMBER_GOLD                         :Aranytag
+STR_MEMBER_PLATINUM                     :Platina tag
+STR_MEMBER_ROUNDS_NONE                  :nincs
+STR_MEMBER_LOW_ROUND                    :Legjobb kör: {SCORE}
+STR_MEMBER_HANDICAP                     :Hendikep: {HANDICAP}
+STR_MEMBER_ROUNDS_PLAYED                :Lejátszott körök: {ROUNDS}
+STR_MEMBER_BIO                          :Életrajz
 
 # The SimFoto
-STR_SIMFOTO_HAPPY_ENDING                :Happy Ending!
+STR_SIMFOTO_HAPPY_ENDING                :Boldog befejezés!
 STR_SIMFOTO                             :SimFoto
 
 ########################################################################################################################
@@ -1764,264 +1764,264 @@ STR_SIMFOTO                             :SimFoto
 # Membership Roster, End of Year, Best Scores, Top Ten Designers
 ########################################################################################################################
 # The Course Report (0x44fb30): column heads, total, legend
-STR_REPORT_YDS                          :Yds
+STR_REPORT_YDS                          :Yard
 STR_REPORT_PAR                          :Par
-STR_REPORT_AVG                          :Avg
-STR_REPORT_TIME                         :Time
-STR_REPORT_FUN                          :Fun
-STR_REPORT_LEN                          :+Len
-STR_REPORT_ACC                          :+Acc
-STR_REPORT_IMG                          :+Img
-STR_REPORT_TYPE                         :Type
-STR_REPORT_AVG_FEE                      :Avg.Fee
-STR_REPORT_REVENUE                      :Revenue
-STR_REPORT_PROFIT                       :Profit
-STR_REPORT_TITLE                        :COURSE REPORT
-STR_REPORT_TOTAL                        :Total
-STR_REPORT_TOP_100                      :Top 100 Hole
-STR_REPORT_TOP_18                       :Top 18 Hole
-STR_REPORT_SCENIC                       :Scenic Hole
+STR_REPORT_AVG                          :Átl.
+STR_REPORT_TIME                         :Idő
+STR_REPORT_FUN                          :Szór.
+STR_REPORT_LEN                          :+ÜH
+STR_REPORT_ACC                          :+Pon
+STR_REPORT_IMG                          :+Kép
+STR_REPORT_TYPE                         :Típus
+STR_REPORT_AVG_FEE                      :Átl. díj
+STR_REPORT_REVENUE                      :Bevétel
+STR_REPORT_PROFIT                       :Nyereség
+STR_REPORT_TITLE                        :PÁLYAJELENTÉS
+STR_REPORT_TOTAL                        :Összesen
+STR_REPORT_TOP_100                      :Top 100-as szakasz
+STR_REPORT_TOP_18                       :Top 18-as szakasz
+STR_REPORT_SCENIC                       :Látványos szakasz
 
 # The Hole Stats dialog's words for a fun percent and for a differential
-STR_HOLESTATS_POOR                      :poor
-STR_HOLESTATS_FAIR                      :fair
-STR_HOLESTATS_GOOD                      :good
-STR_HOLESTATS_VERY_GOOD                 :very good
-STR_HOLESTATS_OUTSTANDING               :outstanding
+STR_HOLESTATS_POOR                      :gyenge
+STR_HOLESTATS_FAIR                      :elfogadható
+STR_HOLESTATS_GOOD                      :jó
+STR_HOLESTATS_VERY_GOOD                 :nagyon jó
+STR_HOLESTATS_OUTSTANDING               :kiemelkedő
 # Hole Stats (0x453330)
-STR_HOLESTATS_TITLE                     :HOLE STATS for {HOLE}
+STR_HOLESTATS_TITLE                     :{HOLE}. SZAKASZ ADATAI
 STR_HOLESTATS_NUMBER                    : ({HOLE})
-STR_HOLESTATS_FUN                       :Fun Factor
-STR_HOLESTATS_LENGTH                    :Length
-STR_HOLESTATS_ACCURACY                  :Accuracy
-STR_HOLESTATS_IMAGINATION               :Imagination
-STR_HOLESTATS_YARDS                     :Yards
-STR_HOLESTATS_AVG_DRIVE                 :Avg. Drive: 
-STR_HOLESTATS_LONGEST_DRIVE             :Longest Drive
-STR_HOLESTATS_FAIRWAYS_HIT              :Fairways hit
-STR_HOLESTATS_GREENS_IN_REG             :Greens in Reg
-STR_HOLESTATS_AVERAGE_PUTTS             :Average Putts
+STR_HOLESTATS_FUN                       :Szórakozás
+STR_HOLESTATS_LENGTH                    :Ütéshossz
+STR_HOLESTATS_ACCURACY                  :Pontosság
+STR_HOLESTATS_IMAGINATION               :Képzelet
+STR_HOLESTATS_YARDS                     :Yard
+STR_HOLESTATS_AVG_DRIVE                 :Átl. kezdőütés: 
+STR_HOLESTATS_LONGEST_DRIVE             :Leghosszabb kezdőütés
+STR_HOLESTATS_FAIRWAYS_HIT              :Fairway-találatok
+STR_HOLESTATS_GREENS_IN_REG             :Szabályos ütésszámmal elért greenek
+STR_HOLESTATS_AVERAGE_PUTTS             :Átlagos gurításszám
 STR_HOLESTATS_PAR                       :Par 
-STR_HOLESTATS_STROKE_AVERAGE            :Stroke average
-STR_HOLESTATS_AVERAGE_SHOTS             :Average shots on this hole
-STR_HOLESTATS_COMMENTS                  :Comments
-STR_HOLESTATS_UNDER_CONSTRUCTION        :Under Construction!
+STR_HOLESTATS_STROKE_AVERAGE            :Ütésátlag
+STR_HOLESTATS_AVERAGE_SHOTS             :Átlagos ütésszám ezen a szakaszon
+STR_HOLESTATS_COMMENTS                  :Megjegyzések
+STR_HOLESTATS_UNDER_CONSTRUCTION        :Építés alatt!
 
 # Player Comments report (F2)
-STR_COMMENTS_TITLE                      :PLAYER COMMENTS REPORT
-STR_COMMENTS_COMMENTS                   :Comments
-STR_COMMENTS_HOLE                       :Hole
-STR_COMMENTS_FREQUENCY                  :Frequency
+STR_COMMENTS_TITLE                      :GOLFOZÓI VÉLEMÉNYEK
+STR_COMMENTS_COMMENTS                   :Vélemények
+STR_COMMENTS_HOLE                       :Szakasz
+STR_COMMENTS_FREQUENCY                  :Gyakoriság
 
 # Histograph (F3, 0x455ed0)
-STR_HISTOGRAPH_TITLE                    :HISTOGRAPH
-STR_HISTOGRAPH_SKILL                    :Skill
-STR_HISTOGRAPH_CASH                     :Cash
-STR_HISTOGRAPH_FUN                      :Fun
-STR_HISTOGRAPH_EVENT                    :Event
+STR_HISTOGRAPH_TITLE                    :HISTOGRAM
+STR_HISTOGRAPH_SKILL                    :Jártasság
+STR_HISTOGRAPH_CASH                     :Pénz
+STR_HISTOGRAPH_FUN                      :Szór.
+STR_HISTOGRAPH_EVENT                    :Esemény
 
 # Financial Report (F4, 0x44f6b0)
-STR_FINANCE_TITLE                       :FINANCIAL REPORT
-STR_FINANCE_TOTAL                       :Total (§)
+STR_FINANCE_TITLE                       :PÉNZÜGYI JELENTÉS
+STR_FINANCE_TOTAL                       :Összesen (§)
 
 # The financial report's row labels (the exe's own wording)
-STR_LEDGER_GREENS_FEES                  :Greens Fees
-STR_LEDGER_HOME_SITES                   :Home Sites
-STR_LEDGER_FOOD_DRINK                   :Food/Drink
-STR_LEDGER_BUILD_COURSE                 :Build course
-STR_LEDGER_FACILITIES                   :Facilities
-STR_LEDGER_SALARIES                     :Salaries
-STR_LEDGER_MAINTENANCE                  :Maint./Interest
-STR_LEDGER_OTHER                        :Other
+STR_LEDGER_GREENS_FEES                  :Green fee-bevételek
+STR_LEDGER_HOME_SITES                   :Lakótelkek
+STR_LEDGER_FOOD_DRINK                   :Étel/ital
+STR_LEDGER_BUILD_COURSE                 :Pályaépítés
+STR_LEDGER_FACILITIES                   :Létesítmények
+STR_LEDGER_SALARIES                     :Fizetések
+STR_LEDGER_MAINTENANCE                  :Fenntartás/kamat
+STR_LEDGER_OTHER                        :Egyéb
 
 # Routing Map (shift+R): the four tabs
-STR_ROUTING_EMPLOYEES                   :{COURSE} Employees
-STR_ROUTING_TITLE                       :ROUTING MAP
-STR_ROUTING_COURSE_ROUTING              :COURSE ROUTING
-STR_ROUTING_LEFT_CLICK                  :Left click to select hole.
-STR_ROUTING_RIGHT_CLICK                 :Right click to swap holes.
-STR_ROUTING_HOLE                        :Hole #
+STR_ROUTING_EMPLOYEES                   :{COURSE} alkalmazottai
+STR_ROUTING_TITLE                       :ÚTVONALTERVEZÉSI TÉRKÉP
+STR_ROUTING_COURSE_ROUTING              :PÁLYA ÚTVONALTERVEZÉSE
+STR_ROUTING_LEFT_CLICK                  :Bal kattintás: szakasz kiválasztása.
+STR_ROUTING_RIGHT_CLICK                 :Jobb kattintás: szakaszok felcserélése.
+STR_ROUTING_HOLE                        :Szakasz #
 STR_ROUTING_PAR                         :PAR
-STR_ROUTING_YDS                         :YDS
-STR_ROUTING_TIME                        :Time
-STR_ROUTING_COURSE_AURA                 :COURSE AURA
+STR_ROUTING_YDS                         :YARD
+STR_ROUTING_TIME                        :Idő
+STR_ROUTING_COURSE_AURA                 :PÁLYA AURÁJA
 STR_ROUTING_AURA                        :AURA
-STR_ROUTING_HAPPY                       :Happy
-STR_ROUTING_UNHAPPY                     :Unhappy
-STR_ROUTING_AURA_TEXT                   :Course AURA indicates where on your course players have made mostly happy comments and where they have made unhappy comments.
-STR_ROUTING_HOME_SITE_VALUE             :HOME SITE VALUE
-STR_ROUTING_HIGH                        :High
-STR_ROUTING_LOW                         :Low
-STR_ROUTING_INCREASE                    :Things which INCREASE home value:
-STR_ROUTING_INCREASE_WATER              :Close to water and trees.
-STR_ROUTING_INCREASE_FUN                :Close to a fun golf hole.
-STR_ROUTING_INCREASE_TOP                :Close to a top 100 or top 18 hole.
-STR_ROUTING_INCREASE_MARINA             :Building a {BUILDING}
-STR_ROUTING_DECREASE                    :Things which DECREASE home value:
-STR_ROUTING_DECREASE_UNFUN              :Close to an unfun hole.
-STR_ROUTING_DECREASE_BUILDING           :Close to another building.
-STR_ROUTING_DECREASE_TOO_CLOSE          :Too close to green, fairway, or OB.
-STR_ROUTING_DECREASE_FAR                :Far away from the golf course.
-STR_ROUTING_HIRED_PAID                  :Hired: {MONTH} {YEAR}, paid: §{PAID}
+STR_ROUTING_HAPPY                       :Boldog
+STR_ROUTING_UNHAPPY                     :Boldogtalan
+STR_ROUTING_AURA_TEXT                   :A pálya AURÁJA azt mutatja, hogy a golfozók hol fogalmaztak meg többnyire pozitív, illetve negatív véleményeket a pályádról.
+STR_ROUTING_HOME_SITE_VALUE             :LAKÓTELKEK ÉRTÉKE
+STR_ROUTING_HIGH                        :Magas
+STR_ROUTING_LOW                         :Alacsony
+STR_ROUTING_INCREASE                    :A lakótelek értékét NÖVELŐ tényezők:
+STR_ROUTING_INCREASE_WATER              :Víz és fák közelsége.
+STR_ROUTING_INCREASE_FUN                :Szórakoztató szakasz a közelben.
+STR_ROUTING_INCREASE_TOP                :Top 100-as vagy Top 18-as szakasz közelsége.
+STR_ROUTING_INCREASE_MARINA             :Egy {BUILDING} építése
+STR_ROUTING_DECREASE                    :A lakótelek értékét CSÖKKENTŐ tényezők:
+STR_ROUTING_DECREASE_UNFUN              :Unalmas szakasz a közelben.
+STR_ROUTING_DECREASE_BUILDING           :Másik épület közelsége.
+STR_ROUTING_DECREASE_TOO_CLOSE          :Túl közel van a greenhez, a fairwayhez vagy a pályahatárhoz.
+STR_ROUTING_DECREASE_FAR                :Távol van a golfpályától.
+STR_ROUTING_HIRED_PAID                  :Felvéve: {MONTH} {YEAR}, fizetés: §{PAID}
 
-STR_SHORTCUTS_TITLE                     :KEYBOARD SHORTCUTS
+STR_SHORTCUTS_TITLE                     :BILLENTYŰPARANCSOK
 
 # Keyboard Shortcuts (F8, 0x44e770): what each key does (the keys themselves stay as they are)
-STR_SHORTCUT_STATUS_REPORT              :Course status report.
-STR_SHORTCUT_COMMENTS_REPORT            :Player comments report.
-STR_SHORTCUT_HISTOGRAPH                 :Histograph.
-STR_SHORTCUT_FINANCIAL                  :Financial Report.
-STR_SHORTCUT_OVERVIEW_MAP               :Course Overview Map.
-STR_SHORTCUT_WORLD_MAP                  :World Map.
-STR_SHORTCUT_SGA                        :SGA Evaluation.
-STR_SHORTCUT_KEYBOARD                   :Handy keyboard commands screen.
-STR_SHORTCUT_ROSTER                     :Membership Roster.
-STR_SHORTCUT_ACCOMPLISHMENTS            :Professional Accomplishments.
-STR_SHORTCUT_REPEAT                     :Repeat last message.
-STR_SHORTCUT_SELL_LOT                   :Sell a building lot.
-STR_SHORTCUT_ROUTING                    :Routing, Aura, and lot values
-STR_SHORTCUT_CHANGE_COURSES             :World map, change courses
-STR_SHORTCUT_ROTATE                     :Rotate buildings/trees before placing.
-STR_SHORTCUT_QUIT                       :Quit the game.
-STR_SHORTCUT_GREEN_TEES                 :Select GREEN/TEES tool.
-STR_SHORTCUT_FAIRWAY                    :Select FAIRWAY tool.
-STR_SHORTCUT_ROUGH                      :Select ROUGH tool.
-STR_SHORTCUT_SAND_TRAP                  :Select SAND TRAP tool.
-STR_SHORTCUT_TREES                      :Select TREES tool.
-STR_SHORTCUT_WATER                      :Select WATER tool.
-STR_SHORTCUT_PATH                       :Select PATH tool.
-STR_SHORTCUT_BENCHES                    :Select BENCHES tool.
-STR_SHORTCUT_ZOOM                       :Zoom the view.
-STR_SHORTCUT_UNZOOM                     :Unzoom the view.
-STR_SHORTCUT_PAUSE                      :Pause/Unpause the game.
-STR_SHORTCUT_TREES_OFF                  :Turn trees off/on.
-STR_SHORTCUT_NAMES                      :Toggle names display.
-STR_SHORTCUT_ELEVATION                  :Toggle elevation mode.
-STR_SHORTCUT_ANALYSIS                   :Instant shot analysis.
+STR_SHORTCUT_STATUS_REPORT              :Pálya állapotjelentése.
+STR_SHORTCUT_COMMENTS_REPORT            :Golfozói vélemények jelentése.
+STR_SHORTCUT_HISTOGRAPH                 :Hisztogram.
+STR_SHORTCUT_FINANCIAL                  :Pénzügyi jelentés.
+STR_SHORTCUT_OVERVIEW_MAP               :Pálya áttekintő térképe.
+STR_SHORTCUT_WORLD_MAP                  :Világtérkép.
+STR_SHORTCUT_SGA                        :SGA-értékelés.
+STR_SHORTCUT_KEYBOARD                   :Hasznos billentyűparancsok képernyője.
+STR_SHORTCUT_ROSTER                     :Tagnyilvántartás.
+STR_SHORTCUT_ACCOMPLISHMENTS            :Profi eredmények.
+STR_SHORTCUT_REPEAT                     :Utolsó üzenet ismétlése.
+STR_SHORTCUT_SELL_LOT                   :Építési telek eladása.
+STR_SHORTCUT_ROUTING                    :Útvonaltervezés, aura és telekértékek.
+STR_SHORTCUT_CHANGE_COURSES             :Világtérkép, pályaváltás.
+STR_SHORTCUT_ROTATE                     :Épületek/fák forgatása elhelyezés előtt.
+STR_SHORTCUT_QUIT                       :Kilépés a játékból.
+STR_SHORTCUT_GREEN_TEES                 :GREEN/ELÜTŐHELY eszköz kiválasztása.
+STR_SHORTCUT_FAIRWAY                    :FAIRWAY eszköz kiválasztása.
+STR_SHORTCUT_ROUGH                      :ROUGH eszköz kiválasztása.
+STR_SHORTCUT_SAND_TRAP                  :HOMOKBUNKER eszköz kiválasztása.
+STR_SHORTCUT_TREES                      :FÁK eszköz kiválasztása.
+STR_SHORTCUT_WATER                      :VÍZ eszköz kiválasztása.
+STR_SHORTCUT_PATH                       :ÚT eszköz kiválasztása.
+STR_SHORTCUT_BENCHES                    :PADOK eszköz kiválasztása.
+STR_SHORTCUT_ZOOM                       :Nézet nagyítása.
+STR_SHORTCUT_UNZOOM                     :Nézet kicsinyítése.
+STR_SHORTCUT_PAUSE                      :Játék szüneteltetése/folytatása.
+STR_SHORTCUT_TREES_OFF                  :Fák megjelenítésének be-/kikapcsolása.
+STR_SHORTCUT_NAMES                      :Nevek megjelenítésének be-/kikapcsolása.
+STR_SHORTCUT_ELEVATION                  :Magassági mód be-/kikapcsolása.
+STR_SHORTCUT_ANALYSIS                   :Azonnali ütéselemzés.
 
 # The Membership Roster (0x454c50)
-STR_ROSTER_TITLE                        :Membership Roster
-STR_ROSTER_MEMBER                       :Member
-STR_ROSTER_LOW                          :Low
-STR_ROSTER_HCP                          :Hcp
-STR_ROSTER_RNDS                         :Rnds
-STR_ROSTER_STATUS                       :Status
-STR_ROSTER_PHOTO_OPP                    :Photo Opp
-STR_ROSTER_HAPPY_ENDING                 :Happy Ending
+STR_ROSTER_TITLE                        :Tagnyilvántartás
+STR_ROSTER_MEMBER                       :Tag
+STR_ROSTER_LOW                          :Legjobb
+STR_ROSTER_HCP                          :HCP
+STR_ROSTER_RNDS                         :Körök
+STR_ROSTER_STATUS                       :Állapot
+STR_ROSTER_PHOTO_OPP                    :Fényképezési lehetőség
+STR_ROSTER_HAPPY_ENDING                 :Boldog befejezés
 
 # The board's notices at a year end in the red
-STR_BOARD_CONCERNED                     :The board is concerned about our negative cash situation.\nYou have two years to return to positive cash.
-STR_BOARD_WORRIED                       :The board is very worried about our lingering debt.\nYou have one more year to get out of debt.
-STR_BOARD_TERMINATED                    :You have been unable to make a profit on this course.\nRegrettably, the board has terminated your contract.
+STR_BOARD_CONCERNED                     :Az igazgatótanács aggódik a negatív pénzügyi helyzetünk miatt.\nKét éved van arra, hogy ismét pozitív legyen az egyenleged.
+STR_BOARD_WORRIED                       :Az igazgatótanács aggódik az adósság miatt.\nEgy éved van rendezni a tartozást.
+STR_BOARD_TERMINATED                    :Nem sikerült nyereségessé tenned ezt a golfpályát.\nSajnálattal közöljük, hogy az igazgatótanács felmondta a szerződésedet.
 # The accomplishments board: the plaque caption (course, two spaces, day month year)
 STR_BOARD_CAPTION                       :{COURSE}  {DAY} {MONTH} {YEAR}
 
 # The End of Year report (0x44cff0): "END of  YEAR: " and the year (the colon and wide gaps as footage shows them)
-STR_YEAREND_TITLE                       :END of  YEAR:  {YEAR}
-STR_YEAREND_THIS_YEAR                   :This Year
-STR_YEAREND_LAST_YEAR                   :Last Year
-STR_YEAREND_CASH                        :Cash reserves have {CHANGE}
-STR_YEAREND_FUN                         :Your fun rating has {CHANGE}
-STR_YEAREND_SKILL                       :Your skill rating has {CHANGE}
-STR_YEAREND_MEMBERSHIP                  :Your membership has {CHANGE}
-STR_YEAREND_INCREASED                   :increased
-STR_YEAREND_DECREASED                   :decreased
-STR_YEAREND_NOT_CHANGED                 :not changed
-STR_YEAREND_HIGHLIGHTS                  :Highlights
+STR_YEAREND_TITLE                       :ÉV  VÉGE:  {YEAR}
+STR_YEAREND_THIS_YEAR                   :Idei év
+STR_YEAREND_LAST_YEAR                   :Tavalyi év
+STR_YEAREND_CASH                        :A pénztartalékod {CHANGE}
+STR_YEAREND_FUN                         :A pályád szórakozási értéke {CHANGE}
+STR_YEAREND_SKILL                       :A pálya jártasságértékelése {CHANGE}
+STR_YEAREND_MEMBERSHIP                  :A klubtagságok száma {CHANGE}
+STR_YEAREND_INCREASED                   :növekedett
+STR_YEAREND_DECREASED                   :csökkent
+STR_YEAREND_NOT_CHANGED                 :nem változott
+STR_YEAREND_HIGHLIGHTS                  :Fontos események
 STR_YEAREND_HIGHLIGHT                   :{MONTH}: {EVENT}
 
 # Best Scores (0x455a30)
-STR_BEST_TITLE                          :Best {HOLES} Hole Scores
-STR_BEST_GOLFER                         :Golfer
-STR_BEST_SCORE                          :Score
+STR_BEST_TITLE                          :Legjobb eredmények a(z) {HOLES} szakaszos pályán
+STR_BEST_GOLFER                         :Golfozó
+STR_BEST_SCORE                          :Eredmény
 
 # The course name of the made-up Top Ten Designers entries
 STR_TOP10_HARBOUR_LIGHTS                :Harbour Lights GC
 # Top Ten Designers
-STR_TOP10_CASH                          :Cash: {CASH}
-STR_TOP10_SKILL                         :Skill: {SKILL}
-STR_TOP10_FUN                           :Fun: {FUN}
-STR_TOP10_TOTAL                         :Total Score (x{FACTOR})
+STR_TOP10_CASH                          :Pénz: {CASH}
+STR_TOP10_SKILL                         :Jártasság: {SKILL}
+STR_TOP10_FUN                           :Szórakozás: {FUN}
+STR_TOP10_TOTAL                         :Összpontszám (×{FACTOR})
 
-STR_UNIT_MINUTES                        :{MINUTES}m
-STR_UNIT_HOURS_MINUTES                  :{HOURS}h {MINUTES}m
-STR_UNIT_YDS                            :{YARDS} yds
+STR_UNIT_MINUTES                        :{MINUTES}p
+STR_UNIT_HOURS_MINUTES                  :{HOURS}ó {MINUTES}p
+STR_UNIT_YDS                            :{YARDS} yard
 
 ########################################################################################################################
 # The world map (property chooser) and Tracts for Sale
 ########################################################################################################################
 # The world map's property chooser
-STR_WORLD_WHERE_1                       :Where will you build
-STR_WORLD_WHERE_2                       :your golf course?
-STR_WORLD_UNLIMITED                     :Unlimited §
-STR_WORLD_FLAT                          :flat
-STR_WORLD_ROLLING                       :rolling
-STR_WORLD_HILLY                         :hilly
-STR_WORLD_INLAND                        :inland
-STR_WORLD_COASTAL                       :coastal
-STR_WORLD_ISLAND                        :island
-STR_WORLD_PARKLAND                      :parkland
-STR_WORLD_DESERT                        :desert
-STR_WORLD_TROPICAL                      :tropical
-STR_WORLD_LINKS                         :links
-STR_WORLD_BUY_ACRES                     :Buy {ACRES} acres of {RELIEF}
-STR_WORLD_PROPERTY_KIND                 :{LIE} {KIND} property
-STR_WORLD_FOR_ONLY                      :for only {PRICE}.
-STR_WORLD_ACRES_PRICE                   :{ACRES} acres: {PRICE}
-STR_WORLD_ALREADY_PURCHASED             :Already Purchased.
-STR_WORLD_AVAILABLE                     :Available
-STR_WORLD_INSUFFICIENT_FUNDS            :Insufficient funds
-STR_WORLD_LEGEND_PURCHASED              :Already purchased
-STR_WORLD_CANCEL                        :Cancel
-STR_WORLD_SAVE_GAME                     :Save Game
-STR_WORLD_RESET_WORLD                   :Reset World
-STR_WORLD_LOAD_GAME                     :Load Game
-STR_WORLD_OFF_TO                        :We're off to {PLACE}!
-STR_WORLD_ONE_MOMENT                    :... one moment please ...
+STR_WORLD_WHERE_1                       :Hol szeretnéd felépíteni
+STR_WORLD_WHERE_2                       :a golfpályádat?
+STR_WORLD_UNLIMITED                     :Korlátlan §
+STR_WORLD_FLAT                          :sík
+STR_WORLD_ROLLING                       :enyhén dombos
+STR_WORLD_HILLY                         :dombos
+STR_WORLD_INLAND                        :szárazföldi
+STR_WORLD_COASTAL                       :tengerparti
+STR_WORLD_ISLAND                        :szigeti
+STR_WORLD_PARKLAND                      :parkos
+STR_WORLD_DESERT                        :sivatagi
+STR_WORLD_TROPICAL                      :trópusi
+STR_WORLD_LINKS                         :links pálya
+STR_WORLD_BUY_ACRES                     :Vásárolj {ACRES} acre területet, domborzata: {RELIEF}
+STR_WORLD_PROPERTY_KIND                 :{LIE} {KIND} terület
+STR_WORLD_FOR_ONLY                      :mindössze {PRICE} összegért.
+STR_WORLD_ACRES_PRICE                   :{ACRES} acre: {PRICE}
+STR_WORLD_ALREADY_PURCHASED             :Már megvásároltad.
+STR_WORLD_AVAILABLE                     :Elérhető
+STR_WORLD_INSUFFICIENT_FUNDS            :Nincs elegendő pénz
+STR_WORLD_LEGEND_PURCHASED              :Már megvásárolva
+STR_WORLD_CANCEL                        :Mégse
+STR_WORLD_SAVE_GAME                     :Játék mentése
+STR_WORLD_RESET_WORLD                   :Világ visszaállítása
+STR_WORLD_LOAD_GAME                     :Játék betöltése
+STR_WORLD_OFF_TO                        :Irány {PLACE}!
+STR_WORLD_ONE_MOMENT                    :... egy pillanat türelmet ...
 
 # Tracts for Sale: a tract's line
-STR_TRACT_ALREADY_PURCHASED             :Already purchased.
-STR_TRACT_BUY                           :Buy tract #{NUMBER}, {ACRES} acres of {TERRAIN1}, {TERRAIN2}, and {TERRAIN3}
+STR_TRACT_ALREADY_PURCHASED             :Már megvásárolva.
+STR_TRACT_BUY                           :Vedd meg a(z) {NUMBER}. területet: {ACRES} acre, domborzat: {TERRAIN1}, {TERRAIN2}, {TERRAIN3}
 # Tracts for Sale (0x4587a0)
-STR_TRACT_TITLE                         :TRACTS FOR SALE
-STR_TRACT_PRICE                         :Price: {PRICE}
-STR_TRACT_CASH_RESERVE                  :Cash Reserve
+STR_TRACT_TITLE                         :ELADÓ TERÜLETEK
+STR_TRACT_PRICE                         :Ár: {PRICE}
+STR_TRACT_CASH_RESERVE                  :Pénztartalék
 
 # The sixteen properties (the exe's property records): the place, the course's own name (record +0x19, in the date caption
 # and the messages) and the property's bonus, as the world map shows them
 STR_PROPERTY_MONTEREY                   :Monterey
 STR_PROPERTY_SAN_DIEGO                  :San Diego
-STR_PROPERTY_ROCKY_MTNS                 :Rocky Mtns.
+STR_PROPERTY_ROCKY_MTNS                 :Sziklás-hegység
 STR_PROPERTY_LAS_VEGAS                  :Las Vegas
 STR_PROPERTY_PHOENIX                    :Phoenix
 STR_PROPERTY_HAWAII                     :Hawaii
 STR_PROPERTY_OAHU                       :Oahu
-STR_PROPERTY_NOVA_SCOTIA                :Nova Scotia
-STR_PROPERTY_NORTHEAST                  :Northeast
+STR_PROPERTY_NOVA_SCOTIA                :Új-Skócia
+STR_PROPERTY_NORTHEAST                  :Északkelet
 STR_PROPERTY_CAROLINA                   :Carolina
-STR_PROPERTY_IRELAND                    :Ireland
-STR_PROPERTY_SCOTLAND                   :Scotland
+STR_PROPERTY_IRELAND                    :Írország
+STR_PROPERTY_SCOTLAND                   :Skócia
 STR_PROPERTY_WALES                      :Wales
-STR_PROPERTY_SPAIN                      :Spain
+STR_PROPERTY_SPAIN                      :Spanyolország
 STR_PROPERTY_FLORIDA                    :Florida
 STR_PROPERTY_JAMAICA                    :Jamaica
 
-STR_BONUS_MONTEREY                      :Scenic Cypress
-STR_BONUS_SAN_DIEGO                     :Dolphins
-STR_BONUS_ROCKY_MTNS                    :Free Hotel
-STR_BONUS_LAS_VEGAS                     :Fun, Fun, Fun
-STR_BONUS_PHOENIX                       :Free Spa
-STR_BONUS_HAWAII                        :Scenic Waterfall
-STR_BONUS_OAHU                          :Japanese Garden
-STR_BONUS_NOVA_SCOTIA                   :Scenic Lighthouse
-STR_BONUS_NORTHEAST                     :Civil War Battlefield
-STR_BONUS_CAROLINA                      :Free Putting Green
-STR_BONUS_IRELAND                       :Leprechauns
-STR_BONUS_SCOTLAND                      :Free Castle
+STR_BONUS_MONTEREY                      :Festői ciprusfa
+STR_BONUS_SAN_DIEGO                     :Delfinek
+STR_BONUS_ROCKY_MTNS                    :Ingyenes szálloda
+STR_BONUS_LAS_VEGAS                     :Szórakozás minden mennyiségben
+STR_BONUS_PHOENIX                       :Ingyenes wellnessközpont
+STR_BONUS_HAWAII                        :Festői vízesés
+STR_BONUS_OAHU                          :Japánkert
+STR_BONUS_NOVA_SCOTIA                   :Festői világítótorony
+STR_BONUS_NORTHEAST                     :Amerikai polgárháborús csatatér
+STR_BONUS_CAROLINA                      :Ingyenes gyakorló green
+STR_BONUS_IRELAND                       :Manók
+STR_BONUS_SCOTLAND                      :Ingyenes kastély
 STR_BONUS_WALES                         :Stonehenge
-STR_BONUS_SPAIN                         :Scenic Vineyards
-STR_BONUS_FLORIDA                       :Free Pro Shop
-STR_BONUS_JAMAICA                       :Scenic Statues
+STR_BONUS_SPAIN                         :Festői szőlőültetvények
+STR_BONUS_FLORIDA                       :Ingyenes golfbolt
+STR_BONUS_JAMAICA                       :Festői szobrok
 
 ########################################################################################################################
 # Tournaments: the SGA report and offer, the preparation list, the leader board and the results
